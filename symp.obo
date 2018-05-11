@@ -1,8 +1,7 @@
 format-version: 1.2
-data-version: releases/2013-06-03
-date: 17:11:2011 13:07
+data-version: releases/2018-05-09
+date: 05:11:2018 12:12
 saved-by: lschriml
-auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: symptoms
 ontology: symp
 
@@ -1219,9 +1218,11 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000226
 name: atrial fibrillation
-def: "Atrial fibrillation is a cardiovascular system symptom consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
+def: "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
+synonym: "a-fib" EXACT []
+synonym: "AF" EXACT []
 synonym: "auricular fibrillation" EXACT []
-is_a: SYMP:0000528 ! cardiovascular system symptom
+is_a: SYMP:0000898 ! cardiac fibrillation
 
 [Term]
 id: SYMP:0000227
@@ -1248,7 +1249,7 @@ is_a: SYMP:0000099 ! pain
 id: SYMP:0000231
 name: bradycardia
 def: "Bradycardia is a cardiovascular system symptom consisting of a relatively slow heart action whether physiological or pathological." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradycardia]
-is_a: SYMP:0000528 ! cardiovascular system symptom
+is_a: SYMP:0000287 ! arrhythmia
 
 [Term]
 id: SYMP:0000232
@@ -1564,13 +1565,16 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000287
 name: arrhythmia
+alt_id: SYMP:0000288
+alt_id: SYMP:0000667
+alt_id: SYMP:0000668
 def: "Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arrhythmia]
+synonym: "abnormal heart beat" EXACT []
+synonym: "abnormal heart rhythm" EXACT []
+synonym: "dysrhythmia" EXACT []
+synonym: "fluctuation of heart rate" RELATED []
+synonym: "heart rhythm symptom" EXACT []
 is_a: SYMP:0000528 ! cardiovascular system symptom
-
-[Term]
-id: SYMP:0000288
-name: fluctuation of heart rate
-is_a: SYMP:0000667 ! heart rhythm symptom
 
 [Term]
 id: SYMP:0000289
@@ -3260,7 +3264,7 @@ xref: ICD9CM_2005:785.0
 xref: SyOID:16496
 xref: UMLS_CUI:C0039231
 xref: UMLS_ICD9CM_2005_AUI:A0804597
-is_a: SYMP:0000528 ! cardiovascular system symptom
+is_a: SYMP:0000287 ! arrhythmia
 
 [Term]
 id: SYMP:0000530
@@ -4318,9 +4322,9 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000654
 name: irritability
-def: "Irritability is a nervous system symptom characterized by a quick excitability to annoyance, impatience, or anger." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
+def: "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
 synonym: "Inconsolability" EXACT []
-is_a: SYMP:0000480 ! nervous system symptom
+is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
 id: SYMP:0000655
@@ -4384,18 +4388,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000666
 name: abnormal behavior
-is_a: SYMP:0000480 ! nervous system symptom
-
-[Term]
-id: SYMP:0000667
-name: heart rhythm symptom
-is_a: SYMP:0000528 ! cardiovascular system symptom
-
-[Term]
-id: SYMP:0000668
-name: abnormal heart rhythms
-synonym: "abnormal heart beats" EXACT []
-is_a: SYMP:0000667 ! heart rhythm symptom
+is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
 id: SYMP:0000669
@@ -4463,7 +4456,7 @@ is_a: SYMP:0000476 ! loss of weight
 [Term]
 id: SYMP:0000681
 name: aggressive behavior
-is_a: SYMP:0000480 ! nervous system symptom
+is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
 id: SYMP:0000682
@@ -5226,7 +5219,7 @@ is_a: SYMP:0000529 ! tachycardia
 [Term]
 id: SYMP:0000827
 name: ventricular tachycardia
-def: "Ventricular tachycardia is a tachycardia that is associated with the generation of electrical impulses within the ventricles and is characterized by an electrocardiogram having a broad QRS complex." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ventricular%20tachycardia]
+def: "A tachycardia that is associated with the generation of improper electrical impulses within the ventricles, characterized by an electrocardiogram showing a rate of greater than 120 BPM and three or more wide QRS complexes in a row." [URL:https\://en.wikipedia.org/wiki/Ventricular_tachycardia]
 synonym: "V-tach" EXACT []
 synonym: "VT" EXACT []
 is_a: SYMP:0000529 ! tachycardia
@@ -5657,6 +5650,43 @@ created_by: lschriml
 creation_date: 2011-11-17T12:27:44Z
 
 [Term]
+id: SYMP:0000895
+name: anaphylactic shock
+def: "An acute allergic reaction to an antigen to which the body has become hypersensitive." [URL:https\://en.wikipedia.org/wiki/Anaphylaxis]
+synonym: "anaphylaxis" EXACT []
+is_a: SYMP:0019138 ! immune system symptom
+
+[Term]
+id: SYMP:0000896
+name: exophthalmos
+def: "An abnormal protrusion or displacement of an eye or other body part." [URL:https\://en.wikipedia.org/wiki/Exophthalmos, URL:https\://www.merckmanuals.com/professional/eye-disorders/symptoms-of-ophthalmologic-disorders/proptosis, URL:https\://www.nhs.uk/conditions/bulging-eyes/]
+synonym: "exophthalmia" EXACT []
+synonym: "exophthalmus" EXACT []
+synonym: "proptosis" EXACT []
+is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0000897
+name: ventricular bradycardia
+def: "A bradycardia associated with the generation of impules in the ventricles when impules from the atria fail to reach them, characterized by an electrocardiogram showing a heart rate below 50 BPM and a broad QRS complex." [URL:https\://en.wikipedia.org/wiki/Ventricular_escape_beat]
+synonym: "idioventricular rhythm" EXACT []
+synonym: "ventricular escape rhythm" EXACT []
+is_a: SYMP:0000231 ! bradycardia
+
+[Term]
+id: SYMP:0000898
+name: cardiac fibrillation
+def: "An arrhythmia characterized by rapid, irregular, and unsynchronized contraction of muscle fibers within the heart." [URL:https\://en.wikipedia.org/wiki/Fibrillation]
+is_a: SYMP:0000287 ! arrhythmia
+
+[Term]
+id: SYMP:0000899
+name: ventricular fibrillation
+def: "A cardiac fibrillation associated with quivering of the lower chambers of the heart, preventing blood from being pumped and causing cardiac arrest." [URL:http\://www.heart.org/HEARTORG/Conditions/Arrhythmia/AboutArrhythmia/Ventricular-Fibrillation_UCM_324063_Article.jsp#.WvWbgFMvwnU]
+synonym: "v-fib" EXACT []
+is_a: SYMP:0000898 ! cardiac fibrillation
+
+[Term]
 id: SYMP:0017795
 name: hemic and immune system symptom
 is_a: SYMP:0000462 ! symptom
@@ -5914,6 +5944,43 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 id: SYMP:0019181
 name: hoarseness
 is_a: SYMP:0000385 ! throat symptom
+
+[Term]
+id: SYMP:0019182
+name: behavioral symptom
+def: "A nervous system symptom that involves, is related to, or emphasizes behavior." [url:http\://dictionary.cambridge.org/dictionary/english/behavioural]
+is_a: SYMP:0000480 ! nervous system symptom
+
+[Term]
+id: SYMP:0019183
+name: hyperactivity
+def: "A behavioral symptom that is characterized by increased movement, impulsive actions, and a shorter attention span, and being easily distracted." [url:https\://medlineplus.gov/ency/article/003256.htm]
+is_a: SYMP:0019182 ! behavioral symptom
+
+[Term]
+id: SYMP:0019184
+name: limited attention
+def: "A behavioral symptom that is characterized by a restricted rate of information processing by the brain." [url:https\://www.ncbi.nlm.nih.gov/pubmed/15084813]
+is_a: SYMP:0019182 ! behavioral symptom
+
+[Term]
+id: SYMP:0019185
+name: communication difficulty
+def: "A behavioral symptom that is characterized by speech, language and communication needs or communication disabilities." [url:http\://www.mhldcc.org.uk/contents/6-communication-difficulties/a-what-are-communication-difficulties.aspx]
+is_a: SYMP:0019182 ! behavioral symptom
+
+[Term]
+id: SYMP:0019186
+name: obsessive interests
+def: "A behavioral symptom that is characterized by obsessive and highly-focused interests." [url:http\://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx, url:https\://en.wikipedia.org/wiki/Perseveration]
+is_a: SYMP:0019182 ! behavioral symptom
+
+[Term]
+id: SYMP:0019187
+name: repetitive behavior
+def: "A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects." [url:http\://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive]
+synonym: "stimming" EXACT []
+is_a: SYMP:0019182 ! behavioral symptom
 
 [Typedef]
 id: part_of
