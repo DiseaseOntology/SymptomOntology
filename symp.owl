@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/symp.owl#"
-     xml:base="http://purl.obolibrary.org/obo/symp.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/symp.owl/"
+     xml:base="http://purl.obolibrary.org/obo/symp.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -9,10 +9,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2018-05-09/symp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2019-05-03/symp.owl"/>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:saved-by>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:05:2019 13:30</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05:11:2018 12:12</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:default-namespace>
     </owl:Ontology>
     
@@ -160,7 +160,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/symp#part_of">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0001901</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -5277,7 +5277,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000409"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hyperthermia&lt;new dbxref&gt;</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hyperthermia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10281,8 +10281,8 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000742"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gum bleeding is a mouth symptom characterized by a copious discharge of blood from the blood vessels of the mucosal tissue that lies over the alveolar bone.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hemorrhage &lt;http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hemorrhage</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki:http://en.wikipedia.org/wiki/Gingival</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Gingival</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hemorrhage</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11123,7 +11123,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000816">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000566"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:&lt;new dbxref&gt;</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:307.47</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000816</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dysfunctions associated with arousal from sleep</rdfs:label>
@@ -12415,7 +12415,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000890"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relapsing fever is a fever where the body temperature periodically rises and falls.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:ttp://hubpages.com/hub/Types-And-Stages-Of-Fever</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -13323,5 +13323,5 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
