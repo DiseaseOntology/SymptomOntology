@@ -1,9 +1,10 @@
 format-version: 1.2
-data-version: releases/2018-05-09
-date: 05:11:2018 12:12
+data-version: releases/2019-05-03
+date: 03:05:2019 13:30
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/symp#part_of> \"RO:0001901\"^^xsd:string)\n)
 
 [Term]
 id: SYMP:0000000
@@ -2243,7 +2244,7 @@ is_a: SYMP:0000183 ! muscle symptom
 [Term]
 id: SYMP:0000409
 name: hyperthermia
-def: "Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia<new dbxref>]
+def: "Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia]
 is_a: SYMP:0000882 ! high fever
 
 [Term]
@@ -4771,7 +4772,7 @@ is_a: SYMP:0000388 ! nose symptom
 [Term]
 id: SYMP:0000742
 name: gum bleeding
-def: "Gum bleeding is a mouth symptom characterized by a copious discharge of blood from the blood vessels of the mucosal tissue that lies over the alveolar bone." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemorrhage <http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemorrhage, wiki:http\://en.wikipedia.org/wiki/Gingival]
+def: "Gum bleeding is a mouth symptom characterized by a copious discharge of blood from the blood vessels of the mucosal tissue that lies over the alveolar bone." [url:http\://en.wikipedia.org/wiki/Gingival, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemorrhage]
 synonym: "gingival hemorrhage" EXACT []
 is_a: SYMP:0000655 ! mouth bleeding
 
@@ -5154,7 +5155,7 @@ is_a: SYMP:0000799 ! abdominal lump
 [Term]
 id: SYMP:0000816
 name: dysfunctions associated with arousal from sleep
-xref: ICD9CM_2005:<new dbxref>
+xref: ICD9CM_2005:307.47
 is_a: SYMP:0000566 ! sleep disturbance
 
 [Term]
@@ -5613,7 +5614,7 @@ creation_date: 2010-10-15T11:42:19Z
 [Term]
 id: SYMP:0000890
 name: relapsing fever
-def: "Relapsing fever is a fever where the body temperature periodically rises and falls." [url:ttp\://hubpages.com/hub/Types-And-Stages-Of-Fever]
+def: "Relapsing fever is a fever where the body temperature periodically rises and falls." [url:https\://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:46:03Z
