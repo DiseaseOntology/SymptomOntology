@@ -10,5 +10,5 @@ create a local directory: SymptomOntology_git
 
 clone the HumanDiseaseOntology git repository: by the command: 
 
-git clone https://github.com/DiseaseOntology/SymptomOntology_git
+git clone https://github.com/DiseaseOntology/SymptomOntology.git
 
