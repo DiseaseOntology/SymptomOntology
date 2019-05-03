@@ -23,7 +23,7 @@ Push both files out when changes are made.
 
 working in the SymptomOntology directory
 
-robot convert --input symp.owl --output results/symp.obo
+robot convert --input symp.owl --output symp.obo
 
 NAMESPACE: 
 SYMP:{7 #s}
