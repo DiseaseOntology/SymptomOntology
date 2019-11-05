@@ -2789,6 +2789,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye fatigue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000211</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthenopia</rdfs:label>
     </owl:Class>
     
@@ -2993,6 +2994,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auricular fibrillation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000226</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial fibrillation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3467,6 +3469,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000262</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocarditis</rdfs:label>
     </owl:Class>
     
@@ -5488,6 +5491,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000422</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A symptom of peptic ulcer disease, however, dyspepsia is also a condition with it&apos;s own set of conidtions. Should this term stay in the symptom ontology ?</rdfs:comment>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyspepsia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9522,6 +9526,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute diarrhea is a diarrhea with either or both a rapid onset or a short course.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000675</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute diarrhea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
