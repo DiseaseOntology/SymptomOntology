@@ -8923,20 +8923,12 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000624">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appendicitis is a digestive system symptom involving the inflammation of the vermiform appendix.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epityphlitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000624</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendicitis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000624"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appendicitis is a digestive system symptom involving the inflammation of the vermiform appendix.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=appendicitis</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
