@@ -1,15 +1,19 @@
 format-version: 1.2
-data-version: releases/2019-05-03
+data-version: releases/2020-08-04
 date: 03:05:2019 13:30
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
+property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/symp#part_of> \"RO:0001901\"^^xsd:string)\n)
 
 [Term]
 id: SYMP:0000000
 name: cellulitis
 def: "Cellulitis is a musculoskeletal system symptom characterized as a diffuse and especially subcutaneous inflammation of connective tissue." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cellulitis]
+comment: doid/symp duplicate
 is_a: SYMP:0000891 ! musculoskeletal system symptom
 
 [Term]
@@ -55,6 +59,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000008
 name: blindness
+comment: doid/symp duplicate
 is_a: SYMP:0000320 ! vision symptom
 
 [Term]
@@ -258,6 +263,7 @@ is_a: SYMP:0000180 ! liver symptom
 [Term]
 id: SYMP:0000046
 name: hepatitis
+comment: doid/symp duplicate
 is_a: SYMP:0000180 ! liver symptom
 
 [Term]
@@ -285,6 +291,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000051
 name: hydrocephalus
+comment: doid/symp duplicate
 is_a: SYMP:0000387 ! head symptom
 
 [Term]
@@ -375,11 +382,13 @@ is_obsolete: true
 [Term]
 id: SYMP:0000068
 name: laryngitis
+comment: doid/symp duplicate
 is_a: SYMP:0000385 ! throat symptom
 
 [Term]
 id: SYMP:0000069
 name: laryngotracheitis
+comment: doid/symp duplicate
 synonym: "larynx and trachea inflammation" EXACT []
 is_a: SYMP:0000385 ! throat symptom
 
@@ -453,6 +462,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000083
 name: lymphangitis
+comment: doid/symp duplicate
 is_a: SYMP:0019141 ! lymphatic system symptom
 
 [Term]
@@ -468,6 +478,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000086
 name: lymphopenia
+comment: doid/symp duplicate
 is_a: SYMP:0019141 ! lymphatic system symptom
 
 [Term]
@@ -484,11 +495,13 @@ is_obsolete: true
 id: SYMP:0000089
 name: meningoencephalitis
 def: "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis]
+comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000090
 name: encephalitis
+comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -515,6 +528,7 @@ is_a: SYMP:0000183 ! muscle symptom
 [Term]
 id: SYMP:0000095
 name: myocarditis
+comment: doid/symp duplicate
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
@@ -531,6 +545,7 @@ is_obsolete: true
 id: SYMP:0000098
 name: nephritis
 def: "Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis]
+comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -554,6 +569,7 @@ is_obsolete: true
 id: SYMP:0000102
 name: peritonitis
 def: "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis]
+comment: doid/symp duplicate
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -605,6 +621,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000112
 name: tracheitis
+comment: doid/symp duplicate
 is_a: SYMP:0000385 ! throat symptom
 
 [Term]
@@ -615,6 +632,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000114
 name: thrombocytopenia
+comment: doid/symp duplicate
 is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
@@ -654,6 +672,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000121
 name: rhinitis
+comment: doid/symp duplicate
 is_a: SYMP:0000388 ! nose symptom
 
 [Term]
@@ -691,6 +710,7 @@ is_a: SYMP:0000006 ! backache
 [Term]
 id: SYMP:0000128
 name: conjunctivitis
+comment: doid/symp duplicate
 is_a: SYMP:0019163 ! eye symptom
 
 [Term]
@@ -723,6 +743,7 @@ is_a: SYMP:0000132 ! necrosis
 [Term]
 id: SYMP:0000134
 name: sinusitis
+comment: doid/symp duplicate
 is_a: SYMP:0000388 ! nose symptom
 
 [Term]
@@ -775,6 +796,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000144
 name: bronchopneumonia
+comment: doid/symp duplicate
 synonym: "bronchial pneumonia" EXACT []
 synonym: "lobular pneumonia" EXACT []
 is_a: SYMP:0019168 ! pneumonia
@@ -793,6 +815,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000147
 name: steatorrhea
+comment: doid/symp duplicate
 is_a: SYMP:0000146 ! feces and droppings symptom
 
 [Term]
@@ -823,6 +846,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000153
 name: vasculitis
+comment: doid/symp duplicate
 is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
@@ -993,7 +1017,6 @@ is_a: SYMP:0019177 ! fatigue
 [Term]
 id: SYMP:0000186
 name: exhaustion
-comment: Synonym of fatigue perhaps ?
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
@@ -1109,6 +1132,7 @@ is_a: SYMP:0000613 ! fever
 [Term]
 id: SYMP:0000208
 name: anemia
+comment: doid/symp duplicate
 synonym: "anaemia" EXACT []
 is_a: SYMP:0019139 ! hemic system symptom
 
@@ -1126,6 +1150,7 @@ is_a: SYMP:0019165 ! light sensitivity
 [Term]
 id: SYMP:0000211
 name: asthenopia
+comment: doid/symp duplicate
 synonym: "eye weakness" EXACT []
 synonym: "rapid eye fatigue" EXACT []
 is_a: SYMP:0019163 ! eye symptom
@@ -1213,6 +1238,7 @@ is_a: SYMP:0000222 ! limb weakness
 [Term]
 id: SYMP:0000225
 name: asthenia
+comment: doid/symp duplicate
 synonym: "loss of strength" EXACT []
 is_a: SYMP:0000567 ! general symptom
 
@@ -1220,6 +1246,7 @@ is_a: SYMP:0000567 ! general symptom
 id: SYMP:0000226
 name: atrial fibrillation
 def: "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
+comment: doid/symp duplicate
 synonym: "a-fib" EXACT []
 synonym: "AF" EXACT []
 synonym: "auricular fibrillation" EXACT []
@@ -1256,6 +1283,7 @@ is_a: SYMP:0000287 ! arrhythmia
 id: SYMP:0000232
 name: bronchiolitis
 def: "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis]
+comment: doid/symp duplicate
 synonym: "bronchioles inflammation" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -1431,12 +1459,14 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000262
 name: endocarditis
+comment: doid/symp duplicate
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000263
 name: epididymitis
 def: "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis]
+comment: doid/symp duplicate
 synonym: "inflammation of the epididymis" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -1544,6 +1574,7 @@ is_a: SYMP:0000254 ! dilated pupil
 [Term]
 id: SYMP:0000283
 name: facial paralysis
+comment: doid/symp duplicate
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -1650,6 +1681,7 @@ is_a: SYMP:0000892 ! sensation perception
 [Term]
 id: SYMP:0000301
 name: hypopyon
+comment: doid/symp duplicate
 is_a: SYMP:0019163 ! eye symptom
 
 [Term]
@@ -1719,6 +1751,7 @@ is_a: SYMP:0000312 ! joint symptom
 [Term]
 id: SYMP:0000314
 name: keratitis
+comment: doid/symp duplicate
 synonym: "corneitis" EXACT []
 synonym: "inflammation of the cornea of the eye" EXACT []
 is_a: SYMP:0000239 ! cornea symptom
@@ -1736,6 +1769,7 @@ is_a: SYMP:0000093 ! muscle cramp
 [Term]
 id: SYMP:0000317
 name: leukopenia
+comment: doid/symp duplicate
 synonym: "low white blood cell count" EXACT []
 is_a: SYMP:0019139 ! hemic system symptom
 
@@ -1775,7 +1809,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 id: SYMP:0000324
 name: bronchitis
 def: "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis]
-comment: Condition and symptom.
+comment: doid/symp duplicate
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -1867,6 +1901,7 @@ is_a: SYMP:0000538 ! edema
 [Term]
 id: SYMP:0000341
 name: ophthalmoplegia
+comment: doid/symp duplicate
 synonym: "extraocular muscle paralysis" EXACT []
 synonym: "eye movement paralysis" EXACT []
 is_a: SYMP:0000030 ! paralysis
@@ -1913,6 +1948,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000349
 name: paraplegia
+comment: doid/symp duplicate
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -1940,7 +1976,6 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 id: SYMP:0000354
 name: pneumonitis
 def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles \"down the wrong pipe\" and receiving radiation therapy to your chest." [wiki:http\://en.wikipedia.org/wiki/Pneumonitis]
-comment: Condition or symptom or both ?
 synonym: "inflammation of lung tissue" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -1952,6 +1987,7 @@ is_a: SYMP:0000522 ! feeding difficulties and mismanagement
 [Term]
 id: SYMP:0000356
 name: phlebitis
+comment: doid/symp duplicate
 synonym: "inflammation of a vein" EXACT []
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
@@ -2010,6 +2046,7 @@ is_a: SYMP:0000364 ! prostate symptom
 id: SYMP:0000367
 name: proteinuria
 def: "Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proteinuria]
+comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -2021,6 +2058,7 @@ is_a: SYMP:0000030 ! paralysis
 id: SYMP:0000369
 name: ptosis
 def: "Ptosis is a general symptom characterized by a sagging or prolapse of an organ or part." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ptosis]
+comment: doid/symp duplicate
 synonym: "droopiness " EXACT []
 is_a: SYMP:0000567 ! general symptom
 
@@ -2064,6 +2102,7 @@ is_a: SYMP:0000570 ! diarrhea
 id: SYMP:0000377
 name: mastitis
 def: "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
+comment: doid/symp duplicate
 synonym: "inflammation of mammary breast" EXACT []
 synonym: "mammitis" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
@@ -2175,6 +2214,7 @@ is_a: SYMP:0000396 ! mydriasis
 [Term]
 id: SYMP:0000398
 name: vaginal discharge
+comment: doid/symp duplicate
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -2315,7 +2355,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 id: SYMP:0000422
 name: dyspepsia
 def: "Dyspepsia is a digestive system symptom referred to as indigestion resulting from an impairment to digestion caused by ulcer, gall bladder disease or inflamed colon. Related symptoms include weakness, loss of appetite, and depression." [URL:http\://www.rootsweb.ancestry.com/~vapage2/deathcauses.htm]
-comment: A symptom of peptic ulcer disease, however, dyspepsia is also a condition with it's own set of conidtions. Should this term stay in the symptom ontology ?
+comment: doid/symp duplicate
 synonym: "indigestion" EXACT []
 is_a: SYMP:0000459 ! digestive system symptom
 
@@ -2346,6 +2386,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 id: SYMP:0000427
 name: impotence
 def: "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
+comment: doid/symp duplicate
 synonym: "erectile dysfunction" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -2393,6 +2434,7 @@ is_a: SYMP:0000538 ! edema
 id: SYMP:0000434
 name: urticaria
 def: "Urticaria is a skin and integumentary tissue symptom characterized \nby raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border." [URL:http\://en.wikipedia.org/wiki/Urticaria]
+comment: doid/symp duplicate
 synonym: "hives" EXACT []
 synonym: "nettle rash" EXACT []
 synonym: "uredo" EXACT []
@@ -3050,6 +3092,7 @@ is_a: SYMP:0000387 ! head symptom
 id: SYMP:0000508
 name: aphasia
 def: "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia]
+comment: doid/symp duplicate
 synonym: "inability to comprehend language" EXACT []
 xref: ICD9CM_2005:784.3
 xref: SyOID:14727
@@ -3658,6 +3701,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 id: SYMP:0000570
 name: diarrhea
 def: "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
+comment: doid/symp duplicate
 synonym: "bacterial gastroenteritis" EXACT []
 synonym: "diarrhoea" EXACT []
 synonym: "fecal incontinence" EXACT []
@@ -3771,6 +3815,7 @@ is_a: SYMP:0000566 ! sleep disturbance
 id: SYMP:0000581
 name: sleep apnea
 def: "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea]
+comment: doid/symp duplicate
 xref: ICD9CM_2005:780.57
 xref: SyOID:5379
 xref: UMLS_CUI:C0375544
@@ -4146,6 +4191,7 @@ is_a: SYMP:0000457 ! abdominal pain
 id: SYMP:0000621
 name: alexia
 def: "Alexia is a aphasia characterized by loss of ability to read." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia]
+comment: doid/symp duplicate
 xref: ICD9CM_2005:784.6
 xref: ICD9CM_2005:784.69
 xref: SyOID:9854
@@ -4166,10 +4212,9 @@ is_a: SYMP:0000731 ! renal failure
 
 [Term]
 id: SYMP:0000624
-name: appendicitis
-def: "Appendicitis is a digestive system symptom involving the inflammation of the vermiform appendix." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=appendicitis]
-synonym: "epityphlitis" EXACT []
-is_a: SYMP:0000459 ! digestive system symptom
+name: obsolete appendicitis
+comment: doid/symp duplicate
+is_obsolete: true
 
 [Term]
 id: SYMP:0000625
@@ -4201,6 +4246,7 @@ is_a: SYMP:0000504 ! headache
 [Term]
 id: SYMP:0000631
 name: hemolytic anemia
+comment: doid/symp duplicate
 is_a: SYMP:0000208 ! anemia
 
 [Term]
@@ -4265,6 +4311,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000643
 name: respiratory failure
+comment: doid/symp duplicate
 synonym: "respiratory dysfunction" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -4282,6 +4329,7 @@ is_obsolete: true
 id: SYMP:0000646
 name: synovitis
 def: "Synovitis is a joint inflammation characterized by an inflammation of a synovial membrane usually with pain and swelling of the joint." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=synovitis]
+comment: doid/symp duplicate
 is_a: SYMP:0000313 ! joint inflammation
 
 [Term]
@@ -4426,6 +4474,7 @@ is_a: SYMP:0000336 ! neurological dysfunction
 id: SYMP:0000675
 name: acute diarrhea
 def: "Acute diarrhea is a diarrhea with either or both a rapid onset or a short course." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea, wiki:http\://en.wikipedia.org/wiki/Acute_%28medicine%29]
+comment: doid/symp duplicate
 is_a: SYMP:0000570 ! diarrhea
 
 [Term]
@@ -4489,10 +4538,9 @@ is_a: SYMP:0000614 ! cough
 
 [Term]
 id: SYMP:0000687
-name: chronic fatigue syndrome
+name: obsolete chronic fatigue syndrome
 def: "Chronic fatigue syndrome is a fatigue characterized by a disorder of uncertain cause that is characterized by persistent profound fatigue usually accompanied by impairment in short-term memory or concentration, sore throat, tender lymph nodes, muscle or joint pain, and headache unrelated to any preexisting medical condition and that typically has an onset at about 30 years of age." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic%20fatigue%20syndrome]
-comment: A disorder.
-is_a: SYMP:0019177 ! fatigue
+is_obsolete: true
 
 [Term]
 id: SYMP:0000688
@@ -4616,6 +4664,7 @@ is_a: SYMP:0000030 ! paralysis
 id: SYMP:0000712
 name: infertility
 def: "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term." [wiki:http\://en.wikipedia.org/wiki/Infertility]
+comment: doid/symp duplicate
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -5373,6 +5422,7 @@ is_a: SYMP:0000040 ! hematuria
 id: SYMP:0000852
 name: anuria
 def: "Anuria is a urinary system symptom characterized by the absence of or defective urine excretion." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anuria]
+comment: doid/symp duplicate
 xref: ICD9CM_2005:788.5
 xref: UMLS_CUI:C0028962
 xref: UMLS_ICD9CM_2005_AUI:A0243854
@@ -5518,6 +5568,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 id: SYMP:0000876
 name: pericardial effusion
 def: "Pericardial effusion is a cardiovascular system symptom where there is an abnormal accumulation of fluid in the pericardial cavity." [url:http\://en.wikipedia.org/wiki/Pericardial_effusion]
+comment: doid/symp duplicate
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
@@ -5615,6 +5666,7 @@ creation_date: 2010-10-15T11:42:19Z
 id: SYMP:0000890
 name: relapsing fever
 def: "Relapsing fever is a fever where the body temperature periodically rises and falls." [url:https\://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever]
+comment: doid/symp duplicate
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:46:03Z
@@ -5661,6 +5713,7 @@ is_a: SYMP:0019138 ! immune system symptom
 id: SYMP:0000896
 name: exophthalmos
 def: "An abnormal protrusion or displacement of an eye or other body part." [URL:https\://en.wikipedia.org/wiki/Exophthalmos, URL:https\://www.merckmanuals.com/professional/eye-disorders/symptoms-of-ophthalmologic-disorders/proptosis, URL:https\://www.nhs.uk/conditions/bulging-eyes/]
+comment: doid/symp duplicate
 synonym: "exophthalmia" EXACT []
 synonym: "exophthalmus" EXACT []
 synonym: "proptosis" EXACT []
@@ -5686,6 +5739,12 @@ name: ventricular fibrillation
 def: "A cardiac fibrillation associated with quivering of the lower chambers of the heart, preventing blood from being pumped and causing cardiac arrest." [URL:http\://www.heart.org/HEARTORG/Conditions/Arrhythmia/AboutArrhythmia/Ventricular-Fibrillation_UCM_324063_Article.jsp#.WvWbgFMvwnU]
 synonym: "v-fib" EXACT []
 is_a: SYMP:0000898 ! cardiac fibrillation
+
+[Term]
+id: SYMP:0000900
+name: allergic reaction
+def: "An immune system symptom that is characterized by sensitivities to substances called allergens." [https://medlineplus.gov/ency/article/000005.htm]
+is_a: SYMP:0019138 ! immune system symptom
 
 [Term]
 id: SYMP:0017795
@@ -5762,6 +5821,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0019150
 name: pharyngitis
+comment: doid/symp duplicate
 synonym: "pharynx inflammation" EXACT []
 is_a: SYMP:0000385 ! throat symptom
 
@@ -5769,6 +5829,7 @@ is_a: SYMP:0000385 ! throat symptom
 id: SYMP:0019151
 name: pulmonary edema
 def: "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema]
+comment: doid/symp duplicate
 synonym: "oedematous lungs" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -5798,6 +5859,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0019155
 name: lymphadenitis
+comment: doid/symp duplicate
 is_a: SYMP:0019141 ! lymphatic system symptom
 
 [Term]
@@ -5814,6 +5876,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0019159
 name: gastroenteritis
+comment: doid/symp duplicate
 is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
@@ -5844,6 +5907,7 @@ is_a: SYMP:0000387 ! head symptom
 [Term]
 id: SYMP:0019164
 name: excessive tearing
+comment: doid/symp duplicate
 is_a: SYMP:0019163 ! eye symptom
 
 [Term]
@@ -5868,12 +5932,14 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 id: SYMP:0019168
 name: pneumonia
 def: "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [wiki:http\://en.wikipedia.org/wiki/Pneumonia]
+comment: doid/symp duplicate
 is_a: SYMP:0000354 ! pneumonitis
 
 [Term]
 id: SYMP:0019169
 name: arthritis
 def: "Arthritis is a musculoskeletal system symptom characterized as an inflammation of joints due to infectious, metabolic, or constitutional causes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arthritis]
+comment: doid/symp duplicate
 is_a: SYMP:0000891 ! musculoskeletal system symptom
 
 [Term]
@@ -5885,6 +5951,7 @@ is_obsolete: true
 id: SYMP:0019171
 name: spondylitis
 def: "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis]
+comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -5939,6 +6006,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 id: SYMP:0019180
 name: constipation
 def: "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation]
+comment: doid/symp duplicate
 is_a: SYMP:0000146 ! feces and droppings symptom
 
 [Term]
