@@ -2484,7 +2484,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000186</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonym of fatigue perhaps ?</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exhaustion</rdfs:label>
     </owl:Class>
     
@@ -4244,7 +4243,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000324</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition and symptom.</rdfs:comment>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchitis</rdfs:label>
     </owl:Class>
@@ -4611,7 +4609,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation of lung tissue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000354</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition or symptom or both ?</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pneumonitis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5495,7 +5492,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indigestion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000422</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A symptom of peptic ulcer disease, however, dyspepsia is also a condition with it&apos;s own set of conidtions. Should this term stay in the symptom ontology ?</rdfs:comment>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyspepsia</rdfs:label>
     </owl:Class>
@@ -8931,7 +8927,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000624</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendicitis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete appendicitis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -9683,13 +9679,11 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic fatigue syndrome is a fatigue characterized by a disorder of uncertain cause that is characterized by persistent profound fatigue usually accompanied by impairment in short-term memory or concentration, sore throat, tender lymph nodes, muscle or joint pain, and headache unrelated to any preexisting medical condition and that typically has an onset at about 30 years of age.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000687</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder.</rdfs:comment>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic fatigue syndrome</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete chronic fatigue syndrome</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000687"/>
