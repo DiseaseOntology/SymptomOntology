@@ -8925,8 +8925,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000624">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000624</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000101</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete appendicitis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
