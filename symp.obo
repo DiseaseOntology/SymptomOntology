@@ -4312,7 +4312,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000679
 name: acute dyspnea
-is_a: SYMP:0019153 ! dyspnea
+is_a: SYMP:0019153 ! shortness of breath
 
 [Term]
 id: SYMP:0000680
@@ -5658,13 +5658,13 @@ is_a: SYMP:0019175 ! sweaty
 
 [Term]
 id: SYMP:0019153
-name: dyspnea
+name: shortness of breath
 def: "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
 synonym: "breathing difficulty" EXACT []
 synonym: "breathlessness" EXACT []
 synonym: "difficulty breathing" EXACT []
+synonym: "dyspnea" EXACT []
 synonym: "labored respiration" EXACT []
-synonym: "shortness of breath" EXACT []
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
