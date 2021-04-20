@@ -238,6 +238,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000041
 name: hemorrhage
+def: "A cardiovascular system symptom that is characterized by an acute loss of blood from a damaged blood vessel." [url:https\://www.ncbi.nlm.nih.gov/books/NBK542273/]
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
@@ -5866,6 +5867,25 @@ name: repetitive behavior
 def: "A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects." [url:http\://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive]
 synonym: "stimming" EXACT []
 is_a: SYMP:0019182 ! behavioral symptom
+
+[Term]
+id: SYMP:0019188
+name: intracranial hemorrhage
+def: "A hemorrhage that is characterized by any bleeding occurring within the skull." [url:https\://www.ncbi.nlm.nih.gov/books/NBK542273/]
+is_a: SYMP:0000041 ! hemorrhage
+
+[Term]
+id: SYMP:0019189
+name: intracerebral hemorrhage
+def: "A hemorrhage that is characterized by bleeding within the brain tissue itself." [url:https\://mayfieldclinic.com/pe-ich.htm]
+is_a: SYMP:0000041 ! hemorrhage
+
+[Term]
+id: SYMP:0019190
+name: subdural hemorrhage
+def: "A hemorrhage that is characterized by bleeding that occurs within the skull of head but outside the actual brain tissue." [url:https\://my.clevelandclinic.org/health/diseases/21183-subdural-hematoma]
+synonym: "subdural hematoma" EXACT []
+is_a: SYMP:0000041 ! hemorrhage
 
 [Typedef]
 id: part_of
