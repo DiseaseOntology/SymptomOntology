@@ -731,10 +731,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000115>A cardiovascular system symptom that is characterized by an acute loss of blood from a damaged blood vessel.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000041</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemorrhage</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cardiovascular system symptom that is characterized by an acute loss of blood from a damaged blood vessel.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/books/NBK542273/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -13212,6 +13219,61 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000041"/>
+        <obo:IAO_0000115>A hemorrhage that is characterized by any bleeding occurring within the skull.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019188</oboInOwl:id>
+        <rdfs:label xml:lang="en">intracranial hemorrhage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hemorrhage that is characterized by any bleeding occurring within the skull.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/books/NBK542273/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000041"/>
+        <obo:IAO_0000115>A hemorrhage that is characterized by bleeding within the brain tissue itself.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019189</oboInOwl:id>
+        <rdfs:label xml:lang="en">intracerebral hemorrhage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019189"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hemorrhage that is characterized by bleeding within the brain tissue itself.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://mayfieldclinic.com/pe-ich.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000041"/>
+        <obo:IAO_0000115>A hemorrhage that is characterized by bleeding that occurs within the skull of head but outside the actual brain tissue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>subdural hematoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019190</oboInOwl:id>
+        <rdfs:label xml:lang="en">subdural hemorrhage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hemorrhage that is characterized by bleeding that occurs within the skull of head but outside the actual brain tissue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://my.clevelandclinic.org/health/diseases/21183-subdural-hematoma</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
