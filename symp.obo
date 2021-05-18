@@ -275,12 +275,12 @@ is_a: SYMP:0000180 ! liver symptom
 
 [Term]
 id: SYMP:0000048
-name: high fever
+name: obsolete high fever
 is_obsolete: true
 
 [Term]
 id: SYMP:0000049
-name: hind limb paralysis
+name: obsolete hind limb paralysis
 synonym: "hindlimb paralysis" EXACT []
 is_obsolete: true
 
@@ -377,7 +377,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000067
-name: lameness
+name: obsolete lameness
 is_obsolete: true
 
 [Term]
@@ -534,7 +534,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000096
-name: nasal discharge
+name: obsolete nasal discharge
 is_obsolete: true
 
 [Term]
@@ -776,7 +776,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000140
-name: spastic paralysis
+name: obsolete spastic paralysis
 is_obsolete: true
 
 [Term]
@@ -821,7 +821,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 
 [Term]
 id: SYMP:0000148
-name: sudden onset of fever
+name: obsolete sudden onset of fever
 is_obsolete: true
 
 [Term]
@@ -888,7 +888,7 @@ is_a: SYMP:0000385 ! throat symptom
 
 [Term]
 id: SYMP:0000161
-name: transient fever
+name: obsolete transient fever
 is_obsolete: true
 
 [Term]
@@ -2060,7 +2060,7 @@ id: SYMP:0000369
 name: ptosis
 def: "Ptosis is a general symptom characterized by a sagging or prolapse of an organ or part." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ptosis]
 comment: doid/symp duplicate
-synonym: "droopiness " EXACT []
+synonym: "droopiness" EXACT []
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -3229,7 +3229,7 @@ is_a: SYMP:0000287 ! arrhythmia
 id: SYMP:0000530
 name: palpitation
 def: "Palpitation is a cardiovascykar system symptom characterized by an abnormal awareness of the beating of the heart,whether it is too slow, too fast, irregular, or at its normal frequency when excited by violent exertion, strong emotion, or disease." [url:http\://en.wikipedia.org/wiki/Palpitation, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=palpitation]
-synonym: "abnormal heart beats " EXACT []
+synonym: "abnormal heart beats" EXACT []
 xref: ICD9CM_2005:785.1
 xref: UMLS_CUI:C0030252
 xref: UMLS_ICD9CM_2005_AUI:A0004066
@@ -5466,7 +5466,7 @@ creation_date: 2010-10-15T11:40:07Z
 id: SYMP:0000888
 name: continuous fever
 def: "Continuous fever is a fever where temperature remains above normal throughout the day and does not fluctuate more than 1 degree Celsius in 24 hours." [url:http\://en.wikipedia.org/wiki/Fever#Types]
-synonym: "continued fever " RELATED []
+synonym: "continued fever" RELATED []
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:42:19Z
