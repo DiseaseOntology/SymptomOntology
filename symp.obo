@@ -7,7 +7,7 @@ ontology: symp
 property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_0000624> \"SYMP:0000101\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000000> \"SYMP:0020000\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/symp#part_of> \"RO:0001901\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_0000624> \"SYMP:0000101\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000000> \"SYMP:0020000\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000001> \"SYMP:0020001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000002> \"SYMP:0020002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000003> \"SYMP:0020003\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000004> \"SYMP:0020004\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000005> \"SYMP:0020005\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000006> \"SYMP:0020006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SYMP_2000007> \"SYMP:0020007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/symp#part_of> \"RO:0001901\"^^xsd:string)\n)
 
 [Term]
 id: SYMP:0000000
@@ -5891,6 +5891,41 @@ is_a: SYMP:0000041 ! hemorrhage
 id: SYMP:2000000
 name: airway stenosis
 is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:2000001
+name: apthous ulcer
+is_a: SYMP:0000136 ! skin ulcer
+
+[Term]
+id: SYMP:2000002
+name: anal abscess
+is_a: SYMP:0000672 ! abscess
+
+[Term]
+id: SYMP:2000003
+name: acholic stool
+is_a: SYMP:0000146 ! feces and droppings symptom
+
+[Term]
+id: SYMP:2000004
+name: ageusia
+is_a: SYMP:0000551 ! disturbances of sensation of smell and taste
+
+[Term]
+id: SYMP:2000005
+name: acquired color vision deficiency
+is_a: SYMP:0000320 ! vision symptom
+
+[Term]
+id: SYMP:2000006
+name: agitation
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:2000007
+name: anterior scleral inflammation
+is_a: SYMP:0019163 ! eye symptom
 
 [Typedef]
 id: part_of

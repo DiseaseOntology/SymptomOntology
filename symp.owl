@@ -13303,6 +13303,76 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020000</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airway stenosis</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000136"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apthous ulcer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000672"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020002</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anal abscess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020003</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acholic stool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000551"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020004</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ageusia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020005</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired color vision deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020006</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agitation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_2000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020007</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior scleral inflammation</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
