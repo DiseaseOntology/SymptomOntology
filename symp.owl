@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2020-08-04/symp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-04-05/symp.owl"/>
         <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
         <dc:title>Symptom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -13300,6 +13300,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020000</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airway stenosis</rdfs:label>
     </owl:Class>
@@ -13310,6 +13311,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000136"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020001</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apthous ulcer</rdfs:label>
     </owl:Class>
@@ -13320,6 +13322,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000672"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020002</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anal abscess</rdfs:label>
     </owl:Class>
@@ -13330,6 +13333,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020003</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acholic stool</rdfs:label>
     </owl:Class>
@@ -13340,6 +13344,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000551"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020004</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ageusia</rdfs:label>
     </owl:Class>
@@ -13350,6 +13355,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020005</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired color vision deficiency</rdfs:label>
     </owl:Class>
@@ -13360,6 +13366,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020006</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agitation</rdfs:label>
     </owl:Class>
@@ -13370,6 +13377,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_2000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020007</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior scleral inflammation</rdfs:label>
     </owl:Class>
