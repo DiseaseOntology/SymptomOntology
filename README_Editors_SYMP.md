@@ -8,12 +8,14 @@ Create a local copy of the SymptomOntology git repository with the command:
 
 
 **FILES:**
+
 The following ontology files can be found in the src/ontology folder:
   --> symp.obo
   --> symp.owl
 
 
 **EDITING & RELEASES:**
+
 --> Edit the symp.owl file, then run ROBOT to create the OBO file.
 Push both files out when changes are made.
 
@@ -23,6 +25,7 @@ robot convert --input symp.owl --output symp.obo
 
 
 **NAMESPACE:**
+
 SYMP:{7 #s}
 SYMP:0000000
 
