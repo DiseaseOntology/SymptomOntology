@@ -1,0 +1,14 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?class
+WHERE {
+ ?class obo:IAO_0000115 ?definition .
+ ?blank owl:annotatedTarget ?definition .
+ FILTER NOT EXISTS {
+     ?blank oboInOwl:hasDbXref ?value .
+  }
+ FILTER NOT EXISTS { ?class owl:deprecated ?any . }
+}
