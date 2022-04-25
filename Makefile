@@ -49,6 +49,16 @@ $(FASTOBO): build/fastobo.tar.gz
 
 
 # ----------------------------------------
+# CREATE OBO FILE
+# ----------------------------------------
+
+obo: $(SYMP).obo
+
+$(SYMP).obo: $(SYMP).owl | build/robot.jar
+	@$(ROBOT) convert --input $< --output $@
+	@echo "Created $@"
+
+# ----------------------------------------
 # PRE-BUILD TESTS
 # ----------------------------------------
 
