@@ -5051,7 +5051,6 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000821
 name: swelling in chest
-xref: ICD9CM_2005:<new dbxref>
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
