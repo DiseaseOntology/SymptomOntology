@@ -28,12 +28,12 @@ is_a: SYMP:0000461 ! abdominal symptom
 
 [Term]
 id: SYMP:0000003
-name: acute enteritis in newborns
+name: obsolete acute enteritis in newborns
 is_obsolete: true
 
 [Term]
 id: SYMP:0000004
-name: arrested moulting
+name: obsolete arrested moulting
 is_obsolete: true
 
 [Term]
@@ -71,27 +71,27 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000010
-name: bloody diarrhea
+name: obsolete bloody diarrhea
 is_obsolete: true
 
 [Term]
 id: SYMP:0000011
-name: bloody exudate
+name: obsolete bloody exudate
 is_obsolete: true
 
 [Term]
 id: SYMP:0000012
-name: blurred vision
+name: obsolete blurred vision
 is_obsolete: true
 
 [Term]
 id: SYMP:0000013
-name: capillary leakage
+name: obsolete capillary leakage
 is_obsolete: true
 
 [Term]
 id: SYMP:0000014
-name: cardiomyocyte destruction
+name: obsolete cardiomyocyte destruction
 is_obsolete: true
 
 [Term]
@@ -157,23 +157,23 @@ is_a: SYMP:0000614 ! cough
 
 [Term]
 id: SYMP:0000026
-name: epidermal proliferation
+name: obsolete epidermal proliferation
 is_obsolete: true
 
 [Term]
 id: SYMP:0000027
-name: excess mucus in bronchi
+name: obsolete excess mucus in bronchi
 is_obsolete: true
 
 [Term]
 id: SYMP:0000028
-name: exophthalmia
+name: obsolete exophthalmia
 synonym: "abnormal protrusion of the eyeball" EXACT []
 is_obsolete: true
 
 [Term]
 id: SYMP:0000029
-name: feather loss
+name: obsolete feather loss
 is_obsolete: true
 
 [Term]
@@ -184,7 +184,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000031
-name: flaccid limb paralysis
+name: obsolete flaccid limb paralysis
 is_obsolete: true
 
 [Term]
@@ -199,12 +199,12 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000034
-name: fluid in pericardial sac
+name: obsolete fluid in pericardial sac
 is_obsolete: true
 
 [Term]
 id: SYMP:0000035
-name: fragile bones
+name: obsolete fragile bones
 is_obsolete: true
 
 [Term]
@@ -215,7 +215,7 @@ is_a: SYMP:0019159 ! gastroenteritis
 
 [Term]
 id: SYMP:0000037
-name: catarrhal enteritis
+name: obsolete catarrhal enteritis
 is_obsolete: true
 
 [Term]
@@ -243,17 +243,17 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000042
-name: hemorrhagic enteritis
+name: obsolete hemorrhagic enteritis
 is_obsolete: true
 
 [Term]
 id: SYMP:0000043
-name: hemorrhagic meningitis
+name: obsolete hemorrhagic meningitis
 is_obsolete: true
 
 [Term]
 id: SYMP:0000044
-name: hemorrhagic thoracic lymphadenitis
+name: obsolete hemorrhagic thoracic lymphadenitis
 is_obsolete: true
 
 [Term]
@@ -286,7 +286,7 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000050
-name: hunched posture
+name: obsolete hunched posture
 is_obsolete: true
 
 [Term]
@@ -297,12 +297,12 @@ is_a: SYMP:0000387 ! head symptom
 
 [Term]
 id: SYMP:0000052
-name: hyperemic liver
+name: obsolete hyperemic liver
 is_obsolete: true
 
 [Term]
 id: SYMP:0000053
-name: hyperemic spleen
+name: obsolete hyperemic spleen
 is_obsolete: true
 
 [Term]
@@ -312,7 +312,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000055
-name: hyperkeratotic plaques of surface of foot
+name: obsolete hyperkeratotic plaques of surface of foot
 is_obsolete: true
 
 [Term]
@@ -323,7 +323,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000057
-name: hyperplastic alveolar nodules
+name: obsolete hyperplastic alveolar nodules
 synonym: "han" EXACT []
 is_obsolete: true
 
@@ -339,7 +339,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
 id: SYMP:0000060
-name: ill-thrift
+name: obsolete ill-thrift
 is_obsolete: true
 
 [Term]
@@ -350,7 +350,7 @@ is_a: SYMP:0000567 ! general symptom
 
 [Term]
 id: SYMP:0000062
-name: inflammation of meninges
+name: obsolete inflammation of meninges
 is_obsolete: true
 
 [Term]
@@ -367,7 +367,7 @@ is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000065
-name: joint swelling
+name: obsolete joint swelling
 is_obsolete: true
 
 [Term]
@@ -400,17 +400,17 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000071
-name: lesions in respiratory tract
+name: obsolete lesions in respiratory tract
 is_obsolete: true
 
 [Term]
 id: SYMP:0000072
-name: lesions in spleen
+name: obsolete lesions in spleen
 is_obsolete: true
 
 [Term]
 id: SYMP:0000073
-name: lesions in thymus
+name: obsolete lesions in thymus
 is_obsolete: true
 
 [Term]
@@ -432,12 +432,12 @@ is_a: SYMP:0000567 ! general symptom
 
 [Term]
 id: SYMP:0000077
-name: localized cutaneous lesions
+name: obsolete localized cutaneous lesions
 is_obsolete: true
 
 [Term]
 id: SYMP:0000078
-name: loose droppings
+name: obsolete loose droppings
 is_obsolete: true
 
 [Term]
@@ -447,7 +447,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000080
-name: loss of coordination
+name: obsolete loss of coordination
 is_obsolete: true
 
 [Term]
@@ -473,7 +473,7 @@ is_a: SYMP:0019141 ! lymphatic system symptom
 
 [Term]
 id: SYMP:0000085
-name: lymphocytic hyperplasia
+name: obsolete lymphocytic hyperplasia
 is_obsolete: true
 
 [Term]
@@ -489,7 +489,7 @@ is_a: SYMP:0000045 ! hepatic necrosis
 
 [Term]
 id: SYMP:0000088
-name: massive lymphadenopathy
+name: obsolete massive lymphadenopathy
 is_obsolete: true
 
 [Term]
@@ -539,7 +539,7 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000097
-name: neck swelling
+name: obsolete neck swelling
 is_obsolete: true
 
 [Term]
@@ -562,7 +562,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
 id: SYMP:0000101
-name: partial paralysis
+name: obsolete partial paralysis
 synonym: "paresis" EXACT []
 is_obsolete: true
 
@@ -575,17 +575,17 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000103
-name: persistent lymphocytosis
+name: obsolete persistent lymphocytosis
 is_obsolete: true
 
 [Term]
 id: SYMP:0000104
-name: petechial hemorrhages
+name: obsolete petechial hemorrhages
 is_obsolete: true
 
 [Term]
 id: SYMP:0000105
-name: photosensitivity
+name: obsolete photosensitivity
 is_obsolete: true
 
 [Term]
@@ -601,7 +601,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000108
-name: portal hepatitis
+name: obsolete portal hepatitis
 is_obsolete: true
 
 [Term]
@@ -611,12 +611,12 @@ is_a: SYMP:0000386 ! mouth symptom
 
 [Term]
 id: SYMP:0000110
-name: proliferative mouth papules
+name: obsolete proliferative mouth papules
 is_obsolete: true
 
 [Term]
 id: SYMP:0000111
-name: proliferative skin lesions
+name: obsolete proliferative skin lesions
 is_obsolete: true
 
 [Term]
@@ -627,7 +627,7 @@ is_a: SYMP:0000385 ! throat symptom
 
 [Term]
 id: SYMP:0000113
-name: proliferative tracheitis
+name: obsolete proliferative tracheitis
 is_obsolete: true
 
 [Term]
@@ -638,7 +638,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
 id: SYMP:0000115
-name: prolonged thrombocytopenia
+name: obsolete prolonged thrombocytopenia
 is_obsolete: true
 
 [Term]
@@ -649,7 +649,7 @@ is_a: SYMP:0000567 ! general symptom
 
 [Term]
 id: SYMP:0000117
-name: pustular skin lesions
+name: obsolete pustular skin lesions
 is_obsolete: true
 
 [Term]
@@ -662,12 +662,12 @@ is_a: SYMP:0000587 ! abnormal chest sound
 
 [Term]
 id: SYMP:0000119
-name: reddening
+name: obsolete reddening
 is_obsolete: true
 
 [Term]
 id: SYMP:0000120
-name: retinal inflammation
+name: obsolete retinal inflammation
 is_obsolete: true
 
 [Term]
@@ -678,12 +678,12 @@ is_a: SYMP:0000388 ! nose symptom
 
 [Term]
 id: SYMP:0000122
-name: salivary gland swelling
+name: obsolete salivary gland swelling
 is_obsolete: true
 
 [Term]
 id: SYMP:0000123
-name: sclerodermoid plaques
+name: obsolete sclerodermoid plaques
 is_obsolete: true
 
 [Term]
@@ -699,7 +699,7 @@ is_a: SYMP:0000180 ! liver symptom
 
 [Term]
 id: SYMP:0000126
-name: self-limiting liver inflammation
+name: obsolete self-limiting liver inflammation
 is_obsolete: true
 
 [Term]
@@ -749,7 +749,7 @@ is_a: SYMP:0000388 ! nose symptom
 
 [Term]
 id: SYMP:0000135
-name: skin papules
+name: obsolete skin papules
 is_obsolete: true
 
 [Term]
@@ -760,12 +760,12 @@ is_a: SYMP:0000092 ! skin lesion
 
 [Term]
 id: SYMP:0000137
-name: slight cough
+name: obsolete slight cough
 is_obsolete: true
 
 [Term]
 id: SYMP:0000138
-name: slight pyrexia
+name: obsolete slight pyrexia
 is_obsolete: true
 
 [Term]
@@ -786,12 +786,12 @@ is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000142
-name: spleen hemorrhages
+name: obsolete spleen hemorrhages
 is_obsolete: true
 
 [Term]
 id: SYMP:0000143
-name: spleen infiltrates
+name: obsolete spleen infiltrates
 is_obsolete: true
 
 [Term]
@@ -804,7 +804,7 @@ is_a: SYMP:0019168 ! pneumonia
 
 [Term]
 id: SYMP:0000145
-name: splitting of tissues
+name: obsolete splitting of tissues
 is_obsolete: true
 
 [Term]
@@ -826,22 +826,22 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000149
-name: sudden onset of severe chills
+name: obsolete sudden onset of severe chills
 is_obsolete: true
 
 [Term]
 id: SYMP:0000150
-name: swollen cervical lymphnodes
+name: obsolete swollen cervical lymphnodes
 is_obsolete: true
 
 [Term]
 id: SYMP:0000151
-name: systemic infection
+name: obsolete systemic infection
 is_obsolete: true
 
 [Term]
 id: SYMP:0000152
-name: systemic necrosis
+name: obsolete systemic necrosis
 is_obsolete: true
 
 [Term]
@@ -852,12 +852,12 @@ is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
 id: SYMP:0000154
-name: systemic vasculitis
+name: obsolete systemic vasculitis
 is_obsolete: true
 
 [Term]
 id: SYMP:0000155
-name: tarry droppings
+name: obsolete tarry droppings
 is_obsolete: true
 
 [Term]
@@ -878,7 +878,7 @@ is_a: SYMP:0019138 ! immune system symptom
 
 [Term]
 id: SYMP:0000159
-name: thymus atrophy
+name: obsolete thymus atrophy
 is_obsolete: true
 
 [Term]
@@ -899,7 +899,7 @@ is_a: SYMP:0000567 ! general symptom
 
 [Term]
 id: SYMP:0000163
-name: ulcerative dermal vesicles
+name: obsolete ulcerative dermal vesicles
 is_obsolete: true
 
 [Term]
@@ -909,47 +909,47 @@ is_a: SYMP:0000615 ! lack of coordination
 
 [Term]
 id: SYMP:0000165
-name: upper respiratory distress
+name: obsolete upper respiratory distress
 is_obsolete: true
 
 [Term]
 id: SYMP:0000166
-name: vascular lesions
+name: obsolete vascular lesions
 is_obsolete: true
 
 [Term]
 id: SYMP:0000167
-name: vascular necrosis
+name: obsolete vascular necrosis
 is_obsolete: true
 
 [Term]
 id: SYMP:0000168
-name: vein swelling
+name: obsolete vein swelling
 is_obsolete: true
 
 [Term]
 id: SYMP:0000169
-name: vesicles on feet
+name: obsolete vesicles on feet
 is_obsolete: true
 
 [Term]
 id: SYMP:0000170
-name: vesicles on hoof corona
+name: obsolete vesicles on hoof corona
 is_obsolete: true
 
 [Term]
 id: SYMP:0000171
-name: vesicles on mouth
+name: obsolete vesicles on mouth
 is_obsolete: true
 
 [Term]
 id: SYMP:0000172
-name: vesicles on teats
+name: obsolete vesicles on teats
 is_obsolete: true
 
 [Term]
 id: SYMP:0000173
-name: vesicular lesions on lip border
+name: obsolete vesicular lesions on lip border
 synonym: "cold sore" EXACT []
 is_obsolete: true
 
@@ -961,12 +961,12 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
 id: SYMP:0000175
-name: watery diarrhea
+name: obsolete watery diarrhea
 is_obsolete: true
 
 [Term]
 id: SYMP:0000176
-name: watery ocular discharge
+name: obsolete watery ocular discharge
 is_obsolete: true
 
 [Term]
@@ -981,7 +981,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
 id: SYMP:0000179
-name: wet droppings
+name: obsolete wet droppings
 is_obsolete: true
 
 [Term]
@@ -991,7 +991,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
 id: SYMP:0000181
-name: yellow liver
+name: obsolete yellow liver
 is_obsolete: true
 
 [Term]
@@ -1042,12 +1042,12 @@ is_a: SYMP:0000189 ! postural reaction
 
 [Term]
 id: SYMP:0000191
-name: hemistanding
+name: obsolete hemistanding
 is_obsolete: true
 
 [Term]
 id: SYMP:0000192
-name: hemiwalking
+name: obsolete hemiwalking
 is_obsolete: true
 
 [Term]
@@ -1106,12 +1106,12 @@ is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000203
-name: acute respiratory distress
+name: obsolete acute respiratory distress
 is_obsolete: true
 
 [Term]
 id: SYMP:0000204
-name: acute suppurative lesions
+name: obsolete acute suppurative lesions
 is_obsolete: true
 
 [Term]
@@ -1537,7 +1537,7 @@ is_a: SYMP:0000267 ! generalized seizure
 
 [Term]
 id: SYMP:0000276
-name: excess pericardial fluid
+name: obsolete excess pericardial fluid
 is_obsolete: true
 
 [Term]
@@ -1959,7 +1959,7 @@ is_a: SYMP:0000205 ! salivary gland symptom
 
 [Term]
 id: SYMP:0000351
-name: partial paralysis of the limbs
+name: obsolete partial paralysis of the limbs
 is_obsolete: true
 
 [Term]
@@ -4124,7 +4124,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
 id: SYMP:0000642
-name: respiratory distress
+name: obsolete respiratory distress
 is_obsolete: true
 
 [Term]
@@ -4141,7 +4141,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000645
-name: ankle swelling
+name: obsolete ankle swelling
 is_obsolete: true
 
 [Term]
@@ -5442,7 +5442,7 @@ creation_date: 2010-10-15T11:28:26Z
 
 [Term]
 id: SYMP:0000885
-name: severe temperature increase
+name: obsolete severe temperature increase
 is_obsolete: true
 created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
@@ -5735,7 +5735,7 @@ is_a: SYMP:0019163 ! eye symptom
 
 [Term]
 id: SYMP:0019166
-name: ulcerations
+name: obsolete ulcerations
 synonym: "ulcer" EXACT []
 synonym: "ulcers" EXACT []
 is_obsolete: true
@@ -5762,7 +5762,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 
 [Term]
 id: SYMP:0019170
-name: osteomyelitis
+name: obsolete osteomyelitis
 is_obsolete: true
 
 [Term]
