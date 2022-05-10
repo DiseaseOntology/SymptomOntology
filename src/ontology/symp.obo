@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-04-05
-date: 03:05:2019 13:30
+data-version: releases/2022-05-10
+date: 10:05:2022 15:40
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -5927,6 +5927,26 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 id: SYMP:0020007
 name: anterior scleral inflammation
 is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0020008
+name: barking croup cough
+is_a: SYMP:0000614 ! cough
+
+[Term]
+id: SYMP:0020009
+name: blind spot
+is_a: SYMP:0000320 ! vision symptom
+
+[Term]
+id: SYMP:0020010
+name: blurred vision with haloes
+is_a: SYMP:0000628 ! vision distortion
+
+[Term]
+id: SYMP:0020011
+name: bloody diarrhea
+is_a: SYMP:0000570 ! diarrhea
 
 [Typedef]
 id: part_of
