@@ -43,12 +43,12 @@ build/robot.jar: | build
 ROBOT := java -jar build/robot.jar
 
 # fastobo is used to validate OBO structure
-
 FASTOBO := build/fastobo-validator
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
-	FASTOBO_URL := https://github.com/fastobo/fastobo-validator/releases/latest/download/fastobo_validator-x86_64-apple-darwin.tar.gz
+	# fastobo-validator binary for mac has not been pre-compiled since v0.4.0 [comment: 2022-05-17]
+	FASTOBO_URL := https://github.com/fastobo/fastobo-validator/releases/download/v0.4.0/fastobo_validator-x86_64-apple-darwin.tar.gz
 else
 	FASTOBO_URL := https://github.com/fastobo/fastobo-validator/releases/latest/download/fastobo_validator-x86_64-linux-musl.tar.gz
 endif
@@ -57,7 +57,7 @@ build/fastobo.tar.gz: | build
 	curl -Lk -o $@ $(FASTOBO_URL)
 
 $(FASTOBO): build/fastobo.tar.gz
-	cd build && tar -xvf $(notdir $<)
+	cd build && tar -xvf $(notdir $<) $(notdir $@)
 
 
 # ----------------------------------------
