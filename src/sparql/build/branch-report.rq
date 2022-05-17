@@ -15,4 +15,4 @@ WHERE {
 
     FILTER(!isBlank(?class))
     FILTER NOT EXISTS { ?class owl:deprecated ?obsolete . }
-} GROUP BY ?branch_class ORDER BY ?branch
+} GROUP BY ?branch ORDER BY ?branch

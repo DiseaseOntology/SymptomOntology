@@ -14,11 +14,12 @@ OBO = http://purl.obolibrary.org/obo/
 # to make a release, use `make release`
 
 # Release process:
-# 1. Build all products (symp.owl, symp.obo)
-# 2. Validate syntax of OBO-format with fastobo-validator
-# 3. Verify logical structure of products with SPARQL queries
-# 4. Generate post-build reports (counts, etc.)
-release: products verify post
+# 1. Verify symp-edit.owl
+# 2. Build all products (symp.owl, symp.obo)
+# 3. Verify structure of OBO-format with SPARQL queries
+# 4. Validate syntax of OBO-format with fastobo-validator
+# 5. Generate post-build reports (counts, etc.)
+release: verify-edit products verify-symp post
 
 
 # `make test` is used for Github actions CI
@@ -91,7 +92,7 @@ reason: $(EDIT) | build/robot.jar
 # PRODUCTS
 # ----------------------------------------
 
-products:
+products: $(SYMP).owl $(SYMP).obo $(SYMP).json
 
 # release vars
 TS = $(shell date +'%d:%m:%Y %H:%M')
@@ -112,9 +113,6 @@ $(SYMP).owl: $(EDIT) build/reports/report.tsv | build/robot.jar
 $(SYMP).obo: $(SYMP).owl src/sparql/build/remove-ref-type.ru | build/robot.jar
 	@$(ROBOT) remove \
 	 --input $< \
-	 --select imports \
-	 --trim true \
-	remove \
 	 --select "parents equivalents" \
 	 --select "anonymous" \
 	query \
@@ -140,7 +138,6 @@ $(SYMP).json: $(SYMP).owl | build/robot.jar
 # Count classes, imports, and logical defs from old and new
 
 post: build/reports/report-diff.txt \
-      build/reports/branch-count.tsv \
       build/reports/missing-axioms.txt
 
 # Get the last build of SYMP from IRI
@@ -205,7 +202,6 @@ validate-$(SYMP): $(SYMP).obo | $(FASTOBO)
 EDIT_V_QUERIES := $(wildcard src/sparql/verify/edit-verify-*.rq)
 V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
 
-verify: verify-edit verify-symp
 
 # Verify symp-edit.owl
 verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
@@ -214,6 +210,7 @@ verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
 	 --input $< \
 	 --queries $(EDIT_V_QUERIES) \
 	 --output-dir build/reports
+
 
 # Verify symp.obo
 verify-symp: $(SYMP).obo | build/robot.jar build/reports/report.tsv

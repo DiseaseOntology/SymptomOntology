@@ -6,6 +6,7 @@ Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(symp:=<http://purl.obolibrary.org/obo/symp#>)
 Prefix(terms:=<http://purl.org/dc/terms/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
@@ -15,7 +16,6 @@ Ontology(<http://purl.obolibrary.org/obo/symp.owl>
 Annotation(dc:description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.")
 Annotation(dc:title "Symptom Ontology")
 Annotation(terms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
-Annotation(oboInOwl:date "10:05:2022 15:40"^^xsd:string)
 Annotation(oboInOwl:default-namespace "symptoms"^^xsd:string)
 Annotation(oboInOwl:hasOBOFormatVersion "1.2"^^xsd:string)
 Annotation(oboInOwl:saved-by "lschriml"^^xsd:string)
@@ -980,7 +980,7 @@ Declaration(Class(obo:SYMP_0020008))
 Declaration(Class(obo:SYMP_0020009))
 Declaration(Class(obo:SYMP_0020010))
 Declaration(Class(obo:SYMP_0020011))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/symp#part_of>))
+Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
 Declaration(AnnotationProperty(dc:title))
@@ -1038,11 +1038,11 @@ AnnotationAssertion(rdfs:label oboInOwl:hasRelatedSynonym "has_related_synonym"^
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/symp#part_of> (part_of)
+# Object Property: symp:part_of (part_of)
 
-AnnotationAssertion(oboInOwl:hasOBONamespace <http://purl.obolibrary.org/obo/symp#part_of> "symptoms"^^xsd:string)
-AnnotationAssertion(oboInOwl:id <http://purl.obolibrary.org/obo/symp#part_of> "RO:0001901"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/symp#part_of> "part_of"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace symp:part_of "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id symp:part_of "RO:0001901"^^xsd:string)
+AnnotationAssertion(rdfs:label symp:part_of "part_of"^^xsd:string)
 
 
 
