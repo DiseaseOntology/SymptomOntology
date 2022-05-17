@@ -1,0 +1,9 @@
+# Return a count of non-obsolete classes
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(?class) AS ?classes) WHERE {
+	?class a owl:Class .
+	FILTER(CONTAINS(STR(?class), "SYMP"))
+	FILTER NOT EXISTS { ?class owl:deprecated ?any . }
+}
