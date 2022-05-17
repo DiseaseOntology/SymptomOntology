@@ -8151,7 +8151,7 @@ SubClassOf(obo:SYMP_0000873 obo:SYMP_0000392)
 
 # Class: obo:SYMP_0000874 (hematoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas <http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) Annotation(oboInOwl:hasDbXref "wiki:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) Annotation(oboInOwl:hasDbXref "wiki:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000874 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000874 "SYMP:0000874"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000874 "hematoma"^^xsd:string)
