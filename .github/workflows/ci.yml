@@ -1,21 +1,14 @@
-# Workflow for DOID's continuous integration testing
-
-name: SYMP CI
-
+name: Ontology CI
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
   workflow_dispatch:
-
 jobs:
-  symp_ci:
-
+  ontology_ci:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-      - name: CI Test
+      - name: Run ontology CI tests
         run: make test
