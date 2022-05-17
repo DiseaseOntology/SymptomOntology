@@ -16,10 +16,10 @@ OBO = http://purl.obolibrary.org/obo/
 # Release process:
 # 1. Verify symp-edit.owl
 # 2. Build all products (symp.owl, symp.obo)
-# 3. Verify structure of OBO-format with SPARQL queries
+# 3. Verify structure of symp.owl with SPARQL queries
 # 4. Validate syntax of OBO-format with fastobo-validator
 # 5. Generate post-build reports (counts, etc.)
-release: verify-edit products verify-symp post
+release: verify-edit products verify post
 
 
 # `make test` is used for Github actions CI
@@ -68,7 +68,6 @@ $(FASTOBO): build/fastobo.tar.gz
 report: build/reports/report.tsv
 
 # Report for general issues on symp-edit
-
 .PRECIOUS: build/reports/report.tsv
 build/reports/report.tsv: $(EDIT) | build/robot.jar build/reports
 	@echo ""
@@ -81,11 +80,21 @@ build/reports/report.tsv: $(EDIT) | build/robot.jar build/reports
 
 .PRECIOUS: build/reports/diff.
 
-
 # Simple reasoning test
 reason: $(EDIT) | build/robot.jar
 	@$(ROBOT) reason --input $<
 	@echo "Reasoning completed successfully!"
+
+
+# Verify symp-edit.owl
+EDIT_V_QUERIES := $(wildcard src/sparql/verify/edit-verify-*.rq)
+
+verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
+	@echo "Verifying $<"
+	@$(ROBOT) verify \
+	 --input $< \
+	 --queries $(EDIT_V_QUERIES) \
+	 --output-dir build/reports
 
 
 # ----------------------------------------
@@ -189,33 +198,26 @@ build/robot.diff: build/symp-last.owl $(SYMP).owl | build/robot.jar
 build/reports/missing-axioms.txt: src/util/parse-diff.py build/robot.diff | build/reports
 	@python3 $^ $@
 
+
 #-------------------------------
-# Ensure proper OBO structure
+# VERIFY PRODUCTS
 #-------------------------------
 
+verify: verify-symp validate-obo
+
+# Verify symp.owl
+V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
+
+verify-symp: $(SYMP).owl | build/robot.jar build/reports/report.tsv
+	@echo "Verifying $<"
+	@$(ROBOT) verify \
+	 --input $< \
+	 --queries $(V_QUERIES) \
+	 --output-dir build/reports
+
+# Ensure proper OBO structure
 validate-obo: validate-$(SYMP)
 
 .PHONY: validate-$(SYMP)
 validate-$(SYMP): $(SYMP).obo | $(FASTOBO)
 	$(FASTOBO) $<
-
-EDIT_V_QUERIES := $(wildcard src/sparql/verify/edit-verify-*.rq)
-V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
-
-
-# Verify symp-edit.owl
-verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
-	@echo "Verifying $< (see build/reports on error)"
-	@$(ROBOT) verify \
-	 --input $< \
-	 --queries $(EDIT_V_QUERIES) \
-	 --output-dir build/reports
-
-
-# Verify symp.obo
-verify-symp: $(SYMP).obo | build/robot.jar build/reports/report.tsv
-	@echo "Verifying $< (see build/reports on error)"
-	@$(ROBOT) verify \
-	 --input $< \
-	 --queries $(V_QUERIES) \
-	 --output-dir build/reports
