@@ -101,7 +101,7 @@ verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
 # PRODUCTS
 # ----------------------------------------
 
-products: $(SYMP).owl $(SYMP).obo $(SYMP).json
+products: $(SYMP).owl $(SYMP).obo $(SYMP).json $(SYMP)-base.owl
 
 # release vars
 TS = $(shell date +'%d:%m:%Y %H:%M')
@@ -139,6 +139,16 @@ $(SYMP).json: $(SYMP).owl | build/robot.jar
 	@$(ROBOT) convert --input $< --output $@
 	@echo "Created $@"
 
+$(SYMP)-base.owl: $(EDIT) | build/robot.jar
+	@$(ROBOT) remove \
+	 --input $< \
+	 --select imports \
+	 --trim false \
+	annotate \
+	 --ontology-iri "$(OBO)symp/$(notdir $@)" \
+	 --version-iri "$(OBO)symp/releases/$(DATE)/$(notdir $@)" \
+	 --output $@
+	@echo "Created $@"
 
 # ----------------------------------------
 # POST-BUILD REPORT
