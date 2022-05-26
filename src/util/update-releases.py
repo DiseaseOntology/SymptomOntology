@@ -1,27 +1,25 @@
-import subprocess
+import re
 
 from argparse import ArgumentParser
 from datetime import date
 
+parser = ArgumentParser()
+parser.add_argument("latest_release", help="Latest release info from `gh release view > {lastest_release}`.")
+parser.add_argument("releases", help="File to write release info to.")
+args = parser.parse_args()
+
 BASE = "https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology"
 PATH = "src/ontology"
 
-parser = ArgumentParser()
-parser.add_argument("releases")
-args = parser.parse_args()
-
-result = subprocess.run(["gh", "release", "list", "-L", "1"], stdout=subprocess.PIPE)
-releases = result.stdout.decode("utf-8")
-for line in releases.split("\n"):
-    if line.strip() == "":
-        continue
-    tag = line.split("\t")[2]
+# parse release info
+with open(args.latest_release, "r") as f:
+    txt = f.read()
+    m = re.search("tag:\t([^\n]+).*\n--\n(.*)", txt, re.DOTALL)
+tag = m.group(1).strip()
+description = m.group(2).strip()
 this_year = int(tag.split("-")[0].lstrip("v"))
 
-result = subprocess.run(["gh", "release", "view", tag], stdout=subprocess.PIPE)
-view = result.stdout.decode("utf-8")
-description = view.split("\n--\n")[1].strip()
-
+# add to releases
 with open(args.releases, "r") as f:
     lines = f.readlines()
 
@@ -37,7 +35,7 @@ for line in lines:
             md.append(f"## {this_year} Releases")
         else:
             md.append(line)
-        start = True
+        # release details including links to files as table
         md.append("")
         md.append(f"### [{tag}](https://github.com/DiseaseOntology/SymptomOntology/tree/{tag})")
         md.append("")
