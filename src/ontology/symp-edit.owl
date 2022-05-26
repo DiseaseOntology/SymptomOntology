@@ -1061,6 +1061,7 @@ SubClassOf(obo:SYMP_0000000 obo:SYMP_0000891)
 
 # Class: obo:SYMP_0000001 (abdominal cramp)
 
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000001 "stomach cramp"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000001 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000001 "SYMP:0000001"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000001 "abdominal cramp"^^xsd:string)
@@ -6660,7 +6661,7 @@ SubClassOf(obo:SYMP_0000672 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000673 (bradykinesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradykinesia"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Bradykinesia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000673 "Bradykinesia is a hypokinesia characterized by an extreme slowness in the execution of movements and reflexes."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Bradykinesia"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradykinesia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000673 "Bradykinesia is a hypokinesia characterized by an extreme slowness in the execution of movements and reflexes."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000673 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000673 "SYMP:0000673"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000673 "bradykinesia"^^xsd:string)
@@ -6675,7 +6676,7 @@ SubClassOf(obo:SYMP_0000674 obo:SYMP_0000336)
 
 # Class: obo:SYMP_0000675 (acute diarrhea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Acute_%28medicine%29"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000675 "Acute diarrhea is a diarrhea with either or both a rapid onset or a short course."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Acute_%28medicine%29"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000675 "Acute diarrhea is a diarrhea with either or both a rapid onset or a short course."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000675 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000675 "SYMP:0000675"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000675 "doid/symp duplicate")
@@ -7949,7 +7950,7 @@ SubClassOf(obo:SYMP_0000848 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000849 (stillbirth)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Still_birth"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000849 "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Still_birth"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000849 "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000849 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000849 "SYMP:0000849"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000849 "stillbirth"^^xsd:string)
@@ -8119,7 +8120,7 @@ SubClassOf(obo:SYMP_0000869 obo:SYMP_0000237)
 
 # Class: obo:SYMP_0000870 (icteric eyes)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www3.niaid.nih.gov/labs/aboutlabs/cmb/InfectiousDiseasePathogenesisSection/mouseNecropsy/necropsyTerms.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000870 "Icteric eyes is a eye symptom characterized by yellowed eyes due to bile or bilirubin accumulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www3.niaid.nih.gov/labs/aboutlabs/cmb/InfectiousDiseasePathogenesisSection/mouseNecropsy/necropsyTerms.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000870 "Icteric eyes is a eye symptom characterized by yellowed eyes due to bile or bilirubin accumulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000870 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000870 "SYMP:0000870"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000870 "icteric eyes"^^xsd:string)
@@ -8151,7 +8152,7 @@ SubClassOf(obo:SYMP_0000873 obo:SYMP_0000392)
 
 # Class: obo:SYMP_0000874 (hematoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000874 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000874 "SYMP:0000874"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000874 "hematoma"^^xsd:string)
