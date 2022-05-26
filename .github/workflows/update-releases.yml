@@ -12,17 +12,15 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.6'
-      - name: Install GH CLI
-        run: brew install gh
-      - name: Login to GH
+      - name: Access Latest Release
+        run: gh release view > release-latest.txt
         env:
-          TOKEN: ${{ secrets.SYMP_GH_TOKEN }}
-        run: echo "$TOKEN" > .token.txt && gh auth login --with-token < .token.txt && rm .token.txt
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update Releases
-        run: python3 src/util/update-releases.py RELEASES.md
+        run: python3 src/util/update-releases.py release-latest.txt RELEASES.md
       - name: Commit Changes
         uses: test-room-7/action-update-file@v1
         with:
           file-path: RELEASES.md
           commit-msg: Update RELEASES.md
-          github-token: ${{ secrets.SYMP_GH_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
