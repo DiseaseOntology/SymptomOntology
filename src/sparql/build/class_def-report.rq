@@ -1,0 +1,12 @@
+# Return a count of classes with definitions
+
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(?class) AS ?classes) (COUNT(?def) AS ?definitions)
+WHERE {
+    ?class a owl:Class .
+    OPTIONAL { ?class obo:IAO_0000115 ?def . }
+    FILTER(CONTAINS(STR(?class), "SYMP"))
+    FILTER NOT EXISTS { ?class owl:deprecated ?any . }
+}

@@ -1,0 +1,18 @@
+# Return a count of xrefs on non-obsolete classes (all xrefs)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?branch (COUNT(?class) AS ?count)
+WHERE {
+    ?class a owl:Class ;
+        rdfs:subClassOf* ?branch_class .
+    ?branch_class a owl:Class ;
+        rdfs:subClassOf obo:SYMP_0000462 ;
+        rdfs:label ?branch .
+
+    FILTER(!isBlank(?class))
+    FILTER NOT EXISTS { ?class owl:deprecated ?obsolete . }
+} GROUP BY ?branch ORDER BY ?branch

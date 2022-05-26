@@ -1,0 +1,18 @@
+# Return a count of logical definitions
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class_axiom_type (COUNT(?obj) as ?count)
+WHERE {
+	VALUES ?axiom_type { rdfs:subClassOf owl:equivalentClass }
+	?class ?axiom_type ?obj .
+
+	FILTER(CONTAINS(STR(?class), "SYMP"))
+	FILTER(isBlank(?obj))
+
+	BIND(
+		REPLACE(STR(?axiom_type), ".*[/#]", "")
+		AS ?class_axiom_type
+	)
+} GROUP BY ?class_axiom_type

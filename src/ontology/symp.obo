@@ -1,24 +1,24 @@
 format-version: 1.2
-data-version: releases/2022-05-10
-date: 10:05:2022 15:40
+data-version: releases/2022-05-26/symp.obo
+date: 26:05:2022 09:07
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
 property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/symp#part_of> \"RO:0001901\"^^xsd:string)\n)
 
 [Term]
 id: SYMP:0000000
 name: cellulitis
-def: "Cellulitis is a musculoskeletal system symptom characterized as a diffuse and especially subcutaneous inflammation of connective tissue." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cellulitis]
+def: "Cellulitis is a musculoskeletal system symptom characterized as a diffuse and especially subcutaneous inflammation of connective tissue." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cellulitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000891 ! musculoskeletal system symptom
 
 [Term]
 id: SYMP:0000001
 name: abdominal cramp
+synonym: "stomach cramp" EXACT []
 is_a: SYMP:0000461 ! abdominal symptom
 
 [Term]
@@ -39,14 +39,14 @@ is_obsolete: true
 [Term]
 id: SYMP:0000005
 name: ataxia
-def: "Ataxia is a neurological and physiological symptom characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia]
+def: "Ataxia is a neurological and physiological symptom characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia]
 synonym: "uncoordination" EXACT []
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000006
 name: backache
-def: "Backache is a pain occurring in the lower back." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache]
+def: "Backache is a pain occurring in the lower back." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache]
 synonym: "back pain" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -102,7 +102,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000016
 name: confusion
-def: "Confusion is a neurological and physiological symptom characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion]
+def: "Confusion is a neurological and physiological symptom characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -129,7 +129,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000021
 name: delirium
-def: "Delirium is a neurological and physiological symptom characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium]
+def: "Delirium is a neurological and physiological symptom characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -140,7 +140,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000023
 name: disorientation
-def: "Disorientation is a confusion characterized by a usually transient state of confusion especially as to time, place, or identity often as a result of disease or drugs." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation]
+def: "Disorientation is a confusion characterized by a usually transient state of confusion especially as to time, place, or identity often as a result of disease or drugs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation]
 is_a: SYMP:0000016 ! confusion
 
 [Term]
@@ -179,7 +179,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000030
 name: paralysis
-def: "Paralysis is a nervous system symptom characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis]
+def: "Paralysis is a nervous system symptom characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -226,13 +226,13 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000039
 name: enteritis
-def: "Enteritis is a digestive system symptom involving the inflammation of the small intestines and especially of the human ileum." [URL:http\://en.wikipedia.org/wiki/Enteritis, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enteritis]
+def: "Enteritis is a digestive system symptom involving the inflammation of the small intestines and especially of the human ileum." [url:http\://en.wikipedia.org/wiki/Enteritis, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enteritis]
 is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
 id: SYMP:0000040
 name: hematuria
-def: "A urinary system symptom characterized by the presence of blood or blood cells in the urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria]
+def: "A urinary system symptom characterized by the presence of blood or blood cells in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria]
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -318,7 +318,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000056
 name: hyperpigmentation
-def: "Hyperpigmentation is a skin and integumentary tissue symptom characterized as an excess pigmentation in a bodily part or tissue, as the skin." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation]
+def: "Hyperpigmentation is a skin and integumentary tissue symptom characterized as an excess pigmentation in a bodily part or tissue, as the skin." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -345,7 +345,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000061
 name: inflammation
-def: "Inflammation is a general symptom where there is a local response to cellular injury that is marked by capillary dilatation, leukocytic infiltration, redness, heat, pain, swelling, and often loss of function and that serves as a mechanism initiating the elimination of noxious agents and of damaged tissue." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=inflammation]
+def: "Inflammation is a general symptom where there is a local response to cellular injury that is marked by capillary dilatation, leukocytic infiltration, redness, heat, pain, swelling, and often loss of function and that serves as a mechanism initiating the elimination of noxious agents and of damaged tissue." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=inflammation]
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -421,7 +421,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000075
 name: lethargy
-def: "Lethargy is a fatigue characterized as abnormal drowsiness." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy]
+def: "Lethargy is a fatigue characterized as abnormal drowsiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
@@ -495,7 +495,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000089
 name: meningoencephalitis
-def: "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis]
+def: "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
@@ -545,14 +545,14 @@ is_obsolete: true
 [Term]
 id: SYMP:0000098
 name: nephritis
-def: "Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis]
+def: "Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis]
 comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
 id: SYMP:0000099
 name: pain
-def: "A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
@@ -569,7 +569,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000102
 name: peritonitis
-def: "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis]
+def: "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -596,7 +596,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000107
 name: pleural effusion
-def: "A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion]
+def: "A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -644,7 +644,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000116
 name: prostration
-def: "Prostration is a general symptom characterized by complete physical or mental exhaustion." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=prostration]
+def: "Prostration is a general symptom characterized by complete physical or mental exhaustion." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=prostration]
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -655,7 +655,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000118
 name: rales
-def: "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the \"popping open\" of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word \"rales\" derives from the French word rale meaning \"rattle\". Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [wiki:http\://en.wikipedia.org/wiki/Rales]
+def: "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the \"popping open\" of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word \"rales\" derives from the French word rale meaning \"rattle\". Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [url:http\://en.wikipedia.org/wiki/Rales]
 synonym: "crackles" EXACT []
 synonym: "crepitations" EXACT []
 is_a: SYMP:0000587 ! abnormal chest sound
@@ -733,7 +733,7 @@ is_a: SYMP:0000064 ! joint pain
 [Term]
 id: SYMP:0000132
 name: necrosis
-def: "Necrosis is a general symptom where death of a portion of tissue differentially affected by local injury (as loss of blood supply, corrosion, burning, or the local lesion of a disease)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=necrosis]
+def: "Necrosis is a general symptom where death of a portion of tissue differentially affected by local injury (as loss of blood supply, corrosion, burning, or the local lesion of a disease)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=necrosis]
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -771,7 +771,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000139
 name: sneezing
-def: "Sneezing is a respiratory system and chest symptom characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing]
+def: "Sneezing is a respiratory system and chest symptom characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -863,7 +863,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000156
 name: thirst
-def: "Thirst is a general symptom characterized by a sensation of dryness in the mouth and throat associated with a desire for liquids." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=thirst]
+def: "Thirst is a general symptom characterized by a sensation of dryness in the mouth and throat associated with a desire for liquids." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=thirst]
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -894,7 +894,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000162
 name: tremor
-def: "Tremor is a generial symptom characterized by a trembling or shaking usually from physical weakness, emotional stress, or disease." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tremor]
+def: "Tremor is a generial symptom characterized by a trembling or shaking usually from physical weakness, emotional stress, or disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tremor]
 is_a: SYMP:0000567 ! general symptom
 
 [Term]
@@ -956,7 +956,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000174
 name: wasting
-def: "Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting]
+def: "Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting]
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
@@ -1073,20 +1073,20 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000197
 name: abortion
-def: "Abortion is a reproductive system symptom resulting in the expulsion of a fetus of a domestic animal often due to infection at any time before completion of pregnancy." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion]
+def: "Abortion is a reproductive system symptom resulting in the expulsion of a fetus of a domestic animal often due to infection at any time before completion of pregnancy." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion]
 synonym: "infectious abortion" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000198
 name: miscarriage
-def: "Miscarriage is a reproductive system symptom characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage]
+def: "Miscarriage is a reproductive system symptom characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000199
 name: spontaneous abortion
-def: "Spontaneous abortion is a abortion characterized by the naturally occurring expulsion of a nonviable fetus." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion]
+def: "Spontaneous abortion is a abortion characterized by the naturally occurring expulsion of a nonviable fetus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion]
 is_a: SYMP:0000197 ! abortion
 
 [Term]
@@ -1127,7 +1127,7 @@ is_a: SYMP:0000205 ! salivary gland symptom
 [Term]
 id: SYMP:0000207
 name: afebrile
-def: "Afebrile is a fever that is characterized as the state of being free from fever." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile]
+def: "Afebrile is a fever that is characterized as the state of being free from fever." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile]
 is_a: SYMP:0000613 ! fever
 
 [Term]
@@ -1164,14 +1164,14 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000213
 name: agraphia
-def: "Agraphia is a aphasia where there is a pathological loss of the ability to write." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia]
+def: "Agraphia is a aphasia where there is a pathological loss of the ability to write." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia]
 synonym: "inability to write" EXACT []
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
 id: SYMP:0000214
 name: anomia
-def: "Anomia is a aphasia characterized by a severe problem with recalling words or names." [wiki:http\://en.wikipedia.org/wiki/Anomia]
+def: "Anomia is a aphasia characterized by a severe problem with recalling words or names." [url:http\://en.wikipedia.org/wiki/Anomia]
 synonym: "amnesic aphasia" EXACT []
 synonym: "amnestic aphasia" EXACT []
 synonym: "anomic aphasia" EXACT []
@@ -1202,7 +1202,7 @@ is_a: SYMP:0000508 ! aphasia
 [Term]
 id: SYMP:0000219
 name: receptive aphasia
-def: "Receptive aphasia is a inability to comprehend speech characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia]
+def: "Receptive aphasia is a inability to comprehend speech characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia]
 synonym: "fluent aphasia" EXACT []
 synonym: "inability to perceive pitch, rhythm, and emotional tone of speech" EXACT []
 synonym: "sensory aphasia" EXACT []
@@ -1246,7 +1246,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000226
 name: atrial fibrillation
-def: "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
+def: "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
 comment: doid/symp duplicate
 synonym: "a-fib" EXACT []
 synonym: "AF" EXACT []
@@ -1277,13 +1277,13 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000231
 name: bradycardia
-def: "Bradycardia is a cardiovascular system symptom consisting of a relatively slow heart action whether physiological or pathological." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradycardia]
+def: "Bradycardia is a cardiovascular system symptom consisting of a relatively slow heart action whether physiological or pathological." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradycardia]
 is_a: SYMP:0000287 ! arrhythmia
 
 [Term]
 id: SYMP:0000232
 name: bronchiolitis
-def: "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis]
+def: "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis]
 comment: doid/symp duplicate
 synonym: "bronchioles inflammation" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
@@ -1303,19 +1303,19 @@ is_a: SYMP:0000239 ! cornea symptom
 [Term]
 id: SYMP:0000235
 name: colic
-def: "Coilc is a pain characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
+def: "Coilc is a pain characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000236
 name: colicky pain
-def: "Colicky pain is a pain characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
+def: "Colicky pain is a pain characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000237
 name: congestion
-def: "Congestion is a respiratory system and chest symptom characterized by an excessive accumulation especially of blood or mucus." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion]
+def: "Congestion is a respiratory system and chest symptom characterized by an excessive accumulation especially of blood or mucus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion]
 synonym: "blocked nose" EXACT []
 synonym: "nasal blockage" EXACT []
 synonym: "nasal obstruction" EXACT []
@@ -1380,7 +1380,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000248
 name: decreased conscious proprioception
-def: "Decreased conscious proprioception is a proprioception symptom characterized as a decreased ability of an organism to consciously process the reception of stimuli produced within the organism." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception]
+def: "Decreased conscious proprioception is a proprioception symptom characterized as a decreased ability of an organism to consciously process the reception of stimuli produced within the organism." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception]
 is_a: SYMP:0000247 ! proprioception symptom
 
 [Term]
@@ -1466,7 +1466,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000263
 name: epididymitis
-def: "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis]
+def: "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis]
 comment: doid/symp duplicate
 synonym: "inflammation of the epididymis" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
@@ -1587,7 +1587,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000285
 name: flaccid paralysis
-def: "Flaccid paralysis is a paralysis where muscle tone is lacking in the affected muscles and in which tendon reflexes are decreased or absent." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis]
+def: "Flaccid paralysis is a paralysis where muscle tone is lacking in the affected muscles and in which tendon reflexes are decreased or absent." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -1601,7 +1601,7 @@ name: arrhythmia
 alt_id: SYMP:0000288
 alt_id: SYMP:0000667
 alt_id: SYMP:0000668
-def: "Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arrhythmia]
+def: "Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arrhythmia]
 synonym: "abnormal heart beat" EXACT []
 synonym: "abnormal heart rhythm" EXACT []
 synonym: "dysrhythmia" EXACT []
@@ -1612,13 +1612,13 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000289
 name: eczema
-def: "Eczema is a skin and integumentary tissue symptom characterized as an inflammatory condition of the skin characterized by redness, itching, and oozing vesicular lesions which become scaly, crusted, or hardened." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema]
+def: "Eczema is a skin and integumentary tissue symptom characterized as an inflammatory condition of the skin characterized by redness, itching, and oozing vesicular lesions which become scaly, crusted, or hardened." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000290
 name: belching
-def: "Belching is a digestive system symptom involving the sudden expulsion of gas from the stomach through the mouth." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=belching]
+def: "Belching is a digestive system symptom involving the sudden expulsion of gas from the stomach through the mouth." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=belching]
 synonym: "eructation" EXACT []
 is_a: SYMP:0000459 ! digestive system symptom
 
@@ -1667,7 +1667,7 @@ is_a: SYMP:0000559 ! voice disturbance
 [Term]
 id: SYMP:0000299
 name: hyperemia
-def: "Hyperemia is a hemic system symptom consisting of an excess of blood in a body part as from an increased flow of blood due to vasodilation." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperemia]
+def: "Hyperemia is a hemic system symptom consisting of an excess of blood in a body part as from an increased flow of blood due to vasodilation." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperemia]
 synonym: "hyperaemia" EXACT []
 synonym: "hyperemic" EXACT []
 is_a: SYMP:0019139 ! hemic system symptom
@@ -1675,7 +1675,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000300
 name: hyperesthesia
-def: "Hyperesthesia is a general symptom where there is an increased sensitivity to stimulation." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Hyperesthesia is a general symptom where there is an increased sensitivity to stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 synonym: "hyperaesthesia" EXACT []
 is_a: SYMP:0000892 ! sensation perception
 
@@ -1688,7 +1688,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000302
 name: hypothermia
-def: "Hypothermia is a neurological and physiological symptom characterized by a subnormal temperature of the body as defined by a temperature under 36.6 degrees Celcius." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia]
+def: "Hypothermia is a neurological and physiological symptom characterized by a subnormal temperature of the body as defined by a temperature under 36.6 degrees Celcius." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -1809,7 +1809,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000324
 name: bronchitis
-def: "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis]
+def: "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -1932,7 +1932,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000346
 name: papule
-def: "Papule is a skin and integumentary tissue symptom characterized as a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule]
+def: "Papule is a skin and integumentary tissue symptom characterized as a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -1970,13 +1970,13 @@ is_a: SYMP:0000094 ! muscle weakness
 [Term]
 id: SYMP:0000353
 name: phlegm
-def: "Phlegm is a respiratory system and chest symptom characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages." [wiki:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm]
+def: "Phlegm is a respiratory system and chest symptom characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000354
 name: pneumonitis
-def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles \"down the wrong pipe\" and receiving radiation therapy to your chest." [wiki:http\://en.wikipedia.org/wiki/Pneumonitis]
+def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles \"down the wrong pipe\" and receiving radiation therapy to your chest." [url:http\://en.wikipedia.org/wiki/Pneumonitis]
 synonym: "inflammation of lung tissue" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -2000,7 +2000,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000358
 name: premature labor
-def: "Premature labor is a reproductive system symptom characterized by labor occurring before 37 full weeks of pregnancy." [URL:http\://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html]
+def: "Premature labor is a reproductive system symptom characterized by labor occurring before 37 full weeks of pregnancy." [url:http\://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -2046,7 +2046,7 @@ is_a: SYMP:0000364 ! prostate symptom
 [Term]
 id: SYMP:0000367
 name: proteinuria
-def: "Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proteinuria]
+def: "Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proteinuria]
 comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
@@ -2058,7 +2058,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000369
 name: ptosis
-def: "Ptosis is a general symptom characterized by a sagging or prolapse of an organ or part." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ptosis]
+def: "Ptosis is a general symptom characterized by a sagging or prolapse of an organ or part." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ptosis]
 comment: doid/symp duplicate
 synonym: "droopiness" EXACT []
 is_a: SYMP:0000567 ! general symptom
@@ -2076,7 +2076,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000372
 name: runny nose
-def: "Runny nose is a nose symptom characterized by an excessive mucous secretion from the nose." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea]
+def: "Runny nose is a nose symptom characterized by an excessive mucous secretion from the nose." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea]
 is_a: SYMP:0000388 ! nose symptom
 
 [Term]
@@ -2102,7 +2102,7 @@ is_a: SYMP:0000570 ! diarrhea
 [Term]
 id: SYMP:0000377
 name: mastitis
-def: "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
+def: "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
 comment: doid/symp duplicate
 synonym: "inflammation of mammary breast" EXACT []
 synonym: "mammitis" EXACT []
@@ -2221,7 +2221,7 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000399
 name: vertigo
-def: "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings." [URL:http\://en.wikipedia.org/wiki/Vertigo_%28medical%29]
+def: "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings." [url:http\://en.wikipedia.org/wiki/Vertigo_%28medical%29]
 is_a: SYMP:0000610 ! dizziness
 
 [Term]
@@ -2237,7 +2237,7 @@ is_a: SYMP:0000479 ! abnormality of gait
 [Term]
 id: SYMP:0000402
 name: cachexia
-def: "Cachexia is a nutrition, metabolism, and development symptom characterized by a general physical wasting and malnutrition usually associated with chronic disease." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia]
+def: "Cachexia is a nutrition, metabolism, and development symptom characterized by a general physical wasting and malnutrition usually associated with chronic disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia]
 synonym: "general physical wasting and malnutrition" EXACT []
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
@@ -2256,14 +2256,14 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000405
 name: vaginismus
-def: "Vaginismus is a reproductive system symptom characterized by a painful spasmodic contraction of the vagina." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus]
+def: "Vaginismus is a reproductive system symptom characterized by a painful spasmodic contraction of the vagina." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus]
 synonym: "painful spasmodic vagina contractions" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000406
 name: bruise
-def: "Bruise is a skin and integumentary tissue symptom characterized as an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise]
+def: "Bruise is a skin and integumentary tissue symptom characterized as an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise]
 synonym: "bruises" EXACT []
 synonym: "bruising" EXACT []
 synonym: "contusion" EXACT []
@@ -2279,7 +2279,7 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0000408
 name: cataplexy
-def: "Cataplexy is a muscle symptom characterized by a sudden loss of muscle control with retention of clear consciousness that follows a strong emotional stimulus (as elation, surprise, or anger) and is a characteristic symptom of narcolepsy." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cataplexy]
+def: "Cataplexy is a muscle symptom characterized by a sudden loss of muscle control with retention of clear consciousness that follows a strong emotional stimulus (as elation, surprise, or anger) and is a characteristic symptom of narcolepsy." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cataplexy]
 is_a: SYMP:0000183 ! muscle symptom
 
 [Term]
@@ -2301,19 +2301,19 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000412
 name: anxiety
-def: "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety]
+def: "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000413
 name: catatonia
-def: "Catatonia is a neurological and physiological symptom characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia]
+def: "Catatonia is a neurological and physiological symptom characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000414
 name: dysarthria
-def: "Dysarthria is a neurological and physiological symptom characterized by a difficulty in articulating words due to disease of the central nervous system." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria]
+def: "Dysarthria is a neurological and physiological symptom characterized by a difficulty in articulating words due to disease of the central nervous system." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -2344,7 +2344,7 @@ is_a: SYMP:0000418 ! contracted pupil
 [Term]
 id: SYMP:0000420
 name: bloating
-def: "Bloating is a digestive system symptom involving the accumulation of gas in the digestive tract and resulting in abdominal distension." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bloating]
+def: "Bloating is a digestive system symptom involving the accumulation of gas in the digestive tract and resulting in abdominal distension." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bloating]
 is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
@@ -2355,7 +2355,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000422
 name: dyspepsia
-def: "Dyspepsia is a digestive system symptom referred to as indigestion resulting from an impairment to digestion caused by ulcer, gall bladder disease or inflamed colon. Related symptoms include weakness, loss of appetite, and depression." [URL:http\://www.rootsweb.ancestry.com/~vapage2/deathcauses.htm]
+def: "Dyspepsia is a digestive system symptom referred to as indigestion resulting from an impairment to digestion caused by ulcer, gall bladder disease or inflamed colon. Related symptoms include weakness, loss of appetite, and depression." [url:http\://www.rootsweb.ancestry.com/~vapage2/deathcauses.htm]
 comment: doid/symp duplicate
 synonym: "indigestion" EXACT []
 is_a: SYMP:0000459 ! digestive system symptom
@@ -2386,7 +2386,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000427
 name: impotence
-def: "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
+def: "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
 comment: doid/symp duplicate
 synonym: "erectile dysfunction" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
@@ -2394,13 +2394,13 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000428
 name: hypoventilation
-def: "Hypoventilation is a respiratory abnormality characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation]
+def: "Hypoventilation is a respiratory abnormality characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation]
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000429
 name: bradypnea
-def: "Bradypnea is a respiratory abnormality characterized by abnormally slow breathing." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea]
+def: "Bradypnea is a respiratory abnormality characterized by abnormally slow breathing." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea]
 synonym: "abnormally slow breathing" EXACT []
 is_a: SYMP:0000598 ! respiratory abnormality
 
@@ -2413,28 +2413,28 @@ is_a: SYMP:0000576 ! chest pain
 [Term]
 id: SYMP:0000431
 name: sputum
-def: "A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
+def: "A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
 synonym: "sputum production" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000432
 name: itching
-def: "Itching is a skin and integumentary tissue symptom characterized as an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching]
+def: "Itching is a skin and integumentary tissue symptom characterized as an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching]
 synonym: "pruritus" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000433
 name: anasarca
-def: "Anasarca is a edema characterized as generalized edema with accumulation of serum in the connective tissue." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anasarca]
+def: "Anasarca is a edema characterized as generalized edema with accumulation of serum in the connective tissue." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anasarca]
 synonym: "generalized edema" EXACT []
 is_a: SYMP:0000538 ! edema
 
 [Term]
 id: SYMP:0000434
 name: urticaria
-def: "Urticaria is a skin and integumentary tissue symptom characterized \nby raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border." [URL:http\://en.wikipedia.org/wiki/Urticaria]
+def: "Urticaria is a skin and integumentary tissue symptom characterized \nby raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border." [url:http\://en.wikipedia.org/wiki/Urticaria]
 comment: doid/symp duplicate
 synonym: "hives" EXACT []
 synonym: "nettle rash" EXACT []
@@ -2444,7 +2444,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000435
 name: paresthesia
-def: "Paresthesia is a skin and integumentary tissue symptom characterized as a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia]
+def: "Paresthesia is a skin and integumentary tissue symptom characterized as a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -2466,7 +2466,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000439
 name: heartburn
-def: "Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus." [URL:http\://www.nlm.nih.gov/medlineplus/heartburn.html]
+def: "Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus." [url:http\://www.nlm.nih.gov/medlineplus/heartburn.html]
 synonym: "acid indigestion" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -2498,7 +2498,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000445
 name: faint
-def: "Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain." [URL:http\://www.merriam-webster.com/dictionary/fainting]
+def: "Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain." [url:http\://www.merriam-webster.com/dictionary/fainting]
 synonym: "fainting" EXACT []
 synonym: "syncope" EXACT []
 is_a: SYMP:0000482 ! alteration of consciousness
@@ -2511,7 +2511,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000447
 name: bloody sputum
-def: "Bloody sputum is a sputum that consists of blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung." [URL:http\://www.medicinenet.com/symptoms_and_signs/article.htm, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
+def: "Bloody sputum is a sputum that consists of blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung." [url:http\://www.medicinenet.com/symptoms_and_signs/article.htm, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
 comment: Bloody sputum (spitting up blood or bloody mucus) can come from common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung.
 is_a: SYMP:0000431 ! sputum
 
@@ -2603,7 +2603,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000458
 name: nausea
-def: "Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit." [URL:http\://www.nlm.nih.gov/medlineplus/nauseaandvomiting.html]
+def: "Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit." [url:http\://www.nlm.nih.gov/medlineplus/nauseaandvomiting.html]
 xref: ICD9CM_2005:787.02
 xref: UMLS_CUI:C0375548
 xref: UMLS_ICD9CM_2005_AUI:A0750850
@@ -2823,7 +2823,7 @@ is_a: SYMP:0000461 ! abdominal symptom
 [Term]
 id: SYMP:0000485
 name: dysuria
-def: "Dysuria is a urinary system symptom characterized by the difficult or painful discharge of urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysuria]
+def: "Dysuria is a urinary system symptom characterized by the difficult or painful discharge of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysuria]
 synonym: "difficult urine discharge" EXACT []
 synonym: "painful urine discharge" EXACT []
 xref: ICD9CM_2005:788.1
@@ -2842,7 +2842,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000487
 name: rash
-def: "A skin and integumentary tissue symptom characterized as an eruption on the body typically with little or no elevation above the surface." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash]
+def: "A skin and integumentary tissue symptom characterized as an eruption on the body typically with little or no elevation above the surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash]
 synonym: "erythema" EXACT []
 synonym: "rubor" EXACT []
 synonym: "skin eruption" EXACT []
@@ -2890,7 +2890,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000492
 name: urinary incontinence
-def: "Urinary incontinence is a urinary system symptom characterized by the an inability of the body to control the evacuative functions." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence]
+def: "Urinary incontinence is a urinary system symptom characterized by the an inability of the body to control the evacuative functions." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence]
 synonym: "incontinence" EXACT []
 xref: ICD9CM_2005:788.3
 xref: ICD9CM_2005:788.30
@@ -2913,7 +2913,7 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0000494
 name: renal colic
-def: "Renal colic is a colic characterized by the severe pain produced by the passage of a calculus from the kidney through the ureter." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic]
+def: "Renal colic is a colic characterized by the severe pain produced by the passage of a calculus from the kidney through the ureter." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic]
 xref: ICD9CM_2005:788.0
 xref: UMLS_CUI:C0152169
 xref: UMLS_ICD9CM_2005_AUI:A0265344
@@ -2992,7 +2992,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000504
 name: headache
-def: "Headache is a pain characterized by a pain in the head." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache]
+def: "Headache is a pain characterized by a pain in the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache]
 synonym: "cephalalgia" EXACT []
 xref: ICD9CM_2005:784.0
 xref: UMLS_CUI:C0018681
@@ -3002,7 +3002,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000505
 name: throat pain
-def: "Throat pain is a pain that is characterized by a painful throat due to inflammation of the fauces and pharynx." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat]
+def: "Throat pain is a pain that is characterized by a painful throat due to inflammation of the fauces and pharynx." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat]
 synonym: "sore throat" EXACT []
 xref: ICD9CM_2005:784.1
 xref: UMLS_CUI:C0242429
@@ -3028,7 +3028,7 @@ is_a: SYMP:0000387 ! head symptom
 [Term]
 id: SYMP:0000508
 name: aphasia
-def: "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia]
+def: "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia]
 comment: doid/symp duplicate
 synonym: "inability to comprehend language" EXACT []
 xref: ICD9CM_2005:784.3
@@ -3050,7 +3050,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000510
 name: pallor
-def: "Pallor is a skin and integumentary tissue symptom characterized as a deficiency of color especially of the face." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor]
+def: "Pallor is a skin and integumentary tissue symptom characterized as a deficiency of color especially of the face." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor]
 synonym: "paleness" EXACT []
 xref: ICD9CM_2005:782.61
 xref: UMLS_CUI:C0030232
@@ -3060,7 +3060,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000511
 name: flushing
-def: "Flushing is a skin and integumentary tissue symptom characterized as a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation." [wiki:http\://en.wikipedia.org/wiki/Flushing_%28physiology%29]
+def: "Flushing is a skin and integumentary tissue symptom characterized as a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation." [url:http\://en.wikipedia.org/wiki/Flushing_%28physiology%29]
 xref: ICD9CM_2005:782.62
 xref: UMLS_CUI:C0016382
 xref: UMLS_ICD9CM_2005_AUI:A0060138
@@ -3077,7 +3077,7 @@ is_a: SYMP:0000853 ! stress incontinence
 [Term]
 id: SYMP:0000513
 name: stridor
-def: "Stridor is a respiratory system and chest symptom characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor]
+def: "Stridor is a respiratory system and chest symptom characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor]
 xref: ICD9CM_2005:786.1
 xref: UMLS_CUI:C0038450
 xref: UMLS_ICD9CM_2005_AUI:A0120146
@@ -3094,7 +3094,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000515
 name: hiccough
-def: "Hiccough is a respiratory system and chest symptom characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough]
+def: "Hiccough is a respiratory system and chest symptom characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough]
 xref: ICD9CM_2005:786.8
 xref: UMLS_CUI:C0019521
 xref: UMLS_ICD9CM_2005_AUI:A0421293
@@ -3111,7 +3111,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000517
 name: hemoptysis
-def: "Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis]
+def: "Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis]
 synonym: "coughing up of blood" EXACT []
 synonym: "expectoration of blood" EXACT []
 synonym: "expectoration of blood-stained sputum" EXACT []
@@ -3167,7 +3167,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000523
 name: anorexia
-def: "Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia]
+def: "Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia]
 xref: ICD9CM_2005:783.0
 xref: UMLS_CUI:C0003123
 xref: UMLS_ICD9CM_2005_AUI:A0024378
@@ -3176,7 +3176,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000524
 name: polyphagia
-def: "Polyphagia is a nutrition, metabolism, and development symptom characterized by an excessive appetite or eating." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia]
+def: "Polyphagia is a nutrition, metabolism, and development symptom characterized by an excessive appetite or eating." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia]
 xref: ICD9CM_2005:783.6
 xref: UMLS_CUI:C0020505
 xref: UMLS_ICD9CM_2005_AUI:A0011381
@@ -3193,7 +3193,7 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0000526
 name: ascites
-def: "An abdominal symptom consisting of an abnormal accumulation of serous fluid in the spaces between tissues and organs in the cavity of the abdomen." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ascites]
+def: "An abdominal symptom consisting of an abnormal accumulation of serous fluid in the spaces between tissues and organs in the cavity of the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ascites]
 synonym: "hydroperitoneum" EXACT []
 xref: ICD9CM_2005:789.5
 xref: UMLS_CUI:C0003962
@@ -3219,7 +3219,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000529
 name: tachycardia
-def: "Tachycardia is a cardiovascular system symptom consisting of a relatively rapid heart action whether physiological (as after exercise) or pathological." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachycardia]
+def: "Tachycardia is a cardiovascular system symptom consisting of a relatively rapid heart action whether physiological (as after exercise) or pathological." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachycardia]
 xref: ICD9CM_2005:785.0
 xref: UMLS_CUI:C0039231
 xref: UMLS_ICD9CM_2005_AUI:A0804597
@@ -3247,7 +3247,7 @@ is_a: SYMP:0000158 ! spleen symptom
 [Term]
 id: SYMP:0000532
 name: urge incontinence
-def: "Urge incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence]
+def: "Urge incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence]
 xref: ICD9CM_2005:788.31
 xref: UMLS_CUI:C0150045
 xref: UMLS_ICD9CM_2005_AUI:A0469078
@@ -3289,7 +3289,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000537
 name: cyanosis
-def: "Cyanosis is a skin and integumentary tissue symptom characterized as a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis]
+def: "Cyanosis is a skin and integumentary tissue symptom characterized as a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis]
 xref: ICD9CM_2005:782.5
 xref: UMLS_CUI:C0010520
 xref: UMLS_ICD9CM_2005_AUI:A0044296
@@ -3298,7 +3298,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000538
 name: edema
-def: "A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
+def: "A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
 synonym: "dropsy" EXACT []
 xref: ICD9CM_2005:782.3
 xref: UMLS_CUI:C0013604
@@ -3308,7 +3308,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000539
 name: jaundice
-def: "Jaundice is a skin and integumentary tissue symptom characterized as a skin and integumentary symptom where a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice]
+def: "Jaundice is a skin and integumentary tissue symptom characterized as a skin and integumentary symptom where a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice]
 synonym: "icteric" EXACT []
 synonym: "icterus" EXACT []
 xref: ICD9CM_2005:782.4
@@ -3413,7 +3413,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000552
 name: meningismus
-def: "Meningismus is a nervous system symptom characterized as a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus]
+def: "Meningismus is a nervous system symptom characterized as a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus]
 xref: ICD9CM_2005:781.6
 xref: UMLS_CUI:C0025287
 xref: UMLS_ICD9CM_2005_AUI:A0434815
@@ -3485,7 +3485,7 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000560
 name: polydipsia
-def: "Polydipsia is a nutrition, metabolism, and development symptom characterized by an excessive or abnormal thirst." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia]
+def: "Polydipsia is a nutrition, metabolism, and development symptom characterized by an excessive or abnormal thirst." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia]
 xref: ICD9CM_2005:783.5
 xref: UMLS_CUI:C0085602
 xref: UMLS_ICD9CM_2005_AUI:A0003974
@@ -3518,7 +3518,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000564
 name: nocturia
-def: "Nocturia is a urinary system symptom characterized by urination at night especially when excessive." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia]
+def: "Nocturia is a urinary system symptom characterized by urination at night especially when excessive." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia]
 synonym: "nycturia" EXACT []
 xref: ICD9CM_2005:788.43
 xref: UMLS_CUI:C0028734
@@ -3528,7 +3528,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000565
 name: polyuria
-def: "Polyuria is a urinary system symptom characterized by the excessive secretion of urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria]
+def: "Polyuria is a urinary system symptom characterized by the excessive secretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria]
 synonym: "excessive secretion of urine" EXACT []
 xref: ICD9CM_2005:788.42
 xref: UMLS_CUI:C0032617
@@ -3561,7 +3561,7 @@ is_a: SYMP:0000464 ! lack of expected normal physiological development in childh
 [Term]
 id: SYMP:0000569
 name: oliguria
-def: "Oliguria is a urinary system symptom characterized by the reduced excretion of urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria]
+def: "Oliguria is a urinary system symptom characterized by the reduced excretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria]
 xref: ICD9CM_2005:788.5
 xref: UMLS_CUI:C0028962
 xref: UMLS_ICD9CM_2005_AUI:A0243854
@@ -3570,7 +3570,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000570
 name: diarrhea
-def: "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
+def: "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
 comment: doid/symp duplicate
 synonym: "bacterial gastroenteritis" EXACT []
 synonym: "diarrhoea" EXACT []
@@ -3587,7 +3587,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000571
 name: insomnia
-def: "Insomnia is a sleep disturbance characterized by prolonged and usually abnormal inability to obtain adequate sleep." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=insomnia]
+def: "Insomnia is a sleep disturbance characterized by prolonged and usually abnormal inability to obtain adequate sleep." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=insomnia]
 synonym: "agrypnia" EXACT []
 xref: ICD9CM_2005:780.52
 xref: UMLS_CUI:C0029645
@@ -3673,7 +3673,7 @@ is_a: SYMP:0000566 ! sleep disturbance
 [Term]
 id: SYMP:0000581
 name: sleep apnea
-def: "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea]
+def: "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:780.57
 xref: UMLS_CUI:C0375544
@@ -3683,7 +3683,7 @@ is_a: SYMP:0000600 ! apnea
 [Term]
 id: SYMP:0000582
 name: hypersomnia
-def: "Hypersomnia is a sleep disturbance characterized by sleeping for excessive periods at intervals with intervening periods of normal duration of sleeping and waking." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypersomnia]
+def: "Hypersomnia is a sleep disturbance characterized by sleeping for excessive periods at intervals with intervening periods of normal duration of sleeping and waking." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypersomnia]
 xref: ICD9CM_2005:780.54
 xref: UMLS_CUI:C0029637
 xref: UMLS_ICD9CM_2005_AUI:A0243739
@@ -3828,7 +3828,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000600
 name: apnea
-def: "Apnea is a respiratory abnormality characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea]
+def: "Apnea is a respiratory abnormality characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea]
 xref: ICD9CM_2005:786.03
 xref: UMLS_CUI:C0003578
 xref: UMLS_ICD9CM_2005_AUI:A0025648
@@ -3837,7 +3837,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000601
 name: hyperventilation
-def: "Hyperventilation is a respiratory abnormality characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation]
+def: "Hyperventilation is a respiratory abnormality characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation]
 xref: ICD9CM_2005:786.01
 xref: UMLS_CUI:C0020578
 xref: UMLS_ICD9CM_2005_AUI:A0071094
@@ -3846,7 +3846,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000602
 name: orthopnea
-def: "Orthopnea is a respiratory abnormality characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea]
+def: "Orthopnea is a respiratory abnormality characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea]
 xref: ICD9CM_2005:786.02
 xref: UMLS_CUI:C0085619
 xref: UMLS_ICD9CM_2005_AUI:A0004140
@@ -3856,7 +3856,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 id: SYMP:0000603
 name: tachypnea
 alt_id: SYMP:0000683
-def: "Tachypnea is a respiratory abnormality characterized by an increased rate of respiration." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
+def: "Tachypnea is a respiratory abnormality characterized by an increased rate of respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
 synonym: "rapid breathing" EXACT []
 xref: ICD9CM_2005:786.06
 xref: UMLS_CUI:C0231835
@@ -3866,7 +3866,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000604
 name: wheezing
-def: "Wheezing is a respiratory abnormality characterized by breathing with difficulty usually with a whistling sound." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing]
+def: "Wheezing is a respiratory abnormality characterized by breathing with difficulty usually with a whistling sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing]
 xref: ICD9CM_2005:786.07
 xref: UMLS_CUI:C0043144
 xref: UMLS_ICD9CM_2005_AUI:A0133941
@@ -3891,7 +3891,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000607
 name: hallucination
-def: "Hallucination is a general symptom where there is a perception of something (as a visual image or a sound) with no external cause usually arising from a disorder of the nervous system (as in delirium tremens or in functional psychosis without known neurological disease) or in response to drugs (as LSD)." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hallucinations]
+def: "Hallucination is a general symptom where there is a perception of something (as a visual image or a sound) with no external cause usually arising from a disorder of the nervous system (as in delirium tremens or in functional psychosis without known neurological disease) or in response to drugs (as LSD)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hallucinations]
 xref: ICD9CM_2005:780.1
 xref: UMLS_CUI:C0018524
 xref: UMLS_ICD9CM_2005_AUI:A0065642
@@ -3916,7 +3916,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000610
 name: dizziness
-def: "Dizziness is a neurological and physiological symptom characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness]
+def: "Dizziness is a neurological and physiological symptom characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness]
 synonym: "dizzy" EXACT []
 xref: ICD9CM_2005:780.4
 xref: UMLS_CUI:C0476206
@@ -3942,7 +3942,7 @@ is_a: SYMP:0000454 ! abdominal rigidity
 [Term]
 id: SYMP:0000613
 name: fever
-def: "Fever is a neurological and physiological symptom characterized by a rise of body temperature above the normal whether a natural response (as to infection) or artificially induced for therapeutic reasons." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever]
+def: "Fever is a neurological and physiological symptom characterized by a rise of body temperature above the normal whether a natural response (as to infection) or artificially induced for therapeutic reasons." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever]
 synonym: "pyrexia" EXACT []
 xref: ICD9CM_2005:780.6
 xref: UMLS_CUI:C0015967
@@ -3952,7 +3952,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000614
 name: cough
-def: "Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough]
+def: "Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough]
 xref: ICD9CM_2005:786.2
 xref: UMLS_CUI:C0010200
 xref: UMLS_ICD9CM_2005_AUI:A0043303
@@ -4011,7 +4011,7 @@ is_a: SYMP:0000457 ! abdominal pain
 [Term]
 id: SYMP:0000621
 name: alexia
-def: "Alexia is a aphasia characterized by loss of ability to read." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia]
+def: "Alexia is a aphasia characterized by loss of ability to read." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:784.6
 xref: ICD9CM_2005:784.69
@@ -4054,7 +4054,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000629
 name: exanthema
-def: "Exanthema is a rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease." [wiki:http\://en.wikipedia.org/wiki/Exanthema]
+def: "Exanthema is a rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease." [url:http\://en.wikipedia.org/wiki/Exanthema]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4147,7 +4147,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000646
 name: synovitis
-def: "Synovitis is a joint inflammation characterized by an inflammation of a synovial membrane usually with pain and swelling of the joint." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=synovitis]
+def: "Synovitis is a joint inflammation characterized by an inflammation of a synovial membrane usually with pain and swelling of the joint." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=synovitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000313 ! joint inflammation
 
@@ -4190,7 +4190,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000654
 name: irritability
-def: "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
+def: "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
 synonym: "Inconsolability" EXACT []
 is_a: SYMP:0019182 ! behavioral symptom
 
@@ -4217,7 +4217,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000659
 name: pareses
-def: "Pareses is a paralysis charachterized by slight or partial paralysis." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses]
+def: "Pareses is a paralysis charachterized by slight or partial paralysis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses]
 synonym: "partial paralysis" EXACT []
 is_a: SYMP:0000030 ! paralysis
 
@@ -4234,7 +4234,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 [Term]
 id: SYMP:0000662
 name: shakes
-def: "Shakes is a general symptom characterized by a condition of trembling." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=shakes]
+def: "Shakes is a general symptom characterized by a condition of trembling." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=shakes]
 synonym: "trembling" EXACT []
 is_a: SYMP:0000567 ! general symptom
 
@@ -4281,7 +4281,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000673
 name: bradykinesia
-def: "Bradykinesia is a hypokinesia characterized by an extreme slowness in the execution of movements and reflexes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradykinesia, wiki:http\://en.wikipedia.org/wiki/Bradykinesia]
+def: "Bradykinesia is a hypokinesia characterized by an extreme slowness in the execution of movements and reflexes." [url:http\://en.wikipedia.org/wiki/Bradykinesia, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradykinesia]
 is_a: SYMP:0000858 ! hypokinesia
 
 [Term]
@@ -4292,14 +4292,14 @@ is_a: SYMP:0000336 ! neurological dysfunction
 [Term]
 id: SYMP:0000675
 name: acute diarrhea
-def: "Acute diarrhea is a diarrhea with either or both a rapid onset or a short course." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea, wiki:http\://en.wikipedia.org/wiki/Acute_%28medicine%29]
+def: "Acute diarrhea is a diarrhea with either or both a rapid onset or a short course." [url:http\://en.wikipedia.org/wiki/Acute_%28medicine%29, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
 comment: doid/symp duplicate
 is_a: SYMP:0000570 ! diarrhea
 
 [Term]
 id: SYMP:0000676
 name: acute enteritis
-def: "Acute enteritis is a enteritis with either or both a rapid onset and a short course which is usually due to bacteria or virus." [wiki:http\://en.wikipedia.org/wiki/Acute_%28medicine%29, wiki:http\://en.wikipedia.org/wiki/Enteritis]
+def: "Acute enteritis is a enteritis with either or both a rapid onset and a short course which is usually due to bacteria or virus." [url:http\://en.wikipedia.org/wiki/Acute_%28medicine%29, url:http\://en.wikipedia.org/wiki/Enteritis]
 is_a: SYMP:0000039 ! enteritis
 
 [Term]
@@ -4335,7 +4335,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000683
 name: obsolete tachypnoea
-def: "Tachypnoea is a respiratory system and chest symptom characterized by an increased rate of respiration." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
+def: "Tachypnoea is a respiratory system and chest symptom characterized by an increased rate of respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
 is_obsolete: true
 
 [Term]
@@ -4357,7 +4357,7 @@ is_a: SYMP:0000614 ! cough
 [Term]
 id: SYMP:0000687
 name: obsolete chronic fatigue syndrome
-def: "Chronic fatigue syndrome is a fatigue characterized by a disorder of uncertain cause that is characterized by persistent profound fatigue usually accompanied by impairment in short-term memory or concentration, sore throat, tender lymph nodes, muscle or joint pain, and headache unrelated to any preexisting medical condition and that typically has an onset at about 30 years of age." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic%20fatigue%20syndrome]
+def: "Chronic fatigue syndrome is a fatigue characterized by a disorder of uncertain cause that is characterized by persistent profound fatigue usually accompanied by impairment in short-term memory or concentration, sore throat, tender lymph nodes, muscle or joint pain, and headache unrelated to any preexisting medical condition and that typically has an onset at about 30 years of age." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic%20fatigue%20syndrome]
 is_obsolete: true
 
 [Term]
@@ -4448,7 +4448,7 @@ is_a: SYMP:0000559 ! voice disturbance
 [Term]
 id: SYMP:0000705
 name: expressive aphasia
-def: "Expressive aphasia is a aphasia caused by damage to or developmental issues in anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting." [wiki:http\://en.wikipedia.org/wiki/Expressive_aphasia]
+def: "Expressive aphasia is a aphasia caused by damage to or developmental issues in anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting." [url:http\://en.wikipedia.org/wiki/Expressive_aphasia]
 synonym: "agrammatic aphasia" EXACT []
 synonym: "Broca's aphasia" EXACT []
 is_a: SYMP:0000508 ! aphasia
@@ -4481,7 +4481,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000712
 name: infertility
-def: "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term." [wiki:http\://en.wikipedia.org/wiki/Infertility]
+def: "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term." [url:http\://en.wikipedia.org/wiki/Infertility]
 comment: doid/symp duplicate
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -4498,7 +4498,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000715
 name: skin desquamation
-def: "A skin and integumentary tissue symptom characterized by the peeling off of skin in the form of scales." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation]
+def: "A skin and integumentary tissue symptom characterized by the peeling off of skin in the form of scales." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -4594,7 +4594,7 @@ is_a: SYMP:0000094 ! muscle weakness
 [Term]
 id: SYMP:0000734
 name: stroke
-def: "Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke]
+def: "Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke]
 synonym: "apoplexy" EXACT []
 synonym: "brain attack" EXACT []
 synonym: "cerebral accident" EXACT []
@@ -4661,7 +4661,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000746
 name: enanthem
-def: "Enanthem is a skin and integumentary tissue symptom characterized as an eruption on a mucous surface." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem]
+def: "Enanthem is a skin and integumentary tissue symptom characterized as an eruption on a mucous surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -4713,7 +4713,7 @@ is_a: SYMP:0019149 ! toxemia
 [Term]
 id: SYMP:0000756
 name: menorrhagia
-def: "A reproductive system symptom characterized by an abnormally profuse menstrual flow." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia]
+def: "A reproductive system symptom characterized by an abnormally profuse menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -4735,7 +4735,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000760
 name: petechiae
-def: "A skin and integumentary tissue symptom characterized as a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae]
+def: "A skin and integumentary tissue symptom characterized as a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae]
 synonym: "petechial rash" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -5056,37 +5056,37 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000822
 name: chronic enteritis
-def: "Chronic enteritis is a enteritis with slow progress, long duration, or frequent recurrence which can be due to Crohn's disease, giardiasis, tuberculosis, coeliac disease, or rarely due to Whipple's disease." [URL:http\://en.wikipedia.org/wiki/Enteritis, URL:http\://www.rootsweb.ancestry.com/~vapage2/deathcauses.htm]
+def: "Chronic enteritis is a enteritis with slow progress, long duration, or frequent recurrence which can be due to Crohn's disease, giardiasis, tuberculosis, coeliac disease, or rarely due to Whipple's disease." [url:http\://en.wikipedia.org/wiki/Enteritis, url:http\://www.rootsweb.ancestry.com/~vapage2/deathcauses.htm]
 is_a: SYMP:0000039 ! enteritis
 
 [Term]
 id: SYMP:0000823
 name: sinus bradycardia
-def: "Sinus bradycardia is a bradycardia where the sinus rhythm is abnormally slow bradycardia consisting of a sinus rhythm at a rate lower than 60 beats per minute." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sinus%20bradycardia]
+def: "Sinus bradycardia is a bradycardia where the sinus rhythm is abnormally slow bradycardia consisting of a sinus rhythm at a rate lower than 60 beats per minute." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sinus%20bradycardia]
 is_a: SYMP:0000231 ! bradycardia
 
 [Term]
 id: SYMP:0000824
 name: junctional tachycardia
-def: "Junctional tachycardia is a tachycardia associated with the generation of impulses in a locus in the region of the atrioventricular node." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=junctional%20tachycardia]
+def: "Junctional tachycardia is a tachycardia associated with the generation of impulses in a locus in the region of the atrioventricular node." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=junctional%20tachycardia]
 is_a: SYMP:0000529 ! tachycardia
 
 [Term]
 id: SYMP:0000825
 name: paroxysmal tachycardia
-def: "Paroxysmal tachycardia is a tachycardia that begins and ends abruptly and that is initiated by a premature supraventricular beat originating in the atrium or in the atrioventricular node or bundle of His or by a premature ventricular beat." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paroxysmal%20tachycardia]
+def: "Paroxysmal tachycardia is a tachycardia that begins and ends abruptly and that is initiated by a premature supraventricular beat originating in the atrium or in the atrioventricular node or bundle of His or by a premature ventricular beat." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paroxysmal%20tachycardia]
 is_a: SYMP:0000529 ! tachycardia
 
 [Term]
 id: SYMP:0000826
 name: sinus tachycardia
-def: "Sinus tachycardia is a tachychardia characterized by an abnormally rapid sinus rhythm specifically a sinus rhythm at a rate greater than 100 beats per minute." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sinus%20tachycardia]
+def: "Sinus tachycardia is a tachychardia characterized by an abnormally rapid sinus rhythm specifically a sinus rhythm at a rate greater than 100 beats per minute." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sinus%20tachycardia]
 is_a: SYMP:0000529 ! tachycardia
 
 [Term]
 id: SYMP:0000827
 name: ventricular tachycardia
-def: "A tachycardia that is associated with the generation of improper electrical impulses within the ventricles, characterized by an electrocardiogram showing a rate of greater than 120 BPM and three or more wide QRS complexes in a row." [URL:https\://en.wikipedia.org/wiki/Ventricular_tachycardia]
+def: "A tachycardia that is associated with the generation of improper electrical impulses within the ventricles, characterized by an electrocardiogram showing a rate of greater than 120 BPM and three or more wide QRS complexes in a row." [url:https\://en.wikipedia.org/wiki/Ventricular_tachycardia]
 synonym: "V-tach" EXACT []
 synonym: "VT" EXACT []
 is_a: SYMP:0000529 ! tachycardia
@@ -5094,151 +5094,151 @@ is_a: SYMP:0000529 ! tachycardia
 [Term]
 id: SYMP:0000828
 name: sore eyes
-def: "Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious." [URL:http\://www.doh.gov.ph/faqs/sore_eyes]
+def: "Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious." [url:http\://www.doh.gov.ph/faqs/sore_eyes]
 is_a: SYMP:0019163 ! eye symptom
 
 [Term]
 id: SYMP:0000829
 name: neck pain
-def: "Neck pain is a pain characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Neck pain is a pain characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000830
 name: phantom pain
-def: "Phantom pain is a pain where painful sensation that are perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Phantom pain is a pain where painful sensation that are perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000831
 name: nociceptive pain
-def: "Nociceptive pain is a pain originated other than peripheral and central nervous system, caused by activation of nociceptive fibers." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Nociceptive pain is a pain originated other than peripheral and central nervous system, caused by activation of nociceptive fibers." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000832
 name: neuropathic pain
-def: "Neuropathic pain is a pain experienced by cancer patients caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Neuropathic pain is a pain experienced by cancer patients caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000833
 name: visceral pain
-def: "Visceral pain is a pain originated from organ tissues of the thorax, abdomen, or pelvis, It characterizes as deep, vague, difficult to locate pain that radiates away from the affected organ." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Visceral pain is a pain originated from organ tissues of the thorax, abdomen, or pelvis, It characterizes as deep, vague, difficult to locate pain that radiates away from the affected organ." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000834
 name: hypoesthesia
-def: "Hypoesthesia is a general symptom where there is a diminished sensitivity to stimulation." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Hypoesthesia is a general symptom where there is a diminished sensitivity to stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000835
 name: hypoalgesia
-def: "Hypoalgesia is a general symptom where there is a diminished sensitivity to painful stimulation." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Hypoalgesia is a general symptom where there is a diminished sensitivity to painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000836
 name: hyperalgesia
-def: "Hyperalgesia is a general symptom where there is an increased response to a painful stimulus." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Hyperalgesia is a general symptom where there is an increased response to a painful stimulus." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000837
 name: chronic pain
-def: "Chronic pain is a pain that can range from mild to severe, and continues beyond the expected healing phase." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Chronic pain is a pain that can range from mild to severe, and continues beyond the expected healing phase." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000838
 name: breakthrough pain
-def: "Breakthrough pain is a pain that occurs with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Breakthrough pain is a pain that occurs with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000839
 name: acute pain
-def: "Acute pain is a pain that is severe but lasts a relatively short time." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Acute pain is a pain that is severe but lasts a relatively short time." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000840
 name: allodynia
-def: "Allodynia is a pain where there is a painful sensation with a normal, non painful stimulation." [URL:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "Allodynia is a pain where there is a painful sensation with a normal, non painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000841
 name: reactive hyperemia
-def: "Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000842
 name: active hyperemia
-def: "Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000843
 name: functional hyperemia
-def: "Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000844
 name: face hyperemia
-def: "Hyperemia of the face is a head symptom consisting of an excess of blood in the tissues of the face as from an increased flow of blood due to vasodilation." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Hyperemia of the face is a head symptom consisting of an excess of blood in the tissues of the face as from an increased flow of blood due to vasodilation." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000387 ! head symptom
 
 [Term]
 id: SYMP:0000845
 name: hyperemia of the neck
-def: "Hyperemia of the neck is a neck symptom consisting of an excess of blood in the tissues of the neck as from an increased flow of blood due to vasodilation." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Hyperemia of the neck is a neck symptom consisting of an excess of blood in the tissues of the neck as from an increased flow of blood due to vasodilation." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000384 ! neck symptom
 
 [Term]
 id: SYMP:0000846
 name: chest hyperemia
-def: "Hyperemia of the chest is a cardiovascular system symptom consisting of an excess of blood in the tissues of the chest as from an increased flow of blood due to vasodilation." [wiki:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Hyperemia of the chest is a cardiovascular system symptom consisting of an excess of blood in the tissues of the chest as from an increased flow of blood due to vasodilation." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
 id: SYMP:0000847
 name: spastic paralysis
-def: "Spastic paralysis is a paralysis characterized by tonic spasm of the affected muscles and with increased tendon reflexes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis]
+def: "Spastic paralysis is a paralysis characterized by tonic spasm of the affected muscles and with increased tendon reflexes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
 id: SYMP:0000848
 name: motor paralysis
-def: "Motor paralysis is a paralysis where there is a complete or partial loss of function the voluntary muscles." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis]
+def: "Motor paralysis is a paralysis where there is a complete or partial loss of function the voluntary muscles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
 id: SYMP:0000849
 name: stillbirth
-def: "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth, wiki:http\://en.wikipedia.org/wiki/Still_birth]
+def: "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body." [url:http\://en.wikipedia.org/wiki/Still_birth, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000850
 name: congested sclera
-def: "Congested sclera is a hyperemia characterized as the congestion of the vessels of the outer layer of the eye containing collagen and elastic fibers." [wiki:http\://en.wikipedia.org/wiki/Sclera]
+def: "Congested sclera is a hyperemia characterized as the congestion of the vessels of the outer layer of the eye containing collagen and elastic fibers." [url:http\://en.wikipedia.org/wiki/Sclera]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000851
 name: gross hematuria
-def: "Gross hematuria is a hematuria characterized by the production of a visible redness in the urine." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria]
+def: "Gross hematuria is a hematuria characterized by the production of a visible redness in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria]
 is_a: SYMP:0000040 ! hematuria
 
 [Term]
 id: SYMP:0000852
 name: anuria
-def: "Anuria is a urinary system symptom characterized by the absence of or defective urine excretion." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anuria]
+def: "Anuria is a urinary system symptom characterized by the absence of or defective urine excretion." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anuria]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:788.5
 xref: UMLS_CUI:C0028962
@@ -5248,67 +5248,67 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000853
 name: stress incontinence
-def: "Stress incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence]
+def: "Stress incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence]
 is_a: SYMP:0000492 ! urinary incontinence
 
 [Term]
 id: SYMP:0000854
 name: hypermenorrhea
-def: "Hypermenorrhea is a menorrhagia characterized by an abnormally profuse or prolonged menstrual flow." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea]
+def: "Hypermenorrhea is a menorrhagia characterized by an abnormally profuse or prolonged menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea]
 is_a: SYMP:0000756 ! menorrhagia
 
 [Term]
 id: SYMP:0000855
 name: metrorrhagia
-def: "Metrorrhagia is a menorrhagia characterized by an irregular uterine bleeding especially between menstrual periods." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia]
+def: "Metrorrhagia is a menorrhagia characterized by an irregular uterine bleeding especially between menstrual periods." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia]
 is_a: SYMP:0000756 ! menorrhagia
 
 [Term]
 id: SYMP:0000856
 name: subjective vertigo
-def: "Subjective vertigo is a vertigo characterized by a sensation that one's body is revolving in space." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo]
+def: "Subjective vertigo is a vertigo characterized by a sensation that one's body is revolving in space." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo]
 is_a: SYMP:0000399 ! vertigo
 
 [Term]
 id: SYMP:0000857
 name: objective vertigo
-def: "Objective vertigo is a vertigo characterized by a sensation that the external world is revolving." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo]
+def: "Objective vertigo is a vertigo characterized by a sensation that the external world is revolving." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo]
 is_a: SYMP:0000399 ! vertigo
 
 [Term]
 id: SYMP:0000858
 name: hypokinesia
-def: "Hypokinesia is a musculoskeletal system  symptom characterized by the slow or diminished movement of body musculature. It may be associated with basal ganglia diseases; mental disorders; prolonged inactivity due to illness; experimental protocols used to evaluate the physiologic effects of immobility; and other conditions." [wiki:http\://en.wikipedia.org/wiki/Hypokinesia]
+def: "Hypokinesia is a musculoskeletal system  symptom characterized by the slow or diminished movement of body musculature. It may be associated with basal ganglia diseases; mental disorders; prolonged inactivity due to illness; experimental protocols used to evaluate the physiologic effects of immobility; and other conditions." [url:http\://en.wikipedia.org/wiki/Hypokinesia]
 is_a: SYMP:0000891 ! musculoskeletal system symptom
 
 [Term]
 id: SYMP:0000859
 name: rigidity hypokinesia
-def: "Rigidity hypokinesia a type of hypokinesia described as the increase in muscle tension when moved by an outside force." [wiki:http\://en.wikipedia.org/wiki/Hypokinesia]
+def: "Rigidity hypokinesia a type of hypokinesia described as the increase in muscle tension when moved by an outside force." [url:http\://en.wikipedia.org/wiki/Hypokinesia]
 is_a: SYMP:0000858 ! hypokinesia
 
 [Term]
 id: SYMP:0000860
 name: postural instability hypokinesia
-def: "Postural instability hypokinesia is a hypokinesia described as a loss of ability to maintain an upright posture." [wiki:http\://en.wikipedia.org/wiki/Hypokinesia]
+def: "Postural instability hypokinesia is a hypokinesia described as a loss of ability to maintain an upright posture." [url:http\://en.wikipedia.org/wiki/Hypokinesia]
 is_a: SYMP:0000858 ! hypokinesia
 
 [Term]
 id: SYMP:0000861
 name: freezing hypokinesia
-def: "Freezing hypokinesia is a hypkinesia where a person can not move their muscles how they want them to." [wiki:http\://en.wikipedia.org/wiki/Hypokinesia]
+def: "Freezing hypokinesia is a hypkinesia where a person can not move their muscles how they want them to." [url:http\://en.wikipedia.org/wiki/Hypokinesia]
 is_a: SYMP:0000858 ! hypokinesia
 
 [Term]
 id: SYMP:0000862
 name: referred pain
-def: "Referred pain is a pain where pain is subjectively localized in one region though due to irritation in another region." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain]
+def: "Referred pain is a pain where pain is subjectively localized in one region though due to irritation in another region." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000863
 name: facial tremor
-def: "Facial tremor is a head symptom characterized by a trembling or shaking of the muscles of the face usually from physical weakness, emotional stress, or disease, may be emphasized by the firm closure of the eyes, elevation of the eyebrows, or drawing down and outward of the corners of the mouth." [URL:http\://books.google.com/books/pdf/Medical_Diagnosis_for_the_Student_and_Pr.pdf?id=NWOYzn2-_pcC&output=pdf&sig=ACfU3U01YhXqEIhGHVTFAnUinc9-Q8INRQ, URL:http\://www.merriam-webster.com/dictionary/tremors]
+def: "Facial tremor is a head symptom characterized by a trembling or shaking of the muscles of the face usually from physical weakness, emotional stress, or disease, may be emphasized by the firm closure of the eyes, elevation of the eyebrows, or drawing down and outward of the corners of the mouth." [url:http\://books.google.com/books/pdf/Medical_Diagnosis_for_the_Student_and_Pr.pdf?id=NWOYzn2-_pcC&output=pdf&sig=ACfU3U01YhXqEIhGHVTFAnUinc9-Q8INRQ, url:http\://www.merriam-webster.com/dictionary/tremors]
 is_a: SYMP:0000387 ! head symptom
 
 [Term]
@@ -5324,55 +5324,55 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000866
 name: cervical edema
-def: "Cervical edema is a neck symptom characterized by an abnormal excess accumulation of serous fluid in the soft tissue of the cervical area." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
+def: "Cervical edema is a neck symptom characterized by an abnormal excess accumulation of serous fluid in the soft tissue of the cervical area." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
 is_a: SYMP:0000384 ! neck symptom
 
 [Term]
 id: SYMP:0000867
 name: gastrointestinal bleeding
-def: "A digestive system symptom characterized by bleeding from one or more of the areas of the digestive or gastrointestinal (GI) tract that includes the espophagus, stomach, small intestine, large intestine or colon, rectum and anus." [URL:http\://www.nlm.nih.gov/medlineplus/gastrointestinalbleeding.html]
+def: "A digestive system symptom characterized by bleeding from one or more of the areas of the digestive or gastrointestinal (GI) tract that includes the espophagus, stomach, small intestine, large intestine or colon, rectum and anus." [url:http\://www.nlm.nih.gov/medlineplus/gastrointestinalbleeding.html]
 is_a: SYMP:0000459 ! digestive system symptom
 
 [Term]
 id: SYMP:0000868
 name: breathing problems
-def: "Breathing problems is a respiratory abnormality characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air." [URL:http\://www.nlm.nih.gov/medlineplus/breathingproblems.html]
+def: "Breathing problems is a respiratory abnormality characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air." [url:http\://www.nlm.nih.gov/medlineplus/breathingproblems.html]
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000869
 name: nasal congestion
-def: "Nasal congestion is a congestion characterized by a blockage of the nasal passages usually due to membranes lining the nose becoming swollen from inflamed blood vessels." [wiki:http\://en.wikipedia.org/wiki/Nasal_congestion]
+def: "Nasal congestion is a congestion characterized by a blockage of the nasal passages usually due to membranes lining the nose becoming swollen from inflamed blood vessels." [url:http\://en.wikipedia.org/wiki/Nasal_congestion]
 is_a: SYMP:0000237 ! congestion
 
 [Term]
 id: SYMP:0000870
 name: icteric eyes
-def: "Icteric eyes is a eye symptom characterized by yellowed eyes due to bile or bilirubin accumulation." [URL:http\://www3.niaid.nih.gov/labs/aboutlabs/cmb/InfectiousDiseasePathogenesisSection/mouseNecropsy/necropsyTerms.htm, wiki:http\://en.wikipedia.org/wiki/Jaundice]
+def: "Icteric eyes is a eye symptom characterized by yellowed eyes due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice, url:http\://www3.niaid.nih.gov/labs/aboutlabs/cmb/InfectiousDiseasePathogenesisSection/mouseNecropsy/necropsyTerms.htm]
 is_a: SYMP:0019163 ! eye symptom
 
 [Term]
 id: SYMP:0000871
 name: icteric mucous membrane
-def: "Icteric mucous membrane is a skin and integumentary tissue symptom characterized as a yellowed mucous membranes due to bile or bilirubin accumulation." [wiki:http\://en.wikipedia.org/wiki/Jaundice]
+def: "Icteric mucous membrane is a skin and integumentary tissue symptom characterized as a yellowed mucous membranes due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000872
 name: icteric skin
-def: "Yellowed skin due to bile or bilirubin accumulation." [wiki:http\://en.wikipedia.org/wiki/Jaundice]
+def: "Yellowed skin due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000873
 name: otitis
-def: "Otitis is a ear symptom characterized as a general term for inflammation or infection of the ear, in both humans and other animals." [wiki:http\://en.wikipedia.org/wiki/Otitis]
+def: "Otitis is a ear symptom characterized as a general term for inflammation or infection of the ear, in both humans and other animals." [url:http\://en.wikipedia.org/wiki/Otitis]
 is_a: SYMP:0000392 ! ear symptom
 
 [Term]
 id: SYMP:0000874
 name: hematoma
-def: "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas <http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas, wiki:http\://en.wikipedia.org/wiki/Hematoma]
+def: "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding." [url:http\://en.wikipedia.org/wiki/Hematoma, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5523,14 +5523,14 @@ creation_date: 2011-11-17T12:27:44Z
 [Term]
 id: SYMP:0000895
 name: anaphylactic shock
-def: "An acute allergic reaction to an antigen to which the body has become hypersensitive." [URL:https\://en.wikipedia.org/wiki/Anaphylaxis]
+def: "An acute allergic reaction to an antigen to which the body has become hypersensitive." [url:https\://en.wikipedia.org/wiki/Anaphylaxis]
 synonym: "anaphylaxis" EXACT []
 is_a: SYMP:0019138 ! immune system symptom
 
 [Term]
 id: SYMP:0000896
 name: exophthalmos
-def: "An abnormal protrusion or displacement of an eye or other body part." [URL:https\://en.wikipedia.org/wiki/Exophthalmos, URL:https\://www.merckmanuals.com/professional/eye-disorders/symptoms-of-ophthalmologic-disorders/proptosis, URL:https\://www.nhs.uk/conditions/bulging-eyes/]
+def: "An abnormal protrusion or displacement of an eye or other body part." [url:https\://en.wikipedia.org/wiki/Exophthalmos, url:https\://www.merckmanuals.com/professional/eye-disorders/symptoms-of-ophthalmologic-disorders/proptosis, url:https\://www.nhs.uk/conditions/bulging-eyes/]
 comment: doid/symp duplicate
 synonym: "exophthalmia" EXACT []
 synonym: "exophthalmus" EXACT []
@@ -5540,7 +5540,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000897
 name: ventricular bradycardia
-def: "A bradycardia associated with the generation of impules in the ventricles when impules from the atria fail to reach them, characterized by an electrocardiogram showing a heart rate below 50 BPM and a broad QRS complex." [URL:https\://en.wikipedia.org/wiki/Ventricular_escape_beat]
+def: "A bradycardia associated with the generation of impules in the ventricles when impules from the atria fail to reach them, characterized by an electrocardiogram showing a heart rate below 50 BPM and a broad QRS complex." [url:https\://en.wikipedia.org/wiki/Ventricular_escape_beat]
 synonym: "idioventricular rhythm" EXACT []
 synonym: "ventricular escape rhythm" EXACT []
 is_a: SYMP:0000231 ! bradycardia
@@ -5548,13 +5548,13 @@ is_a: SYMP:0000231 ! bradycardia
 [Term]
 id: SYMP:0000898
 name: cardiac fibrillation
-def: "An arrhythmia characterized by rapid, irregular, and unsynchronized contraction of muscle fibers within the heart." [URL:https\://en.wikipedia.org/wiki/Fibrillation]
+def: "An arrhythmia characterized by rapid, irregular, and unsynchronized contraction of muscle fibers within the heart." [url:https\://en.wikipedia.org/wiki/Fibrillation]
 is_a: SYMP:0000287 ! arrhythmia
 
 [Term]
 id: SYMP:0000899
 name: ventricular fibrillation
-def: "A cardiac fibrillation associated with quivering of the lower chambers of the heart, preventing blood from being pumped and causing cardiac arrest." [URL:http\://www.heart.org/HEARTORG/Conditions/Arrhythmia/AboutArrhythmia/Ventricular-Fibrillation_UCM_324063_Article.jsp#.WvWbgFMvwnU]
+def: "A cardiac fibrillation associated with quivering of the lower chambers of the heart, preventing blood from being pumped and causing cardiac arrest." [url:http\://www.heart.org/HEARTORG/Conditions/Arrhythmia/AboutArrhythmia/Ventricular-Fibrillation_UCM_324063_Article.jsp#.WvWbgFMvwnU]
 synonym: "v-fib" EXACT []
 is_a: SYMP:0000898 ! cardiac fibrillation
 
@@ -5608,7 +5608,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0019145
 name: vomiting
-def: "Vomiting is a digestive system symptom characterized by throwing up the stomach contents." [URL:http\://www.merriam-webster.com/dictionary/vomiting]
+def: "Vomiting is a digestive system symptom characterized by throwing up the stomach contents." [url:http\://www.merriam-webster.com/dictionary/vomiting]
 synonym: "emesis" EXACT []
 is_a: SYMP:0000459 ! digestive system symptom
 
@@ -5620,7 +5620,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0019147
 name: hematemesis
-def: "A vomiting where there is vomiting of blood." [wiki:http\://en.wikipedia.org/wiki/Hematemesis]
+def: "A vomiting where there is vomiting of blood." [url:http\://en.wikipedia.org/wiki/Hematemesis]
 synonym: "bloody vomit" EXACT []
 synonym: "haematemesis" EXACT []
 synonym: "vomiting blood" EXACT []
@@ -5646,7 +5646,7 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0019151
 name: pulmonary edema
-def: "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema]
+def: "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema]
 comment: doid/symp duplicate
 synonym: "oedematous lungs" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
@@ -5654,14 +5654,14 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0019152
 name: diaphoresis
-def: "Diaphoresis is a sweat characterized as excessive sweating commonly associated with shock and other medical emergency conditions." [wiki:http\://en.wikipedia.org/wiki/Diaphoresis]
+def: "Diaphoresis is a sweat characterized as excessive sweating commonly associated with shock and other medical emergency conditions." [url:http\://en.wikipedia.org/wiki/Diaphoresis]
 synonym: "profuse perspiration" EXACT []
 is_a: SYMP:0019175 ! sweaty
 
 [Term]
 id: SYMP:0019153
 name: shortness of breath
-def: "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
+def: "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
 synonym: "breathing difficulty" EXACT []
 synonym: "breathlessness" EXACT []
 synonym: "difficulty breathing" EXACT []
@@ -5688,7 +5688,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0019158
 name: eschar
-def: "Eschar is a skin and integumentary tissue symptom characterized as a scab formed especially after a burn." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar]
+def: "Eschar is a skin and integumentary tissue symptom characterized as a scab formed especially after a burn." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5700,7 +5700,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0019160
 name: boil
-def: "Boil is a skin and integumentary tissue symptom characterized as a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil]
+def: "Boil is a skin and integumentary tissue symptom characterized as a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil]
 synonym: "furuncle" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -5743,20 +5743,20 @@ is_obsolete: true
 [Term]
 id: SYMP:0019167
 name: pustule
-def: "Pustule is a skin and integumentary tissue symptom characterized as a small circumscribed elevation of the skin containing pus and having an inflamed base." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule]
+def: "Pustule is a skin and integumentary tissue symptom characterized as a small circumscribed elevation of the skin containing pus and having an inflamed base." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0019168
 name: pneumonia
-def: "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [wiki:http\://en.wikipedia.org/wiki/Pneumonia]
+def: "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [url:http\://en.wikipedia.org/wiki/Pneumonia]
 comment: doid/symp duplicate
 is_a: SYMP:0000354 ! pneumonitis
 
 [Term]
 id: SYMP:0019169
 name: arthritis
-def: "Arthritis is a musculoskeletal system symptom characterized as an inflammation of joints due to infectious, metabolic, or constitutional causes." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arthritis]
+def: "Arthritis is a musculoskeletal system symptom characterized as an inflammation of joints due to infectious, metabolic, or constitutional causes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arthritis]
 comment: doid/symp duplicate
 is_a: SYMP:0000891 ! musculoskeletal system symptom
 
@@ -5768,7 +5768,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0019171
 name: spondylitis
-def: "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis]
+def: "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
@@ -5780,7 +5780,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0019173
 name: meningitis
-def: "Meningitis is a nervous system symptom characterized as an inflammation of the meninges and especially of the pia mater and the arachnoid." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis]
+def: "Meningitis is a nervous system symptom characterized as an inflammation of the meninges and especially of the pia mater and the arachnoid." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -5792,20 +5792,20 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0019175
 name: sweaty
-def: "A skin and integumentary tissue symptom characterized as the excretion of moisture in visible quantities through the opening of the sweat glands." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat]
+def: "A skin and integumentary tissue symptom characterized as the excretion of moisture in visible quantities through the opening of the sweat glands." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat]
 synonym: "perspire" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0019176
 name: malaise
-def: "Malaise is a neurological and physiological symptom characterized as an indefinite feeling of debility or lack of health often indicative of or accompanying the onset of an illness." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise]
+def: "Malaise is a neurological and physiological symptom characterized as an indefinite feeling of debility or lack of health often indicative of or accompanying the onset of an illness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0019177
 name: fatigue
-def: "Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue]
+def: "Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -5816,14 +5816,14 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0019179
 name: lightheadedness
-def: "Lightheadedness is a neurological and physiological symptom characterized as the condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position, is a predictable consequence of any medication tending to lower blood pressure." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness]
+def: "Lightheadedness is a neurological and physiological symptom characterized as the condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position, is a predictable consequence of any medication tending to lower blood pressure." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness]
 synonym: "light-headedness" EXACT []
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0019180
 name: constipation
-def: "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces." [URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation]
+def: "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation]
 comment: doid/symp duplicate
 is_a: SYMP:0000146 ! feces and droppings symptom
 

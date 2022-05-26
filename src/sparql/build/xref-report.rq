@@ -1,0 +1,14 @@
+# Return a count of xrefs on non-obsolete classes (all xrefs)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?xref_src (COUNT(?xref_src) AS ?count)
+WHERE {
+    ?class a owl:Class ;
+      oboInOwl:hasDbXref ?xref .
+    FILTER (CONTAINS(STR(?class), "SYMP"))
+    FILTER NOT EXISTS { ?class owl:deprecated ?obsolete . }
+    BIND(STRBEFORE(STR(?xref), ":") AS ?xref_src)
+} GROUP BY ?xref_src
