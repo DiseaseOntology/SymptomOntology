@@ -1,4 +1,4 @@
-# DO Releases
+# SYMP Releases
 
 ## 2022 Releases
 
