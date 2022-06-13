@@ -4132,6 +4132,10 @@ SubClassOf(obo:SYMP_0000406 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000407 (syncope)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000407 "SYMP:0000445"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "faint"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "fainting"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "loss of consciousness due to insuffiecient blood flow to the brain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000407 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000407 "SYMP:0000407"^^xsd:string)
@@ -4254,6 +4258,9 @@ SubClassOf(obo:SYMP_0000422 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000423 (pyrosis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://medlineplus.gov/heartburn.html") obo:IAO_0000115 obo:SYMP_0000423 "From synonym: Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000423 "SYMP:0000439"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000423 "acid indigestion"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000423 "heartburn"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000423 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000423 "SYMP:0000423"^^xsd:string)
@@ -4388,14 +4395,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000438 "SYMP:0000438"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000438 "toothache"^^xsd:string)
 SubClassOf(obo:SYMP_0000438 obo:SYMP_0000099)
 
-# Class: obo:SYMP_0000439 (heartburn)
+# Class: obo:SYMP_0000439 (obsolete heartburn)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nlm.nih.gov/medlineplus/heartburn.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000439 "Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000439 "acid indigestion"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000439 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000439 "SYMP:0000439"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000439 "heartburn"^^xsd:string)
-SubClassOf(obo:SYMP_0000439 obo:SYMP_0000099)
+AnnotationAssertion(rdfs:label obo:SYMP_0000439 "obsolete heartburn"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000439 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000440 (hair loss)
 
@@ -4432,15 +4439,15 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000444 "SYMP:0000444"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000444 "nail discoloration"^^xsd:string)
 SubClassOf(obo:SYMP_0000444 obo:SYMP_0000488)
 
-# Class: obo:SYMP_0000445 (faint)
+# Class: obo:SYMP_0000445 (obsolete faint)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.merriam-webster.com/dictionary/fainting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000445 "Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000445 "fainting"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000445 "syncope"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000445 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000445 "SYMP:0000445"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000445 "faint"^^xsd:string)
-SubClassOf(obo:SYMP_0000445 obo:SYMP_0000482)
+AnnotationAssertion(rdfs:label obo:SYMP_0000445 "obsolete faint"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000445 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000446 (bloodshot eye)
 
