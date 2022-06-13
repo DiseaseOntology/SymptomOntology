@@ -3228,6 +3228,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000287 "abnormal heart be
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000287 "abnormal heart rhythm"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000287 "dysrhythmia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000287 "heart rhythm symptom"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000287 "irregular heartbeat"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000287 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:SYMP_0000287 "fluctuation of heart rate"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000287 "SYMP:0000287"^^xsd:string)
@@ -4445,6 +4446,8 @@ SubClassOf(obo:SYMP_0000445 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0000446 (bloodshot eye)
 
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000446 "red eye"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000446 "redness of eye"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000446 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000446 "SYMP:0000446"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000446 "bloodshot eye"^^xsd:string)
@@ -6430,7 +6433,6 @@ SubClassOf(obo:SYMP_0000638 obo:SYMP_0000487)
 
 # Class: obo:SYMP_0000639 (rectorrhagia)
 
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000639 "hematochezia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000639 "rectal bleeding"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000639 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000639 "SYMP:0000639"^^xsd:string)
@@ -7878,6 +7880,7 @@ SubClassOf(obo:SYMP_0000838 obo:SYMP_0000099)
 # Class: obo:SYMP_0000839 (acute pain)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000839 "Acute pain is a pain that is severe but lasts a relatively short time."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000839 "sudden pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000839 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000839 "SYMP:0000839"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000839 "acute pain"^^xsd:string)
@@ -8857,6 +8860,7 @@ SubClassOf(obo:SYMP_0020002 obo:SYMP_0000672)
 
 # Class: obo:SYMP_0020003 (acholic stool)
 
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020003 "clay-colored bowel movement"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020003 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020003 "SYMP:0020003"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020003 "acholic stool"^^xsd:string)
@@ -8864,6 +8868,7 @@ SubClassOf(obo:SYMP_0020003 obo:SYMP_0000146)
 
 # Class: obo:SYMP_0020004 (ageusia)
 
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020004 "loss of taste"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020004 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020004 "SYMP:0020004"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020004 "ageusia"^^xsd:string)
