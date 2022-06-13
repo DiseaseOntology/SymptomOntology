@@ -1132,7 +1132,6 @@ SubClassOf(obo:SYMP_0000008 obo:SYMP_0000320)
 # Class: obo:SYMP_0000009 (blister)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000009 "Blister is a skin and integumentary tissue symptom characterized as a fluid-filled elevation of the epidermis."^^xsd:string)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000009 "blister"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000009 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000009 "SYMP:0000009"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000009 "blister"^^xsd:string)
@@ -1985,7 +1984,6 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000123 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000124 (seizure)
 
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000124 "seizure"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000124 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000124 "SYMP:0000124"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000124 "seizure"^^xsd:string)
