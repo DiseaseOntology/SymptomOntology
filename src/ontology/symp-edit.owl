@@ -980,6 +980,13 @@ Declaration(Class(obo:SYMP_0020008))
 Declaration(Class(obo:SYMP_0020009))
 Declaration(Class(obo:SYMP_0020010))
 Declaration(Class(obo:SYMP_0020011))
+Declaration(Class(obo:SYMP_2000012))
+Declaration(Class(obo:SYMP_2000013))
+Declaration(Class(obo:SYMP_2000014))
+Declaration(Class(obo:SYMP_2000015))
+Declaration(Class(obo:SYMP_2000016))
+Declaration(Class(obo:SYMP_2000017))
+Declaration(Class(obo:SYMP_2000018))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -2372,12 +2379,12 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000177 "SYMP:0000177"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000177 "weakness"^^xsd:string)
 SubClassOf(obo:SYMP_0000177 obo:SYMP_0000567)
 
-# Class: obo:SYMP_0000178 (weight loss)
+# Class: obo:SYMP_0000178 (obsolete weight loss)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000178 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000178 "SYMP:0000178"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000178 "weight loss"^^xsd:string)
-SubClassOf(obo:SYMP_0000178 obo:SYMP_0000473)
+AnnotationAssertion(rdfs:label obo:SYMP_0000178 "obsolete weight loss"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000178 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000179 (obsolete wet droppings)
 
@@ -4087,12 +4094,12 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000402 "SYMP:0000402"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000402 "cachexia"^^xsd:string)
 SubClassOf(obo:SYMP_0000402 obo:SYMP_0000473)
 
-# Class: obo:SYMP_0000403 (weight gain)
+# Class: obo:SYMP_0000403 (obsolete weight gain)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000403 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000403 "SYMP:0000403"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000403 "weight gain"^^xsd:string)
-SubClassOf(obo:SYMP_0000403 obo:SYMP_0000473)
+AnnotationAssertion(rdfs:label obo:SYMP_0000403 "obsolete weight gain"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000403 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000404 (dyspareunia)
 
@@ -4533,7 +4540,7 @@ AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000455 "UMLS_ICD9CM_2005_AUI:A0
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000455 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000455 "SYMP:0000455"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000455 "abnormal weight gain"^^xsd:string)
-SubClassOf(obo:SYMP_0000455 obo:SYMP_0000403)
+SubClassOf(obo:SYMP_0000455 obo:SYMP_2000015)
 
 # Class: obo:SYMP_0000456 (left upper quadrant abdominal pain)
 
@@ -4717,15 +4724,15 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000473 "SYMP:0000473"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000473 "nutrition, metabolism, and development symptom"^^xsd:string)
 SubClassOf(obo:SYMP_0000473 obo:SYMP_0000462)
 
-# Class: obo:SYMP_0000474 (abnormal loss of weight and underweight)
+# Class: obo:SYMP_0000474 (obsolete abnormal loss of weight and underweight)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000474 "ICD9CM_2005:783.2"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000474 "UMLS_CUI:C0878752"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000474 "UMLS_ICD9CM_2005_AUI:A1892727"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000474 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000474 "SYMP:0000474"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000474 "abnormal loss of weight and underweight"^^xsd:string)
-SubClassOf(obo:SYMP_0000474 obo:SYMP_0000178)
+AnnotationAssertion(rdfs:label obo:SYMP_0000474 "obsolete abnormal loss of weight and underweight"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000474 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000475 (underweight)
 
@@ -4735,7 +4742,7 @@ AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000475 "UMLS_ICD9CM_2005_AUI:A0
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000475 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000475 "SYMP:0000475"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000475 "underweight"^^xsd:string)
-SubClassOf(obo:SYMP_0000475 obo:SYMP_0000474)
+SubClassOf(obo:SYMP_0000475 obo:SYMP_2000012)
 
 # Class: obo:SYMP_0000476 (loss of weight)
 
@@ -4746,7 +4753,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000476 "weight loss"^^xsd
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000476 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000476 "SYMP:0000476"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000476 "loss of weight"^^xsd:string)
-SubClassOf(obo:SYMP_0000476 obo:SYMP_0000474)
+SubClassOf(obo:SYMP_0000476 obo:SYMP_2000012)
 
 # Class: obo:SYMP_0000477 (epigastric abdominal swelling)
 
@@ -8910,6 +8917,56 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020011 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020011 "SYMP:0020011"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020011 "bloody diarrhea"@en)
 SubClassOf(obo:SYMP_0020011 obo:SYMP_0000570)
+
+# Class: obo:SYMP_2000012 (weight symptom)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000012 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000012 "SYMP:0020012"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000012 "weight symptom"^^xsd:string)
+SubClassOf(obo:SYMP_2000012 obo:SYMP_0000473)
+
+# Class: obo:SYMP_2000013 (abnormal weight loss)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000013 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000013 "SYMP:0020013"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000013 "abnormal weight loss"^^xsd:string)
+SubClassOf(obo:SYMP_2000013 obo:SYMP_0000476)
+
+# Class: obo:SYMP_2000014 (chronic weight loss)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000014 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000014 "SYMP:0020014"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000014 "chronic weight loss"^^xsd:string)
+SubClassOf(obo:SYMP_2000014 obo:SYMP_0000476)
+
+# Class: obo:SYMP_2000015 (gain of weight)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000015 "symtoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000015 "SYMP:0020015"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000015 "gain of weight"^^xsd:string)
+SubClassOf(obo:SYMP_2000015 obo:SYMP_2000012)
+
+# Class: obo:SYMP_2000016 (acute weight gain)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000016 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000016 "SYMP:0020016"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000016 "acute weight gain"^^xsd:string)
+SubClassOf(obo:SYMP_2000016 obo:SYMP_2000015)
+
+# Class: obo:SYMP_2000017 (chronic weight gain)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000017 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000017 "SYMP:0020017"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000017 "chronic weight gain"^^xsd:string)
+SubClassOf(obo:SYMP_2000017 obo:SYMP_2000015)
+
+# Class: obo:SYMP_2000018 (overweight)
+
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_2000018 "obesity"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000018 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000018 "SYMP:0020018"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000018 "overweight"^^xsd:string)
+SubClassOf(obo:SYMP_2000018 obo:SYMP_2000012)
 
 
 )
