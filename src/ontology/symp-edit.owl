@@ -7558,7 +7558,7 @@ SubClassOf(obo:SYMP_0000797 obo:SYMP_0000771)
 
 # Class: obo:SYMP_0000798 (abdominal mass)
 
-AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000798 "ICDCM_2005:789.3"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000798 "ICD9CM_2005:789.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000798 "UMLS_CUI:C0476310"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000798 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000798 "SYMP:0000798"^^xsd:string)
