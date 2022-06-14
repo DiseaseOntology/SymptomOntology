@@ -1151,12 +1151,13 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000011 "SYMP:0000011"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000011 "obsolete bloody exudate"^^xsd:string)
 AnnotationAssertion(owl:deprecated obo:SYMP_0000011 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000012 (obsolete blurred vision)
+# Class: obo:SYMP_0000012 (blurred vision)
 
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000012 "A vision symptom that is characterized by a decreased clarity or sharpness in vision, which can be caused by eye conditions myopia or hyperopia."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000012 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000012 "SYMP:0000012"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000012 "obsolete blurred vision"^^xsd:string)
-AnnotationAssertion(owl:deprecated obo:SYMP_0000012 "true"^^xsd:boolean)
+AnnotationAssertion(rdfs:label obo:SYMP_0000012 "blurred vision"^^xsd:string)
+SubClassOf(obo:SYMP_0000012 obo:SYMP_0000628)
 
 # Class: obo:SYMP_0000013 (obsolete capillary leakage)
 
@@ -8919,7 +8920,7 @@ SubClassOf(obo:SYMP_0020009 obo:SYMP_0000320)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020010 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020010 "SYMP:0020010"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020010 "blurred vision with haloes"^^xsd:string)
-SubClassOf(obo:SYMP_0020010 obo:SYMP_0000628)
+SubClassOf(obo:SYMP_0020010 obo:SYMP_0000012)
 
 # Class: obo:SYMP_0020011 (bloody diarrhea)
 
