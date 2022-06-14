@@ -987,6 +987,7 @@ Declaration(Class(obo:SYMP_2000015))
 Declaration(Class(obo:SYMP_2000016))
 Declaration(Class(obo:SYMP_2000017))
 Declaration(Class(obo:SYMP_2000018))
+Declaration(Class(obo:SYMP_2000019))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -3864,12 +3865,13 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000371 "SYMP:0000371"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000371 "respiratory paralysis"^^xsd:string)
 SubClassOf(obo:SYMP_0000371 obo:SYMP_0000030)
 
-# Class: obo:SYMP_0000372 (runny nose)
+# Class: obo:SYMP_0000372 (rhinorrhea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000372 "Runny nose is a nose symptom characterized by an excessive mucous secretion from the nose."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000372 "A nose symptom that is characterized by an excessive secretion of mucous through the nose."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000372 "runny nose"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000372 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000372 "SYMP:0000372"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000372 "runny nose"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000372 "rhinorrhea"^^xsd:string)
 SubClassOf(obo:SYMP_0000372 obo:SYMP_0000388)
 
 # Class: obo:SYMP_0000373 (salivation)
@@ -8978,6 +8980,14 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000018 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_2000018 "SYMP:0020018"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_2000018 "overweight"^^xsd:string)
 SubClassOf(obo:SYMP_2000018 obo:SYMP_2000012)
+
+# Class: obo:SYMP_2000019 (postnasal drainage)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_2000019 "A nose symptom that is characterized by an an excessive secretion of mucous down the back of the throat."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_2000019 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_2000019 "SYMP:0020019"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_2000019 "postnasal drainage"^^xsd:string)
+SubClassOf(obo:SYMP_2000019 obo:SYMP_0000388)
 
 
 )
