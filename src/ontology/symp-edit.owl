@@ -8901,6 +8901,7 @@ SubClassOf(obo:SYMP_0020007 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0020008 (barking croup cough)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://www.seattlechildrens.org/conditions/a-z/croup/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020008 "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020008 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020008 "SYMP:0020008"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020008 "barking croup cough"^^xsd:string)
