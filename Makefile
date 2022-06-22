@@ -69,10 +69,10 @@ report: build/reports/report.tsv
 
 # Report for general issues on symp-edit
 .PRECIOUS: build/reports/report.tsv
-build/reports/report.tsv: $(EDIT) | build/robot.jar build/reports
+build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | build/robot.jar build/reports
 	@echo ""
 	@$(ROBOT) report --input $< \
-	 --profile src/sparql/report/report_profile.txt \
+	 --profile $(word 2,$^) \
 	 --labels true --output $@
 	@echo "Full SYMP QC report available at $@"
 	@echo ""
