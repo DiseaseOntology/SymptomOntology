@@ -4135,7 +4135,7 @@ SubClassOf(obo:SYMP_0000406 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000407 (syncope)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000407 "SYMP:0000445"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "faint"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "fainting"^^xsd:string)
@@ -4261,7 +4261,7 @@ SubClassOf(obo:SYMP_0000422 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000423 (pyrosis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://medlineplus.gov/heartburn.html") obo:IAO_0000115 obo:SYMP_0000423 "From synonym: Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/heartburn.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000423 "From synonym: Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000423 "SYMP:0000439"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000423 "acid indigestion"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000423 "heartburn"^^xsd:string)
@@ -8408,7 +8408,7 @@ SubClassOf(obo:SYMP_0000899 obo:SYMP_0000898)
 
 # Class: obo:SYMP_0000900 (allergic reaction)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://medlineplus.gov/ency/article/000005.htm") obo:IAO_0000115 obo:SYMP_0000900 "An immune system symptom that is characterized by sensitivities to substances called allergens.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/000005.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000900 "An immune system symptom that is characterized by sensitivities to substances called allergens.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000900 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000900 "SYMP:0000900")
 AnnotationAssertion(rdfs:label obo:SYMP_0000900 "allergic reaction"@en)
@@ -8904,7 +8904,7 @@ SubClassOf(obo:SYMP_0020007 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0020008 (barking croup cough)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "https://www.seattlechildrens.org/conditions/a-z/croup/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020008 "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.seattlechildrens.org/conditions/a-z/croup/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020008 "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020008 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020008 "SYMP:0020008"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020008 "barking croup cough"^^xsd:string)
