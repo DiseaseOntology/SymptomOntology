@@ -1,0 +1,17 @@
+# identifies invalid definition source xrefs (cause issues with loader)
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT DISTINCT ?entity ?property ?value
+WHERE {
+	VALUES ?property { oboInOwl:hasDbXref }
+	?entity a owl:Class ;
+		obo:IAO_0000115 ?definition .
+	?blank owl:annotatedTarget ?definition ;
+		?property ?value .
+	FILTER(!REGEX(?value, "^url:https?://"))
+	FILTER NOT EXISTS { ?entity owl:deprecated "true"^^xsd:boolean }
+}

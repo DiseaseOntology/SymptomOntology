@@ -30,8 +30,10 @@ ERROR	multiple_definitions
 ERROR	multiple_equivalent_class_definitions
 WARN	multiple_equivalent_classes
 ERROR	multiple_labels
-INFO	file:./src/sparql/report/class_id_invalid.rq
 ERROR	file:./src/sparql/report/incorrect_obo_namespace.rq
+WARN	file:./src/sparql/report/invalid_annotation_property_eco_code.rq
+INFO	file:./src/sparql/report/invalid_class_id.rq
+ERROR	file:./src/sparql/report/invalid_definition_xref.rq
 INFO	file:./src/sparql/report/missing_definition_xref.rq
 ERROR	file:./src/sparql/report/missing_id.rq
 ERROR	file:./src/sparql/report/missing_obo_namespace.rq
