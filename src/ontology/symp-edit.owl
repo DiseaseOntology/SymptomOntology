@@ -12,7 +12,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/symp.owl>
-<http://purl.obolibrary.org/obo/symp/releases/2022-05-26/symp.owl>
+<http://purl.obolibrary.org/obo/symp/releases/2022-06-22/symp.owl>
 Annotation(dc:description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.")
 Annotation(dc:title "Symptom Ontology")
 Annotation(terms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
@@ -8954,7 +8954,7 @@ SubClassOf(obo:SYMP_0020014 obo:SYMP_0000476)
 
 # Class: obo:SYMP_0020015 (gain of weight)
 
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020015 "symtoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020015 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020015 "SYMP:0020015"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020015 "gain of weight"^^xsd:string)
 SubClassOf(obo:SYMP_0020015 obo:SYMP_0020012)
