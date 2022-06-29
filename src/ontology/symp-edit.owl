@@ -988,6 +988,19 @@ Declaration(Class(obo:SYMP_0020016))
 Declaration(Class(obo:SYMP_0020017))
 Declaration(Class(obo:SYMP_0020018))
 Declaration(Class(obo:SYMP_0020019))
+Declaration(Class(obo:SYMP_0020020))
+Declaration(Class(obo:SYMP_0020021))
+Declaration(Class(obo:SYMP_0020022))
+Declaration(Class(obo:SYMP_0020023))
+Declaration(Class(obo:SYMP_0020024))
+Declaration(Class(obo:SYMP_0020025))
+Declaration(Class(obo:SYMP_0020026))
+Declaration(Class(obo:SYMP_0020027))
+Declaration(Class(obo:SYMP_0020028))
+Declaration(Class(obo:SYMP_0020029))
+Declaration(Class(obo:SYMP_0020030))
+Declaration(Class(obo:SYMP_0020031))
+Declaration(Class(obo:SYMP_0020032))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -8988,6 +9001,98 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020019 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020019 "SYMP:0020019"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020019 "postnasal drainage"^^xsd:string)
 SubClassOf(obo:SYMP_0020019 obo:SYMP_0000388)
+
+# Class: obo:SYMP_0020020 (abnormal scar formation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020020 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020020 "SYMP:0020020"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020020 "abnormal scar formation"^^xsd:string)
+SubClassOf(obo:SYMP_0020020 obo:SYMP_0000488)
+
+# Class: obo:SYMP_0020021 (abnormal wound healing)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020021 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020021 "SYMP:0020021"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020021 "abnormal wound healing"^^xsd:string)
+SubClassOf(obo:SYMP_0020021 obo:SYMP_0000092)
+
+# Class: obo:SYMP_0020022 (bone conduction hyperacusis)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#:~:text=An%20example%20is%20bone%20conduction,canals%20in%20the%20inner%20ear."^^xsd:string) obo:IAO_0000115 obo:SYMP_0020022 ""^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020022 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020022 "SYMP:0020022"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020022 "bone conduction hyperacusis"^^xsd:string)
+SubClassOf(obo:SYMP_0020022 obo:SYMP_0000392)
+
+# Class: obo:SYMP_0020023 (bone pain)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020023 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020023 "SYMP:0020023"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020023 "bone pain"^^xsd:string)
+SubClassOf(obo:SYMP_0020023 obo:SYMP_0000099)
+
+# Class: obo:SYMP_0020024 (bronchospasm)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020024 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020024 "SYMP:0020024"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020024 "bronchospasm"^^xsd:string)
+SubClassOf(obo:SYMP_0020024 obo:SYMP_0000514)
+
+# Class: obo:SYMP_0020025 (caseation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020025 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020025 "SYMP:0020025"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020025 "caseation"^^xsd:string)
+SubClassOf(obo:SYMP_0020025 obo:SYMP_0000514)
+
+# Class: obo:SYMP_0020026 (chronic inflammation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020026 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020026 "SYMP:0020026"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020026 "chronic inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020026 obo:SYMP_0000061)
+
+# Class: obo:SYMP_0020027 (wet cough)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020027 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020027 "SYMP:0020027"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020027 "wet cough"^^xsd:string)
+SubClassOf(obo:SYMP_0020027 obo:SYMP_0000614)
+
+# Class: obo:SYMP_0020028 (poor wound healing)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020028 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020028 "SYMP:0020028"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020028 "poor wound healing"^^xsd:string)
+SubClassOf(obo:SYMP_0020028 obo:SYMP_0000092)
+
+# Class: obo:SYMP_0020029 (concentration difficulty)
+
+AnnotationAssertion(oboInOwl:hasOBOFormatVersion obo:SYMP_0020029 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020029 "SYMP:0020029"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020029 "concentration difficulty"^^xsd:string)
+SubClassOf(obo:SYMP_0020029 obo:SYMP_0000482)
+
+# Class: obo:SYMP_0020030 (patches of hair loss with a 'black dot' pattern)
+
+AnnotationAssertion(oboInOwl:hasOBOFormatVersion obo:SYMP_0020030 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020030 "SYMP:0020030"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020030 "patches of hair loss with a 'black dot' pattern"^^xsd:string)
+SubClassOf(obo:SYMP_0020030 obo:SYMP_0000440)
+
+# Class: obo:SYMP_0020031 (chest discomfort)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020031 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020031 "SYMP:0020031"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020031 "chest discomfort"^^xsd:string)
+SubClassOf(obo:SYMP_0020031 obo:SYMP_0000514)
+
+# Class: obo:SYMP_0020032 (chest tightness)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020032 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020032 "SYMP:0020032"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020032 "chest tightness"^^xsd:string)
+SubClassOf(obo:SYMP_0020032 obo:SYMP_0000514)
 
 
 )
