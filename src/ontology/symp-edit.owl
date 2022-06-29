@@ -9069,14 +9069,14 @@ SubClassOf(obo:SYMP_0020028 obo:SYMP_0000092)
 
 # Class: obo:SYMP_0020029 (concentration difficulty)
 
-AnnotationAssertion(oboInOwl:hasOBOFormatVersion obo:SYMP_0020029 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020029 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020029 "SYMP:0020029"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020029 "concentration difficulty"^^xsd:string)
 SubClassOf(obo:SYMP_0020029 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0020030 (patches of hair loss with a 'black dot' pattern)
 
-AnnotationAssertion(oboInOwl:hasOBOFormatVersion obo:SYMP_0020030 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020030 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020030 "SYMP:0020030"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020030 "patches of hair loss with a 'black dot' pattern"^^xsd:string)
 SubClassOf(obo:SYMP_0020030 obo:SYMP_0000440)
