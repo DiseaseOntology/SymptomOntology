@@ -1001,6 +1001,7 @@ Declaration(Class(obo:SYMP_0020029))
 Declaration(Class(obo:SYMP_0020030))
 Declaration(Class(obo:SYMP_0020031))
 Declaration(Class(obo:SYMP_0020032))
+Declaration(Class(obo:SYMP_0020033))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -9093,6 +9094,14 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020032 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020032 "SYMP:0020032"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020032 "chest tightness"^^xsd:string)
 SubClassOf(obo:SYMP_0020032 obo:SYMP_0000514)
+
+# Class: obo:SYMP_0020033 (paroxysmal cough)
+
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0020033 "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020033 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020033 "SYMP:0020033"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020033 "paroxysmal cough"^^xsd:string)
+SubClassOf(obo:SYMP_0020033 obo:SYMP_0000614)
 
 
 )
