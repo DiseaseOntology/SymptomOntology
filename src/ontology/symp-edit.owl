@@ -9019,7 +9019,7 @@ SubClassOf(obo:SYMP_0020021 obo:SYMP_0000092)
 
 # Class: obo:SYMP_0020022 (bone conduction hyperacusis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#:~:text=An%20example%20is%20bone%20conduction,canals%20in%20the%20inner%20ear."^^xsd:string) obo:IAO_0000115 obo:SYMP_0020022 ""^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#:~:text=An%20example%20is%20bone%20conduction,canals%20in%20the%20inner%20ear."^^xsd:string) obo:IAO_0000115 obo:SYMP_0020022 "An ear symptom - need proper definition - placeholder for xref."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020022 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020022 "SYMP:0020022"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020022 "bone conduction hyperacusis"^^xsd:string)
