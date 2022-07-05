@@ -1002,6 +1002,11 @@ Declaration(Class(obo:SYMP_0020030))
 Declaration(Class(obo:SYMP_0020031))
 Declaration(Class(obo:SYMP_0020032))
 Declaration(Class(obo:SYMP_0020033))
+Declaration(Class(obo:SYMP_0020034))
+Declaration(Class(obo:SYMP_0020035))
+Declaration(Class(obo:SYMP_0020036))
+Declaration(Class(obo:SYMP_0020037))
+Declaration(Class(obo:SYMP_0020038))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -2033,7 +2038,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000128 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000128 "SYMP:0000128"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000128 "doid/symp duplicate")
 AnnotationAssertion(rdfs:label obo:SYMP_0000128 "conjunctivitis"^^xsd:string)
-SubClassOf(obo:SYMP_0000128 obo:SYMP_0019163)
+SubClassOf(obo:SYMP_0000128 obo:SYMP_0020034)
 
 # Class: obo:SYMP_0000129 (severe conjunctivitis)
 
@@ -9102,6 +9107,43 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020033 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020033 "SYMP:0020033"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020033 "paroxysmal cough"^^xsd:string)
 SubClassOf(obo:SYMP_0020033 obo:SYMP_0000614)
+
+# Class: obo:SYMP_0020034 (conjunctiva symptom)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020034 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020034 "SYMP:0020034"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020034 "conjunctiva symptom"^^xsd:string)
+SubClassOf(obo:SYMP_0020034 obo:SYMP_0019163)
+
+# Class: obo:SYMP_0020035 (conjunctival congestion)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://pubmed.ncbi.nlm.nih.gov/32283878/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020035 "An eye symptom that is characterized by (need def conjunctival congestion - placeholder for xref)."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020035 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020035 "SYMP:0020035"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020035 "conjunctival congestion"^^xsd:string)
+SubClassOf(obo:SYMP_0020035 obo:SYMP_0020034)
+
+# Class: obo:SYMP_0020036 (conjunctival degeneration)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020036 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020036 "SYMP:0020036"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020036 "conjunctival degeneration"^^xsd:string)
+SubClassOf(obo:SYMP_0020036 obo:SYMP_0020034)
+
+# Class: obo:SYMP_0020037 (conjunctival suffusion)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Conjunctival_suffusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020037 "An eye symptom that is characterized by (need def conjunctival suffusion - placeholder for xref)."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020037 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020037 "SYMP:0020037"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020037 "conjunctival suffusion"^^xsd:string)
+SubClassOf(obo:SYMP_0020037 obo:SYMP_0020034)
+
+# Class: obo:SYMP_0020038 (conjunctival swelling)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020038 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020038 "SYMP:0020038"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020038 "conjunctival swelling"^^xsd:string)
+SubClassOf(obo:SYMP_0020038 obo:SYMP_0020034)
 
 
 )
