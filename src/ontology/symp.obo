@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-06-22/symp.obo
-date: 22:06:2022 16:36
+data-version: releases/2022-07-05/symp.obo
+date: 05:07:2022 10:55
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -2275,7 +2275,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 id: SYMP:0000407
 name: syncope
 alt_id: SYMP:0000445
-def: "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain." [https://www.merriam-webster.com/dictionary/fainting]
+def: "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain." [url:https\://www.merriam-webster.com/dictionary/fainting]
 synonym: "faint" EXACT []
 synonym: "fainting" EXACT []
 synonym: "loss of consciousness due to insuffiecient blood flow to the brain" EXACT []
@@ -2369,7 +2369,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 id: SYMP:0000423
 name: pyrosis
 alt_id: SYMP:0000439
-def: "From synonym: Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus." [https://medlineplus.gov/heartburn.html]
+def: "From synonym: Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus." [url:https\://medlineplus.gov/heartburn.html]
 synonym: "acid indigestion" EXACT []
 synonym: "heartburn" EXACT []
 is_a: SYMP:0000459 ! digestive system symptom
@@ -5570,7 +5570,7 @@ is_a: SYMP:0000898 ! cardiac fibrillation
 [Term]
 id: SYMP:0000900
 name: allergic reaction
-def: "An immune system symptom that is characterized by sensitivities to substances called allergens." [https://medlineplus.gov/ency/article/000005.htm]
+def: "An immune system symptom that is characterized by sensitivities to substances called allergens." [url:https\://medlineplus.gov/ency/article/000005.htm]
 is_a: SYMP:0019138 ! immune system symptom
 
 [Term]
@@ -5942,7 +5942,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0020008
 name: barking croup cough
-def: "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough." [https://www.seattlechildrens.org/conditions/a-z/croup/]
+def: "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough." [url:https\://www.seattlechildrens.org/conditions/a-z/croup/]
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -6001,6 +6001,78 @@ id: SYMP:0020019
 name: postnasal drainage
 def: "A nose symptom that is characterized by an an excessive secretion of mucous down the back of the throat." []
 is_a: SYMP:0000388 ! nose symptom
+
+[Term]
+id: SYMP:0020020
+name: abnormal scar formation
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0020021
+name: abnormal wound healing
+is_a: SYMP:0000092 ! skin lesion
+
+[Term]
+id: SYMP:0020022
+name: bone conduction hyperacusis
+def: "An ear symptom - need proper definition - placeholder for xref." [url:https\://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#\:~\:text=An%20example%20is%20bone%20conduction\,canals%20in%20the%20inner%20ear.]
+is_a: SYMP:0000392 ! ear symptom
+
+[Term]
+id: SYMP:0020023
+name: bone pain
+is_a: SYMP:0000099 ! pain
+
+[Term]
+id: SYMP:0020024
+name: bronchospasm
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0020025
+name: caseation
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0020026
+name: chronic inflammation
+is_a: SYMP:0000061 ! inflammation
+
+[Term]
+id: SYMP:0020027
+name: wet cough
+is_a: SYMP:0000614 ! cough
+
+[Term]
+id: SYMP:0020028
+name: poor wound healing
+is_a: SYMP:0000092 ! skin lesion
+
+[Term]
+id: SYMP:0020029
+name: concentration difficulty
+is_a: SYMP:0000482 ! alteration of consciousness
+
+[Term]
+id: SYMP:0020030
+name: patches of hair loss with a 'black dot' pattern
+is_a: SYMP:0000440 ! hair loss
+
+[Term]
+id: SYMP:0020031
+name: chest discomfort
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0020032
+name: chest tightness
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0020033
+name: paroxysmal cough
+def: "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)." []
+is_a: SYMP:0000614 ! cough
 
 [Typedef]
 id: part_of
