@@ -1007,6 +1007,11 @@ Declaration(Class(obo:SYMP_0020035))
 Declaration(Class(obo:SYMP_0020036))
 Declaration(Class(obo:SYMP_0020037))
 Declaration(Class(obo:SYMP_0020038))
+Declaration(Class(obo:SYMP_0020039))
+Declaration(Class(obo:SYMP_0020040))
+Declaration(Class(obo:SYMP_0020041))
+Declaration(Class(obo:SYMP_0020042))
+Declaration(Class(obo:SYMP_0020043))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(dc:description))
@@ -4431,7 +4436,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000439 "true"^^xsd:boolean)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000440 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000440 "SYMP:0000440"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000440 "hair loss"^^xsd:string)
-SubClassOf(obo:SYMP_0000440 obo:SYMP_0000488)
+SubClassOf(obo:SYMP_0000440 obo:SYMP_0020040)
 
 # Class: obo:SYMP_0000441 (elbow pain)
 
@@ -9144,6 +9149,45 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020038 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020038 "SYMP:0020038"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020038 "conjunctival swelling"^^xsd:string)
 SubClassOf(obo:SYMP_0020038 obo:SYMP_0020034)
+
+# Class: obo:SYMP_0020039 (contracture)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/contracture"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020039 "A musculoskeletal system symptom that is characterized by a permanent tightening of the muscles, tendons, skin, and nearby tissues that causes the joints to shorten and become very stiff."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020039 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020039 "SYMP:0020039"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020039 "contracture"^^xsd:string)
+SubClassOf(obo:SYMP_0020039 obo:SYMP_0000891)
+
+# Class: obo:SYMP_0020040 (hair symptom)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020040 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020040 "SYMP:0020040"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020040 "hair symptom"^^xsd:string)
+SubClassOf(obo:SYMP_0020040 obo:SYMP_0000488)
+
+# Class: obo:SYMP_0020041 (corkscrew hair)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/2345.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.ccjm.org/content/ccjom/82/4/216.full.pdf"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020041 "A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020041 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020041 "SYMP:0020041"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020041 "corkscrew hair"^^xsd:string)
+SubClassOf(obo:SYMP_0020041 obo:SYMP_0020040)
+
+# Class: obo:SYMP_0020042 (corneal scarring)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://drstuartterry.com/eye-conditions/corneal-scarring/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.neohioeyes.com/cornea-center/corneal-scar/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020042 "A cornea symptom that is characterized by scarring (an opacity or irregularity in the cornea) of the cornea, from trauma; abrasion; bacterial, fungal, viral, or parasitic infection; or disease, and can result in impaired vision, or even blindness."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020042 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020042 "SYMP:0020042"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020042 "corneal scarring"^^xsd:string)
+SubClassOf(obo:SYMP_0020042 obo:SYMP_0000239)
+
+# Class: obo:SYMP_0020043 (dark urine)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.mayoclinic.org/diseases-conditions/urine-color/symptoms-causes/syc-20367333"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020043 "A urinary system symptom that is characterized by an elevation in the concentration of the the pigments from foods, dyes, and medications in urine. The dilution of these pigment is dependent on the amount of water intake and severe dehydration can lead to a dark color."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020043 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020043 "SYMP:0020043"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020043 "dark urine"^^xsd:string)
+SubClassOf(obo:SYMP_0020043 obo:SYMP_0000486)
 
 
 )
