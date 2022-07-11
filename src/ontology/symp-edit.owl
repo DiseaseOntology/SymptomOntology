@@ -1385,7 +1385,7 @@ SubClassOf(obo:SYMP_0000039 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000040 (hematuria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000040 "A urinary system symptom characterized by the presence of blood or blood cells in the urine."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000040 "A urinary system symptom that is characterized by the presence of blood or blood cells in the urine."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000040 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000040 "SYMP:0000040"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000040 "hematuria"^^xsd:string)
@@ -1814,7 +1814,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000097 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000098 (nephritis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000098 "A urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000098 "A urinary system symptom that is characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000098 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000098 "SYMP:0000098"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000098 "doid/symp duplicate")
@@ -4956,7 +4956,7 @@ SubClassOf(obo:SYMP_0000491 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000492 (urinary incontinence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000492 "A urinary system symptom characterized by the an inability of the body to control the evacuative functions."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000492 "A urinary system symptom that is characterized by the an inability of the body to control the evacuative functions."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000492 "ICD9CM_2005:788.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000492 "ICD9CM_2005:788.30"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000492 "UMLS_CUI:C0042024"^^xsd:string)
@@ -5392,7 +5392,7 @@ SubClassOf(obo:SYMP_0000531 obo:SYMP_0000158)
 
 # Class: obo:SYMP_0000532 (urge incontinence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000532 "A urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000532 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "ICD9CM_2005:788.31"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "UMLS_CUI:C0150045"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "UMLS_ICD9CM_2005_AUI:A0469078"^^xsd:string)
@@ -5727,7 +5727,7 @@ SubClassOf(obo:SYMP_0000563 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000564 (nocturia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000564 "A urinary system symptom characterized by urination at night especially when excessive."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000564 "A urinary system symptom that is characterized by urination at night especially when excessive."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000564 "ICD9CM_2005:788.43"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000564 "UMLS_CUI:C0028734"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000564 "UMLS_ICD9CM_2005_AUI:A0011475"^^xsd:string)
@@ -5739,7 +5739,7 @@ SubClassOf(obo:SYMP_0000564 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000565 (polyuria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000565 "A urinary system symptom characterized by the excessive secretion of urine."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000565 "A urinary system symptom that is characterized by the excessive secretion of urine."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000565 "ICD9CM_2005:788.42"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000565 "UMLS_CUI:C0032617"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000565 "UMLS_ICD9CM_2005_AUI:A0103470"^^xsd:string)
@@ -5780,7 +5780,7 @@ SubClassOf(obo:SYMP_0000568 obo:SYMP_0000464)
 
 # Class: obo:SYMP_0000569 (oliguria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000569 "A urinary system symptom characterized by the reduced excretion of urine."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000569 "A urinary system symptom that is characterized by the reduced excretion of urine."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000569 "ICD9CM_2005:788.5"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000569 "UMLS_CUI:C0028962"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000569 "UMLS_ICD9CM_2005_AUI:A0243854"^^xsd:string)
@@ -8007,7 +8007,7 @@ SubClassOf(obo:SYMP_0000850 obo:SYMP_0000299)
 
 # Class: obo:SYMP_0000851 (gross hematuria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000851 "A hematuria characterized by the production of a visible redness in the urine."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000851 "A hematuria that is characterized by the production of a visible redness in the urine."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000851 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000851 "SYMP:0000851"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000851 "gross hematuria"^^xsd:string)
@@ -8027,7 +8027,7 @@ SubClassOf(obo:SYMP_0000852 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000853 (stress incontinence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000853 "A urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000853 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000853 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000853 "SYMP:0000853"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000853 "stress incontinence"^^xsd:string)
