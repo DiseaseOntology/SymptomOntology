@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-07-05/symp.obo
-date: 05:07:2022 10:55
+data-version: releases/2022-07-12/symp.obo
+date: 12:07:2022 09:42
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -232,7 +232,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000040
 name: hematuria
-def: "A urinary system symptom characterized by the presence of blood or blood cells in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria]
+def: "A urinary system symptom that is characterized by the presence of blood or blood cells in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hematuria]
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -545,7 +545,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000098
 name: nephritis
-def: "Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis]
+def: "A urinary system symptom that is characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nephritis]
 comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
@@ -711,7 +711,7 @@ is_a: SYMP:0000006 ! backache
 id: SYMP:0000128
 name: conjunctivitis
 comment: doid/symp duplicate
-is_a: SYMP:0019163 ! eye symptom
+is_a: SYMP:0020034 ! conjunctiva symptom
 
 [Term]
 id: SYMP:0000129
@@ -2046,7 +2046,7 @@ is_a: SYMP:0000364 ! prostate symptom
 [Term]
 id: SYMP:0000367
 name: proteinuria
-def: "Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proteinuria]
+def: "A urinary system symptom characterized by the presence of excess protein in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proteinuria]
 comment: doid/symp duplicate
 is_a: SYMP:0000486 ! urinary system symptom
 
@@ -2481,7 +2481,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000440
 name: hair loss
-is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+is_a: SYMP:0020040 ! hair symptom
 
 [Term]
 id: SYMP:0000441
@@ -2833,7 +2833,7 @@ is_a: SYMP:0000461 ! abdominal symptom
 [Term]
 id: SYMP:0000485
 name: dysuria
-def: "Dysuria is a urinary system symptom characterized by the difficult or painful discharge of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysuria]
+def: "A urinary system symptom that is characterized by the difficult, or painful, discharge of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysuria]
 synonym: "difficult urine discharge" EXACT []
 synonym: "painful urine discharge" EXACT []
 xref: ICD9CM_2005:788.1
@@ -2900,7 +2900,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000492
 name: urinary incontinence
-def: "Urinary incontinence is a urinary system symptom characterized by the an inability of the body to control the evacuative functions." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence]
+def: "A urinary system symptom that is characterized by the an inability of the body to control the evacuative functions." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=incontinence]
 synonym: "incontinence" EXACT []
 xref: ICD9CM_2005:788.3
 xref: ICD9CM_2005:788.30
@@ -3256,7 +3256,7 @@ is_a: SYMP:0000158 ! spleen symptom
 [Term]
 id: SYMP:0000532
 name: urge incontinence
-def: "Urge incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence]
+def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence]
 xref: ICD9CM_2005:788.31
 xref: UMLS_CUI:C0150045
 xref: UMLS_ICD9CM_2005_AUI:A0469078
@@ -3527,7 +3527,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000564
 name: nocturia
-def: "Nocturia is a urinary system symptom characterized by urination at night especially when excessive." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia]
+def: "A urinary system symptom that is characterized by urination at night especially when excessive." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=nocturia]
 synonym: "nycturia" EXACT []
 xref: ICD9CM_2005:788.43
 xref: UMLS_CUI:C0028734
@@ -3537,7 +3537,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000565
 name: polyuria
-def: "Polyuria is a urinary system symptom characterized by the excessive secretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria]
+def: "A urinary system symptom that is characterized by the excessive secretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyuria]
 synonym: "excessive secretion of urine" EXACT []
 xref: ICD9CM_2005:788.42
 xref: UMLS_CUI:C0032617
@@ -3570,7 +3570,7 @@ is_a: SYMP:0000464 ! lack of expected normal physiological development in childh
 [Term]
 id: SYMP:0000569
 name: oliguria
-def: "Oliguria is a urinary system symptom characterized by the reduced excretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria]
+def: "A urinary system symptom that is characterized by the reduced excretion of urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=oliguria]
 xref: ICD9CM_2005:788.5
 xref: UMLS_CUI:C0028962
 xref: UMLS_ICD9CM_2005_AUI:A0243854
@@ -5241,13 +5241,13 @@ is_a: SYMP:0000299 ! hyperemia
 [Term]
 id: SYMP:0000851
 name: gross hematuria
-def: "Gross hematuria is a hematuria characterized by the production of a visible redness in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria]
+def: "A hematuria that is characterized by the production of a visible redness in the urine." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=gross%20hematuria]
 is_a: SYMP:0000040 ! hematuria
 
 [Term]
 id: SYMP:0000852
 name: anuria
-def: "Anuria is a urinary system symptom characterized by the absence of or defective urine excretion." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anuria]
+def: "A urinary system symptom that is characterized by the absence of, or by defective, urine excretion." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anuria]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:788.5
 xref: UMLS_CUI:C0028962
@@ -5257,7 +5257,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000853
 name: stress incontinence
-def: "Stress incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence]
+def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence]
 is_a: SYMP:0000492 ! urinary incontinence
 
 [Term]
@@ -6073,6 +6073,62 @@ id: SYMP:0020033
 name: paroxysmal cough
 def: "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)." []
 is_a: SYMP:0000614 ! cough
+
+[Term]
+id: SYMP:0020034
+name: conjunctiva symptom
+is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0020035
+name: conjunctival congestion
+def: "An eye symptom that is characterized by (need def conjunctival congestion - placeholder for xref)." [url:https\://pubmed.ncbi.nlm.nih.gov/32283878/]
+is_a: SYMP:0020034 ! conjunctiva symptom
+
+[Term]
+id: SYMP:0020036
+name: conjunctival degeneration
+is_a: SYMP:0020034 ! conjunctiva symptom
+
+[Term]
+id: SYMP:0020037
+name: conjunctival suffusion
+def: "An eye symptom that is characterized by (need def conjunctival suffusion - placeholder for xref)." [url:https\://en.wikipedia.org/wiki/Conjunctival_suffusion]
+is_a: SYMP:0020034 ! conjunctiva symptom
+
+[Term]
+id: SYMP:0020038
+name: conjunctival swelling
+is_a: SYMP:0020034 ! conjunctiva symptom
+
+[Term]
+id: SYMP:0020039
+name: contracture
+def: "A musculoskeletal system symptom that is characterized by a permanent tightening of the muscles, tendons, skin, and nearby tissues that causes the joints to shorten and become very stiff." [url:https\://www.cancer.gov/publications/dictionaries/cancer-terms/def/contracture]
+is_a: SYMP:0000891 ! musculoskeletal system symptom
+
+[Term]
+id: SYMP:0020040
+name: hair symptom
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0020041
+name: corkscrew hair
+def: "A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)." [url:https\://medlineplus.gov/ency/imagepages/2345.htm, url:https\://www.ccjm.org/content/ccjom/82/4/216.full.pdf, url:https\://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/]
+is_a: SYMP:0020040 ! hair symptom
+
+[Term]
+id: SYMP:0020042
+name: corneal scarring
+def: "A cornea symptom that is characterized by scarring (an opacity or irregularity in the cornea) of the cornea, from trauma; abrasion; bacterial, fungal, viral, or parasitic infection; or disease, and can result in impaired vision, or even blindness." [url:https\://drstuartterry.com/eye-conditions/corneal-scarring/, url:https\://www.neohioeyes.com/cornea-center/corneal-scar/]
+is_a: SYMP:0000239 ! cornea symptom
+
+[Term]
+id: SYMP:0020043
+name: dark urine
+def: "A urinary system symptom that is characterized by an elevation in the concentration of the the pigments from foods, dyes, and medications in urine. The dilution of these pigment is dependent on the amount of water intake and severe dehydration can lead to a dark color." [url:https\://www.mayoclinic.org/diseases-conditions/urine-color/symptoms-causes/syc-20367333]
+is_a: SYMP:0000486 ! urinary system symptom
 
 [Typedef]
 id: part_of
