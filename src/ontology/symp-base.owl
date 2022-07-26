@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp/symp-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-07-05/symp-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-07-26/symp-base.owl"/>
         <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
         <dc:title>Symptom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -37,6 +37,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -731,7 +739,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom characterized by the presence of blood or blood cells in the urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the presence of blood or blood cells in the urine.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000040</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematuria</rdfs:label>
@@ -739,7 +747,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom characterized by the presence of blood or blood cells in the urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the presence of blood or blood cells in the urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=hematuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1434,7 +1442,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000098</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
@@ -1443,7 +1451,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000098"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephritis is a urinary system symptom characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the acute or chronic inflammation of the kidney affecting the structure (as of the glomerulus or parenchyma) and caused by infection, a degenerative process, or vascular disease.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=nephritis</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1694,7 +1702,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000587"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the &quot;popping open&quot; of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word &quot;rales&quot; derives from the French word rale meaning &quot;rattle&quot;. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the &apos;popping open&apos; of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word &apos;rales&apos; derives from the French word rale meaning &apos;rattle&apos;. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crackles</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crepitations</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
@@ -1704,7 +1712,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000118"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the &quot;popping open&quot; of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word &quot;rales&quot; derives from the French word rale meaning &quot;rattle&quot;. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the &apos;popping open&apos; of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word &apos;rales&apos; derives from the French word rale meaning &apos;rattle&apos;. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Rales</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1814,7 +1822,7 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000128</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
@@ -2416,10 +2424,15 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000476</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:783.21</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0043096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A1605347</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of weight</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000178</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete weight loss</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight loss</rdfs:label>
     </owl:Class>
     
 
@@ -4234,7 +4247,7 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000322</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low birth weight</rdfs:label>
@@ -4630,7 +4643,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles &quot;down the wrong pipe&quot; and receiving radiation therapy to your chest.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles &apos;down the wrong pipe&apos; and receiving radiation therapy to your chest.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation of lung tissue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000354</oboInOwl:id>
@@ -4639,7 +4652,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000354"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles &quot;down the wrong pipe&quot; and receiving radiation therapy to your chest.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles &apos;down the wrong pipe&apos; and receiving radiation therapy to your chest.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://en.wikipedia.org/wiki/Pneumonitis</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4790,7 +4803,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom characterized by the presence of excess protein in the urine.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000367</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
@@ -4799,7 +4812,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000367"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteinuria is a urinary system symptom characterized by the presence of excess protein in the urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom characterized by the presence of excess protein in the urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=proteinuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5240,10 +5253,12 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020015</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gain of weight</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000403</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete weight gain</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight gain</rdfs:label>
     </owl:Class>
     
 
@@ -5834,7 +5849,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000440 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000440">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020040"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000440</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair loss</rdfs:label>
@@ -6055,7 +6070,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000455 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000455">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000403"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:783.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0332544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0243789</oboInOwl:hasDbXref>
@@ -6365,14 +6380,17 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000476">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000178</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:783.21</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0043096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A1605347</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight loss</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000476</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of weight</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term has been replaced by weight loss.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete loss of weight</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6502,7 +6520,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000485">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dysuria is a urinary system symptom characterized by the difficult or painful discharge of urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the difficult, or painful, discharge of urine.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0013428</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0004041</oboInOwl:hasDbXref>
@@ -6515,7 +6533,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000485"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dysuria is a urinary system symptom characterized by the difficult or painful discharge of urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the difficult, or painful, discharge of urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=dysuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -6623,7 +6641,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000492">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urinary incontinence is a urinary system symptom characterized by the an inability of the body to control the evacuative functions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the an inability of the body to control the evacuative functions.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.30</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0042024</oboInOwl:hasDbXref>
@@ -6637,7 +6655,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000492"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urinary incontinence is a urinary system symptom characterized by the an inability of the body to control the evacuative functions.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the an inability of the body to control the evacuative functions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=incontinence</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7310,7 +7328,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000532">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000492"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urge incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.31</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0150045</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0469078</oboInOwl:hasDbXref>
@@ -7321,7 +7339,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000532"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urge incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=urge%20incontinence</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7815,7 +7833,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturia is a urinary system symptom characterized by urination at night especially when excessive.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by urination at night especially when excessive.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.43</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0028734</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0011475</oboInOwl:hasDbXref>
@@ -7827,7 +7845,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000564"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturia is a urinary system symptom characterized by urination at night especially when excessive.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by urination at night especially when excessive.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=nocturia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7837,7 +7855,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000565">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyuria is a urinary system symptom characterized by the excessive secretion of urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the excessive secretion of urine.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.42</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0032617</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0103470</oboInOwl:hasDbXref>
@@ -7849,7 +7867,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000565"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyuria is a urinary system symptom characterized by the excessive secretion of urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the excessive secretion of urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=polyuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7900,7 +7918,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000569">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oliguria is a urinary system symptom characterized by the reduced excretion of urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the reduced excretion of urine.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.5</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0028962</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0243854</oboInOwl:hasDbXref>
@@ -7911,7 +7929,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000569"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oliguria is a urinary system symptom characterized by the reduced excretion of urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the reduced excretion of urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=oliguria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9453,7 +9471,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0000680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000680">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000476"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000680</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute weight loss</rdfs:label>
@@ -11630,7 +11648,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gross hematuria is a hematuria characterized by the production of a visible redness in the urine.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematuria that is characterized by the production of a visible redness in the urine.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000851</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gross hematuria</rdfs:label>
@@ -11638,7 +11656,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000851"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gross hematuria is a hematuria characterized by the production of a visible redness in the urine.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematuria that is characterized by the production of a visible redness in the urine.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=gross%20hematuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -11648,7 +11666,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000852">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anuria is a urinary system symptom characterized by the absence of or defective urine excretion.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the absence of, or by defective, urine excretion.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.5</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0028962</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0243854</oboInOwl:hasDbXref>
@@ -11660,7 +11678,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000852"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anuria is a urinary system symptom characterized by the absence of or defective urine excretion.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by the absence of, or by defective, urine excretion.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=anuria</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -11670,7 +11688,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000853">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000492"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stress incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000853</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress incontinence</rdfs:label>
@@ -11678,7 +11696,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000853"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stress incontinence is a urinary incontinence characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=stress%20incontinence</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13486,7 +13504,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0020013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000476"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020013</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal weight loss</rdfs:label>
@@ -13497,7 +13515,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0020014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000476"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020014</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic weight loss</rdfs:label>
@@ -13508,10 +13526,14 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0020015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000403"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000403</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight gain</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020015</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gain of weight</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete gain of weight</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13519,7 +13541,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0020016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000403"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020016</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute weight gain</rdfs:label>
@@ -13530,7 +13552,7 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
     <!-- http://purl.obolibrary.org/obo/SYMP_0020017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000403"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020017</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic weight gain</rdfs:label>
@@ -13721,6 +13743,161 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020033</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal cough</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020034</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunctiva symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye symptom that is characterized by (need def conjunctival congestion - placeholder for xref).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020035</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunctival congestion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye symptom that is characterized by (need def conjunctival congestion - placeholder for xref).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://pubmed.ncbi.nlm.nih.gov/32283878/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020036</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunctival degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye symptom that is characterized by (need def conjunctival suffusion - placeholder for xref).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020037</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunctival suffusion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye symptom that is characterized by (need def conjunctival suffusion - placeholder for xref).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://en.wikipedia.org/wiki/Conjunctival_suffusion</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020038</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunctival swelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system symptom that is characterized by a permanent tightening of the muscles, tendons, skin, and nearby tissues that causes the joints to shorten and become very stiff.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020039</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contracture</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system symptom that is characterized by a permanent tightening of the muscles, tendons, skin, and nearby tissues that causes the joints to shorten and become very stiff.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/contracture</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020040</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020041</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corkscrew hair</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/imagepages/2345.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.ccjm.org/content/ccjom/82/4/216.full.pdf</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000239"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cornea symptom that is characterized by scarring (an opacity or irregularity in the cornea) of the cornea, from trauma; abrasion; bacterial, fungal, viral, or parasitic infection; or disease, and can result in impaired vision, or even blindness.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020042</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal scarring</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cornea symptom that is characterized by scarring (an opacity or irregularity in the cornea) of the cornea, from trauma; abrasion; bacterial, fungal, viral, or parasitic infection; or disease, and can result in impaired vision, or even blindness.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://drstuartterry.com/eye-conditions/corneal-scarring/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.neohioeyes.com/cornea-center/corneal-scar/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by an elevation in the concentration of the the pigments from foods, dyes, and medications in urine. The dilution of these pigment is dependent on the amount of water intake and severe dehydration can lead to a dark color.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020043</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dark urine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system symptom that is characterized by an elevation in the concentration of the the pigments from foods, dyes, and medications in urine. The dilution of these pigment is dependent on the amount of water intake and severe dehydration can lead to a dark color.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.mayoclinic.org/diseases-conditions/urine-color/symptoms-causes/syc-20367333</oboInOwl:hasDbXref>
+    </owl:Axiom>
 </rdf:RDF>
 
 

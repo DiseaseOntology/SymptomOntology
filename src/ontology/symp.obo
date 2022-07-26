@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-07-12/symp.obo
-date: 12:07:2022 09:42
+data-version: releases/2022-07-26/symp.obo
+date: 26:07:2022 11:55
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -655,7 +655,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000118
 name: rales
-def: "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the \"popping open\" of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word \"rales\" derives from the French word rale meaning \"rattle\". Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [url:http\://en.wikipedia.org/wiki/Rales]
+def: "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [url:http\://en.wikipedia.org/wiki/Rales]
 synonym: "crackles" EXACT []
 synonym: "crepitations" EXACT []
 is_a: SYMP:0000587 ! abnormal chest sound
@@ -975,8 +975,13 @@ is_a: SYMP:0000567 ! general symptom
 
 [Term]
 id: SYMP:0000178
-name: obsolete weight loss
-is_obsolete: true
+name: weight loss
+alt_id: SYMP:0000476
+synonym: "loss of weight" EXACT []
+xref: ICD9CM_2005:783.21
+xref: UMLS_CUI:C0043096
+xref: UMLS_ICD9CM_2005_AUI:A1605347
+is_a: SYMP:0020012 ! weight symptom
 
 [Term]
 id: SYMP:0000179
@@ -1797,7 +1802,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000322
 name: low birth weight
-is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
+is_a: SYMP:0020012 ! weight symptom
 
 [Term]
 id: SYMP:0000323
@@ -1976,7 +1981,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000354
 name: pneumonitis
-def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles \"down the wrong pipe\" and receiving radiation therapy to your chest." [url:http\://en.wikipedia.org/wiki/Pneumonitis]
+def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest." [url:http\://en.wikipedia.org/wiki/Pneumonitis]
 synonym: "inflammation of lung tissue" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -2244,8 +2249,10 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
 id: SYMP:0000403
-name: obsolete weight gain
-is_obsolete: true
+name: weight gain
+alt_id: SYMP:0020015
+synonym: "gain of weight" EXACT []
+is_a: SYMP:0020012 ! weight symptom
 
 [Term]
 id: SYMP:0000404
@@ -2590,7 +2597,7 @@ name: abnormal weight gain
 xref: ICD9CM_2005:783.1
 xref: UMLS_CUI:C0332544
 xref: UMLS_ICD9CM_2005_AUI:A0243789
-is_a: SYMP:0020015 ! gain of weight
+is_a: SYMP:0000403 ! weight gain
 
 [Term]
 id: SYMP:0000456
@@ -2756,12 +2763,15 @@ is_a: SYMP:0020012 ! weight symptom
 
 [Term]
 id: SYMP:0000476
-name: loss of weight
+name: obsolete loss of weight
+alt_id: SYMP:0000178
+comment: This term has been replaced by weight loss.
 synonym: "weight loss" EXACT []
 xref: ICD9CM_2005:783.21
 xref: UMLS_CUI:C0043096
 xref: UMLS_ICD9CM_2005_AUI:A1605347
-is_a: SYMP:0020012 ! weight symptom
+is_obsolete: true
+replaced_by: SYMP:0000178
 
 [Term]
 id: SYMP:0000477
@@ -4328,7 +4338,7 @@ is_a: SYMP:0019153 ! dyspnea
 [Term]
 id: SYMP:0000680
 name: acute weight loss
-is_a: SYMP:0000476 ! loss of weight
+is_a: SYMP:0000178 ! weight loss
 
 [Term]
 id: SYMP:0000681
@@ -5968,27 +5978,31 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0020013
 name: abnormal weight loss
-is_a: SYMP:0000476 ! loss of weight
+is_a: SYMP:0000178 ! weight loss
 
 [Term]
 id: SYMP:0020014
 name: chronic weight loss
-is_a: SYMP:0000476 ! loss of weight
+is_a: SYMP:0000178 ! weight loss
 
 [Term]
 id: SYMP:0020015
-name: gain of weight
-is_a: SYMP:0020012 ! weight symptom
+name: obsolete gain of weight
+alt_id: SYMP:0000403
+comment: false
+synonym: "weight gain" EXACT []
+is_obsolete: true
+replaced_by: SYMP:0000403
 
 [Term]
 id: SYMP:0020016
 name: acute weight gain
-is_a: SYMP:0020015 ! gain of weight
+is_a: SYMP:0000403 ! weight gain
 
 [Term]
 id: SYMP:0020017
 name: chronic weight gain
-is_a: SYMP:0020015 ! gain of weight
+is_a: SYMP:0000403 ! weight gain
 
 [Term]
 id: SYMP:0020018
