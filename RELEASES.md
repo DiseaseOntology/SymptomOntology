@@ -2,6 +2,14 @@
 
 ## 2022 Releases
 
+### [v2022-07-26](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-07-26)
+
+Formerly deprecated terms ‘weight loss’ and ‘weight gain’ were reinstated to replace the terms ‘loss of weight’ and ‘gain of weight’, which were deprecated.  Children were transferred accordingly.  ‘Low birth weight’ is now a child of ‘weight symptom’.
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-07-26/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-07-26/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-07-26/src/ontology/symp.json) |
+
 ### [v2022-07-12](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-07-12)
 
 Added the new term 'conjunctiva symptom' and child terms. Added the new term 'hair  symptom' and child terms. Added new terms, definitions, and database cross references. Modified/corrected established definitions.
