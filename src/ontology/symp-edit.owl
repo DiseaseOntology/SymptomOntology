@@ -12,7 +12,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/symp.owl>
-<http://purl.obolibrary.org/obo/symp/releases/2022-07-05/symp.owl>
+<http://purl.obolibrary.org/obo/symp/releases/2022-07-26/symp.owl>
 Annotation(dc:description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.")
 Annotation(dc:title "Symptom Ontology")
 Annotation(terms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
@@ -1014,6 +1014,7 @@ Declaration(Class(obo:SYMP_0020042))
 Declaration(Class(obo:SYMP_0020043))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
+Declaration(AnnotationProperty(obo:IAO_0100001))
 Declaration(AnnotationProperty(dc:description))
 Declaration(AnnotationProperty(dc:title))
 Declaration(AnnotationProperty(terms:license))
@@ -1040,6 +1041,10 @@ Declaration(AnnotationProperty(owl:deprecated))
 # Annotation Property: obo:IAO_0000115 (definition)
 
 AnnotationAssertion(rdfs:label obo:IAO_0000115 "definition"^^xsd:string)
+
+# Annotation Property: obo:IAO_0100001 (term replaced by)
+
+AnnotationAssertion(rdfs:label obo:IAO_0100001 "term replaced by"^^xsd:string)
 
 # Annotation Property: oboInOwl:hasAlternativeId (has_alternative_id)
 
@@ -1964,7 +1969,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000117 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000118 (rales)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Rales"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000118 "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the \"popping open\" of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word \"rales\" derives from the French word rale meaning \"rattle\". Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Rales"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000118 "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000118 "crackles"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000118 "crepitations"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000118 "symptoms"^^xsd:string)
@@ -2403,12 +2408,17 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000177 "SYMP:0000177"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000177 "weakness"^^xsd:string)
 SubClassOf(obo:SYMP_0000177 obo:SYMP_0000567)
 
-# Class: obo:SYMP_0000178 (obsolete weight loss)
+# Class: obo:SYMP_0000178 (weight loss)
 
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000178 "SYMP:0000476"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000178 "ICD9CM_2005:783.21"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000178 "UMLS_CUI:C0043096"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000178 "UMLS_ICD9CM_2005_AUI:A1605347"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000178 "loss of weight"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000178 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000178 "SYMP:0000178"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000178 "obsolete weight loss"^^xsd:string)
-AnnotationAssertion(owl:deprecated obo:SYMP_0000178 "true"^^xsd:boolean)
+AnnotationAssertion(rdfs:label obo:SYMP_0000178 "weight loss"^^xsd:string)
+SubClassOf(obo:SYMP_0000178 obo:SYMP_0020012)
 
 # Class: obo:SYMP_0000179 (obsolete wet droppings)
 
@@ -3515,7 +3525,7 @@ SubClassOf(obo:SYMP_0000321 obo:SYMP_0000320)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000322 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000322 "SYMP:0000322"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000322 "low birth weight"^^xsd:string)
-SubClassOf(obo:SYMP_0000322 obo:SYMP_0000473)
+SubClassOf(obo:SYMP_0000322 obo:SYMP_0020012)
 
 # Class: obo:SYMP_0000323 (melena)
 
@@ -3755,7 +3765,7 @@ SubClassOf(obo:SYMP_0000353 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000354 (pneumonitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000354 "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles \"down the wrong pipe\" and receiving radiation therapy to your chest."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000354 "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000354 "inflammation of lung tissue"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000354 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000354 "SYMP:0000354"^^xsd:string)
@@ -4120,12 +4130,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000402 "SYMP:0000402"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000402 "cachexia"^^xsd:string)
 SubClassOf(obo:SYMP_0000402 obo:SYMP_0000473)
 
-# Class: obo:SYMP_0000403 (obsolete weight gain)
+# Class: obo:SYMP_0000403 (weight gain)
 
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000403 "SYMP:0020015"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000403 "gain of weight"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000403 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000403 "SYMP:0000403"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000403 "obsolete weight gain"^^xsd:string)
-AnnotationAssertion(owl:deprecated obo:SYMP_0000403 "true"^^xsd:boolean)
+AnnotationAssertion(rdfs:label obo:SYMP_0000403 "weight gain"^^xsd:string)
+SubClassOf(obo:SYMP_0000403 obo:SYMP_0020012)
 
 # Class: obo:SYMP_0000404 (dyspareunia)
 
@@ -4575,7 +4587,7 @@ AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000455 "UMLS_ICD9CM_2005_AUI:A0
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000455 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000455 "SYMP:0000455"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000455 "abnormal weight gain"^^xsd:string)
-SubClassOf(obo:SYMP_0000455 obo:SYMP_0020015)
+SubClassOf(obo:SYMP_0000455 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0000456 (left upper quadrant abdominal pain)
 
@@ -4779,16 +4791,19 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000475 "SYMP:0000475"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000475 "underweight"^^xsd:string)
 SubClassOf(obo:SYMP_0000475 obo:SYMP_0020012)
 
-# Class: obo:SYMP_0000476 (loss of weight)
+# Class: obo:SYMP_0000476 (obsolete loss of weight)
 
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000476 obo:SYMP_0000178)
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000476 "SYMP:0000178"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000476 "ICD9CM_2005:783.21"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000476 "UMLS_CUI:C0043096"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000476 "UMLS_ICD9CM_2005_AUI:A1605347"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000476 "weight loss"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000476 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000476 "SYMP:0000476"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000476 "loss of weight"^^xsd:string)
-SubClassOf(obo:SYMP_0000476 obo:SYMP_0020012)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000476 "This term has been replaced by weight loss."^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000476 "obsolete loss of weight"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000476 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000477 (epigastric abdominal swelling)
 
@@ -6757,7 +6772,7 @@ SubClassOf(obo:SYMP_0000679 obo:SYMP_0019153)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000680 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000680 "SYMP:0000680"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000680 "acute weight loss"^^xsd:string)
-SubClassOf(obo:SYMP_0000680 obo:SYMP_0000476)
+SubClassOf(obo:SYMP_0000680 obo:SYMP_0000178)
 
 # Class: obo:SYMP_0000681 (aggressive behavior)
 
@@ -8967,35 +8982,39 @@ SubClassOf(obo:SYMP_0020012 obo:SYMP_0000473)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020013 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020013 "SYMP:0020013"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020013 "abnormal weight loss"^^xsd:string)
-SubClassOf(obo:SYMP_0020013 obo:SYMP_0000476)
+SubClassOf(obo:SYMP_0020013 obo:SYMP_0000178)
 
 # Class: obo:SYMP_0020014 (chronic weight loss)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020014 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020014 "SYMP:0020014"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020014 "chronic weight loss"^^xsd:string)
-SubClassOf(obo:SYMP_0020014 obo:SYMP_0000476)
+SubClassOf(obo:SYMP_0020014 obo:SYMP_0000178)
 
-# Class: obo:SYMP_0020015 (gain of weight)
+# Class: obo:SYMP_0020015 (obsolete gain of weight)
 
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0020015 obo:SYMP_0000403)
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0020015 "SYMP:0000403"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020015 "weight gain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020015 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020015 "SYMP:0020015"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0020015 "gain of weight"^^xsd:string)
-SubClassOf(obo:SYMP_0020015 obo:SYMP_0020012)
+AnnotationAssertion(rdfs:comment obo:SYMP_0020015 "false"^^xsd:boolean)
+AnnotationAssertion(rdfs:label obo:SYMP_0020015 "obsolete gain of weight"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0020015 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0020016 (acute weight gain)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020016 "SYMP:0020016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020016 "acute weight gain"^^xsd:string)
-SubClassOf(obo:SYMP_0020016 obo:SYMP_0020015)
+SubClassOf(obo:SYMP_0020016 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0020017 (chronic weight gain)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020017 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020017 "SYMP:0020017"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020017 "chronic weight gain"^^xsd:string)
-SubClassOf(obo:SYMP_0020017 obo:SYMP_0020015)
+SubClassOf(obo:SYMP_0020017 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0020018 (overweight)
 
