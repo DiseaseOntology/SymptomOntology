@@ -3887,6 +3887,9 @@ SubClassOf(obo:SYMP_0000369 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000370 (renal abscess)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.uptodate.com/contents/renal-and-perinephric-abscess"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000370 "A urinary system symptom that is characterized by a pocket (a walled-off cavity) of pus that develops in the kidney tissue. It results from the migration of bacteria from another infection site on the body to the kidneys."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000370 "kidney abscess"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000370 "perirenal abscess"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000370 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000370 "SYMP:0000370"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000370 "renal abscess"^^xsd:string)
@@ -5009,6 +5012,7 @@ SubClassOf(obo:SYMP_0000494 obo:SYMP_0000235)
 
 # Class: obo:SYMP_0000495 (urethral discharge)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://accessmedicine.mhmedical.com/content.aspx?bookid=369&sectionid=39914779#:~:text=Urethral%20discharge%20is%20characterized%20by,of%20leukorrhea%20and%20urethral%20inflammation") obo:IAO_0000115 obo:SYMP_0000495 "A urinary system symptom that is characterized by abnormal purulent or mucoid secretions from the penis or, rarely, the female urethra."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000495 "ICD9CM_2005:788.7"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000495 "UMLS_CUI:C0152447"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000495 "UMLS_ICD9CM_2005_AUI:A0266251"^^xsd:string)
@@ -5190,6 +5194,7 @@ SubClassOf(obo:SYMP_0000511 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000512 (male stress incontinence)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3356867/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000512 "A stress incontinence that is characterized by a compromised external urinary sphincter muscle resulting from surgical or radiotherapeutic manipulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000512 "ICD9CM_2005:788.32"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000512 "UMLS_CUI:C0302505"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000512 "UMLS_ICD9CM_2005_AUI:A0800441"^^xsd:string)
@@ -5731,11 +5736,13 @@ SubClassOf(obo:SYMP_0000562 obo:SYMP_0000478)
 
 # Class: obo:SYMP_0000563 (urinary frequency)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/professional/genitourinary-disorders/symptoms-of-genitourinary-disorders/urinary-frequency"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000563 "A urinary system symptom that is characterized by the need to urinate many times during the day, at night, or both but in normal or less-than-normal volumes.  Frequency may be accompanied by a sensation of an urgent need to void (urgency of urination)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000563 "ICD9CM_2005:788.41"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000563 "UMLS_CUI:C0042023"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000563 "UMLS_ICD9CM_2005_AUI:A0004030"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000563 "frequent urination"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000563 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:SYMP_0000563 "nocturia"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000563 "SYMP:0000563"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000563 "urinary frequency"^^xsd:string)
 SubClassOf(obo:SYMP_0000563 obo:SYMP_0000486)
@@ -6004,6 +6011,7 @@ SubClassOf(obo:SYMP_0000587 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000588 (extravasation of urine)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Extravasation_of_urine"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://jamanetwork.com/journals/jama/article-abstract/466994"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000588 "A urinary system symptom that is characterized by an injury of the urethra in its bulbous or membranous portion, which leads to a collection of urine in other cavities, such as the perineal space, the scrotum, the penis and the connective tissue of the anterior abdominal wall."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000588 "ICD9CM_2005:788.8"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000588 "UMLS_CUI:C0152245"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000588 "UMLS_ICD9CM_2005_AUI:A0284259"^^xsd:string)
@@ -6024,6 +6032,7 @@ SubClassOf(obo:SYMP_0000589 obo:SYMP_0000573)
 
 # Class: obo:SYMP_0000590 (urgency of urination)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/325336#symptoms"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000590 "A urinary system symptom that is characterized by a strong and immediate need to urinate due to an increase in pressure in the bladder, resulting in difficulty to hold in the urine. This can occur regardless of whether the bladder is full."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "ICD9CM_2005:788.63"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "UMLS_CUI:C0085606"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "UMLS_ICD9CM_2005_AUI:A2797703"^^xsd:string)
@@ -6370,6 +6379,7 @@ SubClassOf(obo:SYMP_0000622 obo:SYMP_0019155)
 
 # Class: obo:SYMP_0000623 (acute renal failure)
 
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000623 "A renal failure that is characterized by a severe and sudden onset of renal failure."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000623 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000623 "SYMP:0000623"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000623 "acute renal failure"^^xsd:string)
@@ -7128,6 +7138,7 @@ SubClassOf(obo:SYMP_0000730 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000731 (renal failure)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK519012/") obo:IAO_0000115 obo:SYMP_0000731 "A urinary system symptom that is characterized by a loss of excretory function in one or both kidneys, leading to retention of nitrogenous waste products from the blood."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000731 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000731 "SYMP:0000731"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000731 "renal failure"^^xsd:string)
