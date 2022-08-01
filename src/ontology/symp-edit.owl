@@ -1161,7 +1161,7 @@ SubClassOf(obo:SYMP_0000008 obo:SYMP_0000320)
 
 # Class: obo:SYMP_0000009 (blister)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000009 "Blister is a skin and integumentary tissue symptom characterized as a fluid-filled elevation of the epidermis."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000009 "A skin and integumentary tissue symptom that is characterized by a fluid-filled elevation of the epidermis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000009 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000009 "SYMP:0000009"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000009 "blister"^^xsd:string)
@@ -3271,7 +3271,7 @@ SubClassOf(obo:SYMP_0000287 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000289 (eczema)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000289 "Eczema is a skin and integumentary tissue symptom characterized as an inflammatory condition of the skin characterized by redness, itching, and oozing vesicular lesions which become scaly, crusted, or hardened."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000289 "A skin and integumentary tissue symptom that is characterized by an inflammatory condition of the skin with redness, itching, and oozing vesicular lesions, which become scaly, crusted, or hardened."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000289 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000289 "SYMP:0000289"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000289 "eczema"^^xsd:string)
@@ -3656,6 +3656,7 @@ SubClassOf(obo:SYMP_0000339 obo:SYMP_0000258)
 
 # Class: obo:SYMP_0000340 (limb edema)
 
+AnnotationAssertion(Annotation(rdfs:comment "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/") obo:IAO_0000115 obo:SYMP_0000340 "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000340 "limb oedema"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000340 "oedema of the limbs"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000340 "symptoms"^^xsd:string)
@@ -3690,6 +3691,7 @@ SubClassOf(obo:SYMP_0000343 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000344 (palpebral edema)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://scopeheal.com/palpebral-edema/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000344 "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000344 "edema of the eyelid"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000344 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000344 "SYMP:0000344"^^xsd:string)
@@ -4162,7 +4164,7 @@ SubClassOf(obo:SYMP_0000405 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000406 (bruise)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000406 "Bruise is a skin and integumentary tissue symptom characterized as an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000406 "A skin and integumentary tissue symptom that is characterized by an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000406 "bruises"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000406 "bruising"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000406 "contusion"^^xsd:string)
@@ -5466,7 +5468,7 @@ SubClassOf(obo:SYMP_0000536 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000537 (cyanosis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000537 "Cyanosis is a skin and integumentary tissue symptom characterized as a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000537 "A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000537 "ICD9CM_2005:782.5"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000537 "UMLS_CUI:C0010520"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000537 "UMLS_ICD9CM_2005_AUI:A0044296"^^xsd:string)
@@ -5477,7 +5479,7 @@ SubClassOf(obo:SYMP_0000537 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000538 (edema)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000538 "A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000538 "A skin and integumentary tissue symptom that is characterized by an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000538 "ICD9CM_2005:782.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000538 "UMLS_CUI:C0013604"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000538 "UMLS_ICD9CM_2005_AUI:A0052720"^^xsd:string)
@@ -7275,6 +7277,8 @@ SubClassOf(obo:SYMP_0000747 obo:SYMP_0000116)
 
 # Class: obo:SYMP_0000748 (facial edema)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://angletoner.com/facial-swelling/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000748 "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000748 "facial swelling"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000748 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000748 "SYMP:0000748"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000748 "facial edema"^^xsd:string)
@@ -8409,7 +8413,7 @@ SubClassOf(obo:SYMP_0000893 obo:SYMP_0000692)
 
 # Class: obo:SYMP_0000894 (cold clammy skin)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.merriam-webster.com/medlineplus/clammy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000894 "A skin andintegumentary tissue symptom that is characterized by cold, moist and sticky skin."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.merriam-webster.com/medlineplus/clammy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000894 "A skin and integumentary tissue symptom that is characterized by cold, moist and sticky skin."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000894 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000894 "2011-11-17T12:27:44Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000894 "symptoms"^^xsd:string)
@@ -8652,7 +8656,7 @@ SubClassOf(obo:SYMP_0019159 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0019160 (boil)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019160 "Boil is a skin and integumentary tissue symptom characterized as a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019160 "A skin and integumentary tissue symptom that is characterized by a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019160 "furuncle"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019160 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019160 "SYMP:0019160"^^xsd:string)
