@@ -3954,6 +3954,7 @@ SubClassOf(obo:SYMP_0000377 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000378 (severe mastitis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/severe"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000378 "A mastitis that is characterized by an increased intensity or severity of the condition."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000378 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000378 "SYMP:0000378"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000378 "severe mastitis"^^xsd:string)
@@ -6561,7 +6562,7 @@ SubClassOf(obo:SYMP_0000646 obo:SYMP_0000313)
 
 # Class: obo:SYMP_0000647 (tache noire)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000647 "Tache noire is a skin ulcer characterized by a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000647 "A skin ulcer that is characterized by a a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000647 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000647 "SYMP:0000647"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000647 "tache noire"^^xsd:string)
@@ -8915,6 +8916,9 @@ SubClassOf(obo:SYMP_0020000 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0020001 (apthous ulcer)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Aphthous_stomatitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020001 "A skin ulcer that is characterized by a small recurrent, painful, round or ovoid ulcers with well-defined erythematous margins, like a halo, and a central yellow or gray floor found in the soft tissue of the oral cavity."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020001 "aphthous stomatitis"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020001 "canker sore"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020001 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020001 "SYMP:0020001"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020001 "apthous ulcer"^^xsd:string)
