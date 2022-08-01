@@ -5081,6 +5081,7 @@ SubClassOf(obo:SYMP_0000501 obo:SYMP_0000478)
 
 # Class: obo:SYMP_0000502 (mixed incontinence (female) (male))
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/urinary-incontinence-oab/mixed-incontinence"^^xsd:string) Annotation(rdfs:comment "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence") obo:IAO_0000115 obo:SYMP_0000502 "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000502 "ICD9CM_2005:788.33"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000502 "UMLS_CUI:C0375550"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000502 "UMLS_ICD9CM_2005_AUI:A0745756"^^xsd:string)
@@ -5412,7 +5413,7 @@ SubClassOf(obo:SYMP_0000531 obo:SYMP_0000158)
 
 # Class: obo:SYMP_0000532 (urge incontinence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000532 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000532 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt, even when the bladder isn't full."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "ICD9CM_2005:788.31"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "UMLS_CUI:C0150045"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000532 "UMLS_ICD9CM_2005_AUI:A0469078"^^xsd:string)
@@ -5423,6 +5424,7 @@ SubClassOf(obo:SYMP_0000532 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000533 (post-void dribbling)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Post-void_dribbling"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000533 "A urinary incontinence that is characterized by urine remaining in the urethra after voiding the bladder that slowly leaks out after urination."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000533 "ICD9CM_2005:788.35"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000533 "UMLS_CUI:C0375552"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000533 "UMLS_ICD9CM_2005_AUI:A0775329"^^xsd:string)
@@ -5669,6 +5671,7 @@ SubClassOf(obo:SYMP_0000556 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000557 (urinary retention)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Urinary_retention"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000557 "A urinary system symptom that is characterized by an inability to empty the bladder completely."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "ICD9CM_2005:788.2"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "ICD9CM_2005:788.20"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "UMLS_CUI:C0080274"^^xsd:string)
@@ -5844,6 +5847,7 @@ SubClassOf(obo:SYMP_0000571 obo:SYMP_0000566)
 
 # Class: obo:SYMP_0000572 (splitting of urinary stream)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://ugatl.com/services/prostatitis/splitting-urine-stream/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000572 "A urinary stream symptom that is characterized by a split in the urine flow resulting in it streaming in two directions."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000572 "ICD9CM_2005:788.61"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000572 "UMLS_CUI:C0232855"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000572 "UMLS_ICD9CM_2005_AUI:A0460440"^^xsd:string)
@@ -5991,6 +5995,7 @@ SubClassOf(obo:SYMP_0000585 obo:SYMP_0000566)
 
 # Class: obo:SYMP_0000586 (overflow incontinence)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/overactive-bladder/overflow-incontinence"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/urinary-incontinence-oab/overflow-incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000586 "A urinary incontinence that is characterized by a bladder that does not empty completely, resulting in a bladder that is too full, which leads to overflow and unexpected leaking."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000586 "ICD9CM_2005:788.38"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000586 "UMLS_CUI:C0312413"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000586 "UMLS_ICD9CM_2005_AUI:A6994689"^^xsd:string)
@@ -6022,6 +6027,7 @@ SubClassOf(obo:SYMP_0000588 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000589 (slowing of urinary stream)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.besturologistnyc.com/what-is-slow-urine-flow"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000589 "A urinary stream symptom that is characterized by a slow or weak stream of urine."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000589 "ICD9CM_2005:788.62"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000589 "UMLS_CUI:C0232854"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000589 "UMLS_ICD9CM_2005_AUI:A0459374"^^xsd:string)
@@ -6200,9 +6206,12 @@ SubClassOf(obo:SYMP_0000605 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0000606 (nocturnal enuresis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348193/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000606 "A urinary incontinence that is characterized by involuntary urination at night in children five years of age or older."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000606 "ICD9CM_2005:788.36"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000606 "UMLS_CUI:C0270327"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000606 "UMLS_ICD9CM_2005_AUI:A0753297"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000606 "bed wetting"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000606 "nighttime incontinence"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000606 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000606 "SYMP:0000606"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000606 "nocturnal enuresis"^^xsd:string)
@@ -8053,7 +8062,7 @@ SubClassOf(obo:SYMP_0000852 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000853 (stress incontinence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000853 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000853 "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000853 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000853 "SYMP:0000853"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000853 "stress incontinence"^^xsd:string)
