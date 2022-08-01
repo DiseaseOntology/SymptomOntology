@@ -3656,7 +3656,7 @@ SubClassOf(obo:SYMP_0000339 obo:SYMP_0000258)
 
 # Class: obo:SYMP_0000340 (limb edema)
 
-AnnotationAssertion(Annotation(rdfs:comment "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/") obo:IAO_0000115 obo:SYMP_0000340 "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/") obo:IAO_0000115 obo:SYMP_0000340 "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000340 "limb oedema"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000340 "oedema of the limbs"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000340 "symptoms"^^xsd:string)
