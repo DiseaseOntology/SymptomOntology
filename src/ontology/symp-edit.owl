@@ -1508,7 +1508,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000055 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000056 (hyperpigmentation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000056 "Hyperpigmentation is a skin and integumentary tissue symptom characterized as an excess pigmentation in a bodily part or tissue, as the skin."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000056 "A skin and integumentary tissue symptom that is characterized by an excess pigmentation in a bodily part or tissue, as the skin."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000056 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000056 "SYMP:0000056"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000056 "hyperpigmentation"^^xsd:string)
@@ -1775,7 +1775,7 @@ SubClassOf(obo:SYMP_0000091 obo:SYMP_0000090)
 
 # Class: obo:SYMP_0000092 (skin lesion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lesion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000092 "Skin lesion is a skin and integumentary tissue symptom characterized as an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lesion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000092 "A skin and integumentary tissue symptom that is characterized by an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000092 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000092 "SYMP:0000092"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000092 "skin lesion"^^xsd:string)
@@ -1851,7 +1851,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000101 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000102 (peritonitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000102 "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000102 "A skin and integumentary tissue symptom that is characterized by an inflammation of the peritoneum."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000102 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000102 "SYMP:0000102"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000102 "doid/symp duplicate")
@@ -1888,7 +1888,7 @@ SubClassOf(obo:SYMP_0000106 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000107 (pleural effusion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000107 "A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000107 "A skin and integumentary tissue symptom that is characterized by an exudation of fluid from the blood or lymph into a pleural cavity."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000107 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000107 "SYMP:0000107"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000107 "pleural effusion"^^xsd:string)
@@ -2104,7 +2104,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000135 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000136 (skin ulcer)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ulcer"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000136 "Skin ulcer is a skin lesion characterized as a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ulcer"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000136 "A skin lesion that is characterized by a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000136 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000136 "SYMP:0000136"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000136 "skin ulcer"^^xsd:string)
@@ -3707,7 +3707,7 @@ SubClassOf(obo:SYMP_0000345 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000346 (papule)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000346 "Papule is a skin and integumentary tissue symptom characterized as a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000346 "A skin and integumentary tissue symptom that is characterized by a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000346 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000346 "SYMP:0000346"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000346 "papule"^^xsd:string)
@@ -3943,7 +3943,7 @@ SubClassOf(obo:SYMP_0000376 obo:SYMP_0000570)
 
 # Class: obo:SYMP_0000377 (mastitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000377 "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000377 "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "inflammation of mammary breast"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "mammitis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000377 "symptoms"^^xsd:string)
@@ -4380,7 +4380,7 @@ SubClassOf(obo:SYMP_0000431 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000432 (itching)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000432 "Itching is a skin and integumentary tissue symptom characterized as an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000432 "A skin and integumentary tissue symptom that is characterized by an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000432 "pruritus"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000432 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000432 "SYMP:0000432"^^xsd:string)
@@ -4398,8 +4398,7 @@ SubClassOf(obo:SYMP_0000433 obo:SYMP_0000538)
 
 # Class: obo:SYMP_0000434 (urticaria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Urticaria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000434 "Urticaria is a skin and integumentary tissue symptom characterized 
-by raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Urticaria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000434 "A skin and integumentary tissue symptom that is characterized by raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000434 "hives"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000434 "nettle rash"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000434 "uredo"^^xsd:string)
@@ -4411,7 +4410,7 @@ SubClassOf(obo:SYMP_0000434 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000435 (paresthesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000435 "Paresthesia is a skin and integumentary tissue symptom characterized as a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000435 "A skin and integumentary tissue symptom that is characterized by a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000435 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000435 "SYMP:0000435"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000435 "paresthesia"^^xsd:string)
@@ -4918,7 +4917,7 @@ SubClassOf(obo:SYMP_0000486 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000487 (rash)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000487 "A skin and integumentary tissue symptom characterized as an eruption on the body typically with little or no elevation above the surface."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000487 "A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000487 "ICD9CM_2005:782.1"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000487 "UMLS_CUI:C0015230"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000487 "UMLS_ICD9CM_2005_AUI:A0243780"^^xsd:string)
@@ -5174,7 +5173,7 @@ SubClassOf(obo:SYMP_0000509 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000510 (pallor)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000510 "Pallor is a skin and integumentary tissue symptom characterized as a deficiency of color especially of the face."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000510 "A skin and integumentary tissue symptom that is characterized by a deficiency of color especially of the face."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000510 "ICD9CM_2005:782.61"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000510 "UMLS_CUI:C0030232"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000510 "UMLS_ICD9CM_2005_AUI:A0096956"^^xsd:string)
@@ -5186,7 +5185,7 @@ SubClassOf(obo:SYMP_0000510 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000511 (flushing)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Flushing_%28physiology%29"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000511 "Flushing is a skin and integumentary tissue symptom characterized as a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Flushing_%28physiology%29"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000511 "A skin and integumentary tissue symptom that is characterized by a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000511 "ICD9CM_2005:782.62"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000511 "UMLS_CUI:C0016382"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000511 "UMLS_ICD9CM_2005_AUI:A0060138"^^xsd:string)
@@ -5437,7 +5436,7 @@ SubClassOf(obo:SYMP_0000533 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000534 (spontaneous ecchymoses)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ecchymoses"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000534 "Spontaneous ecchymoses is a skin and integumentary tissue symptom characterized as the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ecchymoses"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000534 "A skin and integumentary tissue symptom that is characterized by the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000534 "ICD9CM_2005:782.7"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000534 "UMLS_CUI:C0159039"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000534 "UMLS_ICD9CM_2005_AUI:A0284153"^^xsd:string)
@@ -5491,7 +5490,7 @@ SubClassOf(obo:SYMP_0000538 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000539 (jaundice)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000539 "Jaundice is a skin and integumentary tissue symptom characterized as a skin and integumentary symptom where a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000539 "A skin and integumentary tissue symptom that is characterized by a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000539 "ICD9CM_2005:782.4"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000539 "UMLS_CUI:C0476232"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000539 "UMLS_ICD9CM_2005_AUI:A0243785"^^xsd:string)
@@ -6427,7 +6426,7 @@ SubClassOf(obo:SYMP_0000628 obo:SYMP_0000320)
 
 # Class: obo:SYMP_0000629 (exanthema)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Exanthema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000629 "Exanthema is a rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Exanthema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000629 "A rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000629 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000629 "SYMP:0000629"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000629 "exanthema"^^xsd:string)
@@ -7036,7 +7035,7 @@ SubClassOf(obo:SYMP_0000714 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000715 (skin desquamation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000715 "A skin and integumentary tissue symptom characterized by the peeling off of skin in the form of scales."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000715 "A skin and integumentary tissue symptom that is characterized by the peeling off of skin in the form of scales."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000715 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000715 "SYMP:0000715"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000715 "skin desquamation"^^xsd:string)
@@ -7262,7 +7261,7 @@ SubClassOf(obo:SYMP_0000745 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000746 (enanthem)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000746 "Enanthem is a skin and integumentary tissue symptom characterized as an eruption on a mucous surface."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000746 "A skin and integumentary tissue symptom that is characterized by an eruption on a mucous surface."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000746 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000746 "SYMP:0000746"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000746 "enanthem"^^xsd:string)
@@ -7366,7 +7365,7 @@ SubClassOf(obo:SYMP_0000759 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000760 (petechiae)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000760 "A skin and integumentary tissue symptom characterized as a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000760 "A skin and integumentary tissue symptom that is characterized by a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000760 "petechial rash"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000760 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000760 "SYMP:0000760"^^xsd:string)
@@ -8208,7 +8207,7 @@ SubClassOf(obo:SYMP_0000870 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000871 (icteric mucous membrane)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000871 "Icteric mucous membrane is a skin and integumentary tissue symptom characterized as a yellowed mucous membranes due to bile or bilirubin accumulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000871 "A skin and integumentary tissue symptom that is characterized by yellowed mucous membranes due to bile or bilirubin accumulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000871 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000871 "SYMP:0000871"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000871 "icteric mucous membrane"^^xsd:string)
@@ -8216,7 +8215,7 @@ SubClassOf(obo:SYMP_0000871 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000872 (icteric skin)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000872 "Yellowed skin due to bile or bilirubin accumulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Jaundice"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000872 "A skin and integumentary tissue symptom that is characterized by yellowed skin due to bile or bilirubin accumulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000872 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000872 "SYMP:0000872"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000872 "icteric skin"^^xsd:string)
@@ -8232,7 +8231,7 @@ SubClassOf(obo:SYMP_0000873 obo:SYMP_0000392)
 
 # Class: obo:SYMP_0000874 (hematoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hematoma"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000874 "A skin and integumentary tissue symptom that is characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000874 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000874 "SYMP:0000874"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000874 "hematoma"^^xsd:string)
@@ -8596,7 +8595,7 @@ SubClassOf(obo:SYMP_0019151 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0019152 (diaphoresis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Diaphoresis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019152 "Diaphoresis is a sweat characterized as excessive sweating commonly associated with shock and other medical emergency conditions."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Diaphoresis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019152 "A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019152 "profuse perspiration"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019152 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019152 "SYMP:0019152"^^xsd:string)
@@ -8640,7 +8639,7 @@ SubClassOf(obo:SYMP_0019156 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0019158 (eschar)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019158 "Eschar is a skin and integumentary tissue symptom characterized as a scab formed especially after a burn."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019158 "A skin and integumentary tissue symptom that is characterized by a scab formed especially after a burn."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019158 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019158 "SYMP:0019158"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019158 "eschar"^^xsd:string)
@@ -8713,7 +8712,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0019166 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0019167 (pustule)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019167 "Pustule is a skin and integumentary tissue symptom characterized as a small circumscribed elevation of the skin containing pus and having an inflamed base."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019167 "A skin and integumentary tissue symptom that is characterized by a small circumscribed elevation of the skin containing pus and having an inflamed base."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019167 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019167 "SYMP:0019167"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019167 "pustule"^^xsd:string)
@@ -8778,7 +8777,7 @@ SubClassOf(obo:SYMP_0019174 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0019175 (sweaty)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019175 "A skin and integumentary tissue symptom characterized as the excretion of moisture in visible quantities through the opening of the sweat glands."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019175 "A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019175 "perspire"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019175 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019175 "SYMP:0019175"^^xsd:string)
@@ -9210,7 +9209,7 @@ SubClassOf(obo:SYMP_0020040 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0020041 (corkscrew hair)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/2345.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.ccjm.org/content/ccjom/82/4/216.full.pdf"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020041 "A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/2345.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.ccjm.org/content/ccjom/82/4/216.full.pdf"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020041 "A hair symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020041 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020041 "SYMP:0020041"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020041 "corkscrew hair"^^xsd:string)
