@@ -8808,6 +8808,7 @@ SubClassOf(obo:SYMP_0019177 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0019178 (necrotic lesion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Lesion"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Necrosis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019178 "A skin and integumentary tissue symptom that is characterized by regions of cell death to living tissue in an organ, which has suffered damage through injury or disease, such as a wound, ulcer, abscess, or tumor."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019178 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019178 "SYMP:0019178"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019178 "necrotic lesion"^^xsd:string)
