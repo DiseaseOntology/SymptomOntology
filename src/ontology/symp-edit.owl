@@ -2991,6 +2991,7 @@ SubClassOf(obo:SYMP_0000251 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000252 (diffuse rash)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.drugwatch.com/health/rash-and-skin-disorders/erythema/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.sciencedirect.com/topics/medicine-and-dentistry/erythema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000252 "A rash characterized by large patches of red skin, without overlying changes in the epidermis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000252 "diffuse erythema"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000252 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000252 "SYMP:0000252"^^xsd:string)
@@ -6479,6 +6480,7 @@ SubClassOf(obo:SYMP_0000635 obo:SYMP_0000006)
 
 # Class: obo:SYMP_0000636 (maculopapular rash)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000636 "A rash characterized by papule(s), which are a raised area of the skin and macule(s), which are a flat red area of the skin."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000636 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000636 "SYMP:0000636"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000636 "maculopapular rash"^^xsd:string)
@@ -6493,6 +6495,7 @@ SubClassOf(obo:SYMP_0000637 obo:SYMP_0000183)
 
 # Class: obo:SYMP_0000638 (papular rash)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000638 "A rash characterized by papule(s), which are a raised area of the skin."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000638 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000638 "SYMP:0000638"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000638 "papular rash"^^xsd:string)
@@ -6508,6 +6511,7 @@ SubClassOf(obo:SYMP_0000639 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000640 (ankle rash)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthgrades.com/right-care/skin-hair-and-nails/ankle-rash"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000640 "A rash characterized by an inflammatory reaction of the skin on the ankles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000640 "redness of ankle"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000640 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000640 "SYMP:0000640"^^xsd:string)
@@ -6658,6 +6662,7 @@ SubClassOf(obo:SYMP_0000659 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000660 (purpuric rash)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Purpura"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000660 "A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000660 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000660 "SYMP:0000660"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000660 "purpuric rash"^^xsd:string)
