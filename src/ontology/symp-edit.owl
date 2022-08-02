@@ -1012,6 +1012,7 @@ Declaration(Class(obo:SYMP_0020040))
 Declaration(Class(obo:SYMP_0020041))
 Declaration(Class(obo:SYMP_0020042))
 Declaration(Class(obo:SYMP_0020043))
+Declaration(Class(obo:SYMP_0020044))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
@@ -2980,6 +2981,7 @@ SubClassOf(obo:SYMP_0000250 obo:SYMP_0000249)
 
 # Class: obo:SYMP_0000251 (dermal abscess)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://jamanetwork.com/journals/jama/fullarticle/2677448"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000251 "A skin and integumentary tissue symptom that is characterized by a pus-filled pocket in the skin, similar to a pimple, but larger and deeper.  The pocket is filled with bacteria, white blood cells, and dead skin and typcally result from the bacteria Staphylococcus aureus prentrating the skin through a cut or hair follicle."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000251 "cutaneous abscess"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000251 "dermal abscesses"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000251 "skin abscess"^^xsd:string)
@@ -4451,6 +4453,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000439 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000440 (hair loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.aad.org/public/diseases/hair-loss/insider/shedding"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000440 "A hair symptom that is characterized by the stopping of hair growth (regeneration), which may be a result of hereditary hair loss, immune system overreacts, drugs and treatments, harsh hair-care products, and other factors."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000440 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000440 "SYMP:0000440"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000440 "hair loss"^^xsd:string)
@@ -9138,6 +9141,7 @@ SubClassOf(obo:SYMP_0020029 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0020030 (patches of hair loss with a 'black dot' pattern)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148295/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020030 "A hair symptom that is characterized by patchy hair loss and the presence of comedo-like cadaver hairs, which appear as black dots."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020030 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020030 "SYMP:0020030"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020030 "patches of hair loss with a 'black dot' pattern"^^xsd:string)
@@ -9240,6 +9244,14 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020043 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020043 "SYMP:0020043"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020043 "dark urine"^^xsd:string)
 SubClassOf(obo:SYMP_0020043 obo:SYMP_0000486)
+
+# Class: obo:SYMP_0020044 (hair shedding)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.aad.org/public/diseases/hair-loss/insider/shedding"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020044 "A hair symptom that is characterized by significant falling out of hair, which may be a result of stress, high fever, and other factors."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020044 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020044 "SYMP:0020044"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020044 "hair shedding"^^xsd:string)
+SubClassOf(obo:SYMP_0020044 obo:SYMP_0020040)
 
 
 )
