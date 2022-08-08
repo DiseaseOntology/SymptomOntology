@@ -2163,6 +2163,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000143 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000144 (bronchopneumonia)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Bronchopneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000144 "A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000144 "bronchial pneumonia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000144 "lobular pneumonia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000144 "symptoms"^^xsd:string)
@@ -3704,6 +3705,7 @@ SubClassOf(obo:SYMP_0000344 obo:SYMP_0000538)
 
 # Class: obo:SYMP_0000345 (panting respiration)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/panting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000345 "A respiratory abnormality that is characterized by short, shallow, and rapid breathing."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000345 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000345 "SYMP:0000345"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000345 "panting respiration"^^xsd:string)
@@ -6141,6 +6143,7 @@ SubClassOf(obo:SYMP_0000598 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000599 (cheyne-stokes respiration)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK448165/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000599 "A respiratory abnormality that is characterized by a specific form of periodic breathing (waxing and waning amplitude of flow or tidal volume) characterized by a crescendo-decrescendo pattern of respiration between central apneas or central hypopneas."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000599 "ICD9CM_2005:786.04"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000599 "UMLS_CUI:C0008039"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000599 "UMLS_ICD9CM_2005_AUI:A0400651"^^xsd:string)
@@ -6184,7 +6187,7 @@ SubClassOf(obo:SYMP_0000602 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000603 (tachypnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000603 "A respiratory abnormality that is characterized by an increased rate of respiration."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/rapid-shallow-breathing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000603 "A respiratory abnormality that is characterized by an increased rate of respiration and shallow breathing."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000603 "SYMP:0000683"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000603 "ICD9CM_2005:786.06"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000603 "UMLS_CUI:C0231835"^^xsd:string)
@@ -6797,6 +6800,7 @@ SubClassOf(obo:SYMP_0000678 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000679 (acute dyspnea)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000679 "A dyspnea that is characterized by a severe and sudden in onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000679 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000679 "SYMP:0000679"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000679 "acute dyspnea"^^xsd:string)
@@ -7149,6 +7153,7 @@ SubClassOf(obo:SYMP_0000728 obo:SYMP_0000711)
 
 # Class: obo:SYMP_0000729 (pulmonary consolidation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Pulmonary_consolidation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000729 "A respiratory system and chest symptom that is characterized by a region of normally compressible lung tissue that has filled with liquid instead of air."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000729 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000729 "SYMP:0000729"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000729 "pulmonary consolidation"^^xsd:string)
@@ -7156,10 +7161,11 @@ SubClassOf(obo:SYMP_0000729 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000730 (rapid respiration)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/rapid-shallow-breathing#What-is-tachypnea?"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000730 "A respiratory abnormality that is characterized by and increased breathing rate, with more than 20 breaths per minute in an adult, while in children, the number of breaths per minute can be a higher resting rate than seen in adults."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000730 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000730 "SYMP:0000730"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000730 "rapid respiration"^^xsd:string)
-SubClassOf(obo:SYMP_0000730 obo:SYMP_0000514)
+SubClassOf(obo:SYMP_0000730 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000731 (renal failure)
 
@@ -7197,6 +7203,7 @@ SubClassOf(obo:SYMP_0000734 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000735 (suppurative pneumonia)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/suppurative+pneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000735 "A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000735 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000735 "SYMP:0000735"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000735 "suppurative pneumonia"^^xsd:string)
