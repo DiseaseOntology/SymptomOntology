@@ -2550,7 +2550,7 @@ SubClassOf(obo:SYMP_0000196 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000197 (abortion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000197 "Abortion is a reproductive system symptom resulting in the expulsion of a fetus of a domestic animal often due to infection at any time before completion of pregnancy."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000197 "A reproductive system symptom that is characterized by the expulsion of a fetus at any time before completion of pregnancy and is often due to infection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000197 "infectious abortion"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000197 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000197 "SYMP:0000197"^^xsd:string)
@@ -2559,7 +2559,7 @@ SubClassOf(obo:SYMP_0000197 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000198 (miscarriage)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000198 "Miscarriage is a reproductive system symptom characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000198 "A reproductive system symptom that is characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000198 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000198 "SYMP:0000198"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000198 "miscarriage"^^xsd:string)
@@ -2567,7 +2567,7 @@ SubClassOf(obo:SYMP_0000198 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000199 (spontaneous abortion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000199 "Spontaneous abortion is a abortion characterized by the naturally occurring expulsion of a nonviable fetus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000199 "An abortion that is characterized by the natural occurring expulsion of a nonviable fetus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000199 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000199 "SYMP:0000199"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000199 "spontaneous abortion"^^xsd:string)
@@ -3077,7 +3077,7 @@ SubClassOf(obo:SYMP_0000262 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000263 (epididymitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000263 "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000263 "A reproductive system symptom that is characterized by an inflammation of the epididymis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000263 "inflammation of the epididymis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000263 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000263 "SYMP:0000263"^^xsd:string)
@@ -3087,7 +3087,8 @@ SubClassOf(obo:SYMP_0000263 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000264 (epididymorchitis)
 
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000264 "epididymo-orchitis"^^xsd:string)
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000264 "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis"^^xsd:string) oboInOwl:hasExactSynonym obo:SYMP_0000264 "epididymo-orchitis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000264 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000264 "SYMP:0000264"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000264 "epididymorchitis"^^xsd:string)
@@ -3802,7 +3803,7 @@ SubClassOf(obo:SYMP_0000357 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000358 (premature labor)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000358 "Premature labor is a reproductive system symptom characterized by labor occurring before 37 full weeks of pregnancy."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000358 "A reproductive system symptom that is characterized by labor occurring before 37 full weeks of pregnancy."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000358 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000358 "SYMP:0000358"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000358 "premature labor"^^xsd:string)
@@ -3852,6 +3853,7 @@ SubClassOf(obo:SYMP_0000364 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000365 (prostatic abscess)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK551663/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000365 "A prostate symptom that is characterized by a localized collection of purulent fluid within the prostate, often forming as a complication of acute bacterial prostatitis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000365 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000365 "SYMP:0000365"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000365 "prostatic abscess"^^xsd:string)
@@ -3859,6 +3861,7 @@ SubClassOf(obo:SYMP_0000365 obo:SYMP_0000364)
 
 # Class: obo:SYMP_0000366 (prostatic infection)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/prostate-infection#"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000366 "A prostate symptom that is characterized by inflammation of the prostate and surrounding area."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000366 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000366 "SYMP:0000366"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000366 "prostatic infection"^^xsd:string)
@@ -3925,6 +3928,7 @@ SubClassOf(obo:SYMP_0000373 obo:SYMP_0000205)
 
 # Class: obo:SYMP_0000374 (scrotal abscess)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://emedicine.medscape.com/article/1949750-overview"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000374 "A reproductive system symptom that is characterized by an abscess that is either superficial or intrascrotal.  Superficial scrotal abscess may occur from an infected hair follicle, infection of a scrotal laceration, or minor scrotal surgery.  Intrascrotal abscess most commonly arises from bacterial epididymitis, but may also be related to tuberculous infection of the epididymis, a testicular abscess that ruptures through the tunica albuginea, or drainage of appendicitis into scrotum through a patent processus vaginalis or as a result of extravasation of infected urine from the urethra in patients with a urethral stricture and neurogenic bladder using an external collection device."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000374 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000374 "SYMP:0000374"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000374 "scrotal abscess"^^xsd:string)
@@ -4102,6 +4106,7 @@ SubClassOf(obo:SYMP_0000397 obo:SYMP_0000396)
 
 # Class: obo:SYMP_0000398 (vaginal discharge)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/professional/gynecology-and-obstetrics/symptoms-of-gynecologic-disorders/vaginal-bleeding"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/women/guide/vaginal-discharge-whats-abnormal"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000398 "A reproductive system symptom that is characterized by fluid made by glands inside the vagina and cervix carrying away dead cells and bacteria. While it is normal for odor and color to vary, vaginal itching or burning may be indicative of an infection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000398 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000398 "SYMP:0000398"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000398 "doid/symp duplicate")
@@ -4159,7 +4164,7 @@ SubClassOf(obo:SYMP_0000404 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000405 (vaginismus)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000405 "Vaginismus is a reproductive system symptom characterized by a painful spasmodic contraction of the vagina."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000405 "A reproductive system symptom that is characterized by a painful spasmodic contraction of the vagina."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000405 "painful spasmodic vagina contractions"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000405 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000405 "SYMP:0000405"^^xsd:string)
@@ -4340,7 +4345,7 @@ SubClassOf(obo:SYMP_0000426 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000427 (impotence)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000427 "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000427 "A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000427 "erectile dysfunction"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000427 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000427 "SYMP:0000427"^^xsd:string)
@@ -4422,6 +4427,7 @@ SubClassOf(obo:SYMP_0000435 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000436 (abnormal vaginal bleeding)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/000903.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000436 "A reproductive system symptom that is characterized by bleeding from the uterus that is longer than usual or that occurs at an irregular time. Bleeding may be heavier or lighter than usual and occur often or randomly."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000436 "abnormal menstruation"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000436 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000436 "SYMP:0000436"^^xsd:string)
@@ -7021,7 +7027,7 @@ SubClassOf(obo:SYMP_0000711 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000712 (infertility)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Infertility"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000712 "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Infertility"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000712 "A reproductive system symptom that is characterized the biological inability of a man or a woman to contribute to conception; or, the state of a woman who is unable to carry a pregnancy to full term."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000712 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000712 "SYMP:0000712"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000712 "doid/symp duplicate")
@@ -7344,7 +7350,7 @@ SubClassOf(obo:SYMP_0000755 obo:SYMP_0019149)
 
 # Class: obo:SYMP_0000756 (menorrhagia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000756 "A reproductive system symptom characterized by an abnormally profuse menstrual flow."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000756 "A reproductive system symptom that is characterized an abnormally profuse menstrual flow."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000756 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000756 "SYMP:0000756"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000756 "menorrhagia"^^xsd:string)
@@ -8038,7 +8044,7 @@ SubClassOf(obo:SYMP_0000848 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000849 (stillbirth)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Still_birth"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000849 "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Still_birth"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000849 "A reproductive system symptom that is characterized by the birth of a dead fetus; in which  a fetus that has died in the uterus, or during labor, or delivery, exits a woman's body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000849 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000849 "SYMP:0000849"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000849 "stillbirth"^^xsd:string)
@@ -8082,7 +8088,7 @@ SubClassOf(obo:SYMP_0000853 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000854 (hypermenorrhea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000854 "Hypermenorrhea is a menorrhagia characterized by an abnormally profuse or prolonged menstrual flow."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000854 "A menorrhagia that is characterized by an abnormally profuse or prolonged menstrual flow."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000854 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000854 "SYMP:0000854"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000854 "hypermenorrhea"^^xsd:string)
@@ -8090,7 +8096,7 @@ SubClassOf(obo:SYMP_0000854 obo:SYMP_0000756)
 
 # Class: obo:SYMP_0000855 (metrorrhagia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000855 "Metrorrhagia is a menorrhagia characterized by an irregular uterine bleeding especially between menstrual periods."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000855 "A menorrhagia that is characterized by an irregular uterine bleeding, especially between menstrual periods."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000855 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000855 "SYMP:0000855"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000855 "metrorrhagia"^^xsd:string)
