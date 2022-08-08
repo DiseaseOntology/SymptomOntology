@@ -3088,8 +3088,8 @@ SubClassOf(obo:SYMP_0000263 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000264 (epididymorchitis)
 
-AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000264 "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)."^^xsd:string)
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis"^^xsd:string) oboInOwl:hasExactSynonym obo:SYMP_0000264 "epididymo-orchitis"^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000264 "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000264 "epididymo-orchitis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000264 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000264 "SYMP:0000264"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000264 "epididymorchitis"^^xsd:string)
@@ -8640,6 +8640,7 @@ SubClassOf(obo:SYMP_0019153 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0019154 (hemorrhagic mediastinitis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/home/lung-and-airway-disorders/pleural-and-mediastinal-disorders/mediastinitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019154 "A respiratory abnormality that is characterized by inflammation of the mediastinum (the chest cavity, which contains the heart, the thymus gland, some lymph nodes, and parts of the esophagus, aorta, thyroid, and parathyroid glands) as the result of bleeding."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019154 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019154 "SYMP:0019154"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019154 "hemorrhagic mediastinitis"^^xsd:string)
