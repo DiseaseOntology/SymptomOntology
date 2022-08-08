@@ -1970,7 +1970,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000117 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000118 (rales)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Rales"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000118 "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Rales"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000118 "An abnormal chest sound that is characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000118 "crackles"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000118 "crepitations"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000118 "symptoms"^^xsd:string)
@@ -2127,7 +2127,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000138 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000139 (sneezing)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000139 "Sneezing is a respiratory system and chest symptom characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000139 "A respiratory system and chest symptom that is characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000139 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000139 "SYMP:0000139"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000139 "sneezing"^^xsd:string)
@@ -2830,7 +2830,7 @@ SubClassOf(obo:SYMP_0000231 obo:SYMP_0000287)
 
 # Class: obo:SYMP_0000232 (bronchiolitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000232 "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000232 "A respiratory system and chest symptom that is characterized by an inflammation of the bronchioles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000232 "bronchioles inflammation"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000232 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000232 "SYMP:0000232"^^xsd:string)
@@ -2872,7 +2872,7 @@ SubClassOf(obo:SYMP_0000236 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000237 (congestion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000237 "Congestion is a respiratory system and chest symptom characterized by an excessive accumulation especially of blood or mucus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000237 "A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000237 "blocked nose"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000237 "nasal blockage"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000237 "nasal obstruction"^^xsd:string)
@@ -3542,7 +3542,7 @@ SubClassOf(obo:SYMP_0000323 obo:SYMP_0000146)
 
 # Class: obo:SYMP_0000324 (bronchitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000324 "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000324 "A respiratory system and chest symptom that is characterized by an acute or chronic inflammation of the bronchial tubes."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000324 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000324 "SYMP:0000324"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000324 "doid/symp duplicate")
@@ -3763,7 +3763,7 @@ SubClassOf(obo:SYMP_0000352 obo:SYMP_0000094)
 
 # Class: obo:SYMP_0000353 (phlegm)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000353 "Phlegm is a respiratory system and chest symptom characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000353 "A respiratory system and chest symptom that is characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000353 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000353 "SYMP:0000353"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000353 "phlegm"^^xsd:string)
@@ -3771,7 +3771,7 @@ SubClassOf(obo:SYMP_0000353 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000354 (pneumonitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000354 "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000354 "A respiratory system and chest symptom that is characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000354 "inflammation of lung tissue"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000354 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000354 "SYMP:0000354"^^xsd:string)
@@ -4355,7 +4355,7 @@ SubClassOf(obo:SYMP_0000427 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000428 (hypoventilation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000428 "Hypoventilation is a respiratory abnormality characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000428 "A respiratory abnormality that is characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000428 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000428 "SYMP:0000428"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000428 "hypoventilation"^^xsd:string)
@@ -4363,7 +4363,7 @@ SubClassOf(obo:SYMP_0000428 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000429 (bradypnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000429 "Bradypnea is a respiratory abnormality characterized by abnormally slow breathing."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000429 "A respiratory abnormality that is characterized by abnormally slow breathing."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000429 "abnormally slow breathing"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000429 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000429 "SYMP:0000429"^^xsd:string)
@@ -4380,7 +4380,7 @@ SubClassOf(obo:SYMP_0000430 obo:SYMP_0000576)
 
 # Class: obo:SYMP_0000431 (sputum)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000431 "A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000431 "A respiratory system and chest symptom that is characterized by matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000431 "sputum production"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000431 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000431 "SYMP:0000431"^^xsd:string)
@@ -4514,7 +4514,7 @@ SubClassOf(obo:SYMP_0000446 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000447 (bloody sputum)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.medicinenet.com/symptoms_and_signs/article.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000447 "Bloody sputum is a sputum that consists of blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.medicinenet.com/symptoms_and_signs/article.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000447 "A sputum that is characterized by blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000447 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000447 "SYMP:0000447"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000447 "Bloody sputum (spitting up blood or bloody mucus) can come from common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung."^^xsd:string)
@@ -5218,7 +5218,7 @@ SubClassOf(obo:SYMP_0000512 obo:SYMP_0000853)
 
 # Class: obo:SYMP_0000513 (stridor)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000513 "Stridor is a respiratory system and chest symptom characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000513 "A respiratory system and chest symptom that is characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "ICD9CM_2005:786.1"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "UMLS_CUI:C0038450"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "UMLS_ICD9CM_2005_AUI:A0120146"^^xsd:string)
@@ -5239,7 +5239,7 @@ SubClassOf(obo:SYMP_0000514 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000515 (hiccough)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000515 "Hiccough is a respiratory system and chest symptom characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000515 "A respiratory system and chest symptom that is characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000515 "ICD9CM_2005:786.8"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000515 "UMLS_CUI:C0019521"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000515 "UMLS_ICD9CM_2005_AUI:A0421293"^^xsd:string)
@@ -5260,7 +5260,7 @@ SubClassOf(obo:SYMP_0000516 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000517 (hemoptysis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000517 "Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000517 "A respiratory system and chest symptom that is characterized by an expectoration of blood from some part of the respiratory tract."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000517 "ICD9CM_2005:786.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000517 "UMLS_CUI:C0019079"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000517 "UMLS_ICD9CM_2005_AUI:A0067232"^^xsd:string)
@@ -5954,7 +5954,7 @@ SubClassOf(obo:SYMP_0000580 obo:SYMP_0000566)
 
 # Class: obo:SYMP_0000581 (sleep apnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000581 "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000581 "An apnea that is characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000581 "ICD9CM_2005:780.57"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000581 "UMLS_CUI:C0375544"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000581 "UMLS_ICD9CM_2005_AUI:A0760143"^^xsd:string)
@@ -6151,7 +6151,7 @@ SubClassOf(obo:SYMP_0000599 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000600 (apnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000600 "Apnea is a respiratory abnormality characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000600 "A respiratory abnormality that is characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000600 "ICD9CM_2005:786.03"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000600 "UMLS_CUI:C0003578"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000600 "UMLS_ICD9CM_2005_AUI:A0025648"^^xsd:string)
@@ -6162,7 +6162,7 @@ SubClassOf(obo:SYMP_0000600 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000601 (hyperventilation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000601 "Hyperventilation is a respiratory abnormality characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000601 "A respiratory abnormality that is characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000601 "ICD9CM_2005:786.01"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000601 "UMLS_CUI:C0020578"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000601 "UMLS_ICD9CM_2005_AUI:A0071094"^^xsd:string)
@@ -6173,7 +6173,7 @@ SubClassOf(obo:SYMP_0000601 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000602 (orthopnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000602 "Orthopnea is a respiratory abnormality characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000602 "A respiratory abnormality that is characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000602 "ICD9CM_2005:786.02"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000602 "UMLS_CUI:C0085619"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000602 "UMLS_ICD9CM_2005_AUI:A0004140"^^xsd:string)
@@ -6184,7 +6184,7 @@ SubClassOf(obo:SYMP_0000602 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000603 (tachypnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000603 "Tachypnea is a respiratory abnormality characterized by an increased rate of respiration."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000603 "A respiratory abnormality that is characterized by an increased rate of respiration."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000603 "SYMP:0000683"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000603 "ICD9CM_2005:786.06"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000603 "UMLS_CUI:C0231835"^^xsd:string)
@@ -6197,7 +6197,7 @@ SubClassOf(obo:SYMP_0000603 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000604 (wheezing)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000604 "Wheezing is a respiratory abnormality characterized by breathing with difficulty usually with a whistling sound."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000604 "A respiratory abnormality that is characterized by breathing with difficulty usually with a whistling sound."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "ICD9CM_2005:786.07"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "UMLS_CUI:C0043144"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "UMLS_ICD9CM_2005_AUI:A0133941"^^xsd:string)
@@ -6306,7 +6306,7 @@ SubClassOf(obo:SYMP_0000613 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000614 (cough)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000614 "Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000614 "A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000614 "ICD9CM_2005:786.2"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000614 "UMLS_CUI:C0010200"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000614 "UMLS_ICD9CM_2005_AUI:A0043303"^^xsd:string)
@@ -6847,7 +6847,7 @@ SubClassOf(obo:SYMP_0000685 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000686 (chronic cough)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000686 "Chronic cough is a cough characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000686 "A cough that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000686 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000686 "SYMP:0000686"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000686 "chronic cough"^^xsd:string)
@@ -7225,6 +7225,7 @@ SubClassOf(obo:SYMP_0000738 obo:SYMP_0000570)
 
 # Class: obo:SYMP_0000739 (bronchopulmonary bleeding)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/medical/bronchopulmonary"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000739 "A respiratory system and chest symptom that is characterized by bleeding (hemorrhage) in either or both the bronchi and the lungs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000739 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000739 "SYMP:0000739"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000739 "bronchopulmonary bleeding"^^xsd:string)
@@ -8198,7 +8199,7 @@ SubClassOf(obo:SYMP_0000867 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000868 (breathing problems)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nlm.nih.gov/medlineplus/breathingproblems.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000868 "Breathing problems is a respiratory abnormality characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nlm.nih.gov/medlineplus/breathingproblems.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000868 "A respiratory abnormality that is characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000868 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000868 "SYMP:0000868"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000868 "breathing problems"^^xsd:string)
@@ -8206,7 +8207,7 @@ SubClassOf(obo:SYMP_0000868 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000869 (nasal congestion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Nasal_congestion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000869 "Nasal congestion is a congestion characterized by a blockage of the nasal passages usually due to membranes lining the nose becoming swollen from inflamed blood vessels."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Nasal_congestion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000869 "A congestion that is characterized by a blockage of the nasal passages, usually due to the membranes lining the nose becoming swollen from inflamed blood vessels."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000869 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000869 "SYMP:0000869"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000869 "nasal congestion"^^xsd:string)
@@ -8600,7 +8601,7 @@ SubClassOf(obo:SYMP_0019150 obo:SYMP_0000385)
 
 # Class: obo:SYMP_0019151 (pulmonary edema)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019151 "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019151 "A respiratory system and chest symptom that is characterized by an abnormal accumulation of fluid in the lungs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019151 "oedematous lungs"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019151 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019151 "SYMP:0019151"^^xsd:string)
@@ -8619,7 +8620,7 @@ SubClassOf(obo:SYMP_0019152 obo:SYMP_0019175)
 
 # Class: obo:SYMP_0019153 (dyspnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019153 "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019153 "A respiratory abnormality that is characterized by difficult or labored respiration."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019153 "breathing difficulty"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019153 "breathlessness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019153 "difficulty breathing"^^xsd:string)
@@ -8735,7 +8736,7 @@ SubClassOf(obo:SYMP_0019167 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0019168 (pneumonia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019168 "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019168 "A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019168 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019168 "SYMP:0019168"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0019168 "doid/symp duplicate")
@@ -8924,6 +8925,7 @@ SubClassOf(obo:SYMP_0019190 obo:SYMP_0000041)
 
 # Class: obo:SYMP_0020000 (airway stenosis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://throatdisorder.com/breathing-disorders/tracheal-stenosis/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK554561/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020000 "A respiratory system and chest symptom that is characterized by a narrowing in the airway that obstructs the passage of air into the lungs.  Examples include tracheal and laryngotracheal stenosis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020000 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020000 "SYMP:0020000"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020000 "airway stenosis"^^xsd:string)
@@ -8985,7 +8987,7 @@ SubClassOf(obo:SYMP_0020007 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0020008 (barking croup cough)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.seattlechildrens.org/conditions/a-z/croup/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020008 "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.seattlechildrens.org/conditions/a-z/croup/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020008 "A cough that is characterized by a tight, low-pitched, and barky (like a barking seal) cough."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020008 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020008 "SYMP:0020008"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020008 "barking croup cough"^^xsd:string)
@@ -9105,6 +9107,7 @@ SubClassOf(obo:SYMP_0020023 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0020024 (bronchospasm)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/bronchospasm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020024 "A respiratory system and chest symptom that is characterized by constriction of the air passages of the lung (as in asthma) by spasmodic contraction of the bronchial muscles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020024 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020024 "SYMP:0020024"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020024 "bronchospasm"^^xsd:string)
@@ -9112,6 +9115,7 @@ SubClassOf(obo:SYMP_0020024 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0020025 (caseation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/caseation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020025 "A respiratory system and chest symptom that is characterized by necrosis of tissue with conversion of damaged tissue into a soft cheesy substance."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020025 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020025 "SYMP:0020025"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020025 "caseation"^^xsd:string)
@@ -9155,6 +9159,7 @@ SubClassOf(obo:SYMP_0020030 obo:SYMP_0000440)
 
 # Class: obo:SYMP_0020031 (chest discomfort)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK416/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020031 "A respiratory system and chest symptom that is characterized by pain, pressure, tightness, or other discomfort originating in or radiating to the chest, which constitutes an important indicator of potentially serious cardiac or cardiovascular disorders."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020031 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020031 "SYMP:0020031"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020031 "chest discomfort"^^xsd:string)
@@ -9162,14 +9167,16 @@ SubClassOf(obo:SYMP_0020031 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0020032 (chest tightness)
 
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0020032 "A chest discomfort that is characterized by any type of pain or discomfort between your upper belly and lower neck."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/chest-tightness"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.verywellhealth.com/che"^^xsd:string) oboInOwl:hasExactSynonym obo:SYMP_0020032 "chest pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020032 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020032 "SYMP:0020032"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020032 "chest tightness"^^xsd:string)
-SubClassOf(obo:SYMP_0020032 obo:SYMP_0000514)
+SubClassOf(obo:SYMP_0020032 obo:SYMP_0020031)
 
 # Class: obo:SYMP_0020033 (paroxysmal cough)
 
-AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0020033 "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)."^^xsd:string)
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0020033 "A cough that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020033 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020033 "SYMP:0020033"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020033 "paroxysmal cough"^^xsd:string)
