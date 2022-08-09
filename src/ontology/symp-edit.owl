@@ -1282,6 +1282,8 @@ SubClassOf(obo:SYMP_0000024 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000025 (dry cough)
 
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000025 "A cough that is characterized by a lack of accompanied phlegm production."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/dry-cough"^^xsd:string) oboInOwl:hasExactSynonym obo:SYMP_0000025 "nonproductive cough"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000025 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000025 "SYMP:0000025"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000025 "dry cough"^^xsd:string)
@@ -1376,6 +1378,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000037 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000038 (dyspneic enteritis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/001149.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/dyspnea"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000038 "A respiratory system and chest symptom that is characterized by being short or breath or out of air (dyspnea), with inflammation of the small intestine (enteritis)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000038 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000038 "SYMP:0000038"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000038 "dyspneic enteritis"^^xsd:string)
@@ -2914,6 +2917,8 @@ SubClassOf(obo:SYMP_0000241 obo:SYMP_0000239)
 
 # Class: obo:SYMP_0000242 (cough with bloody sputum)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/lung/coughing-up-blood"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000242 "A cough that is characterized by production and expectoration (bringing up) of sputum that is bright red or pink and frothy."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000242 "hemoptysis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000242 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000242 "SYMP:0000242"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000242 "cough with bloody sputum"^^xsd:string)
@@ -3048,6 +3053,7 @@ SubClassOf(obo:SYMP_0000258 obo:SYMP_0000320)
 
 # Class: obo:SYMP_0000259 (dry hacking cough)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wiktionary.org/wiki/hacking_cough"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000259 "A dry cough that is characterized by a rough and loud sound."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000259 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000259 "SYMP:0000259"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000259 "dry hacking cough"^^xsd:string)
@@ -5220,14 +5226,14 @@ SubClassOf(obo:SYMP_0000512 obo:SYMP_0000853)
 
 # Class: obo:SYMP_0000513 (stridor)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000513 "A respiratory system and chest symptom that is characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000513 "An abnormal chest sound that is characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "ICD9CM_2005:786.1"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "UMLS_CUI:C0038450"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000513 "UMLS_ICD9CM_2005_AUI:A0120146"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000513 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000513 "SYMP:0000513"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000513 "stridor"^^xsd:string)
-SubClassOf(obo:SYMP_0000513 obo:SYMP_0000514)
+SubClassOf(obo:SYMP_0000513 obo:SYMP_0000587)
 
 # Class: obo:SYMP_0000514 (respiratory system and chest symptom)
 
@@ -5516,6 +5522,7 @@ SubClassOf(obo:SYMP_0000539 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000540 (painful respiration)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/painful-respiration#causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/324718"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000540 "A respiratory system and chest symptom that is characterized by a feeling of discomfort when breathing in or out.  The pain may be the result of infection, musculoskeletal injury, and heart problems."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000540 "ICD9CM_2005:786.52"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000540 "UMLS_CUI:C0423729"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000540 "UMLS_ICD9CM_2005_AUI:A0243833"^^xsd:string)
@@ -6020,6 +6027,7 @@ SubClassOf(obo:SYMP_0000586 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000587 (abnormal chest sound)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/breath-sounds#types"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000587 "A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000587 "ICD9CM_2005:786.7"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000587 "UMLS_CUI:C0159056"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000587 "UMLS_ICD9CM_2005_AUI:A0284219"^^xsd:string)
@@ -6133,6 +6141,7 @@ SubClassOf(obo:SYMP_0000597 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000598 (respiratory abnormality)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK470309/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000598 "A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000598 "ICD9CM_2005:786.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000598 "UMLS_CUI:C0159053"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000598 "UMLS_ICD9CM_2005_AUI:A0284202"^^xsd:string)
@@ -6200,14 +6209,14 @@ SubClassOf(obo:SYMP_0000603 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000604 (wheezing)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000604 "A respiratory abnormality that is characterized by breathing with difficulty usually with a whistling sound."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000604 "An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "ICD9CM_2005:786.07"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "UMLS_CUI:C0043144"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000604 "UMLS_ICD9CM_2005_AUI:A0133941"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000604 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000604 "SYMP:0000604"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000604 "wheezing"^^xsd:string)
-SubClassOf(obo:SYMP_0000604 obo:SYMP_0000598)
+SubClassOf(obo:SYMP_0000604 obo:SYMP_0000587)
 
 # Class: obo:SYMP_0000605 (coma)
 
@@ -6546,6 +6555,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000642 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000643 (respiratory failure)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.nhlbi.nih.gov/health/respiratory-failure"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000643 "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannott get enough oxygen into the blood."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000643 "respiratory dysfunction"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000643 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000643 "SYMP:0000643"^^xsd:string)
@@ -7161,7 +7171,7 @@ SubClassOf(obo:SYMP_0000729 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000730 (rapid respiration)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/rapid-shallow-breathing#What-is-tachypnea?"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000730 "A respiratory abnormality that is characterized by and increased breathing rate, with more than 20 breaths per minute in an adult, while in children, the number of breaths per minute can be a higher resting rate than seen in adults."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/rapid-shallow-breathing#What-is-tachypnea?"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000730 "A respiratory abnormality that is characterized by an increased breathing rate, with more than 20 breaths per minute in an adult, while in children, the number of breaths per minute can be a higher resting rate than seen in adults."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000730 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000730 "SYMP:0000730"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000730 "rapid respiration"^^xsd:string)
@@ -7218,6 +7228,7 @@ SubClassOf(obo:SYMP_0000736 obo:SYMP_0000716)
 
 # Class: obo:SYMP_0000737 (respiratory tract mucosa ulcer)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/respiratory+mucosa"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://ntp.niehs.nih.gov/nnl/respiratory/lung/ulcer/index.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000737 "A respiratory system and chest symptom that is characterized by an ulceration (dying and sloughing) of the bronchial or bronchiolar epithelium, exposing the underlying basement membrane."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000737 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000737 "SYMP:0000737"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000737 "respiratory tract mucosa ulcer"^^xsd:string)
@@ -9138,6 +9149,8 @@ SubClassOf(obo:SYMP_0020026 obo:SYMP_0000061)
 
 # Class: obo:SYMP_0020027 (wet cough)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/lung/productive-cough-causes"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020027 "A cough that is characterized by a production and expectoration (bringing up) of mucus (phlegm) or sputum."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020027 "productive cough"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020027 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020027 "SYMP:0020027"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020027 "wet cough"^^xsd:string)
