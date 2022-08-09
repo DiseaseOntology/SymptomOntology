@@ -5692,7 +5692,7 @@ SubClassOf(obo:SYMP_0000556 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000557 (urinary retention)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Urinary_retention"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000557 "A urinary system symptom that is characterized by an inability to empty the bladder completely."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Urinary_retention"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000557 "A urinary system symptom that is characterized by an inability to empty the bladder completely during the process of voiding (urination)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "ICD9CM_2005:788.2"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "ICD9CM_2005:788.20"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000557 "UMLS_CUI:C0080274"^^xsd:string)
@@ -5708,13 +5708,14 @@ SubClassOf(obo:SYMP_0000557 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000558 (incomplete bladder emptying)
 
+AnnotationAssertion(obo:IAO_0000115 obo:SYMP_0000558 "A urinary system symptom that is characterized by a bladder that is not empty."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000558 "ICD9CM_2005:788.21"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000558 "UMLS_CUI:C0344365"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000558 "UMLS_ICD9CM_2005_AUI:A0722424"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000558 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000558 "SYMP:0000558"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000558 "incomplete bladder emptying"^^xsd:string)
-SubClassOf(obo:SYMP_0000558 obo:SYMP_0000557)
+SubClassOf(obo:SYMP_0000558 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000559 (voice disturbance)
 
