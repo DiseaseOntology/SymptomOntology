@@ -2945,6 +2945,8 @@ SubClassOf(obo:SYMP_0000244 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000245 (decreased appetite)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/appetite-decreased"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000245 "An alteration of appetite that is characterized by a reduced desire to eat."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000245 "poor appetite"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000245 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000245 "SYMP:0000245"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000245 "decreased appetite"^^xsd:string)
@@ -2952,6 +2954,7 @@ SubClassOf(obo:SYMP_0000245 obo:SYMP_0000244)
 
 # Class: obo:SYMP_0000246 (increased appetite)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003134.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000246 "An alteration of appetite that is characterized by an desire to eat, an excess desire for food."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000246 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000246 "SYMP:0000246"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000246 "increased appetite"^^xsd:string)
@@ -5119,6 +5122,7 @@ SubClassOf(obo:SYMP_0000502 obo:SYMP_0000492)
 
 # Class: obo:SYMP_0000503 (adult failure to thrive)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.compassus.com/for-caregivers/what-is-adult-failure-to-thrive"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.uptodate.com/contents/failure-to-thrive-in-older-adults-evaluation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000503 "A nutrition, metabolism, and development symptom that is characterized by a physical decline in health seen in older adults – typically those with multiple chronic medical conditions – resulting in decreased appetite and poor nutrition, weight loss, inactivity, often accompanied by dehydration, depression, decreasing functional ability, and impaired immune function."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000503 "ICD9CM_2005:783.7"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000503 "UMLS_CUI:C1268580"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000503 "UMLS_ICD9CM_2005_AUI:A1892736"^^xsd:string)
