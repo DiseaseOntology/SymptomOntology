@@ -2415,6 +2415,7 @@ SubClassOf(obo:SYMP_0000177 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000178 (weight loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Weight_loss"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000178 "A weight symptom that is characterized by a reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue). Weight loss can either occur unintentionally because of malnourishment or an underlying disease."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000178 "SYMP:0000476"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000178 "ICD9CM_2005:783.21"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000178 "UMLS_CUI:C0043096"^^xsd:string)
@@ -3533,6 +3534,7 @@ SubClassOf(obo:SYMP_0000321 obo:SYMP_0000320)
 
 # Class: obo:SYMP_0000322 (low birth weight)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/low-birth-weight"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000322 "A weight symptom that is characterized by an infant weighing 5.5 pounds (2500 grams) or less at birth.  Low birth weight may occur with premature birth, or due to smoking cigarettes, secondhand tobacco smoke exposure, drinking alcohol, and taking certain drugs during pregnancy."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000322 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000322 "SYMP:0000322"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000322 "low birth weight"^^xsd:string)
@@ -3826,6 +3828,7 @@ SubClassOf(obo:SYMP_0000359 obo:SYMP_0000177)
 
 # Class: obo:SYMP_0000360 (emaciation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://dictionary.cambridge.org/us/dictionary/english/emaciation"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Emaciation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000360 "A nutrition, metabolism, and development symptom that is characterized by the state of being extremely thin as a result of an absence of body fat and very week as a result of muscle wasting; usually because of illness or extreme hunger."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000360 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000360 "SYMP:0000360"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000360 "emaciation"^^xsd:string)
@@ -3833,6 +3836,7 @@ SubClassOf(obo:SYMP_0000360 obo:SYMP_0000174)
 
 # Class: obo:SYMP_0000361 (progressive emaciation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.rxlist.com/progressive/definition.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000361 "An emaciation that is characterized by an increase in scope or severity with time."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000361 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000361 "SYMP:0000361"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000361 "progressive emaciation"^^xsd:string)
@@ -4154,6 +4158,7 @@ SubClassOf(obo:SYMP_0000402 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000403 (weight gain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Weight_gain#"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000403 "A weight symptom that is characterized by an increase in body weight. This can involve an increase in muscle mass, fat deposits, excess fluids such as water or other factors."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000403 "SYMP:0020015"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000403 "gain of weight"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000403 "symptoms"^^xsd:string)
@@ -4604,6 +4609,7 @@ SubClassOf(obo:SYMP_0000454 obo:SYMP_0000461)
 
 # Class: obo:SYMP_0000455 (abnormal weight gain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/abnormal"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000455 "A weight gain that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000455 "ICD9CM_2005:783.1"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000455 "UMLS_CUI:C0332544"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000455 "UMLS_ICD9CM_2005_AUI:A0243789"^^xsd:string)
@@ -4806,6 +4812,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000474 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000475 (underweight)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/underweight"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000475 "A weight symptom that is characterized by weighing less than the normal amount for one's age, height, and build."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000475 "ICD9CM_2005:783.22"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000475 "UMLS_CUI:C0041667"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000475 "UMLS_ICD9CM_2005_AUI:A0468826"^^xsd:string)
@@ -6819,6 +6826,7 @@ SubClassOf(obo:SYMP_0000679 obo:SYMP_0019153)
 
 # Class: obo:SYMP_0000680 (acute weight loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000680 "A weight loss that is characterized by a severe and sudden in onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000680 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000680 "SYMP:0000680"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000680 "acute weight loss"^^xsd:string)
@@ -9043,6 +9051,7 @@ SubClassOf(obo:SYMP_0020012 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0020013 (abnormal weight loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/abnormal"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020013 "A weight loss that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020013 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020013 "SYMP:0020013"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020013 "abnormal weight loss"^^xsd:string)
@@ -9050,6 +9059,7 @@ SubClassOf(obo:SYMP_0020013 obo:SYMP_0000178)
 
 # Class: obo:SYMP_0020014 (chronic weight loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cdc.gov/chronicdisease/about/index.htm#"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020014 "A weight loss that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020014 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020014 "SYMP:0020014"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020014 "chronic weight loss"^^xsd:string)
@@ -9068,6 +9078,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0020015 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0020016 (acute weight gain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020016 "A weight gain that is characterized by a severe and sudden in onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020016 "SYMP:0020016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020016 "acute weight gain"^^xsd:string)
@@ -9075,6 +9086,7 @@ SubClassOf(obo:SYMP_0020016 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0020017 (chronic weight gain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cdc.gov/chronicdisease/about/index.htm#"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020017 "A weight gain that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020017 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020017 "SYMP:0020017"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020017 "chronic weight gain"^^xsd:string)
@@ -9082,6 +9094,7 @@ SubClassOf(obo:SYMP_0020017 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0020018 (overweight)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/overweight"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020018 "A weight symptom that is characterized by being too heavy for one’s height. Excess body weight can come from fat, muscle, bone, and/or water retention. Being overweight does not always mean being obese."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020018 "obesity"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020018 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020018 "SYMP:0020018"^^xsd:string)
