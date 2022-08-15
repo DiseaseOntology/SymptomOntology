@@ -3828,7 +3828,7 @@ SubClassOf(obo:SYMP_0000359 obo:SYMP_0000177)
 
 # Class: obo:SYMP_0000360 (emaciation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://dictionary.cambridge.org/us/dictionary/english/emaciation"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Emaciation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000360 "A nutrition, metabolism, and development symptom that is characterized by the state of being extremely thin as a result of an absence of body fat and very week as a result of muscle wasting; usually because of illness or extreme hunger."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://dictionary.cambridge.org/us/dictionary/english/emaciation"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Emaciation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000360 "A wasting that is characterized by the state of being extremely thin as a result of an absence of body fat and very week as a result of muscle wasting; usually because of illness or extreme hunger."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000360 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000360 "SYMP:0000360"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000360 "emaciation"^^xsd:string)
