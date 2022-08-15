@@ -1242,7 +1242,7 @@ SubClassOf(obo:SYMP_0000019 obo:SYMP_0000392)
 
 # Class: obo:SYMP_0000020 (dehydration)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dehydration"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000020 "Dehydration is a nutrition, metabolism, and development symptom characterized by an abnormal depletion of body fluids."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dehydration"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000020 "A nutrition, metabolism, and development symptom that is characterized by an abnormal depletion of body fluids."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000020 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000020 "SYMP:0000020"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000020 "dehydration"^^xsd:string)
@@ -2386,7 +2386,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000173 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000174 (wasting)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000174 "Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000174 "A nutrition, metabolism, and development symptom that is characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000174 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000174 "SYMP:0000174"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000174 "wasting"^^xsd:string)
@@ -4145,7 +4145,7 @@ SubClassOf(obo:SYMP_0000401 obo:SYMP_0000479)
 
 # Class: obo:SYMP_0000402 (cachexia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000402 "Cachexia is a nutrition, metabolism, and development symptom characterized by a general physical wasting and malnutrition usually associated with chronic disease."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000402 "A nutrition, metabolism, and development symptom that is characterized by a general physical wasting and malnutrition usually associated with chronic disease."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000402 "general physical wasting and malnutrition"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000402 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000402 "SYMP:0000402"^^xsd:string)
@@ -5335,7 +5335,7 @@ SubClassOf(obo:SYMP_0000522 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000523 (anorexia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000523 "Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000523 "A nutrition, metabolism, and development symptom that is characterized by a loss of appetite especially when prolonged."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000523 "ICD9CM_2005:783.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000523 "UMLS_CUI:C0003123"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000523 "UMLS_ICD9CM_2005_AUI:A0024378"^^xsd:string)
@@ -5346,7 +5346,7 @@ SubClassOf(obo:SYMP_0000523 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000524 (polyphagia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000524 "Polyphagia is a nutrition, metabolism, and development symptom characterized by an excessive appetite or eating."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000524 "A nutrition, metabolism, and development symptom that is characterized by an excessive appetite or eating."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000524 "ICD9CM_2005:783.6"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000524 "UMLS_CUI:C0020505"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000524 "UMLS_ICD9CM_2005_AUI:A0011381"^^xsd:string)
@@ -5731,7 +5731,7 @@ SubClassOf(obo:SYMP_0000559 obo:SYMP_0000386)
 
 # Class: obo:SYMP_0000560 (polydipsia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000560 "Polydipsia is a nutrition, metabolism, and development symptom characterized by an excessive or abnormal thirst."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000560 "A nutrition, metabolism, and development symptom that is characterized by an excessive or abnormal thirst."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000560 "ICD9CM_2005:783.5"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000560 "UMLS_CUI:C0085602"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000560 "UMLS_ICD9CM_2005_AUI:A0003974"^^xsd:string)
