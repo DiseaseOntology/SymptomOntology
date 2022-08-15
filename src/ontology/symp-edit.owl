@@ -1644,12 +1644,12 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000073 "SYMP:0000073"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000073 "obsolete lesions in thymus"^^xsd:string)
 AnnotationAssertion(owl:deprecated obo:SYMP_0000073 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000074 (lesions in swim bladder)
+# Class: obo:SYMP_0000074 (obsolete lesions in swim bladder)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000074 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000074 "SYMP:0000074"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000074 "lesions in swim bladder"^^xsd:string)
-SubClassOf(obo:SYMP_0000074 obo:SYMP_0000514)
+AnnotationAssertion(rdfs:label obo:SYMP_0000074 "obsolete lesions in swim bladder"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000074 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000075 (lethargy)
 
