@@ -3439,6 +3439,8 @@ SubClassOf(obo:SYMP_0000308 obo:SYMP_0000385)
 
 # Class: obo:SYMP_0000309 (loss of appetite)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000309 "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000309 "anorexia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000309 "inappetence"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000309 "lack of appetite"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000309 "symptoms"^^xsd:string)
@@ -4716,6 +4718,7 @@ SubClassOf(obo:SYMP_0000464 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000465 (failure to thrive)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.chop.edu/conditions-diseases/failure-thrive"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000465 "A lack of expected normal physiological development in childhood that is characterized by a decelerated or arrested physical growth (height and weight measurements fall below the third or fifth percentile, or a downward change in growth across two major growth percentiles) and is associated with abnormal growth and development."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000465 "ICD9CM_2005:783.41"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000465 "UMLS_CUI:C0015544"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000465 "UMLS_ICD9CM_2005_AUI:A0700791"^^xsd:string)
@@ -4726,9 +4729,11 @@ SubClassOf(obo:SYMP_0000465 obo:SYMP_0000464)
 
 # Class: obo:SYMP_0000466 (delayed milestones)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Delayed_milestone"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000466 "A lack of expected normal physiological development in childhood that is characterized by a failure for a child to reach a significant stage at the predicted age and may include walking or talking."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000466 "ICD9CM_2005:783.42"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000466 "UMLS_CUI:C0476241"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000466 "UMLS_ICD9CM_2005_AUI:A1594577"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000466 "developmental delay"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000466 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000466 "SYMP:0000466"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000466 "delayed milestones"^^xsd:string)
@@ -4785,6 +4790,7 @@ SubClassOf(obo:SYMP_0000471 obo:SYMP_0000454)
 
 # Class: obo:SYMP_0000472 (early satiety)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/satiety-early"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000472 "A nutrition, metabolism, and development symptom that is characterized by a feeling of being full after a few bites of food, or before you finish a normal-sized meal."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000472 "ICD9CM_2005:780.94"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000472 "UMLS_CUI:C0239233"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000472 "UMLS_ICD9CM_2005_AUI:A2797496"^^xsd:string)
@@ -6939,6 +6945,7 @@ SubClassOf(obo:SYMP_0000694 obo:SYMP_0000891)
 
 # Class: obo:SYMP_0000695 (decreased milk production)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.chop.edu/pages/low-milk-supply"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000695 "A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000695 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000695 "SYMP:0000695"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000695 "decreased milk production"^^xsd:string)
