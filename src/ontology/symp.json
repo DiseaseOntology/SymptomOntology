@@ -25,7 +25,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000092",
       "meta" : {
         "definition" : {
-          "val" : "Skin lesion is a skin and integumentary tissue symptom characterized as an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lesion" ]
         },
         "basicPropertyValues" : [ {
@@ -234,6 +234,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000729",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a region of normally compressible lung tissue that has filled with liquid instead of air.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Pulmonary_consolidation" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -279,7 +283,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000712",
       "meta" : {
         "definition" : {
-          "val" : "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term.",
+          "val" : "A reproductive system symptom that is characterized the biological inability of a man or a woman to contribute to conception; or, the state of a woman who is unable to carry a pregnancy to full term.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Infertility" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -294,7 +298,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000715",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized by the peeling off of skin in the form of scales.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by the peeling off of skin in the form of scales.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation" ]
         },
         "basicPropertyValues" : [ {
@@ -465,7 +469,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000760",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized as a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae" ]
         },
         "synonyms" : [ {
@@ -594,7 +598,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000524",
       "meta" : {
         "definition" : {
-          "val" : "Polyphagia is a nutrition, metabolism, and development symptom characterized by an excessive appetite or eating.",
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by an excessive appetite or eating.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia" ]
         },
         "xrefs" : [ {
@@ -625,7 +629,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000523",
       "meta" : {
         "definition" : {
-          "val" : "Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged.",
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a loss of appetite especially when prolonged.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia" ]
         },
         "xrefs" : [ {
@@ -824,7 +828,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000511",
       "meta" : {
         "definition" : {
-          "val" : "Flushing is a skin and integumentary tissue symptom characterized as a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Flushing_%28physiology%29" ]
         },
         "xrefs" : [ {
@@ -855,7 +859,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000510",
       "meta" : {
         "definition" : {
-          "val" : "Pallor is a skin and integumentary tissue symptom characterized as a deficiency of color especially of the face.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a deficiency of color especially of the face.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor" ]
         },
         "xrefs" : [ {
@@ -891,7 +895,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000513",
       "meta" : {
         "definition" : {
-          "val" : "Stridor is a respiratory system and chest symptom characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages.",
+          "val" : "An abnormal chest sound that is characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor" ]
         },
         "xrefs" : [ {
@@ -936,6 +940,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000512",
       "meta" : {
+        "definition" : {
+          "val" : "A stress incontinence that is characterized by a compromised external urinary sphincter muscle resulting from surgical or radiotherapeutic manipulation.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3356867/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0302505"
         }, {
@@ -954,7 +962,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000515",
       "meta" : {
         "definition" : {
-          "val" : "Hiccough is a respiratory system and chest symptom characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound.",
+          "val" : "A respiratory system and chest symptom that is characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough" ]
         },
         "xrefs" : [ {
@@ -1002,7 +1010,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000756",
       "meta" : {
         "definition" : {
-          "val" : "A reproductive system symptom characterized by an abnormally profuse menstrual flow.",
+          "val" : "A reproductive system symptom that is characterized an abnormally profuse menstrual flow.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia" ]
         },
         "basicPropertyValues" : [ {
@@ -1016,7 +1024,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000517",
       "meta" : {
         "definition" : {
-          "val" : "Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract.",
+          "val" : "A respiratory system and chest symptom that is characterized by an expectoration of blood from some part of the respiratory tract.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis" ]
         },
         "xrefs" : [ {
@@ -1187,6 +1195,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000502",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence.",
+          "xrefs" : [ "url:https://www.webmd.com/urinary-incontinence-oab/mixed-incontinence" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0375550"
         }, {
@@ -1239,20 +1251,6 @@
       "type" : "CLASS",
       "lbl" : "blotchy red rash"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000746",
-      "meta" : {
-        "definition" : {
-          "val" : "Enanthem is a skin and integumentary tissue symptom characterized as an eruption on a mucous surface.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "enanthem"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000504",
       "meta" : {
         "definition" : {
@@ -1279,8 +1277,26 @@
       "type" : "CLASS",
       "lbl" : "headache"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000746",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by an eruption on a mucous surface.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "enanthem"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000503",
       "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a physical decline in health seen in older adults – typically those with multiple chronic medical conditions – resulting in decreased appetite and poor nutrition, weight loss, inactivity, often accompanied by dehydration, depression, decreasing functional ability, and impaired immune function.",
+          "xrefs" : [ "url:https://www.compassus.com/for-caregivers/what-is-adult-failure-to-thrive", "url:https://www.uptodate.com/contents/failure-to-thrive-in-older-adults-evaluation" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C1268580"
         }, {
@@ -1325,6 +1341,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000748",
       "meta" : {
+        "definition" : {
+          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face.",
+          "xrefs" : [ "url:https://angletoner.com/facial-swelling/" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "facial swelling",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1454,6 +1479,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000731",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by a loss of excretory function in one or both kidneys, leading to retention of nitrogenous waste products from the blood.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK519012/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1464,6 +1493,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000730",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory abnormality that is characterized by an increased breathing rate, with more than 20 breaths per minute in an adult, while in children, the number of breaths per minute can be a higher resting rate than seen in adults.",
+          "xrefs" : [ "url:https://www.healthline.com/health/rapid-shallow-breathing#What-is-tachypnea?" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1494,6 +1527,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000735",
       "meta" : {
+        "definition" : {
+          "val" : "A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur.",
+          "xrefs" : [ "url:https://medical-dictionary.thefreedictionary.com/suppurative+pneumonia" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1535,6 +1572,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000737",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by an ulceration (dying and sloughing) of the bronchial or bronchiolar epithelium, exposing the underlying basement membrane.",
+          "xrefs" : [ "url:https://medical-dictionary.thefreedictionary.com/respiratory+mucosa", "url:https://ntp.niehs.nih.gov/nnl/respiratory/lung/ulcer/index.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1555,6 +1596,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000739",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by bleeding (hemorrhage) in either or both the bronchi and the lungs.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/medical/bronchopulmonary" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1585,6 +1630,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000680",
       "meta" : {
+        "definition" : {
+          "val" : "A weight loss that is characterized by a severe and sudden in onset.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/imagepages/18126.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1620,6 +1669,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000440",
       "meta" : {
+        "definition" : {
+          "val" : "A hair symptom that is characterized by the stopping of hair growth (regeneration), which may be a result of hereditary hair loss, immune system overreacts, drugs and treatments, harsh hair-care products, and other factors.",
+          "xrefs" : [ "url:https://www.aad.org/public/diseases/hair-loss/insider/shedding" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1771,7 +1824,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000686",
       "meta" : {
         "definition" : {
-          "val" : "Chronic cough is a cough characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness.",
+          "val" : "A cough that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic" ]
         },
         "basicPropertyValues" : [ {
@@ -1785,7 +1838,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000447",
       "meta" : {
         "definition" : {
-          "val" : "Bloody sputum is a sputum that consists of blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung.",
+          "val" : "A sputum that is characterized by blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung.",
           "xrefs" : [ "url:http://www.medicinenet.com/symptoms_and_signs/article.htm", "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum" ]
         },
         "comments" : [ "Bloody sputum (spitting up blood or bloody mucus) can come from common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung." ],
@@ -1856,6 +1909,20 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete acute suppurative lesions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020044",
+      "meta" : {
+        "definition" : {
+          "val" : "A hair symptom that is characterized by significant falling out of hair, which may be a result of stress, high fever, and other factors.",
+          "xrefs" : [ "url:https://www.aad.org/public/diseases/hair-loss/insider/shedding" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hair shedding"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000449",
       "meta" : {
@@ -1991,7 +2058,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020041",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C).",
+          "val" : "A hair symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C).",
           "xrefs" : [ "url:https://medlineplus.gov/ency/imagepages/2345.htm", "url:https://www.ccjm.org/content/ccjom/82/4/216.full.pdf", "url:https://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/" ]
         },
         "basicPropertyValues" : [ {
@@ -2073,7 +2140,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000432",
       "meta" : {
         "definition" : {
-          "val" : "Itching is a skin and integumentary tissue symptom characterized as an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching" ]
         },
         "synonyms" : [ {
@@ -2106,7 +2173,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000431",
       "meta" : {
         "definition" : {
-          "val" : "A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products.",
+          "val" : "A respiratory system and chest symptom that is characterized by matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum" ]
         },
         "synonyms" : [ {
@@ -2153,7 +2220,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000434",
       "meta" : {
         "definition" : {
-          "val" : "Urticaria is a skin and integumentary tissue symptom characterized \nby raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Urticaria" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -2224,6 +2291,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000436",
       "meta" : {
+        "definition" : {
+          "val" : "A reproductive system symptom that is characterized by bleeding from the uterus that is longer than usual or that occurs at an irregular time. Bleeding may be heavier or lighter than usual and occur often or randomly.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/000903.htm" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "abnormal menstruation",
@@ -2264,7 +2335,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000435",
       "meta" : {
         "definition" : {
-          "val" : "Paresthesia is a skin and integumentary tissue symptom characterized as a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia" ]
         },
         "basicPropertyValues" : [ {
@@ -2298,7 +2369,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020033",
       "meta" : {
         "definition" : {
-          "val" : "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough).",
+          "val" : "A cough that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough).",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -2329,6 +2400,20 @@
       "type" : "CLASS",
       "lbl" : "conjunctiva symptom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000679",
+      "meta" : {
+        "definition" : {
+          "val" : "A dyspnea that is characterized by a severe and sudden in onset.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/imagepages/18126.htm" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acute dyspnea"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000437",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2339,18 +2424,12 @@
       "type" : "CLASS",
       "lbl" : "earache"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000679",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "acute dyspnea"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020031",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by pain, pressure, tightness, or other discomfort originating in or radiating to the chest, which constitutes an important indicator of potentially serious cardiac or cardiovascular disorders.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK416/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2381,6 +2460,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020032",
       "meta" : {
+        "definition" : {
+          "val" : "A chest discomfort that is characterized by any type of pain or discomfort between your upper belly and lower neck.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "chest pain",
+          "xrefs" : [ "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/chest-tightness", "url:https://www.verywellhealth.com/che" ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2391,6 +2479,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020030",
       "meta" : {
+        "definition" : {
+          "val" : "A hair symptom that is characterized by patchy hair loss and the presence of comedo-like cadaver hairs, which appear as black dots.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148295/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2411,6 +2503,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000660",
       "meta" : {
+        "definition" : {
+          "val" : "A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Purpura", "url:https://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2540,6 +2636,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020027",
       "meta" : {
+        "definition" : {
+          "val" : "A cough that is characterized by a production and expectoration (bringing up) of mucus (phlegm) or sputum.",
+          "xrefs" : [ "url:https://www.webmd.com/lung/productive-cough-causes" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "productive cough",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2590,6 +2695,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020024",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by constriction of the air passages of the lung (as in asthma) by spasmodic contraction of the bronchial muscles.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/bronchospasm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2619,6 +2728,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020025",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by necrosis of tissue with conversion of damaged tissue into a soft cheesy substance.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/caseation" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2647,24 +2760,10 @@
       "type" : "CLASS",
       "lbl" : "abnormal hemistanding"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0020022",
-      "meta" : {
-        "definition" : {
-          "val" : "An ear symptom - need proper definition - placeholder for xref.",
-          "xrefs" : [ "url:https://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#:~:text=An%20example%20is%20bone%20conduction,canals%20in%20the%20inner%20ear." ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "bone conduction hyperacusis"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000427",
       "meta" : {
         "definition" : {
-          "val" : "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection.",
+          "val" : "A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -2680,6 +2779,20 @@
       },
       "type" : "CLASS",
       "lbl" : "impotence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020022",
+      "meta" : {
+        "definition" : {
+          "val" : "An ear symptom - need proper definition - placeholder for xref.",
+          "xrefs" : [ "url:https://hearinghealthfoundation.org/blogs/deciphering-a-mechanism-behind-bone-conduction-hyperacusis#:~:text=An%20example%20is%20bone%20conduction,canals%20in%20the%20inner%20ear." ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "bone conduction hyperacusis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000426",
       "meta" : {
@@ -2704,7 +2817,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000429",
       "meta" : {
         "definition" : {
-          "val" : "Bradypnea is a respiratory abnormality characterized by abnormally slow breathing.",
+          "val" : "A respiratory abnormality that is characterized by abnormally slow breathing.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea" ]
         },
         "synonyms" : [ {
@@ -2733,7 +2846,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000428",
       "meta" : {
         "definition" : {
-          "val" : "Hypoventilation is a respiratory abnormality characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both.",
+          "val" : "A respiratory abnormality that is characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation" ]
         },
         "basicPropertyValues" : [ {
@@ -2854,6 +2967,20 @@
       "type" : "CLASS",
       "lbl" : "anaphylactic shock"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020017",
+      "meta" : {
+        "definition" : {
+          "val" : "A weight gain that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both.",
+          "xrefs" : [ "url:https://www.cdc.gov/chronicdisease/about/index.htm#" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chronic weight gain"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000652",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2863,16 +2990,6 @@
       },
       "type" : "CLASS",
       "lbl" : "wound discharge"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0020017",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "chronic weight gain"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000410",
       "meta" : {
@@ -2924,6 +3041,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020018",
       "meta" : {
+        "definition" : {
+          "val" : "A weight symptom that is characterized by being too heavy for one’s height. Excess body weight can come from fat, muscle, bone, and/or water retention. Being overweight does not always mean being obese.",
+          "xrefs" : [ "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/overweight" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "obesity",
@@ -3026,7 +3147,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000894",
       "meta" : {
         "definition" : {
-          "val" : "A skin andintegumentary tissue symptom that is characterized by cold, moist and sticky skin.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by cold, moist and sticky skin.",
           "xrefs" : [ "url:http://www.merriam-webster.com/medlineplus/clammy" ]
         },
         "basicPropertyValues" : [ {
@@ -3045,6 +3166,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020016",
       "meta" : {
+        "definition" : {
+          "val" : "A weight gain that is characterized by a severe and sudden in onset.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/imagepages/18126.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3084,6 +3209,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020013",
       "meta" : {
+        "definition" : {
+          "val" : "A weight loss that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/abnormal" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3118,6 +3247,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020014",
       "meta" : {
+        "definition" : {
+          "val" : "A weight loss that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both.",
+          "xrefs" : [ "url:https://www.cdc.gov/chronicdisease/about/index.htm#" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3488,6 +3621,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000242",
       "meta" : {
+        "definition" : {
+          "val" : "A cough that is characterized by production and expectoration (bringing up) of sputum that is bright red or pink and frothy.",
+          "xrefs" : [ "url:https://www.webmd.com/lung/coughing-up-blood" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hemoptysis",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3514,7 +3656,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000487",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized as an eruption on the body typically with little or no elevation above the surface.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash" ]
         },
         "xrefs" : [ {
@@ -3566,6 +3708,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000245",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of appetite that is characterized by a reduced desire to eat.",
+          "xrefs" : [ "url:https://www.healthline.com/health/appetite-decreased" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "poor appetite",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3680,6 +3831,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000246",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of appetite that is characterized by an desire to eat, an excess desire for food.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003134.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3759,7 +3914,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000009",
       "meta" : {
         "definition" : {
-          "val" : "Blister is a skin and integumentary tissue symptom characterized as a fluid-filled elevation of the epidermis.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a fluid-filled elevation of the epidermis.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister" ]
         },
         "basicPropertyValues" : [ {
@@ -3800,6 +3955,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000472",
       "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a feeling of being full after a few bites of food, or before you finish a normal-sized meal.",
+          "xrefs" : [ "url:https://www.healthline.com/health/satiety-early" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:780.94"
         }, {
@@ -3845,7 +4004,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000232",
       "meta" : {
         "definition" : {
-          "val" : "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles.",
+          "val" : "A respiratory system and chest symptom that is characterized by an inflammation of the bronchioles.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -3953,6 +4112,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000475",
       "meta" : {
+        "definition" : {
+          "val" : "A weight symptom that is characterized by weighing less than the normal amount for one's age, height, and build.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/underweight" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0041667"
         }, {
@@ -4083,7 +4246,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000237",
       "meta" : {
         "definition" : {
-          "val" : "Congestion is a respiratory system and chest symptom characterized by an excessive accumulation especially of blood or mucus.",
+          "val" : "A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion" ]
         },
         "synonyms" : [ {
@@ -4226,6 +4389,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000465",
       "meta" : {
+        "definition" : {
+          "val" : "A lack of expected normal physiological development in childhood that is characterized by a decelerated or arrested physical growth (height and weight measurements fall below the third or fifth percentile, or a downward change in growth across two major growth percentiles) and is associated with abnormal growth and development.",
+          "xrefs" : [ "url:https://www.chop.edu/conditions-diseases/failure-thrive" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0015544"
         }, {
@@ -4316,12 +4483,21 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000466",
       "meta" : {
+        "definition" : {
+          "val" : "A lack of expected normal physiological development in childhood that is characterized by a failure for a child to reach a significant stage at the predicted age and may include walking or talking.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Delayed_milestone" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0476241"
         }, {
           "val" : "ICD9CM_2005:783.42"
         }, {
           "val" : "UMLS_ICD9CM_2005_AUI:A1594577"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "developmental delay",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4634,6 +4810,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000695",
       "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers",
+          "xrefs" : [ "url:https://www.chop.edu/pages/low-milk-supply", "url:https://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -4706,6 +4886,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000455",
       "meta" : {
+        "definition" : {
+          "val" : "A weight gain that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/abnormal" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:783.1"
         }, {
@@ -5117,7 +5301,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000289",
       "meta" : {
         "definition" : {
-          "val" : "Eczema is a skin and integumentary tissue symptom characterized as an inflammatory condition of the skin characterized by redness, itching, and oozing vesicular lesions which become scaly, crusted, or hardened.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an inflammatory condition of the skin with redness, itching, and oozing vesicular lesions, which become scaly, crusted, or hardened.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema" ]
         },
         "basicPropertyValues" : [ {
@@ -5346,6 +5530,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000038",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by being short or breath or out of air (dyspnea), with inflammation of the small intestine (enteritis).",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/001149.htm", "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/dyspnea" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -5431,7 +5619,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000263",
       "meta" : {
         "definition" : {
-          "val" : "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis.",
+          "val" : "A reproductive system symptom that is characterized by an inflammation of the epididymis.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -5462,7 +5650,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000020",
       "meta" : {
         "definition" : {
-          "val" : "Dehydration is a nutrition, metabolism, and development symptom characterized by an abnormal depletion of body fluids.",
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by an abnormal depletion of body fluids.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dehydration" ]
         },
         "basicPropertyValues" : [ {
@@ -5514,6 +5702,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000264",
       "meta" : {
+        "definition" : {
+          "val" : "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)",
+          "xrefs" : [ "url:https://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "epididymo-orchitis",
@@ -5539,6 +5731,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000025",
       "meta" : {
+        "definition" : {
+          "val" : "A cough that is characterized by a lack of accompanied phlegm production.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nonproductive cough",
+          "xrefs" : [ "url:https://www.healthline.com/health/dry-cough" ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -5756,6 +5957,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000252",
       "meta" : {
+        "definition" : {
+          "val" : "A rash characterized by large patches of red skin, without overlying changes in the epidermis.",
+          "xrefs" : [ "url:https://www.drugwatch.com/health/rash-and-skin-disorders/erythema/", "url:https://www.sciencedirect.com/topics/medicine-and-dentistry/erythema" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "diffuse erythema",
@@ -5782,6 +5987,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000251",
       "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by a pus-filled pocket in the skin, similar to a pimple, but larger and deeper.  The pocket is filled with bacteria, white blood cells, and dead skin and typcally result from the bacteria Staphylococcus aureus prentrating the skin through a cut or hair follicle.",
+          "xrefs" : [ "url:https://jamanetwork.com/journals/jama/fullarticle/2677448" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "skin abscess",
@@ -5878,6 +6087,27 @@
       "type" : "CLASS",
       "lbl" : "blurred vision"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000495",
+      "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by abnormal purulent or mucoid secretions from the penis or, rarely, the female urethra.",
+          "xrefs" : [ "url:https://accessmedicine.mhmedical.com/content.aspx?bookid=369&sectionid=39914779#:~:text=Urethral%20discharge%20is%20characterized%20by,of%20leukorrhea%20and%20urethral%20inflammation" ]
+        },
+        "xrefs" : [ {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0266251"
+        }, {
+          "val" : "ICD9CM_2005:788.7"
+        }, {
+          "val" : "UMLS_CUI:C0152447"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "urethral discharge"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000253",
       "meta" : {
         "synonyms" : [ {
@@ -5907,23 +6137,6 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete bloody exudate"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000495",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS_ICD9CM_2005_AUI:A0266251"
-        }, {
-          "val" : "ICD9CM_2005:788.7"
-        }, {
-          "val" : "UMLS_CUI:C0152447"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "urethral discharge"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000014",
       "meta" : {
@@ -6077,6 +6290,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000259",
       "meta" : {
+        "definition" : {
+          "val" : "A dry cough that is characterized by a rough and loud sound.",
+          "xrefs" : [ "url:https://en.wiktionary.org/wiki/hacking_cough" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -6253,10 +6470,11 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
-        } ]
+        } ],
+        "deprecated" : true
       },
       "type" : "CLASS",
-      "lbl" : "lesions in swim bladder"
+      "lbl" : "obsolete lesions in swim bladder"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000073",
       "meta" : {
@@ -6600,7 +6818,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000056",
       "meta" : {
         "definition" : {
-          "val" : "Hyperpigmentation is a skin and integumentary tissue symptom characterized as an excess pigmentation in a bodily part or tissue, as the skin.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an excess pigmentation in a bodily part or tissue, as the skin.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation" ]
         },
         "basicPropertyValues" : [ {
@@ -6840,7 +7058,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000601",
       "meta" : {
         "definition" : {
-          "val" : "Hyperventilation is a respiratory abnormality characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood.",
+          "val" : "A respiratory abnormality that is characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation" ]
         },
         "xrefs" : [ {
@@ -6875,7 +7093,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000600",
       "meta" : {
         "definition" : {
-          "val" : "Apnea is a respiratory abnormality characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs).",
+          "val" : "A respiratory abnormality that is characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs).",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea" ]
         },
         "xrefs" : [ {
@@ -6910,8 +7128,8 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000603",
       "meta" : {
         "definition" : {
-          "val" : "Tachypnea is a respiratory abnormality characterized by an increased rate of respiration.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea", "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea" ]
+          "val" : "A respiratory abnormality that is characterized by an increased rate of respiration and shallow breathing.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea", "url:https://www.healthline.com/health/rapid-shallow-breathing" ]
         },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0465027"
@@ -6953,7 +7171,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000602",
       "meta" : {
         "definition" : {
-          "val" : "Orthopnea is a respiratory abnormality characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure).",
+          "val" : "A respiratory abnormality that is characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure).",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea" ]
         },
         "xrefs" : [ {
@@ -7033,7 +7251,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000604",
       "meta" : {
         "definition" : {
-          "val" : "Wheezing is a respiratory abnormality characterized by breathing with difficulty usually with a whistling sound.",
+          "val" : "An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing" ]
         },
         "xrefs" : [ {
@@ -7075,7 +7293,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000849",
       "meta" : {
         "definition" : {
-          "val" : "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body.",
+          "val" : "A reproductive system symptom that is characterized by the birth of a dead fetus; in which  a fetus that has died in the uterus, or during labor, or delivery, exits a woman's body.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Still_birth", "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth" ]
         },
         "basicPropertyValues" : [ {
@@ -7088,12 +7306,25 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000606",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary incontinence that is characterized by involuntary urination at night in children five years of age or older.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348193/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0270327"
         }, {
           "val" : "ICD9CM_2005:788.36"
         }, {
           "val" : "UMLS_ICD9CM_2005_AUI:A0753297"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nighttime incontinence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "bed wetting",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -7572,7 +7803,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020008",
       "meta" : {
         "definition" : {
-          "val" : "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough.",
+          "val" : "A cough that is characterized by a tight, low-pitched, and barky (like a barking seal) cough.",
           "xrefs" : [ "url:https://www.seattlechildrens.org/conditions/a-z/croup/" ]
         },
         "basicPropertyValues" : [ {
@@ -7655,6 +7886,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000640",
       "meta" : {
+        "definition" : {
+          "val" : "A rash characterized by an inflammatory reaction of the skin on the ankles.",
+          "xrefs" : [ "url:https://www.healthgrades.com/right-care/skin-hair-and-nails/ankle-rash" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "redness of ankle",
@@ -7700,6 +7935,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000643",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannott get enough oxygen into the blood.",
+          "xrefs" : [ "url:https://www.nhlbi.nih.gov/health/respiratory-failure" ]
+        },
         "comments" : [ "doid/symp duplicate" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7820,6 +8059,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000403",
       "meta" : {
+        "definition" : {
+          "val" : "A weight symptom that is characterized by an increase in body weight. This can involve an increase in muscle mass, fat deposits, excess fluids such as water or other factors.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Weight_gain#" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "gain of weight",
@@ -7845,6 +8088,25 @@
       },
       "type" : "CLASS",
       "lbl" : "anal abscess"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000402",
+      "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a general physical wasting and malnutrition usually associated with chronic disease.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "general physical wasting and malnutrition",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cachexia"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000886",
       "meta" : {
@@ -7891,29 +8153,10 @@
       "type" : "CLASS",
       "lbl" : "ruffled feather"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000402",
-      "meta" : {
-        "definition" : {
-          "val" : "Cachexia is a nutrition, metabolism, and development symptom characterized by a general physical wasting and malnutrition usually associated with chronic disease.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "general physical wasting and malnutrition",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "cachexia"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000405",
       "meta" : {
         "definition" : {
-          "val" : "Vaginismus is a reproductive system symptom characterized by a painful spasmodic contraction of the vagina.",
+          "val" : "A reproductive system symptom that is characterized by a painful spasmodic contraction of the vagina.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus" ]
         },
         "synonyms" : [ {
@@ -7952,7 +8195,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000647",
       "meta" : {
         "definition" : {
-          "val" : "Tache noire is a skin ulcer characterized by a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever.",
+          "val" : "A skin ulcer that is characterized by a a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire" ]
         },
         "basicPropertyValues" : [ {
@@ -7965,6 +8208,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020000",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a narrowing in the airway that obstructs the passage of air into the lungs.  Examples include tracheal and laryngotracheal stenosis.",
+          "xrefs" : [ "url:https://throatdisorder.com/breathing-disorders/tracheal-stenosis/", "url:https://www.ncbi.nlm.nih.gov/books/NBK554561/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -7972,6 +8219,29 @@
       },
       "type" : "CLASS",
       "lbl" : "airway stenosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020001",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin ulcer that is characterized by a small recurrent, painful, round or ovoid ulcers with well-defined erythematous margins, like a halo, and a central yellow or gray floor found in the soft tissue of the oral cavity.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Aphthous_stomatitis" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "aphthous stomatitis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "canker sore",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "apthous ulcer"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000646",
       "meta" : {
@@ -8032,16 +8302,6 @@
       "type" : "CLASS",
       "lbl" : "dyspareunia"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0020001",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "apthous ulcer"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000407",
       "meta" : {
         "definition" : {
@@ -8085,7 +8345,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000406",
       "meta" : {
         "definition" : {
-          "val" : "Bruise is a skin and integumentary tissue symptom characterized as an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise" ]
         },
         "synonyms" : [ {
@@ -8168,7 +8428,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000872",
       "meta" : {
         "definition" : {
-          "val" : "Yellowed skin due to bile or bilirubin accumulation.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by yellowed skin due to bile or bilirubin accumulation.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Jaundice" ]
         },
         "basicPropertyValues" : [ {
@@ -8192,7 +8452,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000871",
       "meta" : {
         "definition" : {
-          "val" : "Icteric mucous membrane is a skin and integumentary tissue symptom characterized as a yellowed mucous membranes due to bile or bilirubin accumulation.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by yellowed mucous membranes due to bile or bilirubin accumulation.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Jaundice" ]
         },
         "basicPropertyValues" : [ {
@@ -8216,7 +8476,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000874",
       "meta" : {
         "definition" : {
-          "val" : "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Hematoma", "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas" ]
         },
         "basicPropertyValues" : [ {
@@ -8303,6 +8563,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000636",
       "meta" : {
+        "definition" : {
+          "val" : "A rash characterized by papule(s), which are a raised area of the skin and macule(s), which are a flat red area of the skin.",
+          "xrefs" : [ "url:https://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -8352,6 +8616,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000638",
       "meta" : {
+        "definition" : {
+          "val" : "A rash characterized by papule(s), which are a raised area of the skin.",
+          "xrefs" : [ "url:https://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -8521,6 +8789,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000623",
       "meta" : {
+        "definition" : {
+          "val" : "A renal failure that is characterized by a severe and sudden onset of renal failure.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -8601,7 +8873,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000869",
       "meta" : {
         "definition" : {
-          "val" : "Nasal congestion is a congestion characterized by a blockage of the nasal passages usually due to membranes lining the nose becoming swollen from inflamed blood vessels.",
+          "val" : "A congestion that is characterized by a blockage of the nasal passages, usually due to the membranes lining the nose becoming swollen from inflamed blood vessels.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Nasal_congestion" ]
         },
         "basicPropertyValues" : [ {
@@ -8630,7 +8902,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000868",
       "meta" : {
         "definition" : {
-          "val" : "Breathing problems is a respiratory abnormality characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air.",
+          "val" : "A respiratory abnormality that is characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air.",
           "xrefs" : [ "url:http://www.nlm.nih.gov/medlineplus/breathingproblems.html" ]
         },
         "basicPropertyValues" : [ {
@@ -8644,7 +8916,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000629",
       "meta" : {
         "definition" : {
-          "val" : "Exanthema is a rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease.",
+          "val" : "A rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Exanthema" ]
         },
         "basicPropertyValues" : [ {
@@ -8741,6 +9013,20 @@
       "type" : "CLASS",
       "lbl" : "gross hematuria"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000854",
+      "meta" : {
+        "definition" : {
+          "val" : "A menorrhagia that is characterized by an abnormally profuse or prolonged menstrual flow.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hypermenorrhea"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000612",
       "meta" : {
         "xrefs" : [ {
@@ -8757,20 +9043,6 @@
       },
       "type" : "CLASS",
       "lbl" : "periumbilic abdominal rigidity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000854",
-      "meta" : {
-        "definition" : {
-          "val" : "Hypermenorrhea is a menorrhagia characterized by an abnormally profuse or prolonged menstrual flow.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "hypermenorrhea"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000611",
       "meta" : {
@@ -8793,7 +9065,7 @@
       "meta" : {
         "definition" : {
           "val" : "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence" ]
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence", "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -8806,7 +9078,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000614",
       "meta" : {
         "definition" : {
-          "val" : "Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.",
+          "val" : "A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough" ]
         },
         "xrefs" : [ {
@@ -8867,7 +9139,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000855",
       "meta" : {
         "definition" : {
-          "val" : "Metrorrhagia is a menorrhagia characterized by an irregular uterine bleeding especially between menstrual periods.",
+          "val" : "A menorrhagia that is characterized by an irregular uterine bleeding, especially between menstrual periods.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia" ]
         },
         "basicPropertyValues" : [ {
@@ -9027,7 +9299,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000560",
       "meta" : {
         "definition" : {
-          "val" : "Polydipsia is a nutrition, metabolism, and development symptom characterized by an excessive or abnormal thirst.",
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by an excessive or abnormal thirst.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia" ]
         },
         "xrefs" : [ {
@@ -9131,6 +9403,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000322",
       "meta" : {
+        "definition" : {
+          "val" : "A weight symptom that is characterized by an infant weighing 5.5 pounds (2500 grams) or less at birth.  Low birth weight may occur with premature birth, or due to smoking cigarettes, secondhand tobacco smoke exposure, drinking alcohol, and taking certain drugs during pregnancy.",
+          "xrefs" : [ "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/low-birth-weight" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -9177,6 +9453,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000563",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by the need to urinate many times during the day, at night, or both but in normal or less-than-normal volumes.  Frequency may be accompanied by a sensation of an urgent need to void (urgency of urination).",
+          "xrefs" : [ "url:https://www.merckmanuals.com/professional/genitourinary-disorders/symptoms-of-genitourinary-disorders/urinary-frequency" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0042023"
         }, {
@@ -9185,6 +9465,10 @@
           "val" : "ICD9CM_2005:788.41"
         } ],
         "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nocturia",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "frequent urination",
           "xrefs" : [ ]
@@ -9217,7 +9501,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000324",
       "meta" : {
         "definition" : {
-          "val" : "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes.",
+          "val" : "A respiratory system and chest symptom that is characterized by an acute or chronic inflammation of the bronchial tubes.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -9316,6 +9600,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019178",
       "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by regions of cell death to living tissue in an organ, which has suffered damage through injury or disease, such as a wound, ulcer, abscess, or tumor.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Lesion", "url:https://en.wikipedia.org/wiki/Necrosis" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -9434,7 +9722,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019175",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized as the excretion of moisture in visible quantities through the opening of the sweat glands.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat" ]
         },
         "synonyms" : [ {
@@ -9771,6 +10059,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000557",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by an inability to empty the bladder completely during the process of voiding (urination).",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Urinary_retention" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:788.2"
         }, {
@@ -9826,7 +10118,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019167",
       "meta" : {
         "definition" : {
-          "val" : "Pustule is a skin and integumentary tissue symptom characterized as a small circumscribed elevation of the skin containing pus and having an inflamed base.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a small circumscribed elevation of the skin containing pus and having an inflamed base.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule" ]
         },
         "basicPropertyValues" : [ {
@@ -9892,7 +10184,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019168",
       "meta" : {
         "definition" : {
-          "val" : "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded.",
+          "val" : "A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Pneumonia" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -9958,6 +10250,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000558",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by a bladder that is not empty.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:788.21"
         }, {
@@ -10071,7 +10367,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019160",
       "meta" : {
         "definition" : {
-          "val" : "Boil is a skin and integumentary tissue symptom characterized as a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil" ]
         },
         "synonyms" : [ {
@@ -10099,6 +10395,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000540",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a feeling of discomfort when breathing in or out.  The pain may be the result of infection, musculoskeletal injury, and heart problems.",
+          "xrefs" : [ "url:https://www.healthline.com/health/painful-respiration#causes", "url:https://www.medicalnewstoday.com/articles/324718" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0243833"
         }, {
@@ -10413,7 +10713,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019158",
       "meta" : {
         "definition" : {
-          "val" : "Eschar is a skin and integumentary tissue symptom characterized as a scab formed especially after a burn.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a scab formed especially after a burn.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar" ]
         },
         "basicPropertyValues" : [ {
@@ -10493,7 +10793,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019152",
       "meta" : {
         "definition" : {
-          "val" : "Diaphoresis is a sweat characterized as excessive sweating commonly associated with shock and other medical emergency conditions.",
+          "val" : "A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Diaphoresis" ]
         },
         "synonyms" : [ {
@@ -10512,7 +10812,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019153",
       "meta" : {
         "definition" : {
-          "val" : "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration.",
+          "val" : "A respiratory abnormality that is characterized by difficult or labored respiration.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea" ]
         },
         "synonyms" : [ {
@@ -10573,6 +10873,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019154",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory abnormality that is characterized by inflammation of the mediastinum (the chest cavity, which contains the heart, the thymus gland, some lymph nodes, and parts of the esophagus, aorta, thyroid, and parathyroid glands) as the result of bleeding.",
+          "xrefs" : [ "url:https://www.merckmanuals.com/home/lung-and-airway-disorders/pleural-and-mediastinal-disorders/mediastinitis" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -10583,7 +10887,15 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000309",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.",
+          "xrefs" : [ "url:https://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite" ]
+        },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anorexia",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "lack of appetite",
           "xrefs" : [ ]
@@ -10653,7 +10965,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019151",
       "meta" : {
         "definition" : {
-          "val" : "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs.",
+          "val" : "A respiratory system and chest symptom that is characterized by an abnormal accumulation of fluid in the lungs.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -10746,6 +11058,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000533",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary incontinence that is characterized by urine remaining in the urethra after voiding the bladder that slowly leaks out after urination.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Post-void_dribbling" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0375552"
         }, {
@@ -10774,8 +11090,8 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000532",
       "meta" : {
         "definition" : {
-          "val" : "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence" ]
+          "val" : "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt, even when the bladder isn't full.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence", "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence" ]
         },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0469078"
@@ -10861,7 +11177,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000534",
       "meta" : {
         "definition" : {
-          "val" : "Spontaneous ecchymoses is a skin and integumentary tissue symptom characterized as the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ecchymoses" ]
         },
         "xrefs" : [ {
@@ -10892,7 +11208,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000537",
       "meta" : {
         "definition" : {
-          "val" : "Cyanosis is a skin and integumentary tissue symptom characterized as a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis" ]
         },
         "xrefs" : [ {
@@ -10987,7 +11303,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000539",
       "meta" : {
         "definition" : {
-          "val" : "Jaundice is a skin and integumentary tissue symptom characterized as a skin and integumentary symptom where a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states).",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states).",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice" ]
         },
         "xrefs" : [ {
@@ -11027,7 +11343,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000538",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema" ]
         },
         "xrefs" : [ {
@@ -11097,6 +11413,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000360",
       "meta" : {
+        "definition" : {
+          "val" : "A wasting that is characterized by the state of being extremely thin as a result of an absence of body fat and very week as a result of muscle wasting; usually because of illness or extreme hunger.",
+          "xrefs" : [ "url:https://dictionary.cambridge.org/us/dictionary/english/emaciation", "url:https://en.wikipedia.org/wiki/Emaciation" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -11128,6 +11448,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000361",
       "meta" : {
+        "definition" : {
+          "val" : "An emaciation that is characterized by an increase in scope or severity with time.",
+          "xrefs" : [ "url:https://www.rxlist.com/progressive/definition.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -11178,6 +11502,20 @@
       "type" : "CLASS",
       "lbl" : "progressive weakness"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000366",
+      "meta" : {
+        "definition" : {
+          "val" : "A prostate symptom that is characterized by inflammation of the prostate and surrounding area.",
+          "xrefs" : [ "url:https://www.healthline.com/health/prostate-infection#" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prostatic infection"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000124",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11187,16 +11525,6 @@
       },
       "type" : "CLASS",
       "lbl" : "seizure"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000366",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "prostatic infection"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000123",
       "meta" : {
@@ -11211,6 +11539,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000365",
       "meta" : {
+        "definition" : {
+          "val" : "A prostate symptom that is characterized by a localized collection of purulent fluid within the prostate, often forming as a complication of acute bacterial prostatitis.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK551663/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -11340,6 +11672,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000590",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by a strong and immediate need to urinate due to an increase in pressure in the bladder, resulting in difficulty to hold in the urine. This can occur regardless of whether the bladder is full.",
+          "xrefs" : [ "url:https://www.medicalnewstoday.com/articles/325336#symptoms" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A2797703"
         }, {
@@ -11410,20 +11746,6 @@
       "type" : "CLASS",
       "lbl" : "excessive crying of infant"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000353",
-      "meta" : {
-        "definition" : {
-          "val" : "Phlegm is a respiratory system and chest symptom characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "phlegm"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000595",
       "meta" : {
         "xrefs" : [ {
@@ -11451,6 +11773,20 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete proliferative skin lesions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000353",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "phlegm"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000352",
       "meta" : {
@@ -11559,7 +11895,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000354",
       "meta" : {
         "definition" : {
-          "val" : "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest.",
+          "val" : "A respiratory system and chest symptom that is characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Pneumonitis" ]
         },
         "synonyms" : [ {
@@ -11587,6 +11923,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000599",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory abnormality that is characterized by a specific form of periodic breathing (waxing and waning amplitude of flow or tidal volume) characterized by a crescendo-decrescendo pattern of respiration between central apneas or central hypopneas.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK448165/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0008039"
         }, {
@@ -11615,6 +11955,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000598",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK470309/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0159053"
         }, {
@@ -11695,7 +12039,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000358",
       "meta" : {
         "definition" : {
-          "val" : "Premature labor is a reproductive system symptom characterized by labor occurring before 37 full weeks of pregnancy.",
+          "val" : "A reproductive system symptom that is characterized by labor occurring before 37 full weeks of pregnancy.",
           "xrefs" : [ "url:http://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html" ]
         },
         "basicPropertyValues" : [ {
@@ -11720,7 +12064,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000118",
       "meta" : {
         "definition" : {
-          "val" : "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.",
+          "val" : "An abnormal chest sound that is characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Rales" ]
         },
         "synonyms" : [ {
@@ -11780,6 +12124,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000340",
       "meta" : {
+        "definition" : {
+          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "limb oedema",
@@ -11800,7 +12148,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000581",
       "meta" : {
         "definition" : {
-          "val" : "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness.",
+          "val" : "An apnea that is characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -11895,6 +12243,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000586",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary incontinence that is characterized by a bladder that does not empty completely, resulting in a bladder that is too full, which leads to overflow and unexpected leaking.",
+          "xrefs" : [ "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence", "url:https://www.healthline.com/health/overactive-bladder/overflow-incontinence", "url:https://www.webmd.com/urinary-incontinence-oab/overflow-incontinence" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A6994689"
         }, {
@@ -11912,6 +12264,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000344",
       "meta" : {
+        "definition" : {
+          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids.",
+          "xrefs" : [ "url:https://scopeheal.com/palpebral-edema/" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "edema of the eyelid",
@@ -11928,7 +12284,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000102",
       "meta" : {
         "definition" : {
-          "val" : "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an inflammation of the peritoneum.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -11991,7 +12347,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000346",
       "meta" : {
         "definition" : {
-          "val" : "Papule is a skin and integumentary tissue symptom characterized as a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule" ]
         },
         "basicPropertyValues" : [ {
@@ -12015,6 +12371,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000588",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by an injury of the urethra in its bulbous or membranous portion, which leads to a collection of urine in other cavities, such as the perineal space, the scrotum, the penis and the connective tissue of the anterior abdominal wall.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Extravasation_of_urine", "url:https://jamanetwork.com/journals/jama/article-abstract/466994" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0284259"
         }, {
@@ -12032,6 +12392,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000345",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory abnormality that is characterized by short, shallow, and rapid breathing.",
+          "xrefs" : [ "url:https://medical-dictionary.thefreedictionary.com/panting" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -12053,6 +12417,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000587",
       "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway).",
+          "xrefs" : [ "url:https://www.healthline.com/health/breath-sounds#types" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0159056"
         }, {
@@ -12090,6 +12458,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000589",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary stream symptom that is characterized by a slow or weak stream of urine.",
+          "xrefs" : [ "url:https://www.besturologistnyc.com/what-is-slow-urine-flow" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0459374"
         }, {
@@ -12156,7 +12528,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000107",
       "meta" : {
         "definition" : {
-          "val" : "A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an exudation of fluid from the blood or lymph into a pleural cavity.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion" ]
         },
         "basicPropertyValues" : [ {
@@ -12287,6 +12659,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000572",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary stream symptom that is characterized by a split in the urine flow resulting in it streaming in two directions.",
+          "xrefs" : [ "url:https://ugatl.com/services/prostatitis/splitting-urine-stream/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0460440"
         }, {
@@ -12918,6 +13294,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000398",
       "meta" : {
+        "definition" : {
+          "val" : "A reproductive system symptom that is characterized by fluid made by glands inside the vagina and cervix carrying away dead cells and bacteria. While it is normal for odor and color to vary, vaginal itching or burning may be indicative of an infection.",
+          "xrefs" : [ "url:https://www.merckmanuals.com/professional/gynecology-and-obstetrics/symptoms-of-gynecologic-disorders/vaginal-bleeding", "url:https://www.webmd.com/women/guide/vaginal-discharge-whats-abnormal" ]
+        },
         "comments" : [ "doid/symp duplicate" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -13037,6 +13417,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000144",
       "meta" : {
+        "definition" : {
+          "val" : "A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Bronchopneumonia" ]
+        },
         "comments" : [ "doid/symp duplicate" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13187,6 +13571,19 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000370",
       "meta" : {
+        "definition" : {
+          "val" : "A urinary system symptom that is characterized by a pocket (a walled-off cavity) of pus that develops in the kidney tissue. It results from the migration of bacteria from another infection site on the body to the kidneys.",
+          "xrefs" : [ "url:https://www.uptodate.com/contents/renal-and-perinephric-abscess" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "perirenal abscess",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "kidney abscess",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -13269,6 +13666,20 @@
       "type" : "CLASS",
       "lbl" : "severe necrosis"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000374",
+      "meta" : {
+        "definition" : {
+          "val" : "A reproductive system symptom that is characterized by an abscess that is either superficial or intrascrotal.  Superficial scrotal abscess may occur from an infected hair follicle, infection of a scrotal laceration, or minor scrotal surgery.  Intrascrotal abscess most commonly arises from bacterial epididymitis, but may also be related to tuberculous infection of the epididymis, a testicular abscess that ruptures through the tunica albuginea, or drainage of appendicitis into scrotum through a patent processus vaginalis or as a result of extravasation of infected urine from the urethra in patients with a urethral stricture and neurogenic bladder using an external collection device.",
+          "xrefs" : [ "url:https://emedicine.medscape.com/article/1949750-overview" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "scrotal abscess"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000132",
       "meta" : {
         "definition" : {
@@ -13282,16 +13693,6 @@
       },
       "type" : "CLASS",
       "lbl" : "necrosis"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000374",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "scrotal abscess"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000135",
       "meta" : {
@@ -13307,7 +13708,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000377",
       "meta" : {
         "definition" : {
-          "val" : "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection.",
+          "val" : "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -13373,7 +13774,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000136",
       "meta" : {
         "definition" : {
-          "val" : "Skin ulcer is a skin lesion characterized as a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus.",
+          "val" : "A skin lesion that is characterized by a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ulcer" ]
         },
         "basicPropertyValues" : [ {
@@ -13386,6 +13787,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000378",
       "meta" : {
+        "definition" : {
+          "val" : "A mastitis that is characterized by an increased intensity or severity of the condition.",
+          "xrefs" : [ "url:https://medical-dictionary.thefreedictionary.com/severe" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -13397,7 +13802,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000139",
       "meta" : {
         "definition" : {
-          "val" : "Sneezing is a respiratory system and chest symptom characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane.",
+          "val" : "A respiratory system and chest symptom that is characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing" ]
         },
         "basicPropertyValues" : [ {
@@ -13484,7 +13889,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000197",
       "meta" : {
         "definition" : {
-          "val" : "Abortion is a reproductive system symptom resulting in the expulsion of a fetus of a domestic animal often due to infection at any time before completion of pregnancy.",
+          "val" : "A reproductive system symptom that is characterized by the expulsion of a fetus at any time before completion of pregnancy and is often due to infection.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion" ]
         },
         "synonyms" : [ {
@@ -13513,7 +13918,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000199",
       "meta" : {
         "definition" : {
-          "val" : "Spontaneous abortion is a abortion characterized by the naturally occurring expulsion of a nonviable fetus.",
+          "val" : "An abortion that is characterized by the natural occurring expulsion of a nonviable fetus.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion" ]
         },
         "basicPropertyValues" : [ {
@@ -13527,7 +13932,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000198",
       "meta" : {
         "definition" : {
-          "val" : "Miscarriage is a reproductive system symptom characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation.",
+          "val" : "A reproductive system symptom that is characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage" ]
         },
         "basicPropertyValues" : [ {
@@ -13711,7 +14116,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000174",
       "meta" : {
         "definition" : {
-          "val" : "Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS).",
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS).",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting" ]
         },
         "basicPropertyValues" : [ {
@@ -13756,6 +14161,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000178",
       "meta" : {
+        "definition" : {
+          "val" : "A weight symptom that is characterized by a reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue). Weight loss can either occur unintentionally because of malnourishment or an underlying disease.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Weight_loss" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_CUI:C0043096"
         }, {
@@ -13852,13 +14261,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000320"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000766",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000398",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000766",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000641",
       "pred" : "is_a",
@@ -14076,13 +14485,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000479"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000178",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020012"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000421",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000178",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020012"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000532",
       "pred" : "is_a",
@@ -14292,13 +14701,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000516",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000722",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000516",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000826",
       "pred" : "is_a",
@@ -14307,6 +14716,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000732",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000558",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020043",
       "pred" : "is_a",
@@ -14392,10 +14805,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000730",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000263",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
@@ -14412,13 +14821,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000366",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000364"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000378",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000377"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000364"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000367",
       "pred" : "is_a",
@@ -14536,13 +14945,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000114",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019139"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000825",
       "pred" : "is_a",
@@ -14676,10 +15085,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000074",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000405",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
@@ -14799,10 +15204,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000333",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000604",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000584",
       "pred" : "is_a",
@@ -15024,6 +15425,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000604",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000587"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000322",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0020012"
@@ -15124,10 +15529,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000613"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000513",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000178"
@@ -15148,13 +15549,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000369",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000369",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000134",
       "pred" : "is_a",
@@ -15240,13 +15641,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000773"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000241",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000239"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000239"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000852",
       "pred" : "is_a",
@@ -15344,13 +15745,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000090"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000100",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000070",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000215",
       "pred" : "is_a",
@@ -15684,10 +16085,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000558",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000557"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000219",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000215"
@@ -15876,13 +16273,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000703",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000392"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000820",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000703",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000392"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000444",
       "pred" : "is_a",
@@ -15988,13 +16385,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000502",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000492"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000630",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000502",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000492"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020017",
       "pred" : "is_a",
@@ -16032,13 +16429,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000799"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000247",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000285",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000554",
       "pred" : "is_a",
@@ -16068,6 +16465,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000373"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020040"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000340",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000538"
@@ -16080,6 +16481,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000730",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000874",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
@@ -16091,6 +16496,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000696",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000480"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000460",
       "pred" : "is_a",
@@ -16172,13 +16581,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000522"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000487"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000274",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000487"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000491",
       "pred" : "is_a",
@@ -16880,21 +17289,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000615"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000573",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000771",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000770"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000573",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000330",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000386"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020032",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000784",
       "pred" : "is_a",
@@ -16976,13 +17381,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000576"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000374",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000337",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000374",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019149",
       "pred" : "is_a",
@@ -17027,6 +17432,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000656",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000513",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000587"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000690",
       "pred" : "is_a",
@@ -17280,13 +17689,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000247"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000466",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000464"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000467",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000454"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000466",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000464"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000224",
       "pred" : "is_a",
@@ -17351,7 +17760,7 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "26:07:2022 11:55"
+        "val" : "16:08:2022 12:51"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "symptoms"
@@ -17362,7 +17771,7 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "lschriml"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-07-26/symp.owl"
+      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-08-16/symp.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

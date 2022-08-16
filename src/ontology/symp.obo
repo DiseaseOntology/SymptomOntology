@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-07-26/symp.obo
-date: 26:07:2022 11:55
+data-version: releases/2022-08-16/symp.obo
+date: 16:08:2022 12:51
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -65,7 +65,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000009
 name: blister
-def: "Blister is a skin and integumentary tissue symptom characterized as a fluid-filled elevation of the epidermis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister]
+def: "A skin and integumentary tissue symptom that is characterized by a fluid-filled elevation of the epidermis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=blister]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -123,7 +123,7 @@ is_a: SYMP:0000392 ! ear symptom
 [Term]
 id: SYMP:0000020
 name: dehydration
-def: "Dehydration is a nutrition, metabolism, and development symptom characterized by an abnormal depletion of body fluids." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dehydration]
+def: "A nutrition, metabolism, and development symptom that is characterized by an abnormal depletion of body fluids." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dehydration]
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
@@ -153,6 +153,8 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000025
 name: dry cough
+def: "A cough that is characterized by a lack of accompanied phlegm production." []
+synonym: "nonproductive cough" EXACT [url:https\://www.healthline.com/health/dry-cough]
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -221,6 +223,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000038
 name: dyspneic enteritis
+def: "A respiratory system and chest symptom that is characterized by being short or breath or out of air (dyspnea), with inflammation of the small intestine (enteritis)." [url:https\://medlineplus.gov/ency/article/001149.htm, url:https\://www.cancer.gov/publications/dictionaries/cancer-terms/def/dyspnea]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -318,7 +321,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000056
 name: hyperpigmentation
-def: "Hyperpigmentation is a skin and integumentary tissue symptom characterized as an excess pigmentation in a bodily part or tissue, as the skin." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation]
+def: "A skin and integumentary tissue symptom that is characterized by an excess pigmentation in a bodily part or tissue, as the skin." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperpigmentation]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -415,8 +418,8 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000074
-name: lesions in swim bladder
-is_a: SYMP:0000514 ! respiratory system and chest symptom
+name: obsolete lesions in swim bladder
+is_obsolete: true
 
 [Term]
 id: SYMP:0000075
@@ -513,7 +516,7 @@ is_a: SYMP:0000090 ! encephalitis
 [Term]
 id: SYMP:0000092
 name: skin lesion
-def: "Skin lesion is a skin and integumentary tissue symptom characterized as an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lesion]
+def: "A skin and integumentary tissue symptom that is characterized by an abnormal change in structure of the skin that is especially circumscribed and well defined due to injury or disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lesion]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -569,7 +572,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000102
 name: peritonitis
-def: "Peritonitis is a skin and integumentary tissue symptom characterized as an inflammation of the peritoneum." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis]
+def: "A skin and integumentary tissue symptom that is characterized by an inflammation of the peritoneum." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=peritonitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -596,7 +599,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000107
 name: pleural effusion
-def: "A skin and integumentary tissue symptom characterized as an exudation of fluid from the blood or lymph into a pleural cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion]
+def: "A skin and integumentary tissue symptom that is characterized by an exudation of fluid from the blood or lymph into a pleural cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleural%20effusion]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -655,7 +658,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000118
 name: rales
-def: "Rales is a abnormal chest sound characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [url:http\://en.wikipedia.org/wiki/Rales]
+def: "An abnormal chest sound that is characterized by the clicking, rattling, or crackling noises heard on auscultation of (listening to) the lung with a stethoscope during inhalation. The sounds are caused by the 'popping open' of small airways and alveoli collapsed by fluid, exudate, or lack of aeration during expiration. The word 'rales' derives from the French word rale meaning 'rattle'. Rales can be heard in patients with pneumonia, atelectasis, pulmonary fibrosis, acute bronchitis, or bronchiectasis. Pulmonary edema secondary to left-sided congestive heart failure can also cause rales." [url:http\://en.wikipedia.org/wiki/Rales]
 synonym: "crackles" EXACT []
 synonym: "crepitations" EXACT []
 is_a: SYMP:0000587 ! abnormal chest sound
@@ -754,7 +757,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000136
 name: skin ulcer
-def: "Skin ulcer is a skin lesion characterized as a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ulcer]
+def: "A skin lesion that is characterized by a break in skin with loss of surface tissue, disintegration and necrosis of epithelial tissue, and often pus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ulcer]
 is_a: SYMP:0000092 ! skin lesion
 
 [Term]
@@ -770,7 +773,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000139
 name: sneezing
-def: "Sneezing is a respiratory system and chest symptom characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing]
+def: "A respiratory system and chest symptom that is characterized by a sudden violent spasmodic audible expiration of breath through the nose and mouth especially as a reflex act following irritation of the nasal mucous membrane." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sneezing]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -796,6 +799,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000144
 name: bronchopneumonia
+def: "A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs" [url:https\://en.wikipedia.org/wiki/Bronchopneumonia]
 comment: doid/symp duplicate
 synonym: "bronchial pneumonia" EXACT []
 synonym: "lobular pneumonia" EXACT []
@@ -955,7 +959,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000174
 name: wasting
-def: "Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting]
+def: "A nutrition, metabolism, and development symptom that is characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wasting]
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
@@ -977,6 +981,7 @@ is_a: SYMP:0000567 ! general symptom
 id: SYMP:0000178
 name: weight loss
 alt_id: SYMP:0000476
+def: "A weight symptom that is characterized by a reduction of the total body mass, by a mean loss of fluid, body fat (adipose tissue), or lean mass (namely bone mineral deposits, muscle, tendon, and other connective tissue). Weight loss can either occur unintentionally because of malnourishment or an underlying disease." [url:https\://en.wikipedia.org/wiki/Weight_loss]
 synonym: "loss of weight" EXACT []
 xref: ICD9CM_2005:783.21
 xref: UMLS_CUI:C0043096
@@ -1077,20 +1082,20 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000197
 name: abortion
-def: "Abortion is a reproductive system symptom resulting in the expulsion of a fetus of a domestic animal often due to infection at any time before completion of pregnancy." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion]
+def: "A reproductive system symptom that is characterized by the expulsion of a fetus at any time before completion of pregnancy and is often due to infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=abortion]
 synonym: "infectious abortion" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000198
 name: miscarriage
-def: "Miscarriage is a reproductive system symptom characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage]
+def: "A reproductive system symptom that is characterized by the spontaneous expulsion of a human fetus before it is viable and especially between the 12th and 28th weeks of gestation." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=miscarriage]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000199
 name: spontaneous abortion
-def: "Spontaneous abortion is a abortion characterized by the naturally occurring expulsion of a nonviable fetus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion]
+def: "An abortion that is characterized by the natural occurring expulsion of a nonviable fetus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spontaneous%20abortion]
 is_a: SYMP:0000197 ! abortion
 
 [Term]
@@ -1287,7 +1292,7 @@ is_a: SYMP:0000287 ! arrhythmia
 [Term]
 id: SYMP:0000232
 name: bronchiolitis
-def: "Bronchiolitis is a respiratory system and chest symptom characterized by an inflammation of the bronchioles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis]
+def: "A respiratory system and chest symptom that is characterized by an inflammation of the bronchioles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchiolitis]
 comment: doid/symp duplicate
 synonym: "bronchioles inflammation" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
@@ -1319,7 +1324,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000237
 name: congestion
-def: "Congestion is a respiratory system and chest symptom characterized by an excessive accumulation especially of blood or mucus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion]
+def: "A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion]
 synonym: "blocked nose" EXACT []
 synonym: "nasal blockage" EXACT []
 synonym: "nasal obstruction" EXACT []
@@ -1350,6 +1355,8 @@ is_a: SYMP:0000239 ! cornea symptom
 [Term]
 id: SYMP:0000242
 name: cough with bloody sputum
+def: "A cough that is characterized by production and expectoration (bringing up) of sputum that is bright red or pink and frothy." [url:https\://www.webmd.com/lung/coughing-up-blood]
+synonym: "hemoptysis" EXACT []
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -1369,11 +1376,14 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000245
 name: decreased appetite
+def: "An alteration of appetite that is characterized by a reduced desire to eat." [url:https\://www.healthline.com/health/appetite-decreased]
+synonym: "poor appetite" EXACT []
 is_a: SYMP:0000244 ! alteration of appetite
 
 [Term]
 id: SYMP:0000246
 name: increased appetite
+def: "An alteration of appetite that is characterized by an desire to eat, an excess desire for food." [url:https\://medlineplus.gov/ency/article/003134.htm]
 is_a: SYMP:0000244 ! alteration of appetite
 
 [Term]
@@ -1400,6 +1410,7 @@ is_a: SYMP:0000249 ! reflex symptom
 [Term]
 id: SYMP:0000251
 name: dermal abscess
+def: "A skin and integumentary tissue symptom that is characterized by a pus-filled pocket in the skin, similar to a pimple, but larger and deeper.  The pocket is filled with bacteria, white blood cells, and dead skin and typcally result from the bacteria Staphylococcus aureus prentrating the skin through a cut or hair follicle." [url:https\://jamanetwork.com/journals/jama/fullarticle/2677448]
 synonym: "cutaneous abscess" EXACT []
 synonym: "dermal abscesses" EXACT []
 synonym: "skin abscess" EXACT []
@@ -1409,6 +1420,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000252
 name: diffuse rash
+def: "A rash characterized by large patches of red skin, without overlying changes in the epidermis." [url:https\://www.drugwatch.com/health/rash-and-skin-disorders/erythema/, url:https\://www.sciencedirect.com/topics/medicine-and-dentistry/erythema]
 synonym: "diffuse erythema" EXACT []
 is_a: SYMP:0000487 ! rash
 
@@ -1448,6 +1460,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000259
 name: dry hacking cough
+def: "A dry cough that is characterized by a rough and loud sound." [url:https\://en.wiktionary.org/wiki/hacking_cough]
 is_a: SYMP:0000025 ! dry cough
 
 [Term]
@@ -1470,7 +1483,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000263
 name: epididymitis
-def: "Epididymitis is a reproductive system symptom characterized by an inflammation of the epididymis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis]
+def: "A reproductive system symptom that is characterized by an inflammation of the epididymis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=epididymitis]
 comment: doid/symp duplicate
 synonym: "inflammation of the epididymis" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
@@ -1478,6 +1491,7 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000264
 name: epididymorchitis
+def: "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)" [url:https\://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis]
 synonym: "epididymo-orchitis" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -1617,7 +1631,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000289
 name: eczema
-def: "Eczema is a skin and integumentary tissue symptom characterized as an inflammatory condition of the skin characterized by redness, itching, and oozing vesicular lesions which become scaly, crusted, or hardened." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema]
+def: "A skin and integumentary tissue symptom that is characterized by an inflammatory condition of the skin with redness, itching, and oozing vesicular lesions, which become scaly, crusted, or hardened." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -1730,6 +1744,8 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0000309
 name: loss of appetite
+def: "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat." [url:https\://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite]
+synonym: "anorexia" EXACT []
 synonym: "inappetence" EXACT []
 synonym: "lack of appetite" EXACT []
 is_a: SYMP:0000244 ! alteration of appetite
@@ -1802,6 +1818,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000322
 name: low birth weight
+def: "A weight symptom that is characterized by an infant weighing 5.5 pounds (2500 grams) or less at birth.  Low birth weight may occur with premature birth, or due to smoking cigarettes, secondhand tobacco smoke exposure, drinking alcohol, and taking certain drugs during pregnancy." [url:https\://www.cancer.gov/publications/dictionaries/cancer-terms/def/low-birth-weight]
 is_a: SYMP:0020012 ! weight symptom
 
 [Term]
@@ -1814,7 +1831,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000324
 name: bronchitis
-def: "Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis]
+def: "A respiratory system and chest symptom that is characterized by an acute or chronic inflammation of the bronchial tubes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bronchitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -1900,6 +1917,7 @@ is_a: SYMP:0000258 ! double vision
 [Term]
 id: SYMP:0000340
 name: limb edema
+def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/]
 synonym: "limb oedema" EXACT []
 synonym: "oedema of the limbs" EXACT []
 is_a: SYMP:0000538 ! edema
@@ -1926,18 +1944,20 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000344
 name: palpebral edema
+def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids." [url:https\://scopeheal.com/palpebral-edema/]
 synonym: "edema of the eyelid" EXACT []
 is_a: SYMP:0000538 ! edema
 
 [Term]
 id: SYMP:0000345
 name: panting respiration
+def: "A respiratory abnormality that is characterized by short, shallow, and rapid breathing." [url:https\://medical-dictionary.thefreedictionary.com/panting]
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000346
 name: papule
-def: "Papule is a skin and integumentary tissue symptom characterized as a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule]
+def: "A skin and integumentary tissue symptom that is characterized by a small solid usually conical elevation of the skin caused by inflammation, accumulated secretion, or hypertrophy of tissue elements." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=papule]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -1975,13 +1995,13 @@ is_a: SYMP:0000094 ! muscle weakness
 [Term]
 id: SYMP:0000353
 name: phlegm
-def: "Phlegm is a respiratory system and chest symptom characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm]
+def: "A respiratory system and chest symptom that is characterized by a viscid mucus secreted in abnormal quantity in the respiratory passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=phlegm]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000354
 name: pneumonitis
-def: "Pneumonitis is a respiratory system and chest symptom characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest." [url:http\://en.wikipedia.org/wiki/Pneumonitis]
+def: "A respiratory system and chest symptom that is characterized by an inflammation of lung tissue. Pneumonia is one type of pneumonitis caused by an infection. Many other factors can cause pneumonitis, including breathing in animal dander, inhaling small food particles 'down the wrong pipe' and receiving radiation therapy to your chest." [url:http\://en.wikipedia.org/wiki/Pneumonitis]
 synonym: "inflammation of lung tissue" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -2005,7 +2025,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000358
 name: premature labor
-def: "Premature labor is a reproductive system symptom characterized by labor occurring before 37 full weeks of pregnancy." [url:http\://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html]
+def: "A reproductive system symptom that is characterized by labor occurring before 37 full weeks of pregnancy." [url:http\://www.ehealthmd.com/library/amniocentesis/AMO_glossary.html]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -2016,11 +2036,13 @@ is_a: SYMP:0000177 ! weakness
 [Term]
 id: SYMP:0000360
 name: emaciation
+def: "A wasting that is characterized by the state of being extremely thin as a result of an absence of body fat and very week as a result of muscle wasting; usually because of illness or extreme hunger." [url:https\://dictionary.cambridge.org/us/dictionary/english/emaciation, url:https\://en.wikipedia.org/wiki/Emaciation]
 is_a: SYMP:0000174 ! wasting
 
 [Term]
 id: SYMP:0000361
 name: progressive emaciation
+def: "An emaciation that is characterized by an increase in scope or severity with time." [url:https\://www.rxlist.com/progressive/definition.htm]
 is_a: SYMP:0000360 ! emaciation
 
 [Term]
@@ -2041,11 +2063,13 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000365
 name: prostatic abscess
+def: "A prostate symptom that is characterized by a localized collection of purulent fluid within the prostate, often forming as a complication of acute bacterial prostatitis." [url:https\://www.ncbi.nlm.nih.gov/books/NBK551663/]
 is_a: SYMP:0000364 ! prostate symptom
 
 [Term]
 id: SYMP:0000366
 name: prostatic infection
+def: "A prostate symptom that is characterized by inflammation of the prostate and surrounding area." [url:https\://www.healthline.com/health/prostate-infection#]
 is_a: SYMP:0000364 ! prostate symptom
 
 [Term]
@@ -2071,6 +2095,9 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000370
 name: renal abscess
+def: "A urinary system symptom that is characterized by a pocket (a walled-off cavity) of pus that develops in the kidney tissue. It results from the migration of bacteria from another infection site on the body to the kidneys." [url:https\://www.uptodate.com/contents/renal-and-perinephric-abscess]
+synonym: "kidney abscess" EXACT []
+synonym: "perirenal abscess" EXACT []
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -2093,6 +2120,7 @@ is_a: SYMP:0000205 ! salivary gland symptom
 [Term]
 id: SYMP:0000374
 name: scrotal abscess
+def: "A reproductive system symptom that is characterized by an abscess that is either superficial or intrascrotal.  Superficial scrotal abscess may occur from an infected hair follicle, infection of a scrotal laceration, or minor scrotal surgery.  Intrascrotal abscess most commonly arises from bacterial epididymitis, but may also be related to tuberculous infection of the epididymis, a testicular abscess that ruptures through the tunica albuginea, or drainage of appendicitis into scrotum through a patent processus vaginalis or as a result of extravasation of infected urine from the urethra in patients with a urethral stricture and neurogenic bladder using an external collection device." [url:https\://emedicine.medscape.com/article/1949750-overview]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -2108,7 +2136,7 @@ is_a: SYMP:0000570 ! diarrhea
 [Term]
 id: SYMP:0000377
 name: mastitis
-def: "Mastitis is a skin and integumentary tissue symptom characterized as an inflammation of the mammary gland or udder usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
+def: "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
 comment: doid/symp duplicate
 synonym: "inflammation of mammary breast" EXACT []
 synonym: "mammitis" EXACT []
@@ -2117,6 +2145,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000378
 name: severe mastitis
+def: "A mastitis that is characterized by an increased intensity or severity of the condition." [url:https\://medical-dictionary.thefreedictionary.com/severe]
 is_a: SYMP:0000377 ! mastitis
 
 [Term]
@@ -2221,6 +2250,7 @@ is_a: SYMP:0000396 ! mydriasis
 [Term]
 id: SYMP:0000398
 name: vaginal discharge
+def: "A reproductive system symptom that is characterized by fluid made by glands inside the vagina and cervix carrying away dead cells and bacteria. While it is normal for odor and color to vary, vaginal itching or burning may be indicative of an infection." [url:https\://www.merckmanuals.com/professional/gynecology-and-obstetrics/symptoms-of-gynecologic-disorders/vaginal-bleeding, url:https\://www.webmd.com/women/guide/vaginal-discharge-whats-abnormal]
 comment: doid/symp duplicate
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -2243,7 +2273,7 @@ is_a: SYMP:0000479 ! abnormality of gait
 [Term]
 id: SYMP:0000402
 name: cachexia
-def: "Cachexia is a nutrition, metabolism, and development symptom characterized by a general physical wasting and malnutrition usually associated with chronic disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia]
+def: "A nutrition, metabolism, and development symptom that is characterized by a general physical wasting and malnutrition usually associated with chronic disease." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cachexia]
 synonym: "general physical wasting and malnutrition" EXACT []
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
@@ -2251,6 +2281,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 id: SYMP:0000403
 name: weight gain
 alt_id: SYMP:0020015
+def: "A weight symptom that is characterized by an increase in body weight. This can involve an increase in muscle mass, fat deposits, excess fluids such as water or other factors." [url:https\://en.wikipedia.org/wiki/Weight_gain#]
 synonym: "gain of weight" EXACT []
 is_a: SYMP:0020012 ! weight symptom
 
@@ -2264,14 +2295,14 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000405
 name: vaginismus
-def: "Vaginismus is a reproductive system symptom characterized by a painful spasmodic contraction of the vagina." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus]
+def: "A reproductive system symptom that is characterized by a painful spasmodic contraction of the vagina." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=vaginismus]
 synonym: "painful spasmodic vagina contractions" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000406
 name: bruise
-def: "Bruise is a skin and integumentary tissue symptom characterized as an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise]
+def: "A skin and integumentary tissue symptom that is characterized by an injury transmitted through unbroken skin to underlying tissue causing rupture of small blood vessels and escape of blood into the tissue with resulting discoloration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bruise]
 synonym: "bruises" EXACT []
 synonym: "bruising" EXACT []
 synonym: "contusion" EXACT []
@@ -2401,7 +2432,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000427
 name: impotence
-def: "Impotence is a reproductive system symptom characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have or maintain an erection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
+def: "A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
 comment: doid/symp duplicate
 synonym: "erectile dysfunction" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
@@ -2409,13 +2440,13 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000428
 name: hypoventilation
-def: "Hypoventilation is a respiratory abnormality characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation]
+def: "A respiratory abnormality that is characterized by a deficient ventilation of the lungs that results in reduction in the oxygen content or increase in the carbon dioxide content of the blood or both." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypoventilation]
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000429
 name: bradypnea
-def: "Bradypnea is a respiratory abnormality characterized by abnormally slow breathing." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea]
+def: "A respiratory abnormality that is characterized by abnormally slow breathing." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=bradypnea]
 synonym: "abnormally slow breathing" EXACT []
 is_a: SYMP:0000598 ! respiratory abnormality
 
@@ -2428,14 +2459,14 @@ is_a: SYMP:0000576 ! chest pain
 [Term]
 id: SYMP:0000431
 name: sputum
-def: "A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
+def: "A respiratory system and chest symptom that is characterized by matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
 synonym: "sputum production" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000432
 name: itching
-def: "Itching is a skin and integumentary tissue symptom characterized as an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching]
+def: "A skin and integumentary tissue symptom that is characterized by an uneasy irritating sensation in the upper surface of the skin usually held to result from mild stimulation of pain receptors." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=itching]
 synonym: "pruritus" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -2449,7 +2480,7 @@ is_a: SYMP:0000538 ! edema
 [Term]
 id: SYMP:0000434
 name: urticaria
-def: "Urticaria is a skin and integumentary tissue symptom characterized \nby raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border." [url:http\://en.wikipedia.org/wiki/Urticaria]
+def: "A skin and integumentary tissue symptom that is characterized by raised red skin wheals (welts) commonly caused by an allergic reaction with wheals that may vary in size from about 5 mm (0.2 inches) in diameter to the size of a dinner plate that are described as severely itchy a stingnig or burning sensation, and having a pale border." [url:http\://en.wikipedia.org/wiki/Urticaria]
 comment: doid/symp duplicate
 synonym: "hives" EXACT []
 synonym: "nettle rash" EXACT []
@@ -2459,12 +2490,13 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000435
 name: paresthesia
-def: "Paresthesia is a skin and integumentary tissue symptom characterized as a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia]
+def: "A skin and integumentary tissue symptom that is characterized by a sensation of pricking, tingling, or creeping on the skin having no objective cause and usually associated with injury or irritation of a sensory nerve or nerve root." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paresthesia]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000436
 name: abnormal vaginal bleeding
+def: "A reproductive system symptom that is characterized by bleeding from the uterus that is longer than usual or that occurs at an irregular time. Bleeding may be heavier or lighter than usual and occur often or randomly." [url:https\://medlineplus.gov/ency/article/000903.htm]
 synonym: "abnormal menstruation" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -2488,6 +2520,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000440
 name: hair loss
+def: "A hair symptom that is characterized by the stopping of hair growth (regeneration), which may be a result of hereditary hair loss, immune system overreacts, drugs and treatments, harsh hair-care products, and other factors." [url:https\://www.aad.org/public/diseases/hair-loss/insider/shedding]
 is_a: SYMP:0020040 ! hair symptom
 
 [Term]
@@ -2528,7 +2561,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000447
 name: bloody sputum
-def: "Bloody sputum is a sputum that consists of blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung." [url:http\://www.medicinenet.com/symptoms_and_signs/article.htm, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
+def: "A sputum that is characterized by blood or bloody mucus discharged from the air passages caused by common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung." [url:http\://www.medicinenet.com/symptoms_and_signs/article.htm, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sputum]
 comment: Bloody sputum (spitting up blood or bloody mucus) can come from common forms of infection in the lungs and airways, such as acute bronchitis or pneumonia. Bloody sputum can also come from cancer of the lung.
 is_a: SYMP:0000431 ! sputum
 
@@ -2594,6 +2627,7 @@ is_a: SYMP:0000461 ! abdominal symptom
 [Term]
 id: SYMP:0000455
 name: abnormal weight gain
+def: "A weight gain that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying." [url:https\://www.merriam-webster.com/dictionary/abnormal]
 xref: ICD9CM_2005:783.1
 xref: UMLS_CUI:C0332544
 xref: UMLS_ICD9CM_2005_AUI:A0243789
@@ -2677,6 +2711,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000465
 name: failure to thrive
+def: "A lack of expected normal physiological development in childhood that is characterized by a decelerated or arrested physical growth (height and weight measurements fall below the third or fifth percentile, or a downward change in growth across two major growth percentiles) and is associated with abnormal growth and development." [url:https\://www.chop.edu/conditions-diseases/failure-thrive]
 xref: ICD9CM_2005:783.41
 xref: UMLS_CUI:C0015544
 xref: UMLS_ICD9CM_2005_AUI:A0700791
@@ -2685,6 +2720,8 @@ is_a: SYMP:0000464 ! lack of expected normal physiological development in childh
 [Term]
 id: SYMP:0000466
 name: delayed milestones
+def: "A lack of expected normal physiological development in childhood that is characterized by a failure for a child to reach a significant stage at the predicted age and may include walking or talking." [url:https\://en.wikipedia.org/wiki/Delayed_milestone]
+synonym: "developmental delay" EXACT []
 xref: ICD9CM_2005:783.42
 xref: UMLS_CUI:C0476241
 xref: UMLS_ICD9CM_2005_AUI:A1594577
@@ -2732,6 +2769,7 @@ is_a: SYMP:0000454 ! abdominal rigidity
 [Term]
 id: SYMP:0000472
 name: early satiety
+def: "A nutrition, metabolism, and development symptom that is characterized by a feeling of being full after a few bites of food, or before you finish a normal-sized meal." [url:https\://www.healthline.com/health/satiety-early]
 xref: ICD9CM_2005:780.94
 xref: UMLS_CUI:C0239233
 xref: UMLS_ICD9CM_2005_AUI:A2797496
@@ -2756,6 +2794,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000475
 name: underweight
+def: "A weight symptom that is characterized by weighing less than the normal amount for one's age, height, and build." [url:https\://www.merriam-webster.com/dictionary/underweight]
 xref: ICD9CM_2005:783.22
 xref: UMLS_CUI:C0041667
 xref: UMLS_ICD9CM_2005_AUI:A0468826
@@ -2862,7 +2901,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000487
 name: rash
-def: "A skin and integumentary tissue symptom characterized as an eruption on the body typically with little or no elevation above the surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash]
+def: "A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash]
 synonym: "erythema" EXACT []
 synonym: "rubor" EXACT []
 synonym: "skin eruption" EXACT []
@@ -2942,6 +2981,7 @@ is_a: SYMP:0000235 ! colic
 [Term]
 id: SYMP:0000495
 name: urethral discharge
+def: "A urinary system symptom that is characterized by abnormal purulent or mucoid secretions from the penis or, rarely, the female urethra." [url:https\://accessmedicine.mhmedical.com/content.aspx?bookid=369&sectionid=39914779#\:~\:text=Urethral%20discharge%20is%20characterized%20by\,of%20leukorrhea%20and%20urethral%20inflammation]
 xref: ICD9CM_2005:788.7
 xref: UMLS_CUI:C0152447
 xref: UMLS_ICD9CM_2005_AUI:A0266251
@@ -2996,6 +3036,7 @@ is_a: SYMP:0000478 ! abdominal swelling
 [Term]
 id: SYMP:0000502
 name: mixed incontinence (female) (male)
+def: "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence." [url:https\://www.webmd.com/urinary-incontinence-oab/mixed-incontinence] {comment="url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence"}
 xref: ICD9CM_2005:788.33
 xref: UMLS_CUI:C0375550
 xref: UMLS_ICD9CM_2005_AUI:A0745756
@@ -3004,6 +3045,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000503
 name: adult failure to thrive
+def: "A nutrition, metabolism, and development symptom that is characterized by a physical decline in health seen in older adults – typically those with multiple chronic medical conditions – resulting in decreased appetite and poor nutrition, weight loss, inactivity, often accompanied by dehydration, depression, decreasing functional ability, and impaired immune function." [url:https\://www.compassus.com/for-caregivers/what-is-adult-failure-to-thrive, url:https\://www.uptodate.com/contents/failure-to-thrive-in-older-adults-evaluation]
 xref: ICD9CM_2005:783.7
 xref: UMLS_CUI:C1268580
 xref: UMLS_ICD9CM_2005_AUI:A1892736
@@ -3070,7 +3112,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000510
 name: pallor
-def: "Pallor is a skin and integumentary tissue symptom characterized as a deficiency of color especially of the face." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor]
+def: "A skin and integumentary tissue symptom that is characterized by a deficiency of color especially of the face." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pallor]
 synonym: "paleness" EXACT []
 xref: ICD9CM_2005:782.61
 xref: UMLS_CUI:C0030232
@@ -3080,7 +3122,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000511
 name: flushing
-def: "Flushing is a skin and integumentary tissue symptom characterized as a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation." [url:http\://en.wikipedia.org/wiki/Flushing_%28physiology%29]
+def: "A skin and integumentary tissue symptom that is characterized by a markedly red flush in a persons face and often other areas of the skin, from various physiological conditions. Flushing is generally distinguished, despite a close physiological relation between them, from blushing, which is milder, generally restricted to the face or cheeks, and generally assumed to reflect embarrassment. Flushing is also a cardinal symptom of carcinoid syndrome the syndrome that results from hormones (often serotonin or histamine) being secreted into systemic circulation." [url:http\://en.wikipedia.org/wiki/Flushing_%28physiology%29]
 xref: ICD9CM_2005:782.62
 xref: UMLS_CUI:C0016382
 xref: UMLS_ICD9CM_2005_AUI:A0060138
@@ -3089,6 +3131,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000512
 name: male stress incontinence
+def: "A stress incontinence that is characterized by a compromised external urinary sphincter muscle resulting from surgical or radiotherapeutic manipulation." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC3356867/]
 xref: ICD9CM_2005:788.32
 xref: UMLS_CUI:C0302505
 xref: UMLS_ICD9CM_2005_AUI:A0800441
@@ -3097,11 +3140,11 @@ is_a: SYMP:0000853 ! stress incontinence
 [Term]
 id: SYMP:0000513
 name: stridor
-def: "Stridor is a respiratory system and chest symptom characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor]
+def: "An abnormal chest sound that is characterized by a harsh vibrating sound heard during respiration in cases of obstruction of the air passages." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stridor]
 xref: ICD9CM_2005:786.1
 xref: UMLS_CUI:C0038450
 xref: UMLS_ICD9CM_2005_AUI:A0120146
-is_a: SYMP:0000514 ! respiratory system and chest symptom
+is_a: SYMP:0000587 ! abnormal chest sound
 
 [Term]
 id: SYMP:0000514
@@ -3114,7 +3157,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000515
 name: hiccough
-def: "Hiccough is a respiratory system and chest symptom characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough]
+def: "A respiratory system and chest symptom that is characterized by a spasmodic inhalation with closure of the glottis accompanied by a peculiar sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hiccough]
 xref: ICD9CM_2005:786.8
 xref: UMLS_CUI:C0019521
 xref: UMLS_ICD9CM_2005_AUI:A0421293
@@ -3131,7 +3174,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000517
 name: hemoptysis
-def: "Hemoptysis is a respiratory system and chest symptom characterized by an expectoration of blood from some part of the respiratory tract." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis]
+def: "A respiratory system and chest symptom that is characterized by an expectoration of blood from some part of the respiratory tract." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hemoptysis]
 synonym: "coughing up of blood" EXACT []
 synonym: "expectoration of blood" EXACT []
 synonym: "expectoration of blood-stained sputum" EXACT []
@@ -3186,7 +3229,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000523
 name: anorexia
-def: "Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia]
+def: "A nutrition, metabolism, and development symptom that is characterized by a loss of appetite especially when prolonged." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anorexia]
 xref: ICD9CM_2005:783.0
 xref: UMLS_CUI:C0003123
 xref: UMLS_ICD9CM_2005_AUI:A0024378
@@ -3195,7 +3238,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000524
 name: polyphagia
-def: "Polyphagia is a nutrition, metabolism, and development symptom characterized by an excessive appetite or eating." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia]
+def: "A nutrition, metabolism, and development symptom that is characterized by an excessive appetite or eating." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polyphagia]
 xref: ICD9CM_2005:783.6
 xref: UMLS_CUI:C0020505
 xref: UMLS_ICD9CM_2005_AUI:A0011381
@@ -3266,7 +3309,7 @@ is_a: SYMP:0000158 ! spleen symptom
 [Term]
 id: SYMP:0000532
 name: urge incontinence
-def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence]
+def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder when a sudden strong need to urinate is felt, even when the bladder isn't full." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=urge%20incontinence, url:https\://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence]
 xref: ICD9CM_2005:788.31
 xref: UMLS_CUI:C0150045
 xref: UMLS_ICD9CM_2005_AUI:A0469078
@@ -3275,6 +3318,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000533
 name: post-void dribbling
+def: "A urinary incontinence that is characterized by urine remaining in the urethra after voiding the bladder that slowly leaks out after urination." [url:https\://en.wikipedia.org/wiki/Post-void_dribbling]
 xref: ICD9CM_2005:788.35
 xref: UMLS_CUI:C0375552
 xref: UMLS_ICD9CM_2005_AUI:A0775329
@@ -3283,7 +3327,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000534
 name: spontaneous ecchymoses
-def: "Spontaneous ecchymoses is a skin and integumentary tissue symptom characterized as the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ecchymoses]
+def: "A skin and integumentary tissue symptom that is characterized by the spontaneous escape of blood into the tissues from ruptured blood vessels marked by a livid black-and-blue or purple spot or area." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ecchymoses]
 xref: ICD9CM_2005:782.7
 xref: UMLS_CUI:C0159039
 xref: UMLS_ICD9CM_2005_AUI:A0284153
@@ -3308,7 +3352,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000537
 name: cyanosis
-def: "Cyanosis is a skin and integumentary tissue symptom characterized as a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis]
+def: "A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis]
 xref: ICD9CM_2005:782.5
 xref: UMLS_CUI:C0010520
 xref: UMLS_ICD9CM_2005_AUI:A0044296
@@ -3317,7 +3361,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000538
 name: edema
-def: "A skin and integumentary tissue symptom characterized as an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
+def: "A skin and integumentary tissue symptom that is characterized by an abnormal excess accumulation of serous fluid in connective tissue or in a serous cavity." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=edema]
 synonym: "dropsy" EXACT []
 xref: ICD9CM_2005:782.3
 xref: UMLS_CUI:C0013604
@@ -3327,7 +3371,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000539
 name: jaundice
-def: "Jaundice is a skin and integumentary tissue symptom characterized as a skin and integumentary symptom where a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice]
+def: "A skin and integumentary tissue symptom that is characterized by a yellowish pigmentation of the skin, tissues, and certain body fluids is caused by the deposition of bile pigments that follows interference with normal production and discharge of bile (as in certain liver diseases) or excessive breakdown of red blood cells (as after internal hemorrhage or in various hemolytic states)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=jaundice]
 synonym: "icteric" EXACT []
 synonym: "icterus" EXACT []
 xref: ICD9CM_2005:782.4
@@ -3338,6 +3382,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000540
 name: painful respiration
+def: "A respiratory system and chest symptom that is characterized by a feeling of discomfort when breathing in or out.  The pain may be the result of infection, musculoskeletal injury, and heart problems." [url:https\://www.healthline.com/health/painful-respiration#causes, url:https\://www.medicalnewstoday.com/articles/324718]
 xref: ICD9CM_2005:786.52
 xref: UMLS_CUI:C0423729
 xref: UMLS_ICD9CM_2005_AUI:A0243833
@@ -3473,6 +3518,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000557
 name: urinary retention
+def: "A urinary system symptom that is characterized by an inability to empty the bladder completely during the process of voiding (urination)." [url:https\://en.wikipedia.org/wiki/Urinary_retention]
 synonym: "inability to urinate" EXACT []
 synonym: "ischuria" EXACT []
 synonym: "retention of urine" EXACT []
@@ -3486,10 +3532,11 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000558
 name: incomplete bladder emptying
+def: "A urinary system symptom that is characterized by a bladder that is not empty." []
 xref: ICD9CM_2005:788.21
 xref: UMLS_CUI:C0344365
 xref: UMLS_ICD9CM_2005_AUI:A0722424
-is_a: SYMP:0000557 ! urinary retention
+is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
 id: SYMP:0000559
@@ -3504,7 +3551,7 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000560
 name: polydipsia
-def: "Polydipsia is a nutrition, metabolism, and development symptom characterized by an excessive or abnormal thirst." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia]
+def: "A nutrition, metabolism, and development symptom that is characterized by an excessive or abnormal thirst." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=polydipsia]
 xref: ICD9CM_2005:783.5
 xref: UMLS_CUI:C0085602
 xref: UMLS_ICD9CM_2005_AUI:A0003974
@@ -3528,7 +3575,9 @@ is_a: SYMP:0000478 ! abdominal swelling
 [Term]
 id: SYMP:0000563
 name: urinary frequency
+def: "A urinary system symptom that is characterized by the need to urinate many times during the day, at night, or both but in normal or less-than-normal volumes.  Frequency may be accompanied by a sensation of an urgent need to void (urgency of urination)." [url:https\://www.merckmanuals.com/professional/genitourinary-disorders/symptoms-of-genitourinary-disorders/urinary-frequency]
 synonym: "frequent urination" EXACT []
+synonym: "nocturia" RELATED []
 xref: ICD9CM_2005:788.41
 xref: UMLS_CUI:C0042023
 xref: UMLS_ICD9CM_2005_AUI:A0004030
@@ -3616,6 +3665,7 @@ is_a: SYMP:0000566 ! sleep disturbance
 [Term]
 id: SYMP:0000572
 name: splitting of urinary stream
+def: "A urinary stream symptom that is characterized by a split in the urine flow resulting in it streaming in two directions." [url:https\://ugatl.com/services/prostatitis/splitting-urine-stream/]
 xref: ICD9CM_2005:788.61
 xref: UMLS_CUI:C0232855
 xref: UMLS_ICD9CM_2005_AUI:A0460440
@@ -3692,7 +3742,7 @@ is_a: SYMP:0000566 ! sleep disturbance
 [Term]
 id: SYMP:0000581
 name: sleep apnea
-def: "Sleep apnea is a apnea characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea]
+def: "An apnea that is characterized by brief periods of recurrent cessation of breathing during sleep that is caused especially by obstruction of the airway or a disturbance in the brain's respiratory center and is associated especially with excessive daytime sleepiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sleep%20apnea]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:780.57
 xref: UMLS_CUI:C0375544
@@ -3735,6 +3785,7 @@ is_a: SYMP:0000566 ! sleep disturbance
 [Term]
 id: SYMP:0000586
 name: overflow incontinence
+def: "A urinary incontinence that is characterized by a bladder that does not empty completely, resulting in a bladder that is too full, which leads to overflow and unexpected leaking." [url:https\://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence, url:https\://www.healthline.com/health/overactive-bladder/overflow-incontinence, url:https\://www.webmd.com/urinary-incontinence-oab/overflow-incontinence]
 xref: ICD9CM_2005:788.38
 xref: UMLS_CUI:C0312413
 xref: UMLS_ICD9CM_2005_AUI:A6994689
@@ -3743,6 +3794,7 @@ is_a: SYMP:0000492 ! urinary incontinence
 [Term]
 id: SYMP:0000587
 name: abnormal chest sound
+def: "A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway)." [url:https\://www.healthline.com/health/breath-sounds#types]
 xref: ICD9CM_2005:786.7
 xref: UMLS_CUI:C0159056
 xref: UMLS_ICD9CM_2005_AUI:A0284219
@@ -3751,6 +3803,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000588
 name: extravasation of urine
+def: "A urinary system symptom that is characterized by an injury of the urethra in its bulbous or membranous portion, which leads to a collection of urine in other cavities, such as the perineal space, the scrotum, the penis and the connective tissue of the anterior abdominal wall." [url:https\://en.wikipedia.org/wiki/Extravasation_of_urine, url:https\://jamanetwork.com/journals/jama/article-abstract/466994]
 xref: ICD9CM_2005:788.8
 xref: UMLS_CUI:C0152245
 xref: UMLS_ICD9CM_2005_AUI:A0284259
@@ -3759,6 +3812,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000589
 name: slowing of urinary stream
+def: "A urinary stream symptom that is characterized by a slow or weak stream of urine." [url:https\://www.besturologistnyc.com/what-is-slow-urine-flow]
 xref: ICD9CM_2005:788.62
 xref: UMLS_CUI:C0232854
 xref: UMLS_ICD9CM_2005_AUI:A0459374
@@ -3767,6 +3821,7 @@ is_a: SYMP:0000573 ! urinary stream symptom
 [Term]
 id: SYMP:0000590
 name: urgency of urination
+def: "A urinary system symptom that is characterized by a strong and immediate need to urinate due to an increase in pressure in the bladder, resulting in difficulty to hold in the urine. This can occur regardless of whether the bladder is full." [url:https\://www.medicalnewstoday.com/articles/325336#symptoms]
 xref: ICD9CM_2005:788.63
 xref: UMLS_CUI:C0085606
 xref: UMLS_ICD9CM_2005_AUI:A2797703
@@ -3831,6 +3886,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000598
 name: respiratory abnormality
+def: "A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation." [url:https\://www.ncbi.nlm.nih.gov/books/NBK470309/]
 xref: ICD9CM_2005:786.0
 xref: UMLS_CUI:C0159053
 xref: UMLS_ICD9CM_2005_AUI:A0284202
@@ -3839,6 +3895,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000599
 name: cheyne-stokes respiration
+def: "A respiratory abnormality that is characterized by a specific form of periodic breathing (waxing and waning amplitude of flow or tidal volume) characterized by a crescendo-decrescendo pattern of respiration between central apneas or central hypopneas." [url:https\://www.ncbi.nlm.nih.gov/books/NBK448165/]
 xref: ICD9CM_2005:786.04
 xref: UMLS_CUI:C0008039
 xref: UMLS_ICD9CM_2005_AUI:A0400651
@@ -3847,7 +3904,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000600
 name: apnea
-def: "Apnea is a respiratory abnormality characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea]
+def: "A respiratory abnormality that is characterized by transient cessation of respiration whether normal (as in hibernating animals) or abnormal (as that caused by certain drugs)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=apnea]
 xref: ICD9CM_2005:786.03
 xref: UMLS_CUI:C0003578
 xref: UMLS_ICD9CM_2005_AUI:A0025648
@@ -3856,7 +3913,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000601
 name: hyperventilation
-def: "Hyperventilation is a respiratory abnormality characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation]
+def: "A respiratory abnormality that is characterized by excessive ventilation characterized by excessive rate and depth of respiration leading to abnormal loss of carbon dioxide from the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperventilation]
 xref: ICD9CM_2005:786.01
 xref: UMLS_CUI:C0020578
 xref: UMLS_ICD9CM_2005_AUI:A0071094
@@ -3865,7 +3922,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000602
 name: orthopnea
-def: "Orthopnea is a respiratory abnormality characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea]
+def: "A respiratory abnormality that is characterized by a difficulty in breathing that occurs when lying down and is relieved upon changing to an upright position (as in congestive heart failure)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=orthopnea]
 xref: ICD9CM_2005:786.02
 xref: UMLS_CUI:C0085619
 xref: UMLS_ICD9CM_2005_AUI:A0004140
@@ -3875,7 +3932,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 id: SYMP:0000603
 name: tachypnea
 alt_id: SYMP:0000683
-def: "Tachypnea is a respiratory abnormality characterized by an increased rate of respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
+def: "A respiratory abnormality that is characterized by an increased rate of respiration and shallow breathing." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnea, url:https\://www.healthline.com/health/rapid-shallow-breathing]
 synonym: "rapid breathing" EXACT []
 xref: ICD9CM_2005:786.06
 xref: UMLS_CUI:C0231835
@@ -3885,11 +3942,11 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000604
 name: wheezing
-def: "Wheezing is a respiratory abnormality characterized by breathing with difficulty usually with a whistling sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing]
+def: "An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing]
 xref: ICD9CM_2005:786.07
 xref: UMLS_CUI:C0043144
 xref: UMLS_ICD9CM_2005_AUI:A0133941
-is_a: SYMP:0000598 ! respiratory abnormality
+is_a: SYMP:0000587 ! abnormal chest sound
 
 [Term]
 id: SYMP:0000605
@@ -3902,6 +3959,9 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0000606
 name: nocturnal enuresis
+def: "A urinary incontinence that is characterized by involuntary urination at night in children five years of age or older." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348193/]
+synonym: "bed wetting" EXACT []
+synonym: "nighttime incontinence" EXACT []
 xref: ICD9CM_2005:788.36
 xref: UMLS_CUI:C0270327
 xref: UMLS_ICD9CM_2005_AUI:A0753297
@@ -3971,7 +4031,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000614
 name: cough
-def: "Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough]
+def: "A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough]
 xref: ICD9CM_2005:786.2
 xref: UMLS_CUI:C0010200
 xref: UMLS_ICD9CM_2005_AUI:A0043303
@@ -4047,6 +4107,7 @@ is_a: SYMP:0019155 ! lymphadenitis
 [Term]
 id: SYMP:0000623
 name: acute renal failure
+def: "A renal failure that is characterized by a severe and sudden onset of renal failure." []
 is_a: SYMP:0000731 ! renal failure
 
 [Term]
@@ -4073,7 +4134,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0000629
 name: exanthema
-def: "Exanthema is a rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease." [url:http\://en.wikipedia.org/wiki/Exanthema]
+def: "A rash characterized by a widespread skin eruption usually occurring in children that is a symptom of a more general disease." [url:http\://en.wikipedia.org/wiki/Exanthema]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4111,6 +4172,7 @@ is_a: SYMP:0000006 ! backache
 [Term]
 id: SYMP:0000636
 name: maculopapular rash
+def: "A rash characterized by papule(s), which are a raised area of the skin and macule(s), which are a flat red area of the skin." [url:https\://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4121,6 +4183,7 @@ is_a: SYMP:0000183 ! muscle symptom
 [Term]
 id: SYMP:0000638
 name: papular rash
+def: "A rash characterized by papule(s), which are a raised area of the skin." [url:https\://www.webmd.com/skin-problems-and-treatments/what-is-maculopapular-rash]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4132,6 +4195,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000640
 name: ankle rash
+def: "A rash characterized by an inflammatory reaction of the skin on the ankles." [url:https\://www.healthgrades.com/right-care/skin-hair-and-nails/ankle-rash]
 synonym: "redness of ankle" EXACT []
 is_a: SYMP:0000487 ! rash
 
@@ -4148,6 +4212,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000643
 name: respiratory failure
+def: "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannott get enough oxygen into the blood." [url:https\://www.nhlbi.nih.gov/health/respiratory-failure]
 comment: doid/symp duplicate
 synonym: "respiratory dysfunction" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
@@ -4172,7 +4237,7 @@ is_a: SYMP:0000313 ! joint inflammation
 [Term]
 id: SYMP:0000647
 name: tache noire
-def: "Tache noire is a skin ulcer characterized by a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire]
+def: "A skin ulcer that is characterized by a a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire]
 is_a: SYMP:0000136 ! skin ulcer
 
 [Term]
@@ -4242,6 +4307,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000660
 name: purpuric rash
+def: "A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon" [url:https\://en.wikipedia.org/wiki/Purpura, url:https\://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4333,11 +4399,13 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000679
 name: acute dyspnea
+def: "A dyspnea that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0019153 ! dyspnea
 
 [Term]
 id: SYMP:0000680
 name: acute weight loss
+def: "A weight loss that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0000178 ! weight loss
 
 [Term]
@@ -4369,7 +4437,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000686
 name: chronic cough
-def: "Chronic cough is a cough characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic]
+def: "A cough that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance marked by long duration, by frequent recurrence over a long time, and often by slowly progressing seriousness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=chronic]
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -4416,6 +4484,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 [Term]
 id: SYMP:0000695
 name: decreased milk production
+def: "A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers" [url:https\://www.chop.edu/pages/low-milk-supply, url:https\://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply]
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
@@ -4499,7 +4568,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000712
 name: infertility
-def: "Infertility is a reproductive system symptom characterized as the biological inability of a man or a woman to contribute to conception or the state of a woman who is unable to carry a pregnancy to full term." [url:http\://en.wikipedia.org/wiki/Infertility]
+def: "A reproductive system symptom that is characterized the biological inability of a man or a woman to contribute to conception; or, the state of a woman who is unable to carry a pregnancy to full term." [url:http\://en.wikipedia.org/wiki/Infertility]
 comment: doid/symp duplicate
 is_a: SYMP:0000196 ! reproductive system symptom
 
@@ -4516,7 +4585,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000715
 name: skin desquamation
-def: "A skin and integumentary tissue symptom characterized by the peeling off of skin in the form of scales." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation]
+def: "A skin and integumentary tissue symptom that is characterized by the peeling off of skin in the form of scales." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -4587,16 +4656,19 @@ is_a: SYMP:0000711 ! hind limb paralysis
 [Term]
 id: SYMP:0000729
 name: pulmonary consolidation
+def: "A respiratory system and chest symptom that is characterized by a region of normally compressible lung tissue that has filled with liquid instead of air." [url:https\://en.wikipedia.org/wiki/Pulmonary_consolidation]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000730
 name: rapid respiration
-is_a: SYMP:0000514 ! respiratory system and chest symptom
+def: "A respiratory abnormality that is characterized by an increased breathing rate, with more than 20 breaths per minute in an adult, while in children, the number of breaths per minute can be a higher resting rate than seen in adults." [url:https\://www.healthline.com/health/rapid-shallow-breathing#What-is-tachypnea?]
+is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000731
 name: renal failure
+def: "A urinary system symptom that is characterized by a loss of excretory function in one or both kidneys, leading to retention of nitrogenous waste products from the blood." [url:https\://www.ncbi.nlm.nih.gov/books/NBK519012/]
 is_a: SYMP:0000486 ! urinary system symptom
 
 [Term]
@@ -4622,6 +4694,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000735
 name: suppurative pneumonia
+def: "A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur." [url:https\://medical-dictionary.thefreedictionary.com/suppurative+pneumonia]
 is_a: SYMP:0019168 ! pneumonia
 
 [Term]
@@ -4632,6 +4705,7 @@ is_a: SYMP:0000716 ! swelling symptom
 [Term]
 id: SYMP:0000737
 name: respiratory tract mucosa ulcer
+def: "A respiratory system and chest symptom that is characterized by an ulceration (dying and sloughing) of the bronchial or bronchiolar epithelium, exposing the underlying basement membrane." [url:https\://medical-dictionary.thefreedictionary.com/respiratory+mucosa, url:https\://ntp.niehs.nih.gov/nnl/respiratory/lung/ulcer/index.htm]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -4642,6 +4716,7 @@ is_a: SYMP:0000570 ! diarrhea
 [Term]
 id: SYMP:0000739
 name: bronchopulmonary bleeding
+def: "A respiratory system and chest symptom that is characterized by bleeding (hemorrhage) in either or both the bronchi and the lungs." [url:https\://www.merriam-webster.com/medical/bronchopulmonary]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -4679,7 +4754,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000746
 name: enanthem
-def: "Enanthem is a skin and integumentary tissue symptom characterized as an eruption on a mucous surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem]
+def: "A skin and integumentary tissue symptom that is characterized by an eruption on a mucous surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=enanthem]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -4690,6 +4765,8 @@ is_a: SYMP:0000116 ! prostration
 [Term]
 id: SYMP:0000748
 name: facial edema
+def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face." [url:https\://angletoner.com/facial-swelling/]
+synonym: "facial swelling" EXACT []
 is_a: SYMP:0000538 ! edema
 
 [Term]
@@ -4731,7 +4808,7 @@ is_a: SYMP:0019149 ! toxemia
 [Term]
 id: SYMP:0000756
 name: menorrhagia
-def: "A reproductive system symptom characterized by an abnormally profuse menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia]
+def: "A reproductive system symptom that is characterized an abnormally profuse menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=menorrhagia]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -4753,7 +4830,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000760
 name: petechiae
-def: "A skin and integumentary tissue symptom characterized as a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae]
+def: "A skin and integumentary tissue symptom that is characterized by a minute reddish or purplish spot containing blood that appears in skin or mucous membrane as a result of localized hemorrhage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=petechiae]
 synonym: "petechial rash" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -5239,7 +5316,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000849
 name: stillbirth
-def: "Stillbirth is a reproductive system symptom characterized by the birth of a dead fetus, occurs when a fetus which has died in the uterus or during labor or delivery exits a woman's body." [url:http\://en.wikipedia.org/wiki/Still_birth, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth]
+def: "A reproductive system symptom that is characterized by the birth of a dead fetus; in which  a fetus that has died in the uterus, or during labor, or delivery, exits a woman's body." [url:http\://en.wikipedia.org/wiki/Still_birth, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stillbirth]
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
@@ -5267,19 +5344,19 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000853
 name: stress incontinence
-def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence]
+def: "A urinary incontinence that is characterized by an involuntary leakage of urine from the bladder accompanying physical activity (as in laughing, coughing, sneezing, or physical exercise) which places increased pressure on the abdomen." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stress%20incontinence, url:https\://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence]
 is_a: SYMP:0000492 ! urinary incontinence
 
 [Term]
 id: SYMP:0000854
 name: hypermenorrhea
-def: "Hypermenorrhea is a menorrhagia characterized by an abnormally profuse or prolonged menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea]
+def: "A menorrhagia that is characterized by an abnormally profuse or prolonged menstrual flow." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypermenorrhea]
 is_a: SYMP:0000756 ! menorrhagia
 
 [Term]
 id: SYMP:0000855
 name: metrorrhagia
-def: "Metrorrhagia is a menorrhagia characterized by an irregular uterine bleeding especially between menstrual periods." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia]
+def: "A menorrhagia that is characterized by an irregular uterine bleeding, especially between menstrual periods." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=metrorrhagia]
 is_a: SYMP:0000756 ! menorrhagia
 
 [Term]
@@ -5355,13 +5432,13 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000868
 name: breathing problems
-def: "Breathing problems is a respiratory abnormality characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air." [url:http\://www.nlm.nih.gov/medlineplus/breathingproblems.html]
+def: "A respiratory abnormality that is characterized by a shortness of breath, a hard or uncomfortable intake of air, or the feeling that you're not getting enough air." [url:http\://www.nlm.nih.gov/medlineplus/breathingproblems.html]
 is_a: SYMP:0000598 ! respiratory abnormality
 
 [Term]
 id: SYMP:0000869
 name: nasal congestion
-def: "Nasal congestion is a congestion characterized by a blockage of the nasal passages usually due to membranes lining the nose becoming swollen from inflamed blood vessels." [url:http\://en.wikipedia.org/wiki/Nasal_congestion]
+def: "A congestion that is characterized by a blockage of the nasal passages, usually due to the membranes lining the nose becoming swollen from inflamed blood vessels." [url:http\://en.wikipedia.org/wiki/Nasal_congestion]
 is_a: SYMP:0000237 ! congestion
 
 [Term]
@@ -5373,13 +5450,13 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000871
 name: icteric mucous membrane
-def: "Icteric mucous membrane is a skin and integumentary tissue symptom characterized as a yellowed mucous membranes due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
+def: "A skin and integumentary tissue symptom that is characterized by yellowed mucous membranes due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0000872
 name: icteric skin
-def: "Yellowed skin due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
+def: "A skin and integumentary tissue symptom that is characterized by yellowed skin due to bile or bilirubin accumulation." [url:http\://en.wikipedia.org/wiki/Jaundice]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5391,7 +5468,7 @@ is_a: SYMP:0000392 ! ear symptom
 [Term]
 id: SYMP:0000874
 name: hematoma
-def: "Hematoma is a skin and integumentary tissue symptom characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding." [url:http\://en.wikipedia.org/wiki/Hematoma, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas]
+def: "A skin and integumentary tissue symptom that is characterized by a mass of usually clotted blood that forms in a tissue, organ, or body space as a result of a broken blood vessel generally the result of hemorrhage, or more specifically, internal bleeding." [url:http\://en.wikipedia.org/wiki/Hematoma, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Hematomas]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5534,7 +5611,7 @@ creation_date: 2011-11-17T12:20:22Z
 [Term]
 id: SYMP:0000894
 name: cold clammy skin
-def: "A skin andintegumentary tissue symptom that is characterized by cold, moist and sticky skin." [url:http\://www.merriam-webster.com/medlineplus/clammy]
+def: "A skin and integumentary tissue symptom that is characterized by cold, moist and sticky skin." [url:http\://www.merriam-webster.com/medlineplus/clammy]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 created_by: lschriml
 creation_date: 2011-11-17T12:27:44Z
@@ -5665,7 +5742,7 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0019151
 name: pulmonary edema
-def: "Pulmonary edema is a respiratory system and chest symptom characterized by an abnormal accumulation of fluid in the lungs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema]
+def: "A respiratory system and chest symptom that is characterized by an abnormal accumulation of fluid in the lungs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pulmonary%20edema]
 comment: doid/symp duplicate
 synonym: "oedematous lungs" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
@@ -5673,14 +5750,14 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0019152
 name: diaphoresis
-def: "Diaphoresis is a sweat characterized as excessive sweating commonly associated with shock and other medical emergency conditions." [url:http\://en.wikipedia.org/wiki/Diaphoresis]
+def: "A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions." [url:http\://en.wikipedia.org/wiki/Diaphoresis]
 synonym: "profuse perspiration" EXACT []
 is_a: SYMP:0019175 ! sweaty
 
 [Term]
 id: SYMP:0019153
 name: dyspnea
-def: "Dyspnea is a respiratory abnormality characterized by difficult or labored respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
+def: "A respiratory abnormality that is characterized by difficult or labored respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
 synonym: "breathing difficulty" EXACT []
 synonym: "breathlessness" EXACT []
 synonym: "difficulty breathing" EXACT []
@@ -5691,6 +5768,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0019154
 name: hemorrhagic mediastinitis
+def: "A respiratory abnormality that is characterized by inflammation of the mediastinum (the chest cavity, which contains the heart, the thymus gland, some lymph nodes, and parts of the esophagus, aorta, thyroid, and parathyroid glands) as the result of bleeding." [url:https\://www.merckmanuals.com/home/lung-and-airway-disorders/pleural-and-mediastinal-disorders/mediastinitis]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -5707,7 +5785,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0019158
 name: eschar
-def: "Eschar is a skin and integumentary tissue symptom characterized as a scab formed especially after a burn." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar]
+def: "A skin and integumentary tissue symptom that is characterized by a scab formed especially after a burn." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eschar]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5719,7 +5797,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0019160
 name: boil
-def: "Boil is a skin and integumentary tissue symptom characterized as a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil]
+def: "A skin and integumentary tissue symptom that is characterized by a localized swelling and inflammation of the skin resulting from usually bacterial infection of a hair follicle and adjacent tissue, having a hard central core, and forming pus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=boil]
 synonym: "furuncle" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -5762,13 +5840,13 @@ is_obsolete: true
 [Term]
 id: SYMP:0019167
 name: pustule
-def: "Pustule is a skin and integumentary tissue symptom characterized as a small circumscribed elevation of the skin containing pus and having an inflamed base." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule]
+def: "A skin and integumentary tissue symptom that is characterized by a small circumscribed elevation of the skin containing pus and having an inflamed base." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pustule]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0019168
 name: pneumonia
-def: "Pneumonia is a pneumonitis characterized as an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [url:http\://en.wikipedia.org/wiki/Pneumonia]
+def: "A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [url:http\://en.wikipedia.org/wiki/Pneumonia]
 comment: doid/symp duplicate
 is_a: SYMP:0000354 ! pneumonitis
 
@@ -5811,7 +5889,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0019175
 name: sweaty
-def: "A skin and integumentary tissue symptom characterized as the excretion of moisture in visible quantities through the opening of the sweat glands." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat]
+def: "A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat]
 synonym: "perspire" EXACT []
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
@@ -5830,6 +5908,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0019178
 name: necrotic lesion
+def: "A skin and integumentary tissue symptom that is characterized by regions of cell death to living tissue in an organ, which has suffered damage through injury or disease, such as a wound, ulcer, abscess, or tumor." [url:https\://en.wikipedia.org/wiki/Lesion, url:https\://en.wikipedia.org/wiki/Necrosis]
 is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
@@ -5910,11 +5989,15 @@ is_a: SYMP:0000041 ! hemorrhage
 [Term]
 id: SYMP:0020000
 name: airway stenosis
+def: "A respiratory system and chest symptom that is characterized by a narrowing in the airway that obstructs the passage of air into the lungs.  Examples include tracheal and laryngotracheal stenosis." [url:https\://throatdisorder.com/breathing-disorders/tracheal-stenosis/, url:https\://www.ncbi.nlm.nih.gov/books/NBK554561/]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0020001
 name: apthous ulcer
+def: "A skin ulcer that is characterized by a small recurrent, painful, round or ovoid ulcers with well-defined erythematous margins, like a halo, and a central yellow or gray floor found in the soft tissue of the oral cavity." [url:https\://en.wikipedia.org/wiki/Aphthous_stomatitis]
+synonym: "aphthous stomatitis" EXACT []
+synonym: "canker sore" EXACT []
 is_a: SYMP:0000136 ! skin ulcer
 
 [Term]
@@ -5952,7 +6035,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0020008
 name: barking croup cough
-def: "A cough symptom that is characterized by a tight, low-pitched, and barky (like a barking seal) cough." [url:https\://www.seattlechildrens.org/conditions/a-z/croup/]
+def: "A cough that is characterized by a tight, low-pitched, and barky (like a barking seal) cough." [url:https\://www.seattlechildrens.org/conditions/a-z/croup/]
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -5978,11 +6061,13 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0020013
 name: abnormal weight loss
+def: "A weight loss that is characterized as deviating from what is normal or usual, typically in a way that is undesirable or worrying." [url:https\://www.merriam-webster.com/dictionary/abnormal]
 is_a: SYMP:0000178 ! weight loss
 
 [Term]
 id: SYMP:0020014
 name: chronic weight loss
+def: "A weight loss that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both." [url:https\://www.cdc.gov/chronicdisease/about/index.htm#]
 is_a: SYMP:0000178 ! weight loss
 
 [Term]
@@ -5997,16 +6082,19 @@ replaced_by: SYMP:0000403
 [Term]
 id: SYMP:0020016
 name: acute weight gain
+def: "A weight gain that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0000403 ! weight gain
 
 [Term]
 id: SYMP:0020017
 name: chronic weight gain
+def: "A weight gain that is characterized by conditions that last 1 year or more and require ongoing medical attention, or limit activities of daily living, or both." [url:https\://www.cdc.gov/chronicdisease/about/index.htm#]
 is_a: SYMP:0000403 ! weight gain
 
 [Term]
 id: SYMP:0020018
 name: overweight
+def: "A weight symptom that is characterized by being too heavy for one’s height. Excess body weight can come from fat, muscle, bone, and/or water retention. Being overweight does not always mean being obese." [url:https\://www.cancer.gov/publications/dictionaries/cancer-terms/def/overweight]
 synonym: "obesity" EXACT []
 is_a: SYMP:0020012 ! weight symptom
 
@@ -6040,11 +6128,13 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0020024
 name: bronchospasm
+def: "A respiratory system and chest symptom that is characterized by constriction of the air passages of the lung (as in asthma) by spasmodic contraction of the bronchial muscles." [url:https\://www.merriam-webster.com/dictionary/bronchospasm]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0020025
 name: caseation
+def: "A respiratory system and chest symptom that is characterized by necrosis of tissue with conversion of damaged tissue into a soft cheesy substance." [url:https\://www.merriam-webster.com/dictionary/caseation]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
@@ -6055,6 +6145,8 @@ is_a: SYMP:0000061 ! inflammation
 [Term]
 id: SYMP:0020027
 name: wet cough
+def: "A cough that is characterized by a production and expectoration (bringing up) of mucus (phlegm) or sputum." [url:https\://www.webmd.com/lung/productive-cough-causes]
+synonym: "productive cough" EXACT []
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -6070,22 +6162,26 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0020030
 name: patches of hair loss with a 'black dot' pattern
+def: "A hair symptom that is characterized by patchy hair loss and the presence of comedo-like cadaver hairs, which appear as black dots." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148295/]
 is_a: SYMP:0000440 ! hair loss
 
 [Term]
 id: SYMP:0020031
 name: chest discomfort
+def: "A respiratory system and chest symptom that is characterized by pain, pressure, tightness, or other discomfort originating in or radiating to the chest, which constitutes an important indicator of potentially serious cardiac or cardiovascular disorders." [url:https\://www.ncbi.nlm.nih.gov/books/NBK416/]
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0020032
 name: chest tightness
-is_a: SYMP:0000514 ! respiratory system and chest symptom
+def: "A chest discomfort that is characterized by any type of pain or discomfort between your upper belly and lower neck." []
+synonym: "chest pain" EXACT [url:https\://www.healthgrades.com/right-care/symptoms-and-conditions/chest-tightness, url:https\://www.verywellhealth.com/che]
+is_a: SYMP:0020031 ! chest discomfort
 
 [Term]
 id: SYMP:0020033
 name: paroxysmal cough
-def: "A cough symptom that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)." []
+def: "A cough that is characterized by a persistent cough with sudden onset due to difficulty expelling thick mucus from the tracheobronchial tree. This type of cough is associated with diseases such as Pertussis (Whooping Cough)." []
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -6129,7 +6225,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0020041
 name: corkscrew hair
-def: "A skin and integumentary tissue symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)." [url:https\://medlineplus.gov/ency/imagepages/2345.htm, url:https\://www.ccjm.org/content/ccjom/82/4/216.full.pdf, url:https\://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/]
+def: "A hair symptom that is characterized by coiled “corkscrew” hairs on the surface of the arms, legs and chest, which can occur as a result low level of ascorbic acid (vitamin C)." [url:https\://medlineplus.gov/ency/imagepages/2345.htm, url:https\://www.ccjm.org/content/ccjom/82/4/216.full.pdf, url:https\://www.miningjournal.net/life/tuesday-health/2021/09/urology-pearls-the-mystery-of-the-corkscrew-hair-part-2/]
 is_a: SYMP:0020040 ! hair symptom
 
 [Term]
@@ -6143,6 +6239,12 @@ id: SYMP:0020043
 name: dark urine
 def: "A urinary system symptom that is characterized by an elevation in the concentration of the the pigments from foods, dyes, and medications in urine. The dilution of these pigment is dependent on the amount of water intake and severe dehydration can lead to a dark color." [url:https\://www.mayoclinic.org/diseases-conditions/urine-color/symptoms-causes/syc-20367333]
 is_a: SYMP:0000486 ! urinary system symptom
+
+[Term]
+id: SYMP:0020044
+name: hair shedding
+def: "A hair symptom that is characterized by significant falling out of hair, which may be a result of stress, high fever, and other factors." [url:https\://www.aad.org/public/diseases/hair-loss/insider/shedding]
+is_a: SYMP:0020040 ! hair symptom
 
 [Typedef]
 id: part_of
