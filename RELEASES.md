@@ -2,6 +2,14 @@
 
 ## 2022 Releases
 
+### [v2022-08-16](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-08-16)
+
+Added definitions, reformatted current definitions for consistency, added database cross references and added synonyms (exact & related), to urinary system symptom, respiratory system and chest symptom, reproductive system symptom terms, & nutrition, metabolism, and development symptom.
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-08-16/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-08-16/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-08-16/src/ontology/symp.json) |
+
 ### [v2022-07-26](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-07-26)
 
 Formerly deprecated terms ‘weight loss’ and ‘weight gain’ were reinstated to replace the terms ‘loss of weight’ and ‘gain of weight’, which were deprecated.  Children were transferred accordingly.  ‘Low birth weight’ is now a child of ‘weight symptom’.
