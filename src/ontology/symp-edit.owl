@@ -1128,7 +1128,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000004 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000005 (ataxia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000005 "Ataxia is a neurological and physiological symptom characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000005 "A neurological and physiological symptom that is characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000005 "uncoordination"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000005 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000005 "SYMP:0000005"^^xsd:string)
@@ -1213,7 +1213,7 @@ SubClassOf(obo:SYMP_0000015 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000016 (confusion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000016 "Confusion is a neurological and physiological symptom characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000016 "A neurological and physiological symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000016 "SYMP:0000016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000016 "confusion"^^xsd:string)
@@ -1250,7 +1250,7 @@ SubClassOf(obo:SYMP_0000020 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000021 (delirium)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000021 "Delirium is a neurological and physiological symptom characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000021 "A neurological and physiological symptom that is characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000021 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000021 "SYMP:0000021"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000021 "delirium"^^xsd:string)
@@ -1265,7 +1265,7 @@ SubClassOf(obo:SYMP_0000022 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000023 (disorientation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000023 "Disorientation is a confusion characterized by a usually transient state of confusion especially as to time, place, or identity often as a result of disease or drugs."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000023 "A confusion that is characterized by an usually transient state of confusion especially as to time, place, or identity; often as a result of disease or drugs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000023 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000023 "SYMP:0000023"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000023 "disorientation"^^xsd:string)
@@ -1653,7 +1653,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000074 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000075 (lethargy)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000075 "Lethargy is a fatigue characterized as abnormal drowsiness."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000075 "A fatigue that is characterized by abnormal drowsiness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000075 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000075 "SYMP:0000075"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000075 "lethargy"^^xsd:string)
@@ -2629,7 +2629,7 @@ SubClassOf(obo:SYMP_0000206 obo:SYMP_0000205)
 
 # Class: obo:SYMP_0000207 (afebrile)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000207 "Afebrile is a fever that is characterized as the state of being free from fever."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000207 "A fever that is characterized by the state of being free from fever."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000207 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000207 "SYMP:0000207"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000207 "afebrile"^^xsd:string)
@@ -2927,7 +2927,7 @@ SubClassOf(obo:SYMP_0000242 obo:SYMP_0000614)
 
 # Class: obo:SYMP_0000243 (cyclic fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/cyclic_fever_in_children.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000243 "Cyclic fever is a fever that occurs during periodic episodes."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/cyclic_fever_in_children.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000243 "A fever that is characterized by occurring during periodic episodes."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000243 "SYMP:0000884"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000243 "recurrent fever"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000243 "symptoms"^^xsd:string)
@@ -2969,7 +2969,7 @@ SubClassOf(obo:SYMP_0000247 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000248 (decreased conscious proprioception)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000248 "Decreased conscious proprioception is a proprioception symptom characterized as a decreased ability of an organism to consciously process the reception of stimuli produced within the organism."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000248 "A proprioception symptom that is characterized by a decreased ability of an organism to consciously process the reception of stimuli produced within the organism."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000248 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000248 "SYMP:0000248"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000248 "decreased conscious proprioception"^^xsd:string)
@@ -3388,7 +3388,7 @@ SubClassOf(obo:SYMP_0000301 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000302 (hypothermia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000302 "Hypothermia is a neurological and physiological symptom characterized by a subnormal temperature of the body as defined by a temperature under 36.6 degrees Celcius."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000302 "A neurological and physiological symptom that is characterized by a subnormal temperature of the body, as defined by a temperature under 36.6 degrees Celcius (97.8 degrees Fahrenheit)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000302 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000302 "SYMP:0000302"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000302 "hypothermia"^^xsd:string)
@@ -3418,6 +3418,7 @@ SubClassOf(obo:SYMP_0000305 obo:SYMP_0000249)
 
 # Class: obo:SYMP_0000306 (inability to feed)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851259/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000306 "A feeding difficulties and mismanagement that is characterized by a lack of feeding capacity."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000306 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000306 "SYMP:0000306"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000306 "inability to feed"^^xsd:string)
@@ -3795,6 +3796,7 @@ SubClassOf(obo:SYMP_0000354 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000355 (poor feeding)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/poor-feeding-in-infants"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000355 "A feeding difficulties and mismanagement that is characterized by an infant with little interest in feeding and it can also refer to an infant who is not feeding enough to receive the necessary nutrition required for adequate growth."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000355 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000355 "SYMP:0000355"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000355 "poor feeding"^^xsd:string)
@@ -4132,7 +4134,7 @@ SubClassOf(obo:SYMP_0000398 obo:SYMP_0000196)
 
 # Class: obo:SYMP_0000399 (vertigo)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Vertigo_%28medical%29"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000399 "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Vertigo_%28medical%29"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000399 "A dizziness that is characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000399 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000399 "SYMP:0000399"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000399 "vertigo"^^xsd:string)
@@ -4203,7 +4205,7 @@ SubClassOf(obo:SYMP_0000406 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000407 (syncope)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/syncope"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000407 "SYMP:0000445"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "faint"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "fainting"^^xsd:string)
@@ -4223,7 +4225,7 @@ SubClassOf(obo:SYMP_0000408 obo:SYMP_0000183)
 
 # Class: obo:SYMP_0000409 (hyperthermia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000409 "Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000409 "A high fever that is characterized by an exceptionally high fever especially when induced artificially for therapeutic purposes."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000409 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000409 "SYMP:0000409"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000409 "hyperthermia"^^xsd:string)
@@ -4245,7 +4247,7 @@ SubClassOf(obo:SYMP_0000411 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000412 (anxiety)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000412 "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000412 "A neurological and physiological symptom that is characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000412 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000412 "SYMP:0000412"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000412 "anxiety"^^xsd:string)
@@ -4253,7 +4255,7 @@ SubClassOf(obo:SYMP_0000412 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000413 (catatonia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000413 "Catatonia is a neurological and physiological symptom characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000413 "A neurological and physiological symptom that is characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000413 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000413 "SYMP:0000413"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000413 "catatonia"^^xsd:string)
@@ -4261,7 +4263,7 @@ SubClassOf(obo:SYMP_0000413 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000414 (dysarthria)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000414 "Dysarthria is a neurological and physiological symptom characterized by a difficulty in articulating words due to disease of the central nervous system."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000414 "A neurological and physiological symptom that is characterized by a difficulty in articulating words due to disease of the central nervous system."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000414 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000414 "SYMP:0000414"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000414 "dysarthria"^^xsd:string)
@@ -5835,6 +5837,7 @@ SubClassOf(obo:SYMP_0000567 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000568 (short stature)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK556031/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000568 "A lack of expected normal physiological development in childhood that is characterized by an individual's height being in the 3rd percentile for the mean height of a given age, sex, and population group."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000568 "ICD9CM_2005:783.43"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000568 "UMLS_CUI:C0349588"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000568 "symptoms"^^xsd:string)
@@ -6292,7 +6295,7 @@ SubClassOf(obo:SYMP_0000609 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000610 (dizziness)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000610 "Dizziness is a neurological and physiological symptom characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000610 "A neurological and physiological symptom that is characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "ICD9CM_2005:780.4"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "UMLS_CUI:C0476206"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "UMLS_ICD9CM_2005_AUI:A0243727"^^xsd:string)
@@ -6324,7 +6327,7 @@ SubClassOf(obo:SYMP_0000612 obo:SYMP_0000454)
 
 # Class: obo:SYMP_0000613 (fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000613 "Fever is a neurological and physiological symptom characterized by a rise of body temperature above the normal whether a natural response (as to infection) or artificially induced for therapeutic reasons."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000613 "A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000613 "ICD9CM_2005:780.6"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000613 "UMLS_CUI:C0015967"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000613 "UMLS_ICD9CM_2005_AUI:A0058972"^^xsd:string)
@@ -6967,6 +6970,7 @@ SubClassOf(obo:SYMP_0000697 obo:SYMP_0000385)
 
 # Class: obo:SYMP_0000698 (decreased sucking)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://adoption.umn.edu/sucking-problems"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000698 "A feeding difficulties and mismanagement that is characterized by a decrease in muscle coordination to form a suck response so that the child can ingest milk."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000698 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000698 "SYMP:0000698"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000698 "decreased sucking"^^xsd:string)
@@ -8143,7 +8147,7 @@ SubClassOf(obo:SYMP_0000855 obo:SYMP_0000756)
 
 # Class: obo:SYMP_0000856 (subjective vertigo)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000856 "Subjective vertigo is a vertigo characterized by a sensation that one's body is revolving in space."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000856 "A vertigo that is characterized by a sensation that one's body is revolving in space."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000856 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000856 "SYMP:0000856"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000856 "subjective vertigo"^^xsd:string)
@@ -8151,7 +8155,7 @@ SubClassOf(obo:SYMP_0000856 obo:SYMP_0000399)
 
 # Class: obo:SYMP_0000857 (objective vertigo)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000857 "Objective vertigo is a vertigo characterized by a sensation that the external world is revolving."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000857 "A vertigo that is characterized by a sensation that the external world is revolving."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000857 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000857 "SYMP:0000857"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000857 "objective vertigo"^^xsd:string)
@@ -8317,7 +8321,7 @@ SubClassOf(obo:SYMP_0000877 obo:SYMP_0000386)
 
 # Class: obo:SYMP_0000878 (transient fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wiktionary.org/wiki/fever"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wiktionary.org/wiki/transient"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000878 "Transient fever is a fever that is characterized as a rise of body temperature above the normal that is sustained for only a short period of time."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wiktionary.org/wiki/fever"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://en.wiktionary.org/wiki/transient"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000878 "A fever that is characterized by a rise of body temperature above the normal that is sustained for only a short period of time."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000878 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000878 "SYMP:0000878"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000878 "transient fever"^^xsd:string)
@@ -8325,7 +8329,7 @@ SubClassOf(obo:SYMP_0000878 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000879 (low-grade fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/low_grade_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000879 "Low-grade fever is a fever that does not exceed 38.5 degree centrigrade."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/low_grade_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000879 "A mild fever that is characterized by a fever that does not exceed 38.5 degrees Celsius (101.3 degrees Fahrenheit)."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000879 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000879 "2010-10-15T11:28:26Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000879 "low grade fever"^^xsd:string)
@@ -8336,7 +8340,7 @@ SubClassOf(obo:SYMP_0000879 obo:SYMP_0000881)
 
 # Class: obo:SYMP_0000880 (prolonged fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/prolonged_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000880 "Prolonged fever is a fever that persists over a prolonged period of time."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/prolonged_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000880 "A fever that is characterized by as  persisting over a prolonged period of time."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000880 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000880 "2010-10-15T11:28:26Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000880 "symptoms"^^xsd:string)
@@ -8346,7 +8350,7 @@ SubClassOf(obo:SYMP_0000880 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000881 (mild fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/mild_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000881 "Mild fever is a fever that occurs in a mild form."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/mild_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000881 "A fever that is characterized by being mild in form."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000881 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000881 "2010-10-15T11:28:26Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000881 "symptoms"^^xsd:string)
@@ -8356,7 +8360,7 @@ SubClassOf(obo:SYMP_0000881 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000882 (high fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/high_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000882 "High fever is a fever that involved an elevated temperature."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/high_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000882 "A fever that is characterized by an elevated temperature."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000882 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000882 "2010-10-15T11:28:26Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000882 "symptoms"^^xsd:string)
@@ -8366,7 +8370,7 @@ SubClassOf(obo:SYMP_0000882 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000883 (very high fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/very_high_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000883 "Very high fever is a fever that involves extremely high temperatures."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.wrongdiagnosis.com/sym/very_high_fever.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000883 "A high fever that is characterized by extremely high temperatures."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000883 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000883 "2010-10-15T11:28:26Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000883 "symptoms"^^xsd:string)
@@ -8385,7 +8389,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000885 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000886 (hyperpyrexia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000886 "Hyperpyrexia is a fever with an extreme elevation of body temperature greater than or equal to 41.5 degree Celsius (106.7 degree Fahrenheit)."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000886 "A fever that is characterized by an extreme elevation of body temperature greater than, or equal to, 41.5 degrees Celsius (106.7 degrees Fahrenheit)."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000886 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000886 "2010-10-15T11:38:55Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000886 "symptoms"^^xsd:string)
@@ -8395,7 +8399,7 @@ SubClassOf(obo:SYMP_0000886 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000887 (Pel-Epstein fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000887 "Pel-Epstein fever is a fever that is associated with Hodgkin's lymphoma where the fever alternates weekly from high to low."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000887 "A fever that is characterized by association with Hodgkin's lymphoma, where the fever alternates weekly from high to low."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000887 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000887 "2010-10-15T11:40:07Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000887 "symptoms"^^xsd:string)
@@ -8405,7 +8409,7 @@ SubClassOf(obo:SYMP_0000887 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000888 (continuous fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000888 "Continuous fever is a fever where temperature remains above normal throughout the day and does not fluctuate more than 1 degree Celsius in 24 hours."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000888 "A fever that is characterized by a temperature remaining above normal throughout the day and which does not fluctuate more than 1 degree Celsius in 24 hours."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000888 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000888 "2010-10-15T11:42:19Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000888 "symptoms"^^xsd:string)
@@ -8416,7 +8420,7 @@ SubClassOf(obo:SYMP_0000888 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000889 (remittent fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000889 "Remittent fever is a fever where the temperature remains above normal throughout the day and fluctuates more than 1degree Celsius in 24 hours."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Fever#Types"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000889 "A fever that is characterized by a fever where the temperature remains above normal throughout the day and fluctuates more than 1 degree Celsius in 24 hours."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000889 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000889 "2010-10-15T11:42:19Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000889 "symptoms"^^xsd:string)
@@ -8426,7 +8430,7 @@ SubClassOf(obo:SYMP_0000889 obo:SYMP_0000613)
 
 # Class: obo:SYMP_0000890 (relapsing fever)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000890 "Relapsing fever is a fever where the body temperature periodically rises and falls."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000890 "A fever that is characterized by  body temperature periodically rising and falling."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000890 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000890 "2010-10-15T11:46:03Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000890 "symptoms"^^xsd:string)
@@ -8841,7 +8845,7 @@ SubClassOf(obo:SYMP_0019175 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0019176 (malaise)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019176 "Malaise is a neurological and physiological symptom characterized as an indefinite feeling of debility or lack of health often indicative of or accompanying the onset of an illness."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019176 "A neurological and physiological symptom that is characterized by an indefinite feeling of debility or lack of health, often indicative of or accompanying the onset of an illness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019176 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019176 "SYMP:0019176"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019176 "malaise"^^xsd:string)
@@ -8849,7 +8853,7 @@ SubClassOf(obo:SYMP_0019176 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0019177 (fatigue)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019177 "Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019177 "A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019177 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019177 "SYMP:0019177"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019177 "fatigue"^^xsd:string)
@@ -8865,7 +8869,7 @@ SubClassOf(obo:SYMP_0019178 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0019179 (lightheadedness)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019179 "Lightheadedness is a neurological and physiological symptom characterized as the condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position, is a predictable consequence of any medication tending to lower blood pressure."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019179 "A neurological and physiological symptom that is characterized by a condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position. Lightheadedness is a predictable consequence of any medication tending to lower blood pressure."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019179 "light-headedness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019179 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019179 "SYMP:0019179"^^xsd:string)
