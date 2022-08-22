@@ -1273,6 +1273,7 @@ SubClassOf(obo:SYMP_0000023 obo:SYMP_0000016)
 
 # Class: obo:SYMP_0000024 (drowsiness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003208.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000024 "A neurological and physiological symptom that is characterized by a feeling of being more sleepy than normal during the day. People who are drowsy may fall asleep in when they do not want to or at times which can lead to safety concerns."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000024 "drowsy"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000024 "somnolence"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000024 "symptoms"^^xsd:string)
@@ -2471,6 +2472,7 @@ SubClassOf(obo:SYMP_0000184 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000185 (weariness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/weary"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000185 "A fatigue that is characterized by a feeling of exhaustion in strength, endurance, and vigor."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000185 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000185 "SYMP:0000185"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000185 "weariness"^^xsd:string)
@@ -2478,6 +2480,7 @@ SubClassOf(obo:SYMP_0000185 obo:SYMP_0019177)
 
 # Class: obo:SYMP_0000186 (exhaustion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://wellteq.co/insights/mental-health/fatigue-burnout-and-exhaustion-whats-the-difference"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.dictionary.com/browse/fatigue"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000186 "A fatigue that is characterized by a feeling of weariness (bodily or mental) or feeling of weakness.  Exhaustion is a shorter-lived form of fatigue that can be experienced emotionally, mentally, and physically."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000186 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000186 "SYMP:0000186"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000186 "exhaustion"^^xsd:string)
@@ -2485,6 +2488,7 @@ SubClassOf(obo:SYMP_0000186 obo:SYMP_0019177)
 
 # Class: obo:SYMP_0000187 (tiredness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicinenet.com/tired/definition.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000187 "A fatigue that is characterized by a feeling of a lessened capacity for work and reduced efficiency of accomplishment, usually accompanied by a sense of weariness and fatigue."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000187 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000187 "SYMP:0000187"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000187 "tiredness"^^xsd:string)
@@ -3209,6 +3213,7 @@ SubClassOf(obo:SYMP_0000278 obo:SYMP_0000136)
 
 # Class: obo:SYMP_0000279 (extreme exhaustion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/extreme"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000279 "An exhaustion that is characterized by exceeding the ordinary, usual, or expected."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000279 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000279 "SYMP:0000279"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000279 "extreme exhaustion"^^xsd:string)
@@ -3216,6 +3221,7 @@ SubClassOf(obo:SYMP_0000279 obo:SYMP_0000186)
 
 # Class: obo:SYMP_0000280 (extreme fatigue)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/extreme"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000280 "A fatigue that is characterized by exceeding the ordinary, usual, or expected."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000280 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000280 "SYMP:0000280"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000280 "extreme fatigue"^^xsd:string)
