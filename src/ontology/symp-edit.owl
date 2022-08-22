@@ -6291,9 +6291,11 @@ SubClassOf(obo:SYMP_0000608 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0000609 (generalized hyperhidrosis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://sydneynorthneurology.com.au/generalised-hyperhidrosis/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000609 "A neurological and physiological symptom that is characterized by excessive sweating, i.e. the production of more sweat than is required to regulate body temperature.  Generalized hyperhidrosis is caused by non-thermoregulatory stimuli and affects the entire body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000609 "ICD9CM_2005:780.8"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000609 "UMLS_CUI:C0476476"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000609 "UMLS_ICD9CM_2005_AUI:A6994739"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000609 "secondary hyperhidrosis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000609 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000609 "SYMP:0000609"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000609 "generalized hyperhidrosis"^^xsd:string)
