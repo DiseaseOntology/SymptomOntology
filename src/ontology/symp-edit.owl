@@ -2966,6 +2966,7 @@ SubClassOf(obo:SYMP_0000246 obo:SYMP_0000244)
 
 # Class: obo:SYMP_0000247 (proprioception symptom)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/brain/what-is-proprioception"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000247 "A neurological and physiological symptom that is characterized by one's body’s ability to sense movement, action, and location and results from sensory receptors in one's nervous system and body (muscles, joints, and tendons)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000247 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000247 "SYMP:0000247"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000247 "proprioception symptom"^^xsd:string)
@@ -3518,6 +3519,7 @@ SubClassOf(obo:SYMP_0000317 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000318 (loss of balance)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/balanceproblems.html"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/balance-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000318 "A neurological and physiological symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000318 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000318 "SYMP:0000318"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000318 "loss of balance"^^xsd:string)
@@ -4065,6 +4067,7 @@ SubClassOf(obo:SYMP_0000388 obo:SYMP_0000387)
 
 # Class: obo:SYMP_0000389 (stupor)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Stupor"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000389 "An alteration of consciousness that is characterized by a lack of critical mental function and a level of consciousness, in which an affected person is almost entirely unresponsive and responds only to intense stimuli such as pain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000389 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000389 "SYMP:0000389"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000389 "stupor"^^xsd:string)
@@ -5578,6 +5581,7 @@ SubClassOf(obo:SYMP_0000542 obo:SYMP_0000457)
 
 # Class: obo:SYMP_0000543 (memory loss)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003257.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000543 "A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000543 "ICD9CM_2005:780.93"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000543 "UMLS_CUI:C0751295"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000543 "UMLS_ICD9CM_2005_AUI:A2797424"^^xsd:string)
@@ -7118,6 +7122,7 @@ SubClassOf(obo:SYMP_0000717 obo:SYMP_0000716)
 
 # Class: obo:SYMP_0000718 (loss of consciousness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://drwilderman.com/neurological-disorders/loss-of-consciousness/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/consciousness-decreased"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000718 "A neurological and physiological symptom that is characterized by a state in which an individual lacks normal awareness of self and the surrounding environment and one's ability to remain awake, aware, and oriented is impaired."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000718 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000718 "SYMP:0000718"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000718 "loss of consciousness"^^xsd:string)
@@ -7125,6 +7130,7 @@ SubClassOf(obo:SYMP_0000718 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000719 (memory impairment)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/impairment"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000719 "A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000719 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000719 "SYMP:0000719"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000719 "memory impairment"^^xsd:string)
