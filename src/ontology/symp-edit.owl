@@ -1258,6 +1258,7 @@ SubClassOf(obo:SYMP_0000021 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000022 (depression)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/8933"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nimh.nih.gov/health/topics/depression"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000022 "A neurological and physiological symptom that is characterized by a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen for no clear reason.  Additionally one may experience feelings of hopelessness, pessimism, irritability, frustration, or restlessness, guilt, worthlessness and thoughts of death or suicide."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000022 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000022 "SYMP:0000022"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000022 "depression"^^xsd:string)
@@ -4214,7 +4215,7 @@ SubClassOf(obo:SYMP_0000406 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000407 (syncope)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/syncope"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Syncope_(medicine)"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/fainting"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/syncope"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000407 "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0000407 "SYMP:0000445"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "faint"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000407 "fainting"^^xsd:string)
@@ -4898,6 +4899,7 @@ SubClassOf(obo:SYMP_0000480 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000481 (persistent vegetative state)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Persistent_vegetative_state"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000481 "An alteration of consciousness that is characterized by an individual with severe brain damage being in a state of partial arousal rather than true awareness. After four weeks in a vegetative state, the patient is classified as being in a persistent vegetative state. After three months in the US and six months in the UK, the diagnosis is classified as a permanent vegetative state after a non-traumatic brain injury, or, one year after a traumatic injury."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000481 "ICD9CM_2005:780.03"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000481 "UMLS_CUI:C0242670"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000481 "UMLS_ICD9CM_2005_AUI:A0446160"^^xsd:string)
@@ -4908,6 +4910,7 @@ SubClassOf(obo:SYMP_0000481 obo:SYMP_0000482)
 
 # Class: obo:SYMP_0000482 (alteration of consciousness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Altered_state_of_consciousness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000482 "A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000482 "ICD9CM_2005:780.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000482 "UMLS_CUI:C0234428"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000482 "UMLS_ICD9CM_2005_AUI:A0389211"^^xsd:string)
@@ -5385,6 +5388,7 @@ SubClassOf(obo:SYMP_0000524 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000525 (transient alteration of awareness)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.inst-neuro.com/services/epilepsy/transient-alteration-of-awareness/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000525 "An alteration of consciousness that is characterized by a brief (transient) episode of losing normal awareness or behavior."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000525 "ICD9CM_2005:780.02"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000525 "UMLS_CUI:C0221539"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000525 "UMLS_ICD9CM_2005_AUI:A0466980"^^xsd:string)
@@ -6251,6 +6255,7 @@ SubClassOf(obo:SYMP_0000604 obo:SYMP_0000587)
 
 # Class: obo:SYMP_0000605 (coma)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Coma"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000605 "An alteration of consciousness that is characterized by a deep state of prolonged unconsciousness in which a person cannot be awakened, fails to respond normally to painful stimuli, light, or sound, lacks a normal wake-sleep cycle and does not initiate voluntary actions."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000605 "ICD9CM_2005:780.01"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000605 "UMLS_CUI:C0009421"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000605 "UMLS_ICD9CM_2005_AUI:A0041160"^^xsd:string)
@@ -6285,6 +6290,7 @@ SubClassOf(obo:SYMP_0000607 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000608 (syncope and collapse)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Syncope_(medicine)"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000608 "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain and limb weakness progressing to collapse."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000608 "ICD9CM_2005:780.2"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000608 "UMLS_CUI:C0039070"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000608 "UMLS_ICD9CM_2005_AUI:A0243721"^^xsd:string)
@@ -6460,6 +6466,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000624 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000625 (conscious disturbance)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Consciousness"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Disorders_of_consciousness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000625 "An alteration of consciousness that is characterized by a disturbance in sentience (the ability to experience feelings and sensations) or awareness of one's internal and external existence, i.e. inhibited or absent self-awareness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000625 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000625 "SYMP:0000625"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000625 "conscious disturbance"^^xsd:string)
@@ -9030,6 +9037,7 @@ SubClassOf(obo:SYMP_0020005 obo:SYMP_0000320)
 
 # Class: obo:SYMP_0020006 (agitation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK493153/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020006 "A neurological and physiological symptom that is characterized by a feeling of irritability or severe restlessness."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020006 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020006 "SYMP:0020006"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020006 "agitation"^^xsd:string)
@@ -9208,6 +9216,7 @@ SubClassOf(obo:SYMP_0020028 obo:SYMP_0000092)
 
 # Class: obo:SYMP_0020029 (concentration difficulty)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020029 "An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020029 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020029 "SYMP:0020029"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020029 "concentration difficulty"^^xsd:string)
