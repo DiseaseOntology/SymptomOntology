@@ -1214,7 +1214,7 @@ SubClassOf(obo:SYMP_0000015 obo:SYMP_0000567)
 
 # Class: obo:SYMP_0000016 (confusion)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000016 "A neurological and physiological symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000016 "A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000016 "SYMP:0000016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000016 "confusion"^^xsd:string)
@@ -3521,7 +3521,7 @@ SubClassOf(obo:SYMP_0000317 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000318 (loss of balance)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/balanceproblems.html"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/balance-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000318 "A neurological and physiological symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/balanceproblems.html"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/balance-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000318 "A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000318 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000318 "SYMP:0000318"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000318 "loss of balance"^^xsd:string)
@@ -6314,7 +6314,7 @@ SubClassOf(obo:SYMP_0000609 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000610 (dizziness)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000610 "A neurological and physiological symptom that is characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000610 "A  balance symptom that is characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "ICD9CM_2005:780.4"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "UMLS_CUI:C0476206"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000610 "UMLS_ICD9CM_2005_AUI:A0243727"^^xsd:string)
@@ -8891,7 +8891,7 @@ SubClassOf(obo:SYMP_0019178 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0019179 (lightheadedness)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019179 "A neurological and physiological symptom that is characterized by a condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position. Lightheadedness is a predictable consequence of any medication tending to lower blood pressure."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019179 "A  balance symptom that is characterized by a condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position. Lightheadedness is a predictable consequence of any medication tending to lower blood pressure."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019179 "light-headedness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019179 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019179 "SYMP:0019179"^^xsd:string)
