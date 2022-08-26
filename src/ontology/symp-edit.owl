@@ -1323,7 +1323,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000029 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000030 (paralysis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000030 "Paralysis is a nervous system symptom characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000030 "A nervous system symptom that is characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000030 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000030 "SYMP:0000030"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000030 "paralysis"^^xsd:string)
@@ -1758,7 +1758,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000088 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000089 (meningoencephalitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000089 "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000089 "A nervous system symptom that is characterized by an inflammation of the brain and meninges."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000089 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000089 "SYMP:0000089"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000089 "doid/symp duplicate")
@@ -3263,7 +3263,7 @@ SubClassOf(obo:SYMP_0000284 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000285 (flaccid paralysis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000285 "Flaccid paralysis is a paralysis where muscle tone is lacking in the affected muscles and in which tendon reflexes are decreased or absent."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000285 "A paralysis that is charicterized by a lack of muscle tone in the affected muscles and in which tendon reflexes are decreased or absent."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000285 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000285 "SYMP:0000285"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000285 "flaccid paralysis"^^xsd:string)
@@ -5675,7 +5675,7 @@ SubClassOf(obo:SYMP_0000551 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000552 (meningismus)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000552 "Meningismus is a nervous system symptom characterized as a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000552 "A nervous system symptom that is characterized by a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000552 "ICD9CM_2005:781.6"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000552 "UMLS_CUI:C0025287"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000552 "UMLS_ICD9CM_2005_AUI:A0434815"^^xsd:string)
@@ -8101,7 +8101,7 @@ SubClassOf(obo:SYMP_0000847 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000848 (motor paralysis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000848 "Motor paralysis is a paralysis where there is a complete or partial loss of function the voluntary muscles."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000848 "A paralysis that is characterized by a complete or partial loss of function the voluntary muscles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000848 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000848 "SYMP:0000848"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000848 "motor paralysis"^^xsd:string)
@@ -8842,7 +8842,7 @@ SubClassOf(obo:SYMP_0019172 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0019173 (meningitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019173 "Meningitis is a nervous system symptom characterized as an inflammation of the meninges and especially of the pia mater and the arachnoid."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019173 "A nervous system symptom that is characterized by an inflammation of the meninges and especially of the pia mater and the arachnoid."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019173 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019173 "SYMP:0019173"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019173 "meningitis"^^xsd:string)
