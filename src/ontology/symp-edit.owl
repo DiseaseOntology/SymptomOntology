@@ -2684,7 +2684,7 @@ SubClassOf(obo:SYMP_0000212 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000213 (agraphia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000213 "Agraphia is a aphasia where there is a pathological loss of the ability to write."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000213 "An aphasia that is characterized by a pathological loss of the ability to write."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000213 "inability to write"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000213 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000213 "SYMP:0000213"^^xsd:string)
@@ -2693,7 +2693,7 @@ SubClassOf(obo:SYMP_0000213 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000214 (anomia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Anomia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000214 "Anomia is a aphasia characterized by a severe problem with recalling words or names."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Anomia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000214 "An aphasia that is characterized by a severe problem with recalling words or names."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000214 "amnesic aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000214 "amnestic aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000214 "anomic aphasia"^^xsd:string)
@@ -2734,7 +2734,7 @@ SubClassOf(obo:SYMP_0000218 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000219 (receptive aphasia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000219 "Receptive aphasia is a inability to comprehend speech characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000219 "An inability to comprehend speech that is characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000219 "Wernicke's aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000219 "fluent aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000219 "inability to perceive pitch, rhythm, and emotional tone of speech"^^xsd:string)
@@ -5198,7 +5198,7 @@ SubClassOf(obo:SYMP_0000507 obo:SYMP_0000387)
 
 # Class: obo:SYMP_0000508 (aphasia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000508 "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000508 "A nervous system symptom that is characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000508 "ICD9CM_2005:784.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000508 "UMLS_CUI:C0003537"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000508 "UMLS_ICD9CM_2005_AUI:A0025556"^^xsd:string)
@@ -6431,7 +6431,7 @@ SubClassOf(obo:SYMP_0000620 obo:SYMP_0000457)
 
 # Class: obo:SYMP_0000621 (alexia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000621 "Alexia is a aphasia characterized by loss of ability to read."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000621 "An aphasia that is characterized by a loss of ability to read."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000621 "ICD9CM_2005:784.6"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000621 "ICD9CM_2005:784.69"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000621 "UMLS_CUI:C0478145"^^xsd:string)
@@ -6679,7 +6679,7 @@ SubClassOf(obo:SYMP_0000653 obo:SYMP_0000146)
 
 # Class: obo:SYMP_0000654 (irritability)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000654 "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000654 "A behavioral symptom that is characterized by a quick excitability to annoyance, impatience, or anger."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000654 "Inconsolability"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000654 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000654 "SYMP:0000654"^^xsd:string)
@@ -7040,7 +7040,7 @@ SubClassOf(obo:SYMP_0000704 obo:SYMP_0000559)
 
 # Class: obo:SYMP_0000705 (expressive aphasia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Expressive_aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000705 "Expressive aphasia is a aphasia caused by damage to or developmental issues in anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Expressive_aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000705 "An aphasia that is characterized by damage to, or a developmental issues in, the anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000705 "Broca's aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000705 "agrammatic aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000705 "symptoms"^^xsd:string)
@@ -8916,7 +8916,7 @@ SubClassOf(obo:SYMP_0019181 obo:SYMP_0000385)
 
 # Class: obo:SYMP_0019182 (behavioral symptom)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://dictionary.cambridge.org/dictionary/english/behavioural") obo:IAO_0000115 obo:SYMP_0019182 "A nervous system symptom that involves, is related to, or emphasizes behavior.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://dictionary.cambridge.org/dictionary/english/behavioural") obo:IAO_0000115 obo:SYMP_0019182 "A nervous system symptom that is characterized by an involvement, or relation to, or emphasizes behavior.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019182 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019182 "SYMP:0019182"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019182 "behavioral symptom"@en)
@@ -8924,7 +8924,7 @@ SubClassOf(obo:SYMP_0019182 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0019183 (hyperactivity)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003256.htm") obo:IAO_0000115 obo:SYMP_0019183 "A behavioral symptom that is characterized by increased movement, impulsive actions, and a shorter attention span, and being easily distracted.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003256.htm") obo:IAO_0000115 obo:SYMP_0019183 "A behavioral symptom that is characterized by an increase in movement, impulsive actions, a shorter attention span, and being easily distracted.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019183 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019183 "SYMP:0019183"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019183 "hyperactivity"@en)
@@ -8956,7 +8956,7 @@ SubClassOf(obo:SYMP_0019186 obo:SYMP_0019182)
 
 # Class: obo:SYMP_0019187 (repetitive behavior)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive") obo:IAO_0000115 obo:SYMP_0019187 "A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive") obo:IAO_0000115 obo:SYMP_0019187 "A behavioral symptom that is characterized by an unusual repetitive motor movements or manipulation of objects.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019187 "stimming")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019187 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019187 "SYMP:0019187"^^xsd:string)
@@ -9342,6 +9342,7 @@ SubClassOf(obo:SYMP_0020044 obo:SYMP_0020040)
 
 # Class: obo:SYMP_0020045 (balance symptom)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/balance-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020045 "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020045 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020045 "SYMP:0020045"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020045 "balance symptom"@en)
