@@ -1835,7 +1835,7 @@ SubClassOf(obo:SYMP_0000098 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000099 (pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000099 "A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000099 "A sensation perception characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000099 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000099 "SYMP:0000099"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000099 "pain"^^xsd:string)
@@ -3380,7 +3380,7 @@ SubClassOf(obo:SYMP_0000299 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000300 (hyperesthesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000300 "Hyperesthesia is a general symptom where there is an increased sensitivity to stimulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000300 "A sensation perception that is characterized by an increased sensitivity to stimulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000300 "hyperaesthesia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000300 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000300 "SYMP:0000300"^^xsd:string)
@@ -6716,7 +6716,7 @@ SubClassOf(obo:SYMP_0000658 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000659 (pareses)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000659 "Pareses is a paralysis charachterized by slight or partial paralysis."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000659 "A paralysis that is charachterized by a slight or partial paralysis."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000659 "partial paralysis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000659 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000659 "SYMP:0000659"^^xsd:string)
@@ -7988,7 +7988,8 @@ SubClassOf(obo:SYMP_0000833 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000834 (hypoesthesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000834 "Hypoesthesia is a general symptom where there is a diminished sensitivity to stimulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Hypoesthesia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000834 "A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000834 "numbness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000834 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000834 "SYMP:0000834"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000834 "hypoesthesia"^^xsd:string)
@@ -7996,7 +7997,7 @@ SubClassOf(obo:SYMP_0000834 obo:SYMP_0000892)
 
 # Class: obo:SYMP_0000835 (hypoalgesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000835 "Hypoalgesia is a general symptom where there is a diminished sensitivity to painful stimulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000835 "A sensation perception that is characterized by a diminished sensitivity to painful stimulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000835 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000835 "SYMP:0000835"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000835 "hypoalgesia"^^xsd:string)
@@ -8004,7 +8005,7 @@ SubClassOf(obo:SYMP_0000835 obo:SYMP_0000892)
 
 # Class: obo:SYMP_0000836 (hyperalgesia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000836 "Hyperalgesia is a general symptom where there is an increased response to a painful stimulus."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000836 "A sensation perception that is characterized by an increased response to a painful stimulus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000836 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000836 "SYMP:0000836"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000836 "hyperalgesia"^^xsd:string)
@@ -8093,7 +8094,7 @@ SubClassOf(obo:SYMP_0000846 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000847 (spastic paralysis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000847 "Spastic paralysis is a paralysis characterized by tonic spasm of the affected muscles and with increased tendon reflexes."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000847 "A paralysis that is characterized by a tonic spasm of the affected muscles and with increased tendon reflexes."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000847 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000847 "SYMP:0000847"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000847 "spastic paralysis"^^xsd:string)
@@ -8472,7 +8473,7 @@ SubClassOf(obo:SYMP_0000891 obo:SYMP_0000462)
 
 # Class: obo:SYMP_0000892 (sensation perception)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.audiblox2000.com/sensation-perception.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000892 "Sensation perception is a nervous system symptom where the information perceived by sensory receptors are interpreted."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.audiblox2000.com/sensation-perception.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000892 "A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors."^^xsd:string)
 AnnotationAssertion(oboInOwl:created_by obo:SYMP_0000892 "lschriml"^^xsd:string)
 AnnotationAssertion(oboInOwl:creation_date obo:SYMP_0000892 "2010-10-15T11:54:30Z"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000892 "symptoms"^^xsd:string)
