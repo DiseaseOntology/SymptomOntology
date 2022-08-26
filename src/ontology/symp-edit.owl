@@ -1013,6 +1013,7 @@ Declaration(Class(obo:SYMP_0020041))
 Declaration(Class(obo:SYMP_0020042))
 Declaration(Class(obo:SYMP_0020043))
 Declaration(Class(obo:SYMP_0020044))
+Declaration(Class(obo:SYMP_0020045))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
@@ -1217,7 +1218,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webst
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000016 "SYMP:0000016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000016 "confusion"^^xsd:string)
-SubClassOf(obo:SYMP_0000016 obo:SYMP_0000410)
+SubClassOf(obo:SYMP_0000016 obo:SYMP_0020045)
 
 # Class: obo:SYMP_0000017 (crinkle)
 
@@ -3524,7 +3525,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/b
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000318 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000318 "SYMP:0000318"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000318 "loss of balance"^^xsd:string)
-SubClassOf(obo:SYMP_0000318 obo:SYMP_0000410)
+SubClassOf(obo:SYMP_0000318 obo:SYMP_0020045)
 
 # Class: obo:SYMP_0000319 (loss of tendon reflex)
 
@@ -6321,7 +6322,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000610 "dizzy"^^xsd:strin
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000610 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000610 "SYMP:0000610"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000610 "dizziness"^^xsd:string)
-SubClassOf(obo:SYMP_0000610 obo:SYMP_0000410)
+SubClassOf(obo:SYMP_0000610 obo:SYMP_0020045)
 
 # Class: obo:SYMP_0000611 (periumbilic abdominal pain)
 
@@ -8895,7 +8896,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019179 "light-headedness"
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019179 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019179 "SYMP:0019179"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019179 "lightheadedness"^^xsd:string)
-SubClassOf(obo:SYMP_0019179 obo:SYMP_0000410)
+SubClassOf(obo:SYMP_0019179 obo:SYMP_0020045)
 
 # Class: obo:SYMP_0019180 (constipation)
 
@@ -9338,6 +9339,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020044 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020044 "SYMP:0020044"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020044 "hair shedding"^^xsd:string)
 SubClassOf(obo:SYMP_0020044 obo:SYMP_0020040)
+
+# Class: obo:SYMP_0020045 (balance symptom)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020045 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020045 "SYMP:0020045"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020045 "balance symptom"@en)
+SubClassOf(obo:SYMP_0020045 obo:SYMP_0000410)
 
 
 )
