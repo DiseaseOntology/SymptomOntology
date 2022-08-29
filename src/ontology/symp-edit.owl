@@ -9224,12 +9224,12 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0020029 "SYMP:0020029"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020029 "concentration difficulty"^^xsd:string)
 SubClassOf(obo:SYMP_0020029 obo:SYMP_0000482)
 
-# Class: obo:SYMP_0020030 (patches of hair loss with a 'black dot' pattern)
+# Class: obo:SYMP_0020030 (patches of hair loss with a black dot pattern)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148295/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020030 "A hair symptom that is characterized by patchy hair loss and the presence of comedo-like cadaver hairs, which appear as black dots."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020030 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020030 "SYMP:0020030"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0020030 "patches of hair loss with a 'black dot' pattern"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020030 "patches of hair loss with a black dot pattern"^^xsd:string)
 SubClassOf(obo:SYMP_0020030 obo:SYMP_0000440)
 
 # Class: obo:SYMP_0020031 (chest discomfort)
