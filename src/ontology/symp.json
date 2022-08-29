@@ -117,7 +117,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000099",
       "meta" : {
         "definition" : {
-          "val" : "A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.",
+          "val" : "A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -341,6 +341,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000719",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/impairment" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -351,6 +355,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000718",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a state in which an individual lacks normal awareness of self and the surrounding environment and one's ability to remain awake, aware, and oriented is impaired.",
+          "xrefs" : [ "url:https://drwilderman.com/neurological-disorders/loss-of-consciousness/", "url:https://www.healthline.com/health/consciousness-decreased" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -426,7 +434,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000705",
       "meta" : {
         "definition" : {
-          "val" : "Expressive aphasia is a aphasia caused by damage to or developmental issues in anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting.",
+          "val" : "An aphasia that is characterized by damage to, or a developmental issues in, the anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Expressive_aphasia" ]
         },
         "synonyms" : [ {
@@ -695,6 +703,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000525",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a brief (transient) episode of losing normal awareness or behavior.",
+          "xrefs" : [ "url:https://www.inst-neuro.com/services/epilepsy/transient-alteration-of-awareness/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0466980"
         }, {
@@ -1254,7 +1266,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000504",
       "meta" : {
         "definition" : {
-          "val" : "Headache is a pain characterized by a pain in the head.",
+          "val" : "A pain that is characterized by a pain in the head.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache" ]
         },
         "xrefs" : [ {
@@ -1361,7 +1373,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000505",
       "meta" : {
         "definition" : {
-          "val" : "Throat pain is a pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.",
+          "val" : "A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat" ]
         },
         "xrefs" : [ {
@@ -1397,7 +1409,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000508",
       "meta" : {
         "definition" : {
-          "val" : "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage.",
+          "val" : "A nervous system symptom that is characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -1542,7 +1554,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000734",
       "meta" : {
         "definition" : {
-          "val" : "Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain.",
+          "val" : "A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke" ]
         },
         "synonyms" : [ {
@@ -1944,7 +1956,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000207",
       "meta" : {
         "definition" : {
-          "val" : "Afebrile is a fever that is characterized as the state of being free from fever.",
+          "val" : "A fever that is characterized by the state of being free from fever.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile" ]
         },
         "basicPropertyValues" : [ {
@@ -1954,6 +1966,20 @@
       },
       "type" : "CLASS",
       "lbl" : "afebrile"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020045",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation.",
+          "xrefs" : [ "url:https://www.nidcd.nih.gov/health/balance-disorders" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "balance symptom"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000206",
       "meta" : {
@@ -2082,7 +2108,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000430",
       "meta" : {
         "definition" : {
-          "val" : "Pleuritic chest pain is a chest pain caused by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other.",
+          "val" : "A chest pain that is characterized by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Pleuritic_chest_pain", "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleurisy" ]
         },
         "basicPropertyValues" : [ {
@@ -2489,7 +2515,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "patches of hair loss with a 'black dot' pattern"
+      "lbl" : "patches of hair loss with a black dot pattern"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000661",
       "meta" : {
@@ -2580,6 +2606,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020029",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs.",
+          "xrefs" : [ "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -2710,7 +2740,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000424",
       "meta" : {
         "definition" : {
-          "val" : "A pain that is a leg pain in the calf or thigh which is caused by inadequate blood flow to the leg muscles brought on by leg exercise such as walking.",
+          "val" : "A pain that is characterized by a leg pain in the calf, or thigh, which is caused by inadequate blood flow to the leg muscles and is brought on by leg exercise such as walking.",
           "xrefs" : [ "url:http://www.nature.com/nrd/journal/v2/n1/glossary/nrd985_glossary.html", "url:http://www.vasculardoc.net/content/glossary.html" ]
         },
         "synonyms" : [ {
@@ -2886,7 +2916,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000892",
       "meta" : {
         "definition" : {
-          "val" : "Sensation perception is a nervous system symptom where the information perceived by sensory receptors are interpreted.",
+          "val" : "A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors.",
           "xrefs" : [ "url:http://www.audiblox2000.com/sensation-perception.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -2930,7 +2960,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000890",
       "meta" : {
         "definition" : {
-          "val" : "Relapsing fever is a fever where the body temperature periodically rises and falls.",
+          "val" : "A fever that is characterized by  body temperature periodically rising and falling.",
           "xrefs" : [ "url:https://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -3081,6 +3111,25 @@
       "type" : "CLASS",
       "lbl" : "obsolete gain of weight"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000654",
+      "meta" : {
+        "definition" : {
+          "val" : "A behavioral symptom that is characterized by a quick excitability to annoyance, impatience, or anger.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Inconsolability",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "irritability"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000893",
       "meta" : {
         "definition" : {
@@ -3101,29 +3150,10 @@
       "type" : "CLASS",
       "lbl" : "hypotensive"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000654",
-      "meta" : {
-        "definition" : {
-          "val" : "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Inconsolability",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "irritability"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000412",
       "meta" : {
         "definition" : {
-          "val" : "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill.",
+          "val" : "A neurological and physiological symptom that is characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety" ]
         },
         "basicPropertyValues" : [ {
@@ -3234,7 +3264,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000414",
       "meta" : {
         "definition" : {
-          "val" : "Dysarthria is a neurological and physiological symptom characterized by a difficulty in articulating words due to disease of the central nervous system.",
+          "val" : "A neurological and physiological symptom that is characterized by a difficulty in articulating words due to disease of the central nervous system.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria" ]
         },
         "basicPropertyValues" : [ {
@@ -3259,20 +3289,6 @@
       "type" : "CLASS",
       "lbl" : "chronic weight loss"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000413",
-      "meta" : {
-        "definition" : {
-          "val" : "Catatonia is a neurological and physiological symptom characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders).",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "catatonia"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000655",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3282,6 +3298,20 @@
       },
       "type" : "CLASS",
       "lbl" : "mouth bleeding"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000413",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders).",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "catatonia"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000658",
       "meta" : {
@@ -3390,25 +3420,6 @@
       "type" : "CLASS",
       "lbl" : "contracted pupil"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000659",
-      "meta" : {
-        "definition" : {
-          "val" : "Pareses is a paralysis charachterized by slight or partial paralysis.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "partial paralysis",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "pareses"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020010",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3429,6 +3440,25 @@
       "type" : "CLASS",
       "lbl" : "pupil symptom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000659",
+      "meta" : {
+        "definition" : {
+          "val" : "A paralysis that is charachterized by a slight or partial paralysis.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "partial paralysis",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "pareses"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000419",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3441,6 +3471,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000481",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by an individual with severe brain damage being in a state of partial arousal rather than true awareness. After four weeks in a vegetative state, the patient is classified as being in a persistent vegetative state. After three months in the US and six months in the UK, the diagnosis is classified as a permanent vegetative state after a non-traumatic brain injury, or, one year after a traumatic injury.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Persistent_vegetative_state" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0446160"
         }, {
@@ -3502,6 +3536,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000482",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Altered_state_of_consciousness" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:780.0"
         }, {
@@ -3560,7 +3598,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000243",
       "meta" : {
         "definition" : {
-          "val" : "Cyclic fever is a fever that occurs during periodic episodes.",
+          "val" : "A fever that is characterized by occurring during periodic episodes.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Fever#Types", "url:http://www.wrongdiagnosis.com/sym/cyclic_fever_in_children.htm" ]
         },
         "synonyms" : [ {
@@ -3781,6 +3819,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000247",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by one's body’s ability to sense movement, action, and location and results from sensory receptors in one's nervous system and body (muscles, joints, and tendons).",
+          "xrefs" : [ "url:https://www.webmd.com/brain/what-is-proprioception" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -3792,7 +3834,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000005",
       "meta" : {
         "definition" : {
-          "val" : "Ataxia is a neurological and physiological symptom characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders.",
+          "val" : "A neurological and physiological symptom that is characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia" ]
         },
         "synonyms" : [ {
@@ -3881,7 +3923,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000248",
       "meta" : {
         "definition" : {
-          "val" : "Decreased conscious proprioception is a proprioception symptom characterized as a decreased ability of an organism to consciously process the reception of stimuli produced within the organism.",
+          "val" : "A proprioception symptom that is characterized by a decreased ability of an organism to consciously process the reception of stimuli produced within the organism.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception" ]
         },
         "basicPropertyValues" : [ {
@@ -3895,7 +3937,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000006",
       "meta" : {
         "definition" : {
-          "val" : "Backache is a pain occurring in the lower back.",
+          "val" : "A pain that is characterized by occurring in the lower back.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache" ]
         },
         "synonyms" : [ {
@@ -4170,7 +4212,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000236",
       "meta" : {
         "definition" : {
-          "val" : "Colicky pain is a pain characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting.",
+          "val" : "A pain that is characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic" ]
         },
         "basicPropertyValues" : [ {
@@ -4201,7 +4243,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000235",
       "meta" : {
         "definition" : {
-          "val" : "Coilc is a pain characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age.",
+          "val" : "A pain that is characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic" ]
         },
         "basicPropertyValues" : [ {
@@ -4825,7 +4867,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000214",
       "meta" : {
         "definition" : {
-          "val" : "Anomia is a aphasia characterized by a severe problem with recalling words or names.",
+          "val" : "An aphasia that is characterized by a severe problem with recalling words or names.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Anomia" ]
         },
         "synonyms" : [ {
@@ -4876,6 +4918,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000698",
       "meta" : {
+        "definition" : {
+          "val" : "A feeding difficulties and mismanagement that is characterized by a decrease in muscle coordination to form a suck response so that the child can ingest milk.",
+          "xrefs" : [ "url:https://adoption.umn.edu/sucking-problems" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -4905,10 +4951,20 @@
       "type" : "CLASS",
       "lbl" : "abnormal weight gain"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000697",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased pharyngeal tone"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000213",
       "meta" : {
         "definition" : {
-          "val" : "Agraphia is a aphasia where there is a pathological loss of the ability to write.",
+          "val" : "An aphasia that is characterized by a pathological loss of the ability to write.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia" ]
         },
         "synonyms" : [ {
@@ -4923,16 +4979,6 @@
       },
       "type" : "CLASS",
       "lbl" : "agraphia"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000697",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "decreased pharyngeal tone"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000458",
       "meta" : {
@@ -5046,7 +5092,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000219",
       "meta" : {
         "definition" : {
-          "val" : "Receptive aphasia is a inability to comprehend speech characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language.",
+          "val" : "An inability to comprehend speech that is characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia" ]
         },
         "synonyms" : [ {
@@ -5091,6 +5137,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000280",
       "meta" : {
+        "definition" : {
+          "val" : "A fatigue that is characterized by exceeding the ordinary, usual, or expected.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/extreme" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -5151,7 +5201,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000285",
       "meta" : {
         "definition" : {
-          "val" : "Flaccid paralysis is a paralysis where muscle tone is lacking in the affected muscles and in which tendon reflexes are decreased or absent.",
+          "val" : "A paralysis that is charicterized by a lack of muscle tone in the affected muscles and in which tendon reflexes are decreased or absent.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis" ]
         },
         "basicPropertyValues" : [ {
@@ -5373,7 +5423,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000030",
       "meta" : {
         "definition" : {
-          "val" : "Paralysis is a nervous system symptom characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body.",
+          "val" : "A nervous system symptom that is characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis" ]
         },
         "basicPropertyValues" : [ {
@@ -5544,6 +5594,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000279",
       "meta" : {
+        "definition" : {
+          "val" : "An exhaustion that is characterized by exceeding the ordinary, usual, or expected.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/extreme" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -5605,7 +5659,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000021",
       "meta" : {
         "definition" : {
-          "val" : "Delirium is a neurological and physiological symptom characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations.",
+          "val" : "A neurological and physiological symptom that is characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium" ]
         },
         "basicPropertyValues" : [ {
@@ -5679,7 +5733,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000023",
       "meta" : {
         "definition" : {
-          "val" : "Disorientation is a confusion characterized by a usually transient state of confusion especially as to time, place, or identity often as a result of disease or drugs.",
+          "val" : "A confusion that is characterized by an usually transient state of confusion especially as to time, place, or identity; often as a result of disease or drugs.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation" ]
         },
         "basicPropertyValues" : [ {
@@ -5692,6 +5746,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000022",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen for no clear reason.  Additionally one may experience feelings of hopelessness, pessimism, irritability, frustration, or restlessness, guilt, worthlessness and thoughts of death or suicide.",
+          "xrefs" : [ "url:https://www.medicalnewstoday.com/articles/8933", "url:https://www.nimh.nih.gov/health/topics/depression" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -5765,6 +5823,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000024",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a feeling of being more sleepy than normal during the day. People who are drowsy may fall asleep in when they do not want to or at times which can lead to safety concerns.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003208.htm" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "somnolence",
@@ -5937,7 +5999,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000494",
       "meta" : {
         "definition" : {
-          "val" : "Renal colic is a colic characterized by the severe pain produced by the passage of a calculus from the kidney through the ureter.",
+          "val" : "A colic that is characterized by a severe pain produced by the passage of a calculus from the kidney through the ureter.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic" ]
         },
         "xrefs" : [ {
@@ -6232,7 +6294,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000016",
       "meta" : {
         "definition" : {
-          "val" : "Confusion is a neurological and physiological symptom characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.",
+          "val" : "A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion" ]
         },
         "basicPropertyValues" : [ {
@@ -6410,7 +6472,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000089",
       "meta" : {
         "definition" : {
-          "val" : "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges.",
+          "val" : "A nervous system symptom that is characterized by an inflammation of the brain and meninges.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -6505,7 +6567,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000075",
       "meta" : {
         "definition" : {
-          "val" : "Lethargy is a fatigue characterized as abnormal drowsiness.",
+          "val" : "A fatigue that is characterized by abnormal drowsiness.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy" ]
         },
         "basicPropertyValues" : [ {
@@ -7044,7 +7106,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000840",
       "meta" : {
         "definition" : {
-          "val" : "Allodynia is a pain where there is a painful sensation with a normal, non painful stimulation.",
+          "val" : "A pain that is characterized by a painful sensation with a normal, non-painful stimulation.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7205,6 +7267,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000605",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a deep state of prolonged unconsciousness in which a person cannot be awakened, fails to respond normally to painful stimuli, light, or sound, lacks a normal wake-sleep cycle and does not initiate voluntary actions.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Coma" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:780.01"
         }, {
@@ -7223,7 +7289,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000847",
       "meta" : {
         "definition" : {
-          "val" : "Spastic paralysis is a paralysis characterized by tonic spasm of the affected muscles and with increased tendon reflexes.",
+          "val" : "A paralysis that is characterized by a tonic spasm of the affected muscles and with increased tendon reflexes.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis" ]
         },
         "basicPropertyValues" : [ {
@@ -7337,7 +7403,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000848",
       "meta" : {
         "definition" : {
-          "val" : "Motor paralysis is a paralysis where there is a complete or partial loss of function the voluntary muscles.",
+          "val" : "A paralysis that is characterized by a complete or partial loss of function the voluntary muscles.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis" ]
         },
         "basicPropertyValues" : [ {
@@ -7350,12 +7416,21 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000609",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by excessive sweating, i.e. the production of more sweat than is required to regulate body temperature.  Generalized hyperhidrosis is caused by non-thermoregulatory stimuli and affects the entire body.",
+          "xrefs" : [ "url:https://sydneynorthneurology.com.au/generalised-hyperhidrosis/" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A6994739"
         }, {
           "val" : "ICD9CM_2005:780.8"
         }, {
           "val" : "UMLS_CUI:C0476476"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "secondary hyperhidrosis",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -7367,6 +7442,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000608",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain and limb weakness progressing to collapse.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Syncope_(medicine)" ]
+        },
         "xrefs" : [ {
           "val" : "UMLS_ICD9CM_2005_AUI:A0243721"
         }, {
@@ -7385,7 +7464,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000830",
       "meta" : {
         "definition" : {
-          "val" : "Phantom pain is a pain where painful sensation that are perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump.",
+          "val" : "A pain that is characterized by a painful sensation that is perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7399,7 +7478,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000832",
       "meta" : {
         "definition" : {
-          "val" : "Neuropathic pain is a pain experienced by cancer patients caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling.",
+          "val" : "A pain that is characterized by being experienced by cancer patients and which is caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7413,7 +7492,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000831",
       "meta" : {
         "definition" : {
-          "val" : "Nociceptive pain is a pain originated other than peripheral and central nervous system, caused by activation of nociceptive fibers.",
+          "val" : "A pain that is characterized by originating from other than the peripheral and central nervous systems, and which is caused by activation of nociceptive fibers.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7427,9 +7506,14 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000834",
       "meta" : {
         "definition" : {
-          "val" : "Hypoesthesia is a general symptom where there is a diminished sensitivity to stimulation.",
-          "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
+          "val" : "A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Hypoesthesia" ]
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "numbness",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -7441,7 +7525,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000833",
       "meta" : {
         "definition" : {
-          "val" : "Visceral pain is a pain originated from organ tissues of the thorax, abdomen, or pelvis, It characterizes as deep, vague, difficult to locate pain that radiates away from the affected organ.",
+          "val" : "A pain that is characterized by originating from organ tissues of the thorax, abdomen, or pelvis.  It characterizes as deep, vague, and difficult to locate pain, that radiates away from the affected organ.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7455,7 +7539,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000836",
       "meta" : {
         "definition" : {
-          "val" : "Hyperalgesia is a general symptom where there is an increased response to a painful stimulus.",
+          "val" : "A sensation perception that is characterized by an increased response to a painful stimulus.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7469,7 +7553,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000835",
       "meta" : {
         "definition" : {
-          "val" : "Hypoalgesia is a general symptom where there is a diminished sensitivity to painful stimulation.",
+          "val" : "A sensation perception that is characterized by a diminished sensitivity to painful stimulation.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7483,7 +7567,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000838",
       "meta" : {
         "definition" : {
-          "val" : "Breakthrough pain is a pain that occurs with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain.",
+          "val" : "A pain that is characterized by occurring with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7497,7 +7581,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000837",
       "meta" : {
         "definition" : {
-          "val" : "Chronic pain is a pain that can range from mild to severe, and continues beyond the expected healing phase.",
+          "val" : "A pain that is characterized by ranging from mild to severe and which continues beyond the expected healing phase.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7511,7 +7595,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000839",
       "meta" : {
         "definition" : {
-          "val" : "Acute pain is a pain that is severe but lasts a relatively short time.",
+          "val" : "A pain that is characterized by being severe but lasting a relatively short time.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "synonyms" : [ {
@@ -7646,7 +7730,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000829",
       "meta" : {
         "definition" : {
-          "val" : "Neck pain is a pain characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual.",
+          "val" : "A pain that is characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual.",
           "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
         },
         "basicPropertyValues" : [ {
@@ -7783,7 +7867,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000881",
       "meta" : {
         "definition" : {
-          "val" : "Mild fever is a fever that occurs in a mild form.",
+          "val" : "A fever that is characterized by being mild in form.",
           "xrefs" : [ "url:http://www.wrongdiagnosis.com/sym/mild_fever.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -7814,10 +7898,20 @@
       "type" : "CLASS",
       "lbl" : "barking croup cough"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020009",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "blind spot"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000880",
       "meta" : {
         "definition" : {
-          "val" : "Prolonged fever is a fever that persists over a prolonged period of time.",
+          "val" : "A fever that is characterized by as  persisting over a prolonged period of time.",
           "xrefs" : [ "url:http://www.wrongdiagnosis.com/sym/prolonged_fever.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -7834,20 +7928,10 @@
       "type" : "CLASS",
       "lbl" : "prolonged fever"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0020009",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "blind spot"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000883",
       "meta" : {
         "definition" : {
-          "val" : "Very high fever is a fever that involves extremely high temperatures.",
+          "val" : "A high fever that is characterized by extremely high temperatures.",
           "xrefs" : [ "url:http://www.wrongdiagnosis.com/sym/very_high_fever.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -7866,6 +7950,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020006",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a feeling of irritability or severe restlessness.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK493153/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -7906,7 +7994,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000882",
       "meta" : {
         "definition" : {
-          "val" : "High fever is a fever that involved an elevated temperature.",
+          "val" : "A fever that is characterized by an elevated temperature.",
           "xrefs" : [ "url:http://www.wrongdiagnosis.com/sym/high_fever.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -8029,7 +8117,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000887",
       "meta" : {
         "definition" : {
-          "val" : "Pel-Epstein fever is a fever that is associated with Hodgkin's lymphoma where the fever alternates weekly from high to low.",
+          "val" : "A fever that is characterized by association with Hodgkin's lymphoma, where the fever alternates weekly from high to low.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Fever" ]
         },
         "basicPropertyValues" : [ {
@@ -8111,7 +8199,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000886",
       "meta" : {
         "definition" : {
-          "val" : "Hyperpyrexia is a fever with an extreme elevation of body temperature greater than or equal to 41.5 degree Celsius (106.7 degree Fahrenheit).",
+          "val" : "A fever that is characterized by an extreme elevation of body temperature greater than, or equal to, 41.5 degrees Celsius (106.7 degrees Fahrenheit).",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Fever" ]
         },
         "basicPropertyValues" : [ {
@@ -8172,10 +8260,24 @@
       "type" : "CLASS",
       "lbl" : "vaginismus"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000647",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin ulcer that is characterized by a a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tache noire"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000889",
       "meta" : {
         "definition" : {
-          "val" : "Remittent fever is a fever where the temperature remains above normal throughout the day and fluctuates more than 1degree Celsius in 24 hours.",
+          "val" : "A fever that is characterized by a fever where the temperature remains above normal throughout the day and fluctuates more than 1 degree Celsius in 24 hours.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Fever#Types" ]
         },
         "basicPropertyValues" : [ {
@@ -8191,20 +8293,6 @@
       },
       "type" : "CLASS",
       "lbl" : "remittent fever"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000647",
-      "meta" : {
-        "definition" : {
-          "val" : "A skin ulcer that is characterized by a a small dark-centered ulcer that appears at the site of a tick bite and is the primary lesion of boutonneuse fever.",
-          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tache%20noire" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "tache noire"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020000",
       "meta" : {
@@ -8261,7 +8349,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000888",
       "meta" : {
         "definition" : {
-          "val" : "Continuous fever is a fever where temperature remains above normal throughout the day and does not fluctuate more than 1 degree Celsius in 24 hours.",
+          "val" : "A fever that is characterized by a temperature remaining above normal throughout the day and which does not fluctuate more than 1 degree Celsius in 24 hours.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Fever#Types" ]
         },
         "synonyms" : [ {
@@ -8305,8 +8393,8 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000407",
       "meta" : {
         "definition" : {
-          "val" : "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain.",
-          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/fainting" ]
+          "val" : "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Syncope_(medicine)", "url:https://www.merriam-webster.com/dictionary/fainting", "url:https://www.merriam-webster.com/dictionary/syncope" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8386,7 +8474,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000409",
       "meta" : {
         "definition" : {
-          "val" : "Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes.",
+          "val" : "A high fever that is characterized by an exceptionally high fever especially when induced artificially for therapeutic purposes.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia" ]
         },
         "basicPropertyValues" : [ {
@@ -8578,7 +8666,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000878",
       "meta" : {
         "definition" : {
-          "val" : "Transient fever is a fever that is characterized as a rise of body temperature above the normal that is sustained for only a short period of time.",
+          "val" : "A fever that is characterized by a rise of body temperature above the normal that is sustained for only a short period of time.",
           "xrefs" : [ "url:http://en.wiktionary.org/wiki/fever", "url:http://en.wiktionary.org/wiki/transient" ]
         },
         "basicPropertyValues" : [ {
@@ -8631,7 +8719,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000879",
       "meta" : {
         "definition" : {
-          "val" : "Low-grade fever is a fever that does not exceed 38.5 degree centrigrade.",
+          "val" : "A mild fever that is characterized by a fever that does not exceed 38.5 degrees Celsius (101.3 degrees Fahrenheit).",
           "xrefs" : [ "url:http://www.wrongdiagnosis.com/sym/low_grade_fever.htm" ]
         },
         "synonyms" : [ {
@@ -8709,7 +8797,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000621",
       "meta" : {
         "definition" : {
-          "val" : "Alexia is a aphasia characterized by loss of ability to read.",
+          "val" : "An aphasia that is characterized by a loss of ability to read.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -8749,7 +8837,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000862",
       "meta" : {
         "definition" : {
-          "val" : "Referred pain is a pain where pain is subjectively localized in one region though due to irritation in another region.",
+          "val" : "A pain that is characterized by pain which is subjectively localized in one region although it is due to irritation in another region.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain" ]
         },
         "basicPropertyValues" : [ {
@@ -8823,6 +8911,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000625",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a disturbance in sentience (the ability to experience feelings and sensations) or awareness of one's internal and external existence, i.e. inhibited or absent self-awareness.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Consciousness", "url:https://en.wikipedia.org/wiki/Disorders_of_consciousness" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -8976,7 +9068,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000610",
       "meta" : {
         "definition" : {
-          "val" : "Dizziness is a neurological and physiological symptom characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head.",
+          "val" : "A  balance symptom that is characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness" ]
         },
         "xrefs" : [ {
@@ -9099,7 +9191,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000856",
       "meta" : {
         "definition" : {
-          "val" : "Subjective vertigo is a vertigo characterized by a sensation that one's body is revolving in space.",
+          "val" : "A vertigo that is characterized by a sensation that one's body is revolving in space.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo" ]
         },
         "basicPropertyValues" : [ {
@@ -9113,7 +9205,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000613",
       "meta" : {
         "definition" : {
-          "val" : "Fever is a neurological and physiological symptom characterized by a rise of body temperature above the normal whether a natural response (as to infection) or artificially induced for therapeutic reasons.",
+          "val" : "A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever" ]
         },
         "xrefs" : [ {
@@ -9184,7 +9276,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000857",
       "meta" : {
         "definition" : {
-          "val" : "Objective vertigo is a vertigo characterized by a sensation that the external world is revolving.",
+          "val" : "A vertigo that is characterized by a sensation that the external world is revolving.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo" ]
         },
         "basicPropertyValues" : [ {
@@ -9320,7 +9412,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019182",
       "meta" : {
         "definition" : {
-          "val" : "A nervous system symptom that involves, is related to, or emphasizes behavior.",
+          "val" : "A nervous system symptom that is characterized by an involvement, or relation to, or emphasizes behavior.",
           "xrefs" : [ "url:http://dictionary.cambridge.org/dictionary/english/behavioural" ]
         },
         "basicPropertyValues" : [ {
@@ -9359,7 +9451,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019183",
       "meta" : {
         "definition" : {
-          "val" : "A behavioral symptom that is characterized by increased movement, impulsive actions, and a shorter attention span, and being easily distracted.",
+          "val" : "A behavioral symptom that is characterized by an increase in movement, impulsive actions, a shorter attention span, and being easily distracted.",
           "xrefs" : [ "url:https://medlineplus.gov/ency/article/003256.htm" ]
         },
         "basicPropertyValues" : [ {
@@ -9585,6 +9677,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000568",
       "meta" : {
+        "definition" : {
+          "val" : "A lack of expected normal physiological development in childhood that is characterized by an individual's height being in the 3rd percentile for the mean height of a given age, sex, and population group.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK556031/" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:783.43"
         }, {
@@ -9629,10 +9725,20 @@
       "type" : "CLASS",
       "lbl" : "general symptom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000325",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mild bronchitis"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019179",
       "meta" : {
         "definition" : {
-          "val" : "Lightheadedness is a neurological and physiological symptom characterized as the condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position, is a predictable consequence of any medication tending to lower blood pressure.",
+          "val" : "A  balance symptom that is characterized by a condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position. Lightheadedness is a predictable consequence of any medication tending to lower blood pressure.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness" ]
         },
         "synonyms" : [ {
@@ -9647,16 +9753,6 @@
       },
       "type" : "CLASS",
       "lbl" : "lightheadedness"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000325",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "mild bronchitis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000328",
       "meta" : {
@@ -9751,7 +9847,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019176",
       "meta" : {
         "definition" : {
-          "val" : "Malaise is a neurological and physiological symptom characterized as an indefinite feeling of debility or lack of health often indicative of or accompanying the onset of an illness.",
+          "val" : "A neurological and physiological symptom that is characterized by an indefinite feeling of debility or lack of health, often indicative of or accompanying the onset of an illness.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise" ]
         },
         "basicPropertyValues" : [ {
@@ -9765,7 +9861,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019177",
       "meta" : {
         "definition" : {
-          "val" : "Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress.",
+          "val" : "A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue" ]
         },
         "basicPropertyValues" : [ {
@@ -9800,7 +9896,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019171",
       "meta" : {
         "definition" : {
-          "val" : "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae.",
+          "val" : "A nervous system symptom that is characterized by an inflammation of the vertebrae.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis" ]
         },
         "comments" : [ "doid/symp duplicate" ],
@@ -9894,7 +9990,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019173",
       "meta" : {
         "definition" : {
-          "val" : "Meningitis is a nervous system symptom characterized as an inflammation of the meninges and especially of the pia mater and the arachnoid.",
+          "val" : "A nervous system symptom that is characterized by an inflammation of the meninges and especially of the pia mater and the arachnoid.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis" ]
         },
         "basicPropertyValues" : [ {
@@ -9955,7 +10051,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000552",
       "meta" : {
         "definition" : {
-          "val" : "Meningismus is a nervous system symptom characterized as a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children.",
+          "val" : "A nervous system symptom that is characterized by a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus" ]
         },
         "xrefs" : [ {
@@ -10301,6 +10397,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000318",
       "meta" : {
+        "definition" : {
+          "val" : "A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems.",
+          "xrefs" : [ "url:https://medlineplus.gov/balanceproblems.html", "url:https://www.nidcd.nih.gov/health/balance-disorders" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -10417,7 +10517,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019161",
       "meta" : {
         "definition" : {
-          "val" : "Muscle pain is a pain characterized by pain in one or more muscles.",
+          "val" : "A pain that is characterized by a pain in one or more muscles.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=myalgia" ]
         },
         "synonyms" : [ {
@@ -10456,6 +10556,25 @@
       "type" : "CLASS",
       "lbl" : "muscle tightness"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000300",
+      "meta" : {
+        "definition" : {
+          "val" : "A sensation perception that is characterized by an increased sensitivity to stimulation.",
+          "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "hyperaesthesia",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hyperesthesia"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000784",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10482,25 +10601,6 @@
       },
       "type" : "CLASS",
       "lbl" : "epigastric abdominal pain"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000300",
-      "meta" : {
-        "definition" : {
-          "val" : "Hyperesthesia is a general symptom where there is an increased sensitivity to stimulation.",
-          "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "hyperaesthesia",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "hyperesthesia"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000783",
       "meta" : {
@@ -10549,7 +10649,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000302",
       "meta" : {
         "definition" : {
-          "val" : "Hypothermia is a neurological and physiological symptom characterized by a subnormal temperature of the body as defined by a temperature under 36.6 degrees Celcius.",
+          "val" : "A neurological and physiological symptom that is characterized by a subnormal temperature of the body, as defined by a temperature under 36.6 degrees Celcius (97.8 degrees Fahrenheit).",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia" ]
         },
         "basicPropertyValues" : [ {
@@ -10572,6 +10672,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000543",
       "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003257.htm", "url:https://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:780.93"
         }, {
@@ -10726,6 +10830,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000306",
       "meta" : {
+        "definition" : {
+          "val" : "A feeding difficulties and mismanagement that is characterized by a lack of feeding capacity.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851259/" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -11843,6 +11951,20 @@
       "type" : "CLASS",
       "lbl" : "head and neck symptom"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000355",
+      "meta" : {
+        "definition" : {
+          "val" : "A feeding difficulties and mismanagement that is characterized by an infant with little interest in feeding and it can also refer to an infant who is not feeding enough to receive the necessary nutrition required for adequate growth.",
+          "xrefs" : [ "url:https://www.healthline.com/health/poor-feeding-in-infants" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "poor feeding"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000113",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -11853,16 +11975,6 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete proliferative tracheitis"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000355",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "poor feeding"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000596",
       "meta" : {
@@ -12953,7 +13065,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0019187",
       "meta" : {
         "definition" : {
-          "val" : "A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects.",
+          "val" : "A behavioral symptom that is characterized by an unusual repetitive motor movements or manipulation of objects.",
           "xrefs" : [ "url:http://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive" ]
         },
         "synonyms" : [ {
@@ -13257,7 +13369,7 @@
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000399",
       "meta" : {
         "definition" : {
-          "val" : "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings.",
+          "val" : "A dizziness that is characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings.",
           "xrefs" : [ "url:http://en.wikipedia.org/wiki/Vertigo_%28medical%29" ]
         },
         "basicPropertyValues" : [ {
@@ -13540,6 +13652,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000389",
       "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a lack of critical mental function and a level of consciousness, in which an affected person is almost entirely unresponsive and responds only to intense stimuli such as pain.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Stupor" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -14005,6 +14121,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000186",
       "meta" : {
+        "definition" : {
+          "val" : "A fatigue that is characterized by a feeling of weariness (bodily or mental) or feeling of weakness.  Exhaustion is a shorter-lived form of fatigue that can be experienced emotionally, mentally, and physically.",
+          "xrefs" : [ "url:https://wellteq.co/insights/mental-health/fatigue-burnout-and-exhaustion-whats-the-difference", "url:https://www.dictionary.com/browse/fatigue" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -14015,6 +14135,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000185",
       "meta" : {
+        "definition" : {
+          "val" : "A fatigue that is characterized by a feeling of exhaustion in strength, endurance, and vigor.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/weary" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -14035,6 +14159,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000187",
       "meta" : {
+        "definition" : {
+          "val" : "A fatigue that is characterized by a feeling of a lessened capacity for work and reduced efficiency of accomplishment, usually accompanied by a sense of weariness and fatigue.",
+          "xrefs" : [ "url:https://www.medicinenet.com/tired/definition.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -14261,13 +14389,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000320"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000398",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000766",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000398",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000641",
       "pred" : "is_a",
@@ -14308,10 +14436,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000429",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019179",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000540",
       "pred" : "is_a",
@@ -14457,6 +14581,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000318",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000769",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
@@ -14485,13 +14613,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000479"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000421",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000178",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0020012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000421",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000532",
       "pred" : "is_a",
@@ -14701,13 +14829,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000516",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000826",
       "pred" : "is_a",
@@ -14821,13 +14949,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000378",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000377"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000366",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000364"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000378",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000377"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000367",
       "pred" : "is_a",
@@ -14945,13 +15073,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000114",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019139"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019139"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000825",
       "pred" : "is_a",
@@ -15377,13 +15505,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000590",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000582",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000590",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000332",
       "pred" : "is_a",
@@ -15481,13 +15609,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000508"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000831",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000761",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000831",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000257",
       "pred" : "is_a",
@@ -16265,10 +16393,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000318",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000564",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
@@ -16385,13 +16509,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000630",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000502",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000492"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020017",
       "pred" : "is_a",
@@ -16429,13 +16553,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000799"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000285",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000247",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000285",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000554",
       "pred" : "is_a",
@@ -16449,13 +16573,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000773"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019152",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019175"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000615",
       "pred" : "is_a",
@@ -16472,6 +16596,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000340",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000538"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019179",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000787",
       "pred" : "is_a",
@@ -16569,13 +16697,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000457"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000255",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000291",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000355",
       "pred" : "is_a",
@@ -16760,6 +16888,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000098",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000610",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000500",
       "pred" : "is_a",
@@ -17225,6 +17357,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000244"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000139",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
@@ -17244,10 +17380,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000308",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000385"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000016",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000530",
       "pred" : "is_a",
@@ -17289,13 +17421,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000615"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000771",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000770"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000573",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000771",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000770"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000330",
       "pred" : "is_a",
@@ -17365,21 +17497,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000468",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000454"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000454",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000763",
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000468",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000454"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000754",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000576"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000763",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000337",
       "pred" : "is_a",
@@ -17397,13 +17529,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000859",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000614",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000859",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019177",
       "pred" : "is_a",
@@ -17549,10 +17681,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000771"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000610",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000855",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000756"
@@ -17624,6 +17752,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019169",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000891"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000549",
       "pred" : "is_a",
@@ -17760,7 +17892,7 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "16:08:2022 12:51"
+        "val" : "29:08:2022 13:57"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "symptoms"
@@ -17771,7 +17903,7 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "lschriml"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-08-16/symp.owl"
+      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-08-29/symp.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

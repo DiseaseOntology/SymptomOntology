@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-08-16/symp.obo
-date: 16:08:2022 12:51
+data-version: releases/2022-08-29/symp.obo
+date: 29:08:2022 13:57
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -39,14 +39,14 @@ is_obsolete: true
 [Term]
 id: SYMP:0000005
 name: ataxia
-def: "Ataxia is a neurological and physiological symptom characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia]
+def: "A neurological and physiological symptom that is characterized by an inability to coordinate voluntary muscular movements that is symptomatic of some nervous disorders." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ataxia]
 synonym: "uncoordination" EXACT []
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000006
 name: backache
-def: "Backache is a pain occurring in the lower back." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache]
+def: "A pain that is characterized by occurring in the lower back." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache]
 synonym: "back pain" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -102,8 +102,8 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000016
 name: confusion
-def: "Confusion is a neurological and physiological symptom characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion]
-is_a: SYMP:0000410 ! neurological and physiological symptom
+def: "A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion]
+is_a: SYMP:0020045 ! balance symptom
 
 [Term]
 id: SYMP:0000017
@@ -129,23 +129,25 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000021
 name: delirium
-def: "Delirium is a neurological and physiological symptom characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium]
+def: "A neurological and physiological symptom that is characterized by a mental disturbance characterized by confusion, disordered speech, and hallucinations." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=delirium]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000022
 name: depression
+def: "A neurological and physiological symptom that is characterized by a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen for no clear reason.  Additionally one may experience feelings of hopelessness, pessimism, irritability, frustration, or restlessness, guilt, worthlessness and thoughts of death or suicide." [url:https\://www.medicalnewstoday.com/articles/8933, url:https\://www.nimh.nih.gov/health/topics/depression]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000023
 name: disorientation
-def: "Disorientation is a confusion characterized by a usually transient state of confusion especially as to time, place, or identity often as a result of disease or drugs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation]
+def: "A confusion that is characterized by an usually transient state of confusion especially as to time, place, or identity; often as a result of disease or drugs." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=disorientation]
 is_a: SYMP:0000016 ! confusion
 
 [Term]
 id: SYMP:0000024
 name: drowsiness
+def: "A neurological and physiological symptom that is characterized by a feeling of being more sleepy than normal during the day. People who are drowsy may fall asleep in when they do not want to or at times which can lead to safety concerns." [url:https\://medlineplus.gov/ency/article/003208.htm]
 synonym: "drowsy" EXACT []
 synonym: "somnolence" EXACT []
 is_a: SYMP:0000410 ! neurological and physiological symptom
@@ -181,7 +183,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000030
 name: paralysis
-def: "Paralysis is a nervous system symptom characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis]
+def: "A nervous system symptom that is characterized by a complete or partial loss of function especially when involving the power of motion or of sensation in any part of the body." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=paralysis]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -424,7 +426,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000075
 name: lethargy
-def: "Lethargy is a fatigue characterized as abnormal drowsiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy]
+def: "A fatigue that is characterized by abnormal drowsiness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=lethargy]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
@@ -498,7 +500,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000089
 name: meningoencephalitis
-def: "Meningoencephalitis is a nervous system symptom characterized as an inflammation of the brain and meninges." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis]
+def: "A nervous system symptom that is characterized by an inflammation of the brain and meninges." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningoencephalitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
@@ -555,7 +557,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000099
 name: pain
-def: "A sensation perception where there is an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
@@ -1022,16 +1024,19 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000185
 name: weariness
+def: "A fatigue that is characterized by a feeling of exhaustion in strength, endurance, and vigor." [url:https\://www.merriam-webster.com/dictionary/weary]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
 id: SYMP:0000186
 name: exhaustion
+def: "A fatigue that is characterized by a feeling of weariness (bodily or mental) or feeling of weakness.  Exhaustion is a shorter-lived form of fatigue that can be experienced emotionally, mentally, and physically." [url:https\://wellteq.co/insights/mental-health/fatigue-burnout-and-exhaustion-whats-the-difference, url:https\://www.dictionary.com/browse/fatigue]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
 id: SYMP:0000187
 name: tiredness
+def: "A fatigue that is characterized by a feeling of a lessened capacity for work and reduced efficiency of accomplishment, usually accompanied by a sense of weariness and fatigue." [url:https\://www.medicinenet.com/tired/definition.htm]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
@@ -1136,7 +1141,7 @@ is_a: SYMP:0000205 ! salivary gland symptom
 [Term]
 id: SYMP:0000207
 name: afebrile
-def: "Afebrile is a fever that is characterized as the state of being free from fever." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile]
+def: "A fever that is characterized by the state of being free from fever." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=afebrile]
 is_a: SYMP:0000613 ! fever
 
 [Term]
@@ -1173,14 +1178,14 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000213
 name: agraphia
-def: "Agraphia is a aphasia where there is a pathological loss of the ability to write." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia]
+def: "An aphasia that is characterized by a pathological loss of the ability to write." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=agraphia]
 synonym: "inability to write" EXACT []
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
 id: SYMP:0000214
 name: anomia
-def: "Anomia is a aphasia characterized by a severe problem with recalling words or names." [url:http\://en.wikipedia.org/wiki/Anomia]
+def: "An aphasia that is characterized by a severe problem with recalling words or names." [url:http\://en.wikipedia.org/wiki/Anomia]
 synonym: "amnesic aphasia" EXACT []
 synonym: "amnestic aphasia" EXACT []
 synonym: "anomic aphasia" EXACT []
@@ -1211,7 +1216,7 @@ is_a: SYMP:0000508 ! aphasia
 [Term]
 id: SYMP:0000219
 name: receptive aphasia
-def: "Receptive aphasia is a inability to comprehend speech characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia]
+def: "An inability to comprehend speech that is characterized by an inability to understand spoken, written, or tactile speech symbols that results from damage (as by a brain lesion) to an area of the brain (as Wernicke's area) concerned with language." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sensory%20aphasia]
 synonym: "fluent aphasia" EXACT []
 synonym: "inability to perceive pitch, rhythm, and emotional tone of speech" EXACT []
 synonym: "sensory aphasia" EXACT []
@@ -1312,13 +1317,13 @@ is_a: SYMP:0000239 ! cornea symptom
 [Term]
 id: SYMP:0000235
 name: colic
-def: "Coilc is a pain characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
+def: "A pain that is characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000236
 name: colicky pain
-def: "Colicky pain is a pain characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
+def: "A pain that is characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -1363,7 +1368,7 @@ is_a: SYMP:0000614 ! cough
 id: SYMP:0000243
 name: cyclic fever
 alt_id: SYMP:0000884
-def: "Cyclic fever is a fever that occurs during periodic episodes." [url:http\://en.wikipedia.org/wiki/Fever#Types, url:http\://www.wrongdiagnosis.com/sym/cyclic_fever_in_children.htm]
+def: "A fever that is characterized by occurring during periodic episodes." [url:http\://en.wikipedia.org/wiki/Fever#Types, url:http\://www.wrongdiagnosis.com/sym/cyclic_fever_in_children.htm]
 synonym: "intermittent fever" RELATED []
 synonym: "recurrent fever" EXACT []
 is_a: SYMP:0000613 ! fever
@@ -1389,12 +1394,13 @@ is_a: SYMP:0000244 ! alteration of appetite
 [Term]
 id: SYMP:0000247
 name: proprioception symptom
+def: "A neurological and physiological symptom that is characterized by one's body’s ability to sense movement, action, and location and results from sensory receptors in one's nervous system and body (muscles, joints, and tendons)." [url:https\://www.webmd.com/brain/what-is-proprioception]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000248
 name: decreased conscious proprioception
-def: "Decreased conscious proprioception is a proprioception symptom characterized as a decreased ability of an organism to consciously process the reception of stimuli produced within the organism." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception]
+def: "A proprioception symptom that is characterized by a decreased ability of an organism to consciously process the reception of stimuli produced within the organism." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=proprioception]
 is_a: SYMP:0000247 ! proprioception symptom
 
 [Term]
@@ -1572,11 +1578,13 @@ is_a: SYMP:0000136 ! skin ulcer
 [Term]
 id: SYMP:0000279
 name: extreme exhaustion
+def: "An exhaustion that is characterized by exceeding the ordinary, usual, or expected." [url:https\://www.merriam-webster.com/dictionary/extreme]
 is_a: SYMP:0000186 ! exhaustion
 
 [Term]
 id: SYMP:0000280
 name: extreme fatigue
+def: "A fatigue that is characterized by exceeding the ordinary, usual, or expected." [url:https\://www.merriam-webster.com/dictionary/extreme]
 is_a: SYMP:0019177 ! fatigue
 
 [Term]
@@ -1605,7 +1613,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000285
 name: flaccid paralysis
-def: "Flaccid paralysis is a paralysis where muscle tone is lacking in the affected muscles and in which tendon reflexes are decreased or absent." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis]
+def: "A paralysis that is charicterized by a lack of muscle tone in the affected muscles and in which tendon reflexes are decreased or absent." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=flaccid%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -1694,7 +1702,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000300
 name: hyperesthesia
-def: "Hyperesthesia is a general symptom where there is an increased sensitivity to stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception that is characterized by an increased sensitivity to stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 synonym: "hyperaesthesia" EXACT []
 is_a: SYMP:0000892 ! sensation perception
 
@@ -1707,7 +1715,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000302
 name: hypothermia
-def: "Hypothermia is a neurological and physiological symptom characterized by a subnormal temperature of the body as defined by a temperature under 36.6 degrees Celcius." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia]
+def: "A neurological and physiological symptom that is characterized by a subnormal temperature of the body, as defined by a temperature under 36.6 degrees Celcius (97.8 degrees Fahrenheit)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hypothermia]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -1729,6 +1737,7 @@ is_a: SYMP:0000249 ! reflex symptom
 [Term]
 id: SYMP:0000306
 name: inability to feed
+def: "A feeding difficulties and mismanagement that is characterized by a lack of feeding capacity." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851259/]
 is_a: SYMP:0000522 ! feeding difficulties and mismanagement
 
 [Term]
@@ -1798,7 +1807,8 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000318
 name: loss of balance
-is_a: SYMP:0000410 ! neurological and physiological symptom
+def: "A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems." [url:https\://medlineplus.gov/balanceproblems.html, url:https\://www.nidcd.nih.gov/health/balance-disorders]
+is_a: SYMP:0020045 ! balance symptom
 
 [Term]
 id: SYMP:0000319
@@ -2008,6 +2018,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000355
 name: poor feeding
+def: "A feeding difficulties and mismanagement that is characterized by an infant with little interest in feeding and it can also refer to an infant who is not feeding enough to receive the necessary nutrition required for adequate growth." [url:https\://www.healthline.com/health/poor-feeding-in-infants]
 is_a: SYMP:0000522 ! feeding difficulties and mismanagement
 
 [Term]
@@ -2202,6 +2213,7 @@ is_a: SYMP:0000387 ! head symptom
 [Term]
 id: SYMP:0000389
 name: stupor
+def: "An alteration of consciousness that is characterized by a lack of critical mental function and a level of consciousness, in which an affected person is almost entirely unresponsive and responds only to intense stimuli such as pain." [url:https\://en.wikipedia.org/wiki/Stupor]
 is_a: SYMP:0000482 ! alteration of consciousness
 
 [Term]
@@ -2257,7 +2269,7 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000399
 name: vertigo
-def: "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings." [url:http\://en.wikipedia.org/wiki/Vertigo_%28medical%29]
+def: "A dizziness that is characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings." [url:http\://en.wikipedia.org/wiki/Vertigo_%28medical%29]
 is_a: SYMP:0000610 ! dizziness
 
 [Term]
@@ -2313,7 +2325,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 id: SYMP:0000407
 name: syncope
 alt_id: SYMP:0000445
-def: "From synonym: Faint is a alteration of consciousness characterized by a loss of consciousness because of a temporary decrease in the blood supply to the brain." [url:https\://www.merriam-webster.com/dictionary/fainting]
+def: "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain." [url:https\://en.wikipedia.org/wiki/Syncope_(medicine), url:https\://www.merriam-webster.com/dictionary/fainting, url:https\://www.merriam-webster.com/dictionary/syncope]
 synonym: "faint" EXACT []
 synonym: "fainting" EXACT []
 synonym: "loss of consciousness due to insuffiecient blood flow to the brain" EXACT []
@@ -2328,7 +2340,7 @@ is_a: SYMP:0000183 ! muscle symptom
 [Term]
 id: SYMP:0000409
 name: hyperthermia
-def: "Hyperthermia is a fever that involves an exceptionally high fever especially when induced artificially for therapeutic purposes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia]
+def: "A high fever that is characterized by an exceptionally high fever especially when induced artificially for therapeutic purposes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=hyperthermia]
 is_a: SYMP:0000882 ! high fever
 
 [Term]
@@ -2344,19 +2356,19 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000412
 name: anxiety
-def: "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety]
+def: "A neurological and physiological symptom that is characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anxiety]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000413
 name: catatonia
-def: "Catatonia is a neurological and physiological symptom characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia]
+def: "A neurological and physiological symptom that is characterized by a marked psychomotor disturbance that may involve stupor or mutism, negativism, rigidity, purposeless excitement, echolalia, echopraxia, and inappropriate or bizarre posturing and is associated with various medical conditions (as schizophrenia and mood disorders)." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=catatonia]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000414
 name: dysarthria
-def: "Dysarthria is a neurological and physiological symptom characterized by a difficulty in articulating words due to disease of the central nervous system." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria]
+def: "A neurological and physiological symptom that is characterized by a difficulty in articulating words due to disease of the central nervous system." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dysarthria]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -2415,7 +2427,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000424
 name: claudication
-def: "A pain that is a leg pain in the calf or thigh which is caused by inadequate blood flow to the leg muscles brought on by leg exercise such as walking." [url:http\://www.nature.com/nrd/journal/v2/n1/glossary/nrd985_glossary.html, url:http\://www.vasculardoc.net/content/glossary.html]
+def: "A pain that is characterized by a leg pain in the calf, or thigh, which is caused by inadequate blood flow to the leg muscles and is brought on by leg exercise such as walking." [url:http\://www.nature.com/nrd/journal/v2/n1/glossary/nrd985_glossary.html, url:http\://www.vasculardoc.net/content/glossary.html]
 synonym: "blockage of leg arteries" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -2453,7 +2465,7 @@ is_a: SYMP:0000598 ! respiratory abnormality
 [Term]
 id: SYMP:0000430
 name: pleuritic chest pain
-def: "Pleuritic chest pain is a chest pain caused by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other." [url:http\://en.wikipedia.org/wiki/Pleuritic_chest_pain, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleurisy]
+def: "A chest pain that is characterized by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other." [url:http\://en.wikipedia.org/wiki/Pleuritic_chest_pain, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleurisy]
 is_a: SYMP:0000576 ! chest pain
 
 [Term]
@@ -2848,6 +2860,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000481
 name: persistent vegetative state
+def: "An alteration of consciousness that is characterized by an individual with severe brain damage being in a state of partial arousal rather than true awareness. After four weeks in a vegetative state, the patient is classified as being in a persistent vegetative state. After three months in the US and six months in the UK, the diagnosis is classified as a permanent vegetative state after a non-traumatic brain injury, or, one year after a traumatic injury." [url:https\://en.wikipedia.org/wiki/Persistent_vegetative_state]
 xref: ICD9CM_2005:780.03
 xref: UMLS_CUI:C0242670
 xref: UMLS_ICD9CM_2005_AUI:A0446160
@@ -2856,6 +2869,7 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0000482
 name: alteration of consciousness
+def: "A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state." [url:https\://en.wikipedia.org/wiki/Altered_state_of_consciousness]
 xref: ICD9CM_2005:780.0
 xref: UMLS_CUI:C0234428
 xref: UMLS_ICD9CM_2005_AUI:A0389211
@@ -2972,7 +2986,7 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0000494
 name: renal colic
-def: "Renal colic is a colic characterized by the severe pain produced by the passage of a calculus from the kidney through the ureter." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic]
+def: "A colic that is characterized by a severe pain produced by the passage of a calculus from the kidney through the ureter." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic]
 xref: ICD9CM_2005:788.0
 xref: UMLS_CUI:C0152169
 xref: UMLS_ICD9CM_2005_AUI:A0265344
@@ -3054,7 +3068,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000504
 name: headache
-def: "Headache is a pain characterized by a pain in the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache]
+def: "A pain that is characterized by a pain in the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache]
 synonym: "cephalalgia" EXACT []
 xref: ICD9CM_2005:784.0
 xref: UMLS_CUI:C0018681
@@ -3064,7 +3078,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000505
 name: throat pain
-def: "Throat pain is a pain that is characterized by a painful throat due to inflammation of the fauces and pharynx." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat]
+def: "A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat]
 synonym: "sore throat" EXACT []
 xref: ICD9CM_2005:784.1
 xref: UMLS_CUI:C0242429
@@ -3090,7 +3104,7 @@ is_a: SYMP:0000387 ! head symptom
 [Term]
 id: SYMP:0000508
 name: aphasia
-def: "Aphasia is a nervous system symptom characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia]
+def: "A nervous system symptom that is characterized by a loss or impairment of the power to use or comprehend words usually resulting from brain damage." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=aphasia]
 comment: doid/symp duplicate
 synonym: "inability to comprehend language" EXACT []
 xref: ICD9CM_2005:784.3
@@ -3247,6 +3261,7 @@ is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 [Term]
 id: SYMP:0000525
 name: transient alteration of awareness
+def: "An alteration of consciousness that is characterized by a brief (transient) episode of losing normal awareness or behavior." [url:https\://www.inst-neuro.com/services/epilepsy/transient-alteration-of-awareness/]
 xref: ICD9CM_2005:780.02
 xref: UMLS_CUI:C0221539
 xref: UMLS_ICD9CM_2005_AUI:A0466980
@@ -3407,6 +3422,7 @@ is_a: SYMP:0000457 ! abdominal pain
 [Term]
 id: SYMP:0000543
 name: memory loss
+def: "A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time." [url:https\://medlineplus.gov/ency/article/003257.htm, url:https\://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss]
 xref: ICD9CM_2005:780.93
 xref: UMLS_CUI:C0751295
 xref: UMLS_ICD9CM_2005_AUI:A2797424
@@ -3477,7 +3493,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000552
 name: meningismus
-def: "Meningismus is a nervous system symptom characterized as a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus]
+def: "A nervous system symptom that is characterized by a state of meningeal irritation with symptoms suggesting meningitis that often occurs at the onset of acute febrile diseases especially in children." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningismus]
 xref: ICD9CM_2005:781.6
 xref: UMLS_CUI:C0025287
 xref: UMLS_ICD9CM_2005_AUI:A0434815
@@ -3622,6 +3638,7 @@ is_a: SYMP:0000462 ! symptom
 [Term]
 id: SYMP:0000568
 name: short stature
+def: "A lack of expected normal physiological development in childhood that is characterized by an individual's height being in the 3rd percentile for the mean height of a given age, sex, and population group." [url:https\://www.ncbi.nlm.nih.gov/books/NBK556031/]
 xref: ICD9CM_2005:783.43
 xref: UMLS_CUI:C0349588
 is_a: SYMP:0000464 ! lack of expected normal physiological development in childhood
@@ -3951,6 +3968,7 @@ is_a: SYMP:0000587 ! abnormal chest sound
 [Term]
 id: SYMP:0000605
 name: coma
+def: "An alteration of consciousness that is characterized by a deep state of prolonged unconsciousness in which a person cannot be awakened, fails to respond normally to painful stimuli, light, or sound, lacks a normal wake-sleep cycle and does not initiate voluntary actions." [url:https\://en.wikipedia.org/wiki/Coma]
 xref: ICD9CM_2005:780.01
 xref: UMLS_CUI:C0009421
 xref: UMLS_ICD9CM_2005_AUI:A0041160
@@ -3979,6 +3997,7 @@ is_a: SYMP:0000567 ! general symptom
 [Term]
 id: SYMP:0000608
 name: syncope and collapse
+def: "An alteration of consciousness that is characterized by a loss of consciousness resulting from insufficient blood flow to the brain and limb weakness progressing to collapse." [url:https\://en.wikipedia.org/wiki/Syncope_(medicine)]
 xref: ICD9CM_2005:780.2
 xref: UMLS_CUI:C0039070
 xref: UMLS_ICD9CM_2005_AUI:A0243721
@@ -3987,6 +4006,8 @@ is_a: SYMP:0000482 ! alteration of consciousness
 [Term]
 id: SYMP:0000609
 name: generalized hyperhidrosis
+def: "A neurological and physiological symptom that is characterized by excessive sweating, i.e. the production of more sweat than is required to regulate body temperature.  Generalized hyperhidrosis is caused by non-thermoregulatory stimuli and affects the entire body." [url:https\://sydneynorthneurology.com.au/generalised-hyperhidrosis/]
+synonym: "secondary hyperhidrosis" EXACT []
 xref: ICD9CM_2005:780.8
 xref: UMLS_CUI:C0476476
 xref: UMLS_ICD9CM_2005_AUI:A6994739
@@ -3995,12 +4016,12 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000610
 name: dizziness
-def: "Dizziness is a neurological and physiological symptom characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness]
+def: "A  balance symptom that is characterized by a sensation of unsteadiness accompanied by a feeling of movement within the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dizziness]
 synonym: "dizzy" EXACT []
 xref: ICD9CM_2005:780.4
 xref: UMLS_CUI:C0476206
 xref: UMLS_ICD9CM_2005_AUI:A0243727
-is_a: SYMP:0000410 ! neurological and physiological symptom
+is_a: SYMP:0020045 ! balance symptom
 
 [Term]
 id: SYMP:0000611
@@ -4021,7 +4042,7 @@ is_a: SYMP:0000454 ! abdominal rigidity
 [Term]
 id: SYMP:0000613
 name: fever
-def: "Fever is a neurological and physiological symptom characterized by a rise of body temperature above the normal whether a natural response (as to infection) or artificially induced for therapeutic reasons." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever]
+def: "A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever]
 synonym: "pyrexia" EXACT []
 xref: ICD9CM_2005:780.6
 xref: UMLS_CUI:C0015967
@@ -4090,7 +4111,7 @@ is_a: SYMP:0000457 ! abdominal pain
 [Term]
 id: SYMP:0000621
 name: alexia
-def: "Alexia is a aphasia characterized by loss of ability to read." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia]
+def: "An aphasia that is characterized by a loss of ability to read." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=alexia]
 comment: doid/symp duplicate
 xref: ICD9CM_2005:784.6
 xref: ICD9CM_2005:784.69
@@ -4118,6 +4139,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000625
 name: conscious disturbance
+def: "An alteration of consciousness that is characterized by a disturbance in sentience (the ability to experience feelings and sensations) or awareness of one's internal and external existence, i.e. inhibited or absent self-awareness." [url:https\://en.wikipedia.org/wiki/Consciousness, url:https\://en.wikipedia.org/wiki/Disorders_of_consciousness]
 is_a: SYMP:0000482 ! alteration of consciousness
 
 [Term]
@@ -4273,7 +4295,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0000654
 name: irritability
-def: "A behavioral symptom characterized by a quick excitability to annoyance, impatience, or anger." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
+def: "A behavioral symptom that is characterized by a quick excitability to annoyance, impatience, or anger." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=irritability]
 synonym: "Inconsolability" EXACT []
 is_a: SYMP:0019182 ! behavioral symptom
 
@@ -4300,7 +4322,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000659
 name: pareses
-def: "Pareses is a paralysis charachterized by slight or partial paralysis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses]
+def: "A paralysis that is charachterized by a slight or partial paralysis." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pareses]
 synonym: "partial paralysis" EXACT []
 is_a: SYMP:0000030 ! paralysis
 
@@ -4500,6 +4522,7 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0000698
 name: decreased sucking
+def: "A feeding difficulties and mismanagement that is characterized by a decrease in muscle coordination to form a suck response so that the child can ingest milk." [url:https\://adoption.umn.edu/sucking-problems]
 is_a: SYMP:0000522 ! feeding difficulties and mismanagement
 
 [Term]
@@ -4535,7 +4558,7 @@ is_a: SYMP:0000559 ! voice disturbance
 [Term]
 id: SYMP:0000705
 name: expressive aphasia
-def: "Expressive aphasia is a aphasia caused by damage to or developmental issues in anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting." [url:http\://en.wikipedia.org/wiki/Expressive_aphasia]
+def: "An aphasia that is characterized by damage to, or a developmental issues in, the anterior regions of the brain, including (but not limited to) the left inferior frontal region known as Broca's area. Sufferers of this form of aphasia exhibit the common problem of agrammatism. For them, speech is difficult to initiate, non-fluent, labored, and halting." [url:http\://en.wikipedia.org/wiki/Expressive_aphasia]
 synonym: "agrammatic aphasia" EXACT []
 synonym: "Broca's aphasia" EXACT []
 is_a: SYMP:0000508 ! aphasia
@@ -4601,11 +4624,13 @@ is_a: SYMP:0000716 ! swelling symptom
 [Term]
 id: SYMP:0000718
 name: loss of consciousness
+def: "A neurological and physiological symptom that is characterized by a state in which an individual lacks normal awareness of self and the surrounding environment and one's ability to remain awake, aware, and oriented is impaired." [url:https\://drwilderman.com/neurological-disorders/loss-of-consciousness/, url:https\://www.healthline.com/health/consciousness-decreased]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0000719
 name: memory impairment
+def: "A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness." [url:https\://www.merriam-webster.com/dictionary/impairment]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -4684,7 +4709,7 @@ is_a: SYMP:0000094 ! muscle weakness
 [Term]
 id: SYMP:0000734
 name: stroke
-def: "Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke]
+def: "A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke]
 synonym: "apoplexy" EXACT []
 synonym: "brain attack" EXACT []
 synonym: "cerebral accident" EXACT []
@@ -5195,74 +5220,75 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000829
 name: neck pain
-def: "Neck pain is a pain characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000830
 name: phantom pain
-def: "Phantom pain is a pain where painful sensation that are perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by a painful sensation that is perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000831
 name: nociceptive pain
-def: "Nociceptive pain is a pain originated other than peripheral and central nervous system, caused by activation of nociceptive fibers." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by originating from other than the peripheral and central nervous systems, and which is caused by activation of nociceptive fibers." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000832
 name: neuropathic pain
-def: "Neuropathic pain is a pain experienced by cancer patients caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by being experienced by cancer patients and which is caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000833
 name: visceral pain
-def: "Visceral pain is a pain originated from organ tissues of the thorax, abdomen, or pelvis, It characterizes as deep, vague, difficult to locate pain that radiates away from the affected organ." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by originating from organ tissues of the thorax, abdomen, or pelvis.  It characterizes as deep, vague, and difficult to locate pain, that radiates away from the affected organ." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000834
 name: hypoesthesia
-def: "Hypoesthesia is a general symptom where there is a diminished sensitivity to stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli." [url:https\://en.wikipedia.org/wiki/Hypoesthesia]
+synonym: "numbness" EXACT []
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000835
 name: hypoalgesia
-def: "Hypoalgesia is a general symptom where there is a diminished sensitivity to painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception that is characterized by a diminished sensitivity to painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000836
 name: hyperalgesia
-def: "Hyperalgesia is a general symptom where there is an increased response to a painful stimulus." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A sensation perception that is characterized by an increased response to a painful stimulus." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000892 ! sensation perception
 
 [Term]
 id: SYMP:0000837
 name: chronic pain
-def: "Chronic pain is a pain that can range from mild to severe, and continues beyond the expected healing phase." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by ranging from mild to severe and which continues beyond the expected healing phase." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000838
 name: breakthrough pain
-def: "Breakthrough pain is a pain that occurs with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by occurring with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000839
 name: acute pain
-def: "Acute pain is a pain that is severe but lasts a relatively short time." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by being severe but lasting a relatively short time." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 synonym: "sudden pain" EXACT []
 is_a: SYMP:0000099 ! pain
 
 [Term]
 id: SYMP:0000840
 name: allodynia
-def: "Allodynia is a pain where there is a painful sensation with a normal, non painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+def: "A pain that is characterized by a painful sensation with a normal, non-painful stimulation." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -5304,13 +5330,13 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000847
 name: spastic paralysis
-def: "Spastic paralysis is a paralysis characterized by tonic spasm of the affected muscles and with increased tendon reflexes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis]
+def: "A paralysis that is characterized by a tonic spasm of the affected muscles and with increased tendon reflexes." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spastic%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
 id: SYMP:0000848
 name: motor paralysis
-def: "Motor paralysis is a paralysis where there is a complete or partial loss of function the voluntary muscles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis]
+def: "A paralysis that is characterized by a complete or partial loss of function the voluntary muscles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=motor%20paralysis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -5362,13 +5388,13 @@ is_a: SYMP:0000756 ! menorrhagia
 [Term]
 id: SYMP:0000856
 name: subjective vertigo
-def: "Subjective vertigo is a vertigo characterized by a sensation that one's body is revolving in space." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo]
+def: "A vertigo that is characterized by a sensation that one's body is revolving in space." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=subjective+vertigo]
 is_a: SYMP:0000399 ! vertigo
 
 [Term]
 id: SYMP:0000857
 name: objective vertigo
-def: "Objective vertigo is a vertigo characterized by a sensation that the external world is revolving." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo]
+def: "A vertigo that is characterized by a sensation that the external world is revolving." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=objective+vertigo]
 is_a: SYMP:0000399 ! vertigo
 
 [Term]
@@ -5398,7 +5424,7 @@ is_a: SYMP:0000858 ! hypokinesia
 [Term]
 id: SYMP:0000862
 name: referred pain
-def: "Referred pain is a pain where pain is subjectively localized in one region though due to irritation in another region." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain]
+def: "A pain that is characterized by pain which is subjectively localized in one region although it is due to irritation in another region." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -5492,13 +5518,13 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000878
 name: transient fever
-def: "Transient fever is a fever that is characterized as a rise of body temperature above the normal that is sustained for only a short period of time." [url:http\://en.wiktionary.org/wiki/fever, url:http\://en.wiktionary.org/wiki/transient]
+def: "A fever that is characterized by a rise of body temperature above the normal that is sustained for only a short period of time." [url:http\://en.wiktionary.org/wiki/fever, url:http\://en.wiktionary.org/wiki/transient]
 is_a: SYMP:0000613 ! fever
 
 [Term]
 id: SYMP:0000879
 name: low-grade fever
-def: "Low-grade fever is a fever that does not exceed 38.5 degree centrigrade." [url:http\://www.wrongdiagnosis.com/sym/low_grade_fever.htm]
+def: "A mild fever that is characterized by a fever that does not exceed 38.5 degrees Celsius (101.3 degrees Fahrenheit)." [url:http\://www.wrongdiagnosis.com/sym/low_grade_fever.htm]
 synonym: "low grade fever" EXACT []
 is_a: SYMP:0000881 ! mild fever
 created_by: lschriml
@@ -5507,7 +5533,7 @@ creation_date: 2010-10-15T11:28:26Z
 [Term]
 id: SYMP:0000880
 name: prolonged fever
-def: "Prolonged fever is a fever that persists over a prolonged period of time." [url:http\://www.wrongdiagnosis.com/sym/prolonged_fever.htm]
+def: "A fever that is characterized by as  persisting over a prolonged period of time." [url:http\://www.wrongdiagnosis.com/sym/prolonged_fever.htm]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
@@ -5515,7 +5541,7 @@ creation_date: 2010-10-15T11:28:26Z
 [Term]
 id: SYMP:0000881
 name: mild fever
-def: "Mild fever is a fever that occurs in a mild form." [url:http\://www.wrongdiagnosis.com/sym/mild_fever.htm]
+def: "A fever that is characterized by being mild in form." [url:http\://www.wrongdiagnosis.com/sym/mild_fever.htm]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
@@ -5523,7 +5549,7 @@ creation_date: 2010-10-15T11:28:26Z
 [Term]
 id: SYMP:0000882
 name: high fever
-def: "High fever is a fever that involved an elevated temperature." [url:http\://www.wrongdiagnosis.com/sym/high_fever.htm]
+def: "A fever that is characterized by an elevated temperature." [url:http\://www.wrongdiagnosis.com/sym/high_fever.htm]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
@@ -5531,7 +5557,7 @@ creation_date: 2010-10-15T11:28:26Z
 [Term]
 id: SYMP:0000883
 name: very high fever
-def: "Very high fever is a fever that involves extremely high temperatures." [url:http\://www.wrongdiagnosis.com/sym/very_high_fever.htm]
+def: "A high fever that is characterized by extremely high temperatures." [url:http\://www.wrongdiagnosis.com/sym/very_high_fever.htm]
 is_a: SYMP:0000882 ! high fever
 created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
@@ -5546,7 +5572,7 @@ creation_date: 2010-10-15T11:28:26Z
 [Term]
 id: SYMP:0000886
 name: hyperpyrexia
-def: "Hyperpyrexia is a fever with an extreme elevation of body temperature greater than or equal to 41.5 degree Celsius (106.7 degree Fahrenheit)." [url:http\://en.wikipedia.org/wiki/Fever]
+def: "A fever that is characterized by an extreme elevation of body temperature greater than, or equal to, 41.5 degrees Celsius (106.7 degrees Fahrenheit)." [url:http\://en.wikipedia.org/wiki/Fever]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:38:55Z
@@ -5554,7 +5580,7 @@ creation_date: 2010-10-15T11:38:55Z
 [Term]
 id: SYMP:0000887
 name: Pel-Epstein fever
-def: "Pel-Epstein fever is a fever that is associated with Hodgkin's lymphoma where the fever alternates weekly from high to low." [url:http\://en.wikipedia.org/wiki/Fever]
+def: "A fever that is characterized by association with Hodgkin's lymphoma, where the fever alternates weekly from high to low." [url:http\://en.wikipedia.org/wiki/Fever]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:40:07Z
@@ -5562,7 +5588,7 @@ creation_date: 2010-10-15T11:40:07Z
 [Term]
 id: SYMP:0000888
 name: continuous fever
-def: "Continuous fever is a fever where temperature remains above normal throughout the day and does not fluctuate more than 1 degree Celsius in 24 hours." [url:http\://en.wikipedia.org/wiki/Fever#Types]
+def: "A fever that is characterized by a temperature remaining above normal throughout the day and which does not fluctuate more than 1 degree Celsius in 24 hours." [url:http\://en.wikipedia.org/wiki/Fever#Types]
 synonym: "continued fever" RELATED []
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
@@ -5571,7 +5597,7 @@ creation_date: 2010-10-15T11:42:19Z
 [Term]
 id: SYMP:0000889
 name: remittent fever
-def: "Remittent fever is a fever where the temperature remains above normal throughout the day and fluctuates more than 1degree Celsius in 24 hours." [url:http\://en.wikipedia.org/wiki/Fever#Types]
+def: "A fever that is characterized by a fever where the temperature remains above normal throughout the day and fluctuates more than 1 degree Celsius in 24 hours." [url:http\://en.wikipedia.org/wiki/Fever#Types]
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
 creation_date: 2010-10-15T11:42:19Z
@@ -5579,7 +5605,7 @@ creation_date: 2010-10-15T11:42:19Z
 [Term]
 id: SYMP:0000890
 name: relapsing fever
-def: "Relapsing fever is a fever where the body temperature periodically rises and falls." [url:https\://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever]
+def: "A fever that is characterized by  body temperature periodically rising and falling." [url:https\://www.merckmanuals.com/professional/infectious-diseases/spirochetes/relapsing-fever]
 comment: doid/symp duplicate
 is_a: SYMP:0000613 ! fever
 created_by: lschriml
@@ -5595,7 +5621,7 @@ creation_date: 2010-10-15T11:48:05Z
 [Term]
 id: SYMP:0000892
 name: sensation perception
-def: "Sensation perception is a nervous system symptom where the information perceived by sensory receptors are interpreted." [url:http\://www.audiblox2000.com/sensation-perception.htm]
+def: "A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors." [url:http\://www.audiblox2000.com/sensation-perception.htm]
 is_a: SYMP:0000480 ! nervous system symptom
 created_by: lschriml
 creation_date: 2010-10-15T11:54:30Z
@@ -5805,7 +5831,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 id: SYMP:0019161
 name: muscle pain
 alt_id: SYMP:0000626
-def: "Muscle pain is a pain characterized by pain in one or more muscles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=myalgia]
+def: "A pain that is characterized by a pain in one or more muscles." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=myalgia]
 synonym: "myalgia" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -5865,7 +5891,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0019171
 name: spondylitis
-def: "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis]
+def: "A nervous system symptom that is characterized by an inflammation of the vertebrae." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
@@ -5877,7 +5903,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0019173
 name: meningitis
-def: "Meningitis is a nervous system symptom characterized as an inflammation of the meninges and especially of the pia mater and the arachnoid." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis]
+def: "A nervous system symptom that is characterized by an inflammation of the meninges and especially of the pia mater and the arachnoid." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=meningitis]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -5896,13 +5922,13 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0019176
 name: malaise
-def: "Malaise is a neurological and physiological symptom characterized as an indefinite feeling of debility or lack of health often indicative of or accompanying the onset of an illness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise]
+def: "A neurological and physiological symptom that is characterized by an indefinite feeling of debility or lack of health, often indicative of or accompanying the onset of an illness." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=malaise]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
 id: SYMP:0019177
 name: fatigue
-def: "Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue]
+def: "A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -5914,9 +5940,9 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0019179
 name: lightheadedness
-def: "Lightheadedness is a neurological and physiological symptom characterized as the condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position, is a predictable consequence of any medication tending to lower blood pressure." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness]
+def: "A  balance symptom that is characterized by a condition of being dizzy or on the verge of fainting, particularly when one arises to a standing position. Lightheadedness is a predictable consequence of any medication tending to lower blood pressure." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=light-headedness]
 synonym: "light-headedness" EXACT []
-is_a: SYMP:0000410 ! neurological and physiological symptom
+is_a: SYMP:0020045 ! balance symptom
 
 [Term]
 id: SYMP:0019180
@@ -5933,13 +5959,13 @@ is_a: SYMP:0000385 ! throat symptom
 [Term]
 id: SYMP:0019182
 name: behavioral symptom
-def: "A nervous system symptom that involves, is related to, or emphasizes behavior." [url:http\://dictionary.cambridge.org/dictionary/english/behavioural]
+def: "A nervous system symptom that is characterized by an involvement, or relation to, or emphasizes behavior." [url:http\://dictionary.cambridge.org/dictionary/english/behavioural]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0019183
 name: hyperactivity
-def: "A behavioral symptom that is characterized by increased movement, impulsive actions, and a shorter attention span, and being easily distracted." [url:https\://medlineplus.gov/ency/article/003256.htm]
+def: "A behavioral symptom that is characterized by an increase in movement, impulsive actions, a shorter attention span, and being easily distracted." [url:https\://medlineplus.gov/ency/article/003256.htm]
 is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
@@ -5963,7 +5989,7 @@ is_a: SYMP:0019182 ! behavioral symptom
 [Term]
 id: SYMP:0019187
 name: repetitive behavior
-def: "A behavioral symptom characterized by unusual repetitive motor movements or manipulation of objects." [url:http\://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive]
+def: "A behavioral symptom that is characterized by an unusual repetitive motor movements or manipulation of objects." [url:http\://www.autism.org.uk/about/behaviour/obsessions-repetitive-routines.aspx##repetitive]
 synonym: "stimming" EXACT []
 is_a: SYMP:0019182 ! behavioral symptom
 
@@ -6025,6 +6051,7 @@ is_a: SYMP:0000320 ! vision symptom
 [Term]
 id: SYMP:0020006
 name: agitation
+def: "A neurological and physiological symptom that is characterized by a feeling of irritability or severe restlessness." [url:https\://www.ncbi.nlm.nih.gov/books/NBK493153/]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -6157,11 +6184,12 @@ is_a: SYMP:0000092 ! skin lesion
 [Term]
 id: SYMP:0020029
 name: concentration difficulty
+def: "An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs." [url:https\://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty]
 is_a: SYMP:0000482 ! alteration of consciousness
 
 [Term]
 id: SYMP:0020030
-name: patches of hair loss with a 'black dot' pattern
+name: patches of hair loss with a black dot pattern
 def: "A hair symptom that is characterized by patchy hair loss and the presence of comedo-like cadaver hairs, which appear as black dots." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC4148295/]
 is_a: SYMP:0000440 ! hair loss
 
@@ -6245,6 +6273,12 @@ id: SYMP:0020044
 name: hair shedding
 def: "A hair symptom that is characterized by significant falling out of hair, which may be a result of stress, high fever, and other factors." [url:https\://www.aad.org/public/diseases/hair-loss/insider/shedding]
 is_a: SYMP:0020040 ! hair symptom
+
+[Term]
+id: SYMP:0020045
+name: balance symptom
+def: "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation." [url:https\://www.nidcd.nih.gov/health/balance-disorders]
+is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Typedef]
 id: part_of
