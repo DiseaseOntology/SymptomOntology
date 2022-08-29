@@ -1138,7 +1138,7 @@ SubClassOf(obo:SYMP_0000005 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000006 (backache)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000006 "Backache is a pain occurring in the lower back."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=backache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000006 "A pain that is characterized by occurring in the lower back."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000006 "back pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000006 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000006 "SYMP:0000006"^^xsd:string)
@@ -1835,7 +1835,7 @@ SubClassOf(obo:SYMP_0000098 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000099 (pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000099 "A sensation perception characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000099 "A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000099 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000099 "SYMP:0000099"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000099 "pain"^^xsd:string)
@@ -2867,7 +2867,7 @@ SubClassOf(obo:SYMP_0000234 obo:SYMP_0000239)
 
 # Class: obo:SYMP_0000235 (colic)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000235 "Coilc is a pain characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000235 "A pain that is characterized by the condition marked by recurrent episodes of prolonged and uncontrollable crying and irritability in an otherwise healthy infant that is of unknown cause and usually subsides after three to four months of age."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000235 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000235 "SYMP:0000235"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000235 "colic"^^xsd:string)
@@ -2875,7 +2875,7 @@ SubClassOf(obo:SYMP_0000235 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000236 (colicky pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000236 "Colicky pain is a pain characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000236 "A pain that is characterized by an attack of acute abdominal pain localized in a hollow organ or part (as the small intestine, ureter, or bile duct) and often caused by spasm, obstruction, or twisting."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000236 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000236 "SYMP:0000236"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000236 "colicky pain"^^xsd:string)
@@ -4353,7 +4353,7 @@ SubClassOf(obo:SYMP_0000423 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000424 (claudication)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nature.com/nrd/journal/v2/n1/glossary/nrd985_glossary.html"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www.vasculardoc.net/content/glossary.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000424 "A pain that is a leg pain in the calf or thigh which is caused by inadequate blood flow to the leg muscles brought on by leg exercise such as walking."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nature.com/nrd/journal/v2/n1/glossary/nrd985_glossary.html"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www.vasculardoc.net/content/glossary.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000424 "A pain that is characterized by a leg pain in the calf, or thigh, which is caused by inadequate blood flow to the leg muscles and is brought on by leg exercise such as walking."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000424 "blockage of leg arteries"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000424 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000424 "SYMP:0000424"^^xsd:string)
@@ -4403,7 +4403,7 @@ SubClassOf(obo:SYMP_0000429 obo:SYMP_0000598)
 
 # Class: obo:SYMP_0000430 (pleuritic chest pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pleuritic_chest_pain"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleurisy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000430 "Pleuritic chest pain is a chest pain caused by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pleuritic_chest_pain"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=pleurisy"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000430 "A chest pain that is characterized by an inflammation of the pleural cavity with a sharp pain resulting from the exansion of the lungs as the inflammed pleural layers rub against each other."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000430 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000430 "SYMP:0000430"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000430 "pleuritic chest pain"^^xsd:string)
@@ -5052,7 +5052,7 @@ SubClassOf(obo:SYMP_0000493 obo:SYMP_0000385)
 
 # Class: obo:SYMP_0000494 (renal colic)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000494 "Renal colic is a colic characterized by the severe pain produced by the passage of a calculus from the kidney through the ureter."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=renal%20colic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000494 "A colic that is characterized by a severe pain produced by the passage of a calculus from the kidney through the ureter."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000494 "ICD9CM_2005:788.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000494 "UMLS_CUI:C0152169"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000494 "UMLS_ICD9CM_2005_AUI:A0265344"^^xsd:string)
@@ -5154,7 +5154,7 @@ SubClassOf(obo:SYMP_0000503 obo:SYMP_0000473)
 
 # Class: obo:SYMP_0000504 (headache)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000504 "Headache is a pain characterized by a pain in the head."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000504 "A pain that is characterized by a pain in the head."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000504 "ICD9CM_2005:784.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000504 "UMLS_CUI:C0018681"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000504 "UMLS_ICD9CM_2005_AUI:A0065994"^^xsd:string)
@@ -5166,7 +5166,7 @@ SubClassOf(obo:SYMP_0000504 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000505 (throat pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000505 "Throat pain is a pain that is characterized by a painful throat due to inflammation of the fauces and pharynx."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000505 "A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000505 "ICD9CM_2005:784.1"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000505 "UMLS_CUI:C0242429"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000505 "UMLS_ICD9CM_2005_AUI:A0284175"^^xsd:string)
@@ -7247,7 +7247,7 @@ SubClassOf(obo:SYMP_0000733 obo:SYMP_0000094)
 
 # Class: obo:SYMP_0000734 (stroke)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000734 "Stroke is a nervous system symptom characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000734 "A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "apoplexy"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "brain attack"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "cerebral accident"^^xsd:string)
@@ -7948,7 +7948,7 @@ SubClassOf(obo:SYMP_0000828 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000829 (neck pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000829 "Neck pain is a pain characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000829 "A pain that is characterized by an unpleasant sensation localized in the neck that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000829 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000829 "SYMP:0000829"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000829 "neck pain"^^xsd:string)
@@ -7956,7 +7956,7 @@ SubClassOf(obo:SYMP_0000829 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000830 (phantom pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000830 "Phantom pain is a pain where painful sensation that are perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000830 "A pain that is characterized by a painful sensation that is perceived to originate in the amputated portion of the extremety. Patients may have localized pain that originates in the stump."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000830 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000830 "SYMP:0000830"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000830 "phantom pain"^^xsd:string)
@@ -7964,7 +7964,7 @@ SubClassOf(obo:SYMP_0000830 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000831 (nociceptive pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000831 "Nociceptive pain is a pain originated other than peripheral and central nervous system, caused by activation of nociceptive fibers."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000831 "A pain that is characterized by originating from other than the peripheral and central nervous systems, and which is caused by activation of nociceptive fibers."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000831 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000831 "SYMP:0000831"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000831 "nociceptive pain"^^xsd:string)
@@ -7972,7 +7972,7 @@ SubClassOf(obo:SYMP_0000831 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000832 (neuropathic pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000832 "Neuropathic pain is a pain experienced by cancer patients caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000832 "A pain that is characterized by being experienced by cancer patients and which is caused by radiotherapy or chemotherapy damage to nerves, when cancer invades or compresses nerves, or when, during cancer treatment. This type of pain is typically described as burning, electrical, or strange feeling."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000832 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000832 "SYMP:0000832"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000832 "neuropathic pain"^^xsd:string)
@@ -7980,7 +7980,7 @@ SubClassOf(obo:SYMP_0000832 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000833 (visceral pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000833 "Visceral pain is a pain originated from organ tissues of the thorax, abdomen, or pelvis, It characterizes as deep, vague, difficult to locate pain that radiates away from the affected organ."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000833 "A pain that is characterized by originating from organ tissues of the thorax, abdomen, or pelvis.  It characterizes as deep, vague, and difficult to locate pain, that radiates away from the affected organ."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000833 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000833 "SYMP:0000833"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000833 "visceral pain"^^xsd:string)
@@ -8013,7 +8013,7 @@ SubClassOf(obo:SYMP_0000836 obo:SYMP_0000892)
 
 # Class: obo:SYMP_0000837 (chronic pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000837 "Chronic pain is a pain that can range from mild to severe, and continues beyond the expected healing phase."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000837 "A pain that is characterized by ranging from mild to severe and which continues beyond the expected healing phase."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000837 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000837 "SYMP:0000837"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000837 "chronic pain"^^xsd:string)
@@ -8021,7 +8021,7 @@ SubClassOf(obo:SYMP_0000837 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000838 (breakthrough pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000838 "Breakthrough pain is a pain that occurs with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000838 "A pain that is characterized by occurring with movement and is not controlled by a scheduled pain medication regimen, such that the pain breaks through the current regimen. This is usually referred to in the context of a short and long acting opioid, the short acting opioid being used to treat the breakthrough pain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000838 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000838 "SYMP:0000838"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000838 "breakthrough pain"^^xsd:string)
@@ -8029,7 +8029,7 @@ SubClassOf(obo:SYMP_0000838 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000839 (acute pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000839 "Acute pain is a pain that is severe but lasts a relatively short time."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000839 "A pain that is characterized by being severe but lasting a relatively short time."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000839 "sudden pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000839 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000839 "SYMP:0000839"^^xsd:string)
@@ -8038,7 +8038,7 @@ SubClassOf(obo:SYMP_0000839 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000840 (allodynia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000840 "Allodynia is a pain where there is a painful sensation with a normal, non painful stimulation."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000840 "A pain that is characterized by a painful sensation with a normal, non-painful stimulation."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000840 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000840 "SYMP:0000840"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000840 "allodynia"^^xsd:string)
@@ -8218,7 +8218,7 @@ SubClassOf(obo:SYMP_0000861 obo:SYMP_0000858)
 
 # Class: obo:SYMP_0000862 (referred pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000862 "Referred pain is a pain where pain is subjectively localized in one region though due to irritation in another region."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=referred%20pain"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000862 "A pain that is characterized by pain which is subjectively localized in one region although it is due to irritation in another region."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000862 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000862 "SYMP:0000862"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000862 "referred pain"^^xsd:string)
@@ -8746,7 +8746,7 @@ SubClassOf(obo:SYMP_0019160 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0019161 (muscle pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=myalgia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019161 "Muscle pain is a pain characterized by pain in one or more muscles."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=myalgia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019161 "A pain that is characterized by a pain in one or more muscles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasAlternativeId obo:SYMP_0019161 "SYMP:0000626"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019161 "myalgia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019161 "symptoms"^^xsd:string)
@@ -8827,7 +8827,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0019170 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0019171 (spondylitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019171 "Spondylitis is a nervous system symptom characterized by an inflammation of the vertebrae."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=spondylitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019171 "A nervous system symptom that is characterized by an inflammation of the vertebrae."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019171 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019171 "SYMP:0019171"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0019171 "doid/symp duplicate")
