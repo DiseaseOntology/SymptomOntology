@@ -1014,6 +1014,13 @@ Declaration(Class(obo:SYMP_0020042))
 Declaration(Class(obo:SYMP_0020043))
 Declaration(Class(obo:SYMP_0020044))
 Declaration(Class(obo:SYMP_0020045))
+Declaration(Class(obo:SYMP_0020046))
+Declaration(Class(obo:SYMP_0020047))
+Declaration(Class(obo:SYMP_0020048))
+Declaration(Class(obo:SYMP_0020049))
+Declaration(Class(obo:SYMP_0020050))
+Declaration(Class(obo:SYMP_0020051))
+Declaration(Class(obo:SYMP_0020052))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
@@ -4993,6 +5000,7 @@ SubClassOf(obo:SYMP_0000487 obo:SYMP_0000488)
 
 # Class: obo:SYMP_0000488 (skin and integumentary tissue symptom)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicinenet.com/peeling_skin/symptoms.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000488 "A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000488 "ICD9CM_2005:782"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000488 "ICD9CM_2005:782.9"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000488 "UMLS_CUI:C0159037"^^xsd:string)
@@ -7123,7 +7131,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webst
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000715 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000715 "SYMP:0000715"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000715 "skin desquamation"^^xsd:string)
-SubClassOf(obo:SYMP_0000715 obo:SYMP_0000488)
+SubClassOf(obo:SYMP_0000715 obo:SYMP_0020048)
 
 # Class: obo:SYMP_0000716 (swelling symptom)
 
@@ -9362,6 +9370,61 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020045 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020045 "SYMP:0020045"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020045 "balance symptom"@en)
 SubClassOf(obo:SYMP_0020045 obo:SYMP_0000410)
+
+# Class: obo:SYMP_0020046 (feeding problem)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1698-3_1666"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020046 "A feeding difficulties and mismanagement that is characterized by delays and/or disorders in the development of eating and drinking skills including disordered placement of food in the mouth, difficulty in appropriately manipulating food when it is in the mouth, difficulty chewing, and/or difficulty swallowing."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020046 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020046 "SYMP:0020046"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020046 "feeding problem"@en)
+SubClassOf(obo:SYMP_0020046 obo:SYMP_0000522)
+
+# Class: obo:SYMP_0020047 (descending muscle paralysis)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020047 "A paralysis that is characterized by a loss of motor function in one or more muscles, which can also be accompanied by a loss of feeling (sensory loss). Descending paralysis contrasts with ascending paralysis in that descending paralysis presents in the upper limbs before the lower limbs. Descending paralysis occurs in conditions such as botulism."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020047 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020047 "SYMP:0020047"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020047 "descending muscle paralysis"@en)
+SubClassOf(obo:SYMP_0020047 obo:SYMP_0000030)
+
+# Class: obo:SYMP_0020048 (skin peeling)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020048 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020048 "SYMP:0020048"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020048 "skin peeling"@en)
+SubClassOf(obo:SYMP_0020048 obo:SYMP_0000488)
+
+# Class: obo:SYMP_0020049 (delayed psychomotor development)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://pubmed.ncbi.nlm.nih.gov/23622146/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/parenting/baby/recognizing-developmental-delays-birth-age-2"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020049 "A nutrition, metabolism, and development symptom that is characterized by the delay in development child's cognitive, emotional, motor, and social capacities from the beginning of life throughout fetal and neonatal periods, infancy, childhood, and adolescence."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020049 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020049 "SYMP:0020049"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020049 "delayed psychomotor development"@en)
+SubClassOf(obo:SYMP_0020049 obo:SYMP_0000473)
+
+# Class: obo:SYMP_0020050 (decreased tearing)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/tear"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020050 "An eye symptom that is characterized by a reduction in the saline fluid secreted by the lacrimal gland."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020050 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020050 "SYMP:0020050"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020050 "decreased tearing"@en)
+SubClassOf(obo:SYMP_0020050 obo:SYMP_0019163)
+
+# Class: obo:SYMP_0020051 (decreased metabolism)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://simple.wikipedia.org/wiki/Metabolism"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020051 "A nutrition, metabolism, and development symptom that is characterized by a reduction in the chemical reactions catalyzed by enzymes, which keep us alive. Metabolism allows organisms to grow, reproduce, maintain their structures, and respond to their environments and can be divided into catabolism (breaking down of organic matter) and anabolism (building of molecules)."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020051 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020051 "SYMP:0020051"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020051 "decreased metabolism"@en)
+SubClassOf(obo:SYMP_0020051 obo:SYMP_0000473)
+
+# Class: obo:SYMP_0020052 (hand weakness)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.buoyhealth.com/learn/hand-weakness"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/hand-weakness"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020052 "A muscle weakness that is characterized by a reduction in muscle strength, which may be the result of a variety of conditions, such as carpal tunnel syndrome, arthritis, peripheral neuropathy, tendon damage, and ganglion cysts."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020052 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020052 "SYMP:0020052"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020052 "hand weakness"@en)
+SubClassOf(obo:SYMP_0020052 obo:SYMP_0000094)
 
 
 )
