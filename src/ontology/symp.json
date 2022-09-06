@@ -542,6 +542,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000764",
       "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain situated, or occurring, behind the eyeball.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/medical/retrobulbar" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -693,6 +697,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000768",
       "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain in, or about, a testis (testicle) or testes. Testicular pain can be caused by nerve damage, sexually transmitted infections, gangrene, swelling, hernia, kidney stones, inflammation, enlarged veins, fluid in the testicle, or a severe condition known as testicular torsion.",
+          "xrefs" : [ "url:https://www.healthline.com/health/testicle-pain" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1073,6 +1081,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000759",
       "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain situated, or occurring, in the parotid gland, which is a salivary gland located in front of the ears. (Additional salivary glands include the submandibular and sublingual glands.) Pain is attributed to swelling of the gland.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Parotid_gland", "url:https://en.wikipedia.org/wiki/Salivary_gland", "url:https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=zp4169" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "salivary gland pain",
@@ -1656,6 +1668,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000441",
       "meta" : {
+        "definition" : {
+          "val" : "A joint pain that is characterized by a pain situated, or occurring, in or around the elbow.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003172.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1713,6 +1729,20 @@
       "type" : "CLASS",
       "lbl" : "acute meningoencephalitis"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000443",
+      "meta" : {
+        "definition" : {
+          "val" : "A joint pain that is characterized by a pain situated, or occurring, in or around the shoulder.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003171.htm" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "shoulder pain"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000685",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1723,18 +1753,12 @@
       "type" : "CLASS",
       "lbl" : "brain cyst"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000443",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "shoulder pain"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000442",
       "meta" : {
+        "definition" : {
+          "val" : "A joint pain that is characterized by a pain situated, or occurring, in or around the knee.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003187.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -1813,6 +1837,16 @@
       "type" : "CLASS",
       "lbl" : "obsolete acute respiratory distress"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020048",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "skin peeling"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000444",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1846,6 +1880,34 @@
       },
       "type" : "CLASS",
       "lbl" : "chronic cough"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020049",
+      "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by the delay in development child's cognitive, emotional, motor, and social capacities from the beginning of life throughout fetal and neonatal periods, infancy, childhood, and adolescence.",
+          "xrefs" : [ "url:https://pubmed.ncbi.nlm.nih.gov/23622146/", "url:https://www.webmd.com/parenting/baby/recognizing-developmental-delays-birth-age-2" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "delayed psychomotor development"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020046",
+      "meta" : {
+        "definition" : {
+          "val" : "A feeding difficulties and mismanagement that is characterized by delays and/or disorders in the development of eating and drinking skills including disordered placement of food in the mouth, difficulty in appropriately manipulating food when it is in the mouth, difficulty chewing, and/or difficulty swallowing.",
+          "xrefs" : [ "url:https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1698-3_1666" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "feeding problem"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000447",
       "meta" : {
@@ -1921,6 +1983,20 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete acute suppurative lesions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020047",
+      "meta" : {
+        "definition" : {
+          "val" : "A paralysis that is characterized by a loss of motor function in one or more muscles, which can also be accompanied by a loss of feeling (sensory loss). Descending paralysis contrasts with ascending paralysis in that descending paralysis presents in the upper limbs before the lower limbs. Descending paralysis occurs in conditions such as botulism.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Paralysis" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "descending muscle paralysis"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020044",
       "meta" : {
@@ -2392,6 +2468,20 @@
       "type" : "CLASS",
       "lbl" : "acute gastroenteritis"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000438",
+      "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain in, or about, a tooth or teeth",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/toothache" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "toothache"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020033",
       "meta" : {
         "definition" : {
@@ -2405,16 +2495,6 @@
       },
       "type" : "CLASS",
       "lbl" : "paroxysmal cough"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000438",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "toothache"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0020034",
       "meta" : {
@@ -3852,6 +3932,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000488",
       "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury.",
+          "xrefs" : [ "url:https://www.medicinenet.com/peeling_skin/symptoms.htm", "url:https://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation" ]
+        },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:782"
         }, {
@@ -5119,6 +5203,48 @@
       },
       "type" : "CLASS",
       "lbl" : "receptive aphasia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020051",
+      "meta" : {
+        "definition" : {
+          "val" : "A nutrition, metabolism, and development symptom that is characterized by a reduction in the chemical reactions catalyzed by enzymes, which keep us alive. Metabolism allows organisms to grow, reproduce, maintain their structures, and respond to their environments and can be divided into catabolism (breaking down of organic matter) and anabolism (building of molecules).",
+          "xrefs" : [ "url:https://simple.wikipedia.org/wiki/Metabolism" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased metabolism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020052",
+      "meta" : {
+        "definition" : {
+          "val" : "A muscle weakness that is characterized by a reduction in muscle strength, which may be the result of a variety of conditions, such as carpal tunnel syndrome, arthritis, peripheral neuropathy, tendon damage, and ganglion cysts.",
+          "xrefs" : [ "url:https://www.buoyhealth.com/learn/hand-weakness", "url:https://www.medicalnewstoday.com/articles/hand-weakness" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hand weakness"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020050",
+      "meta" : {
+        "definition" : {
+          "val" : "An eye symptom that is characterized by a reduction in the saline fluid secreted by the lacrimal gland.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/tear" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased tearing"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000281",
       "meta" : {
@@ -6669,6 +6795,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000064",
       "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain situated, or occurring, in or around a joint.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003261.htm" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "arthromyalgia",
@@ -8553,6 +8683,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000632",
       "meta" : {
+        "definition" : {
+          "val" : "A joint pain that is characterized by a pain situated, or occurring, in or around the hip.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003179.htm" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -12408,6 +12542,25 @@
       "type" : "CLASS",
       "lbl" : "peritonitis"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000343",
+      "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain situated, or occurring, in the lymph gland (lymph node). Pain is often associated with swelling of the gland, which is a sign that one's body is fighting an infection.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Lymph_node", "url:https://www.nhs.uk/conditions/swollen-glands/", "url:https://www.webmd.com/a-to-z-guides/swollen-glands" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "painful lymph nodes",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "painful lymph glands"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000585",
       "meta" : {
         "xrefs" : [ {
@@ -12440,21 +12593,6 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolete partial paralysis"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/SYMP_0000343",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "painful lymph nodes",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "symptoms"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "painful lymph glands"
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000346",
       "meta" : {
@@ -12761,6 +12899,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000331",
       "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a continuous or prolonged dull pain.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/ache" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -13509,6 +13651,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000141",
       "meta" : {
+        "definition" : {
+          "val" : "A nervous system symptom that is characterized by an abnormal increase in muscle tone or stiffness of muscle, which might interfere with movement, speech, or be associated with discomfort or pain.",
+          "xrefs" : [ "url:https://www.ninds.nih.gov/health-information/disorders/spasticity" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -13710,6 +13856,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000131",
       "meta" : {
+        "definition" : {
+          "val" : "A joint pain that is characterized by a pain situated, or occurring, in or around a joint that is intense (severe).",
+          "xrefs" : [ "url:https://medical-dictionary.thefreedictionary.com/severe" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "intense join pain",
@@ -13879,6 +14029,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000379",
       "meta" : {
+        "definition" : {
+          "val" : "A muscle pain that is characterized by being severe in nature.  Myalgia may be acute in nature, stemming from overuse of a muscle group or viral infection.  It may also be chronic and caused by  metabolic myopathy, some nutritional deficiencies, and chronic fatigue syndrome.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Myalgia" ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "symptoms"
@@ -14949,13 +15103,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000366",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000364"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000378",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000377"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000364"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000367",
       "pred" : "is_a",
@@ -15505,13 +15659,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000582",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000590",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000582",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000332",
       "pred" : "is_a",
@@ -15605,6 +15759,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000508"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000715",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020048"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000216",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000508"
@@ -15677,13 +15835,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020003",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000369",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000134",
       "pred" : "is_a",
@@ -15769,13 +15927,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000773"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000241",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000852",
       "pred" : "is_a",
@@ -16485,13 +16643,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000396",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000254"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000383",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000384"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000396",
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020048",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000254"
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000835",
       "pred" : "is_a",
@@ -16553,13 +16715,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000799"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000247",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000285",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000247",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000554",
       "pred" : "is_a",
@@ -16573,13 +16735,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000773"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019152",
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020049",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019175"
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000473"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019175"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000615",
       "pred" : "is_a",
@@ -17029,6 +17195,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000853"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020046",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000522"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000076",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
@@ -17036,6 +17206,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000872",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020051",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000473"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000107",
       "pred" : "is_a",
@@ -17361,17 +17535,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000094"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000139",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000862",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000842",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000299"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000862",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000525",
       "pred" : "is_a",
@@ -17469,6 +17647,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020050",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020030",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000440"
@@ -17497,29 +17679,29 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000454",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000468",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000454"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000754",
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000454",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000576"
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000763",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000337",
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000754",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000576"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000374",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000196"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000337",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019149",
       "pred" : "is_a",
@@ -17628,10 +17810,6 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000293",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000715",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000804",
       "pred" : "is_a",
@@ -17837,6 +18015,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0020012"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000030"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000637",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
@@ -17892,7 +18074,7 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "29:08:2022 13:57"
+        "val" : "06:09:2022 13:17"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "symptoms"
@@ -17903,7 +18085,7 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "lschriml"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-08-29/symp.owl"
+      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-09-06/symp.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

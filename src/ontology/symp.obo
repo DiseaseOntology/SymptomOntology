@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-08-29/symp.obo
-date: 29:08:2022 13:57
+data-version: releases/2022-09-06/symp.obo
+date: 06:09:2022 13:17
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -366,6 +366,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000064
 name: joint pain
+def: "A pain that is characterized by a pain situated, or occurring, in or around a joint." [url:https\://medlineplus.gov/ency/article/003261.htm]
 synonym: "arthralgia" EXACT []
 synonym: "arthromyalgia" EXACT []
 is_a: SYMP:0000099 ! pain
@@ -731,6 +732,7 @@ is_a: SYMP:0000504 ! headache
 [Term]
 id: SYMP:0000131
 name: severe joint pain
+def: "A joint pain that is characterized by a pain situated, or occurring, in or around a joint that is intense (severe)." [url:https\://medical-dictionary.thefreedictionary.com/severe]
 synonym: "intense join pain" EXACT []
 is_a: SYMP:0000064 ! joint pain
 
@@ -786,6 +788,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000141
 name: spasticity
+def: "A nervous system symptom that is characterized by an abnormal increase in muscle tone or stiffness of muscle, which might interfere with movement, speech, or be associated with discomfort or pain." [url:https\://www.ninds.nih.gov/health-information/disorders/spasticity]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -1879,6 +1882,7 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000331
 name: muscles ache
+def: "A pain that is characterized by a continuous or prolonged dull pain." [url:https\://www.merriam-webster.com/dictionary/ache]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -1948,6 +1952,7 @@ is_a: SYMP:0000386 ! mouth symptom
 [Term]
 id: SYMP:0000343
 name: painful lymph glands
+def: "A pain that is characterized by a pain situated, or occurring, in the lymph gland (lymph node). Pain is often associated with swelling of the gland, which is a sign that one's body is fighting an infection." [url:https\://en.wikipedia.org/wiki/Lymph_node, url:https\://www.nhs.uk/conditions/swollen-glands/, url:https\://www.webmd.com/a-to-z-guides/swollen-glands]
 synonym: "painful lymph nodes" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -2162,6 +2167,7 @@ is_a: SYMP:0000377 ! mastitis
 [Term]
 id: SYMP:0000379
 name: severe myalgia
+def: "A muscle pain that is characterized by being severe in nature.  Myalgia may be acute in nature, stemming from overuse of a muscle group or viral infection.  It may also be chronic and caused by  metabolic myopathy, some nutritional deficiencies, and chronic fatigue syndrome." [url:https\://en.wikipedia.org/wiki/Myalgia]
 is_a: SYMP:0019161 ! muscle pain
 
 [Term]
@@ -2520,6 +2526,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000438
 name: toothache
+def: "A pain that is characterized by a pain in, or about, a tooth or teeth" [url:https\://www.merriam-webster.com/dictionary/toothache]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -2538,16 +2545,19 @@ is_a: SYMP:0020040 ! hair symptom
 [Term]
 id: SYMP:0000441
 name: elbow pain
+def: "A joint pain that is characterized by a pain situated, or occurring, in or around the elbow." [url:https\://medlineplus.gov/ency/article/003172.htm]
 is_a: SYMP:0000064 ! joint pain
 
 [Term]
 id: SYMP:0000442
 name: knee pain
+def: "A joint pain that is characterized by a pain situated, or occurring, in or around the knee." [url:https\://medlineplus.gov/ency/article/003187.htm]
 is_a: SYMP:0000064 ! joint pain
 
 [Term]
 id: SYMP:0000443
 name: shoulder pain
+def: "A joint pain that is characterized by a pain situated, or occurring, in or around the shoulder." [url:https\://medlineplus.gov/ency/article/003171.htm]
 is_a: SYMP:0000064 ! joint pain
 
 [Term]
@@ -2929,6 +2939,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000488
 name: skin and integumentary tissue symptom
+def: "A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury." [url:https\://www.medicinenet.com/peeling_skin/symptoms.htm, url:https\://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation]
 xref: ICD9CM_2005:782
 xref: ICD9CM_2005:782.9
 xref: UMLS_CUI:C0159037
@@ -4173,6 +4184,7 @@ is_a: SYMP:0000208 ! anemia
 [Term]
 id: SYMP:0000632
 name: hip pain
+def: "A joint pain that is characterized by a pain situated, or occurring, in or around the hip." [url:https\://medlineplus.gov/ency/article/003179.htm]
 is_a: SYMP:0000064 ! joint pain
 
 [Term]
@@ -4609,7 +4621,7 @@ is_a: SYMP:0019163 ! eye symptom
 id: SYMP:0000715
 name: skin desquamation
 def: "A skin and integumentary tissue symptom that is characterized by the peeling off of skin in the form of scales." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=desquamation]
-is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+is_a: SYMP:0020048 ! skin peeling
 
 [Term]
 id: SYMP:0000716
@@ -4849,6 +4861,7 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000759
 name: parotid pain
+def: "A pain that is characterized by a pain situated, or occurring, in the parotid gland, which is a salivary gland located in front of the ears. (Additional salivary glands include the submandibular and sublingual glands.) Pain is attributed to swelling of the gland." [url:https\://en.wikipedia.org/wiki/Parotid_gland, url:https\://en.wikipedia.org/wiki/Salivary_gland, url:https\://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=zp4169]
 synonym: "salivary gland pain" EXACT []
 is_a: SYMP:0000099 ! pain
 
@@ -4877,6 +4890,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000764
 name: retrobulbar pain
+def: "A pain that is characterized by a pain situated, or occurring, behind the eyeball." [url:https\://www.merriam-webster.com/medical/retrobulbar]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -4897,6 +4911,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000768
 name: testicular pain
+def: "A pain that is characterized by a pain in, or about, a testis (testicle) or testes. Testicular pain can be caused by nerve damage, sexually transmitted infections, gangrene, swelling, hernia, kidney stones, inflammation, enlarged veins, fluid in the testicle, or a severe condition known as testicular torsion." [url:https\://www.healthline.com/health/testicle-pain]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -6279,6 +6294,47 @@ id: SYMP:0020045
 name: balance symptom
 def: "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation." [url:https\://www.nidcd.nih.gov/health/balance-disorders]
 is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0020046
+name: feeding problem
+def: "A feeding difficulties and mismanagement that is characterized by delays and/or disorders in the development of eating and drinking skills including disordered placement of food in the mouth, difficulty in appropriately manipulating food when it is in the mouth, difficulty chewing, and/or difficulty swallowing." [url:https\://link.springer.com/referenceworkentry/10.1007/978-1-4419-1698-3_1666]
+is_a: SYMP:0000522 ! feeding difficulties and mismanagement
+
+[Term]
+id: SYMP:0020047
+name: descending muscle paralysis
+def: "A paralysis that is characterized by a loss of motor function in one or more muscles, which can also be accompanied by a loss of feeling (sensory loss). Descending paralysis contrasts with ascending paralysis in that descending paralysis presents in the upper limbs before the lower limbs. Descending paralysis occurs in conditions such as botulism." [url:https\://en.wikipedia.org/wiki/Paralysis]
+is_a: SYMP:0000030 ! paralysis
+
+[Term]
+id: SYMP:0020048
+name: skin peeling
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0020049
+name: delayed psychomotor development
+def: "A nutrition, metabolism, and development symptom that is characterized by the delay in development child's cognitive, emotional, motor, and social capacities from the beginning of life throughout fetal and neonatal periods, infancy, childhood, and adolescence." [url:https\://pubmed.ncbi.nlm.nih.gov/23622146/, url:https\://www.webmd.com/parenting/baby/recognizing-developmental-delays-birth-age-2]
+is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
+
+[Term]
+id: SYMP:0020050
+name: decreased tearing
+def: "An eye symptom that is characterized by a reduction in the saline fluid secreted by the lacrimal gland." [url:https\://www.merriam-webster.com/dictionary/tear]
+is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0020051
+name: decreased metabolism
+def: "A nutrition, metabolism, and development symptom that is characterized by a reduction in the chemical reactions catalyzed by enzymes, which keep us alive. Metabolism allows organisms to grow, reproduce, maintain their structures, and respond to their environments and can be divided into catabolism (breaking down of organic matter) and anabolism (building of molecules)." [url:https\://simple.wikipedia.org/wiki/Metabolism]
+is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
+
+[Term]
+id: SYMP:0020052
+name: hand weakness
+def: "A muscle weakness that is characterized by a reduction in muscle strength, which may be the result of a variety of conditions, such as carpal tunnel syndrome, arthritis, peripheral neuropathy, tendon damage, and ganglion cysts." [url:https\://www.buoyhealth.com/learn/hand-weakness, url:https\://www.medicalnewstoday.com/articles/hand-weakness]
+is_a: SYMP:0000094 ! muscle weakness
 
 [Typedef]
 id: part_of
