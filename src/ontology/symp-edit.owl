@@ -1574,6 +1574,7 @@ SubClassOf(obo:SYMP_0000063 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000064 (joint pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003261.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000064 "A pain that is characterized by a pain situated, or occurring, in or around a joint."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000064 "arthralgia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000064 "arthromyalgia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000064 "symptoms"^^xsd:string)
@@ -2073,6 +2074,7 @@ SubClassOf(obo:SYMP_0000130 obo:SYMP_0000504)
 
 # Class: obo:SYMP_0000131 (severe joint pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/severe"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000131 "A joint pain that is characterized by a pain situated, or occurring, in or around a joint that is intense (severe)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000131 "intense join pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000131 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000131 "SYMP:0000131"^^xsd:string)
@@ -2148,6 +2150,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000140 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000141 (spasticity)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ninds.nih.gov/health-information/disorders/spasticity"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000141 "A nervous system symptom that is characterized by an abnormal increase in muscle tone or stiffness of muscle, which might interfere with movement, speech, or be associated with discomfort or pain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000141 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000141 "SYMP:0000141"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000141 "spasticity"^^xsd:string)
@@ -3619,6 +3622,7 @@ SubClassOf(obo:SYMP_0000330 obo:SYMP_0000386)
 
 # Class: obo:SYMP_0000331 (muscles ache)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/ache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000331 "A pain that is characterized by a continuous or prolonged dull pain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000331 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000331 "SYMP:0000331"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000331 "muscles ache"^^xsd:string)
@@ -3712,6 +3716,7 @@ SubClassOf(obo:SYMP_0000342 obo:SYMP_0000386)
 
 # Class: obo:SYMP_0000343 (painful lymph glands)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Lymph_node"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nhs.uk/conditions/swollen-glands/"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/a-to-z-guides/swollen-glands"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000343 "A pain that is characterized by a pain situated, or occurring, in the lymph gland (lymph node). Pain is often associated with swelling of the gland, which is a sign that one's body is fighting an infection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000343 "painful lymph nodes"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000343 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000343 "SYMP:0000343"^^xsd:string)
@@ -3998,6 +4003,7 @@ SubClassOf(obo:SYMP_0000378 obo:SYMP_0000377)
 
 # Class: obo:SYMP_0000379 (severe myalgia)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Myalgia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000379 "A muscle pain that is characterized by being severe in nature.  Myalgia may be acute in nature, stemming from overuse of a muscle group or viral infection.  It may also be chronic and caused by  metabolic myopathy, some nutritional deficiencies, and chronic fatigue syndrome."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000379 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000379 "SYMP:0000379"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000379 "severe myalgia"^^xsd:string)
@@ -4474,6 +4480,7 @@ SubClassOf(obo:SYMP_0000437 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000438 (toothache)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/toothache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000438 "A pain that is characterized by a pain in, or about, a tooth or teeth"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000438 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000438 "SYMP:0000438"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000438 "toothache"^^xsd:string)
@@ -4498,6 +4505,7 @@ SubClassOf(obo:SYMP_0000440 obo:SYMP_0020040)
 
 # Class: obo:SYMP_0000441 (elbow pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003172.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000441 "A joint pain that is characterized by a pain situated, or occurring, in or around the elbow."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000441 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000441 "SYMP:0000441"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000441 "elbow pain"^^xsd:string)
@@ -4505,6 +4513,7 @@ SubClassOf(obo:SYMP_0000441 obo:SYMP_0000064)
 
 # Class: obo:SYMP_0000442 (knee pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003187.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000442 "A joint pain that is characterized by a pain situated, or occurring, in or around the knee."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000442 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000442 "SYMP:0000442"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000442 "knee pain"^^xsd:string)
@@ -4512,6 +4521,7 @@ SubClassOf(obo:SYMP_0000442 obo:SYMP_0000064)
 
 # Class: obo:SYMP_0000443 (shoulder pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003171.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000443 "A joint pain that is characterized by a pain situated, or occurring, in or around the shoulder."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000443 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000443 "SYMP:0000443"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000443 "shoulder pain"^^xsd:string)
@@ -6513,6 +6523,7 @@ SubClassOf(obo:SYMP_0000631 obo:SYMP_0000208)
 
 # Class: obo:SYMP_0000632 (hip pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003179.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000632 "A joint pain that is characterized by a pain situated, or occurring, in or around the hip."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000632 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000632 "SYMP:0000632"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000632 "hip pain"^^xsd:string)
@@ -7437,6 +7448,7 @@ SubClassOf(obo:SYMP_0000758 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000759 (parotid pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Parotid_gland"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Salivary_gland"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://myhealth.alberta.ca/Health/aftercareinformation/pages/conditions.aspx?hwid=zp4169"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000759 "A pain that is characterized by a pain situated, or occurring, in the parotid gland, which is a salivary gland located in front of the ears. (Additional salivary glands include the submandibular and sublingual glands.) Pain is attributed to swelling of the gland."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000759 "salivary gland pain"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000759 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000759 "SYMP:0000759"^^xsd:string)
@@ -7475,6 +7487,7 @@ SubClassOf(obo:SYMP_0000763 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000764 (retrobulbar pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/medical/retrobulbar"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000764 "A pain that is characterized by a pain situated, or occurring, behind the eyeball."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000764 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000764 "SYMP:0000764"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000764 "retrobulbar pain"^^xsd:string)
@@ -7503,6 +7516,7 @@ SubClassOf(obo:SYMP_0000767 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000768 (testicular pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/testicle-pain"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000768 "A pain that is characterized by a pain in, or about, a testis (testicle) or testes. Testicular pain can be caused by nerve damage, sexually transmitted infections, gangrene, swelling, hernia, kidney stones, inflammation, enlarged veins, fluid in the testicle, or a severe condition known as testicular torsion."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000768 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000768 "SYMP:0000768"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000768 "testicular pain"^^xsd:string)
