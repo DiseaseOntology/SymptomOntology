@@ -2,6 +2,14 @@
 
 ## 2022 Releases
 
+### [v2022-09-06](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-09-06)
+
+Added definitions, reformatted current definitions for consistency, added database cross references and added synonyms (exact & related), to nervous system symptom branch and new terms to various branches throughout the ontology.
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-09-06/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-09-06/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-09-06/src/ontology/symp.json) |
+
 ### [v2022-08-29](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-08-29)
 
 Added definitions, reformatted current definitions for consistency, added database cross references and added synonyms (exact & related), to neurological and physiological symptom & nervous system symptom branches.
