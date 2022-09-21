@@ -2716,6 +2716,7 @@ SubClassOf(obo:SYMP_0000214 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000215 (inability to comprehend speech)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/aphasia#causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000215 "An aphasia that is characterized by a loss of ability to comprehend speech."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000215 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000215 "SYMP:0000215"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000215 "inability to comprehend speech"^^xsd:string)
@@ -2723,6 +2724,7 @@ SubClassOf(obo:SYMP_0000215 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000216 (inability to speak)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/aphasia#causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000216 "An aphasia that is characterized by a loss of ability to speak."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000216 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000216 "SYMP:0000216"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000216 "inability to speak"^^xsd:string)
@@ -2730,6 +2732,7 @@ SubClassOf(obo:SYMP_0000216 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000217 (inability to form words)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/aphasia#causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000217 "An aphasia that is characterized by a loss of ability to form words."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000217 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000217 "SYMP:0000217"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000217 "inability to form words"^^xsd:string)
@@ -2737,6 +2740,7 @@ SubClassOf(obo:SYMP_0000217 obo:SYMP_0000508)
 
 # Class: obo:SYMP_0000218 (poor enunciation)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/aphasia#causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nidcd.nih.gov/health/aphasia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000218 "An aphasia that is characterized by a loss of ability to properly enunciate words."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000218 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000218 "SYMP:0000218"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000218 "poor enunciation"^^xsd:string)
@@ -6155,6 +6159,7 @@ SubClassOf(obo:SYMP_0000593 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000594 (abnormal involuntary movement)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://patient.info/doctor/abnormal-involuntary-movements"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://stanfordmedicine25.stanford.edu/the25/involuntary-movements-and-tremors.html"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000594 "A nervous system symptom that is characterized by an inability to control bodily movement and may be a symptom of cerebrovascular diseases, dyskinesia, tremor, chorea, dystonia and myoclonus."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000594 "ICD9CM_2005:781.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000594 "UMLS_CUI:C0392702"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000594 "UMLS_ICD9CM_2005_AUI:A0243762"^^xsd:string)
@@ -6789,6 +6794,7 @@ SubClassOf(obo:SYMP_0000665 obo:SYMP_0019163)
 
 # Class: obo:SYMP_0000666 (abnormal behavior)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.betterhelp.com/advice/behavior/what-is-abnormal-behavior/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000666 "A behavioral symptom that is characterized by behavior that is atypical or statistically uncommon within a particular culture, or that is maladaptive, or detrimental to an individual, or those around that individual."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000666 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000666 "SYMP:0000666"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000666 "abnormal behavior"^^xsd:string)
@@ -6863,6 +6869,7 @@ SubClassOf(obo:SYMP_0000677 obo:SYMP_0019159)
 
 # Class: obo:SYMP_0000678 (acute mental dysfunction)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.who.int/news-room/fact-sheets/detail/mental-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000678 "A nervous system symptom that is characterized by a severe and sudden onset of disturbance in the normal operation of one's cognition, emotional regulation, or behaviour."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000678 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000678 "SYMP:0000678"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000678 "acute mental dysfunction"^^xsd:string)
@@ -6886,6 +6893,7 @@ SubClassOf(obo:SYMP_0000680 obo:SYMP_0000178)
 
 # Class: obo:SYMP_0000681 (aggressive behavior)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/aggressive-behavior"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000681 "A behavioral symptom that is characterized by behavior aimed at harming a person, or animal, or damaging physical property."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000681 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000681 "SYMP:0000681"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000681 "aggressive behavior"^^xsd:string)
@@ -6893,6 +6901,7 @@ SubClassOf(obo:SYMP_0000681 obo:SYMP_0019182)
 
 # Class: obo:SYMP_0000682 (altered mental status)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_Psychiatry_Guide/787028/all/Altered_Mental_Status"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000682 "A nervous system symptom that is characterized by a host of presentations that include changes in cognition, mood, behavior, and/or level of arousal."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000682 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000682 "SYMP:0000682"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000682 "altered mental status"^^xsd:string)
@@ -6938,6 +6947,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000687 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000688 (circling movement)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3434216/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000688 "An abnormal involuntary movement that is characterized by an inability to walk in a straight line."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000688 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000688 "SYMP:0000688"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000688 "circling movement"^^xsd:string)
