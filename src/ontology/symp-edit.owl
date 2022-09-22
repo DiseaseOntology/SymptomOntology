@@ -3604,6 +3604,7 @@ SubClassOf(obo:SYMP_0000326 obo:SYMP_0000059)
 
 # Class: obo:SYMP_0000327 (tetanic convulsion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/tetanic"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000327 "A convulsion that is characterized by a tonic spasm (prolonged contraction of the muscles), without loss of consciousness and often associated with hypocalcemia."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000327 "tetanic convulsions"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000327 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000327 "SYMP:0000327"^^xsd:string)
@@ -4669,6 +4670,7 @@ SubClassOf(obo:SYMP_0000456 obo:SYMP_0000457)
 
 # Class: obo:SYMP_0000457 (abdominal pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003120.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000457 "A pain that is characterized by occurring in the abdomen, i.e. between one's chest and groin."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "ICD9CM_2005:789.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "ICD9CM_2005:789.00"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "UMLS_CUI:C0000737"^^xsd:string)
@@ -6170,9 +6172,11 @@ SubClassOf(obo:SYMP_0000594 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000595 (febrile convulsion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ninds.nih.gov/febrile-seizures-fact-sheet"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.webmd.com/a-to-z-guides/swollen-glands"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000595 "A convulsion that is characterized by occurring in young children between six months and five years of age and which is triggered by fever."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000595 "ICD9CM_2005:780.31"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000595 "UMLS_CUI:C0009952"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000595 "UMLS_ICD9CM_2005_AUI:A0701466"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000595 "febrile seizure"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000595 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000595 "SYMP:0000595"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000595 "febrile convulsion"^^xsd:string)
@@ -6180,6 +6184,7 @@ SubClassOf(obo:SYMP_0000595 obo:SYMP_0000596)
 
 # Class: obo:SYMP_0000596 (convulsion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/convulsion"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000596 "A nervous system symptom that is characterized by an abnormal violent and involuntary contraction or series of contractions of the muscles."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000596 "ICD9CM_2005:780.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000596 "UMLS_CUI:C0009951"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000596 "UMLS_ICD9CM_2005_AUI:A0042665"^^xsd:string)
