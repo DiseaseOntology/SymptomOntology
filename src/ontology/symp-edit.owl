@@ -4670,7 +4670,7 @@ SubClassOf(obo:SYMP_0000456 obo:SYMP_0000457)
 
 # Class: obo:SYMP_0000457 (abdominal pain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003120.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000457 "A pain that is characterized by occurring in the abdomen, i.e. between one's chest and groin."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/003120.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000457 "A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "ICD9CM_2005:789.0"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "ICD9CM_2005:789.00"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000457 "UMLS_CUI:C0000737"^^xsd:string)
@@ -5600,6 +5600,7 @@ SubClassOf(obo:SYMP_0000541 obo:SYMP_0000478)
 
 # Class: obo:SYMP_0000542 (epigastric abdominal pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://info.isabelhealthcare.com/blog/why-does-my-stomach-hurt-epigastric-pain-symptoms-and-causes"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/epigastric-pain"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000542 "An abdominal pain that is characterized by occurring in the epigastrium, i.e. the upper part of the abdomen below the rib cage."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000542 "ICD9CM_2005:789.06"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000542 "UMLS_CUI:C0232493"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000542 "UMLS_ICD9CM_2005_AUI:A0637130"^^xsd:string)
