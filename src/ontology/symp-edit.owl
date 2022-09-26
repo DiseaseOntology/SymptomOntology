@@ -4660,6 +4660,7 @@ SubClassOf(obo:SYMP_0000455 obo:SYMP_0000403)
 
 # Class: obo:SYMP_0000456 (left upper quadrant abdominal pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.buoyhealth.com/learn/pain-upper-left-abdomen"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000456 "An abdominal pain that is characterized by occurring in the left upper quadrant abdominal pain of the abdomen that can be caused by a stomach ulcer, acute gastritis, a viral infection, or indigestion, or may be an issue with one's lungs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000456 "ICD9CM_2005:789.02"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000456 "UMLS_CUI:C0238552"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000456 "UMLS_ICD9CM_2005_AUI:A0637133"^^xsd:string)
@@ -5339,6 +5340,7 @@ SubClassOf(obo:SYMP_0000517 obo:SYMP_0000514)
 
 # Class: obo:SYMP_0000518 (generalized abdominal pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/generalization"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/generalized"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000518 "An abdominal pain that is characterized by being diffuse or widespread and affecting or involving all of the abdomen."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000518 "ICD9CM_2005:789.07"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000518 "UMLS_CUI:C0344304"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000518 "UMLS_ICD9CM_2005_AUI:A0637131"^^xsd:string)
@@ -6450,6 +6452,7 @@ SubClassOf(obo:SYMP_0000619 obo:SYMP_0000891)
 
 # Class: obo:SYMP_0000620 (left lower quadrant abdominal pain)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/left-lower-quadrant-pain"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000620 "An abdominal pain that is characterized by occurring in the left lower quadrant of the abdomen that is often related to the digestive tract, but can also be related to conditions of the body wall, skin, blood vessels, urinary tract, or reproductive organs."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000620 "ICD9CM_2005:789.04"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000620 "UMLS_CUI:C0238551"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000620 "UMLS_ICD9CM_2005_AUI:A0637132"^^xsd:string)
