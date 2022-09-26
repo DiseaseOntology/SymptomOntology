@@ -3632,13 +3632,13 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000330 "SYMP:0000330"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000330 "mouth sore"^^xsd:string)
 SubClassOf(obo:SYMP_0000330 obo:SYMP_0000386)
 
-# Class: obo:SYMP_0000331 (muscles ache)
+# Class: obo:SYMP_0000331 (muscle ache)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/ache"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000331 "A pain that is characterized by a continuous or prolonged dull pain."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000331 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000331 "SYMP:0000331"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000331 "muscles ache"^^xsd:string)
-SubClassOf(obo:SYMP_0000331 obo:SYMP_0000099)
+AnnotationAssertion(rdfs:label obo:SYMP_0000331 "muscle ache"^^xsd:string)
+SubClassOf(obo:SYMP_0000331 obo:SYMP_0019161)
 
 # Class: obo:SYMP_0000332 (muscle soreness)
 
