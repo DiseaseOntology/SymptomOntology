@@ -2331,10 +2331,12 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000163 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000164 (incoordination)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/home/brain,-spinal-cord,-and-nerve-disorders/movement-disorders/coordination-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000164 "A coordination symptom that is characterized by a loss of complicated body movements, which may be caused by disease, injury, or toxins."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000164 "lack of coordination"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000164 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000164 "SYMP:0000164"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000164 "incoordination"^^xsd:string)
-SubClassOf(obo:SYMP_0000164 obo:SYMP_0000615)
+SubClassOf(obo:SYMP_0000164 obo:SYMP_0000079)
 
 # Class: obo:SYMP_0000165 (obsolete upper respiratory distress)
 
@@ -6404,15 +6406,16 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000614 "SYMP:0000614"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000614 "cough"^^xsd:string)
 SubClassOf(obo:SYMP_0000614 obo:SYMP_0000514)
 
-# Class: obo:SYMP_0000615 (lack of coordination)
+# Class: obo:SYMP_0000615 (obsolete lack of coordination)
 
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000615 obo:SYMP_0000164)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000615 "ICD9CM_2005:781.3"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000615 "UMLS_CUI:C0520966"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000615 "UMLS_ICD9CM_2005_AUI:A0243769"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000615 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000615 "SYMP:0000615"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000615 "lack of coordination"^^xsd:string)
-SubClassOf(obo:SYMP_0000615 obo:SYMP_0000079)
+AnnotationAssertion(rdfs:label obo:SYMP_0000615 "obsolete lack of coordination"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000615 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000616 (loss of height)
 
