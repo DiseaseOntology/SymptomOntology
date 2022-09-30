@@ -1694,6 +1694,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000078 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000079 (coordination symptom)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/coordinations"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000079 "A nervous system symptom that is characterized by the harmonious functioning of interrelated organs and body parts; in particular the working together of muscle groups in the execution of complicated movements."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000079 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000079 "SYMP:0000079"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000079 "coordination symptom"^^xsd:string)
@@ -1775,6 +1776,7 @@ SubClassOf(obo:SYMP_0000089 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000090 (encephalitis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/encephalitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000090 "A nervous system symptom that is characterized by inflammation of the brain tissue, which is typically caused by a viral infection, but it may also be caused by bacterial or parasitic infections, cancer, or certain drugs or toxins."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000090 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000090 "SYMP:0000090"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000090 "doid/symp duplicate")
@@ -1783,6 +1785,7 @@ SubClassOf(obo:SYMP_0000090 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000091 (mild encephalitis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.macmillandictionary.com/us/dictionary/american/mild_1"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000091 "An encephalitis that is not intense (not severe)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000091 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000091 "SYMP:0000091"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000091 "mild encephalitis"^^xsd:string)
@@ -2603,6 +2606,7 @@ SubClassOf(obo:SYMP_0000200 obo:SYMP_0019169)
 
 # Class: obo:SYMP_0000201 (acute meningoencephalitis)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000201 "A meningoencephalitis that is characterized by a severe and sudden onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000201 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000201 "SYMP:0000201"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000201 "acute meningoencephalitis"^^xsd:string)
@@ -3427,6 +3431,7 @@ SubClassOf(obo:SYMP_0000303 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000304 (impaired coordination)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/movement-uncoordinated"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.merckmanuals.com/home/brain,-spinal-cord,-and-nerve-disorders/movement-disorders/coordination-disorders"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000304 "A coordination symptom that is characterized by weakened or imperfect body complicated  movement, which may be caused by disease, injury, or toxins."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000304 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000304 "SYMP:0000304"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000304 "impaired coordination"^^xsd:string)
@@ -3613,6 +3618,7 @@ SubClassOf(obo:SYMP_0000327 obo:SYMP_0000596)
 
 # Class: obo:SYMP_0000328 (mild tetanic convulsion)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.macmillandictionary.com/us/dictionary/american/mild_1"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000328 "A tetanic convulsion that is not intense (not severe)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000328 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000328 "SYMP:0000328"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000328 "mild tetanic convulsion"^^xsd:string)
@@ -6886,7 +6892,7 @@ SubClassOf(obo:SYMP_0000678 obo:SYMP_0000480)
 
 # Class: obo:SYMP_0000679 (acute dyspnea)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000679 "A dyspnea that is characterized by a severe and sudden in onset."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000679 "A dyspnea that is characterized by a severe and sudden onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000679 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000679 "SYMP:0000679"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000679 "acute dyspnea"^^xsd:string)
@@ -6894,7 +6900,7 @@ SubClassOf(obo:SYMP_0000679 obo:SYMP_0019153)
 
 # Class: obo:SYMP_0000680 (acute weight loss)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000680 "A weight loss that is characterized by a severe and sudden in onset."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000680 "A weight loss that is characterized by a severe and sudden onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000680 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000680 "SYMP:0000680"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000680 "acute weight loss"^^xsd:string)
@@ -9065,6 +9071,7 @@ SubClassOf(obo:SYMP_0020003 obo:SYMP_0000146)
 
 # Class: obo:SYMP_0020004 (ageusia)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK549775/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020004 "A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020004 "loss of taste"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020004 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020004 "SYMP:0020004"^^xsd:string)
@@ -9158,7 +9165,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0020015 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0020016 (acute weight gain)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020016 "A weight gain that is characterized by a severe and sudden in onset."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/imagepages/18126.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020016 "A weight gain that is characterized by a severe and sudden onset."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020016 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020016 "SYMP:0020016"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020016 "acute weight gain"^^xsd:string)
