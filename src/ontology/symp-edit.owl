@@ -4004,7 +4004,7 @@ SubClassOf(obo:SYMP_0000376 obo:SYMP_0000570)
 
 # Class: obo:SYMP_0000377 (mastitis)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000377 "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000377 "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "inflammation of mammary breast"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "mammitis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000377 "symptoms"^^xsd:string)
@@ -6638,7 +6638,7 @@ AnnotationAssertion(owl:deprecated obo:SYMP_0000642 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000643 (respiratory failure)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.nhlbi.nih.gov/health/respiratory-failure"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000643 "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannott get enough oxygen into the blood."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.nhlbi.nih.gov/health/respiratory-failure"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000643 "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannot get enough oxygen into the blood."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000643 "respiratory dysfunction"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000643 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000643 "SYMP:0000643"^^xsd:string)
