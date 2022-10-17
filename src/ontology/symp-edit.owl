@@ -3141,13 +3141,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000264 "SYMP:0000264"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000264 "epididymorchitis"^^xsd:string)
 SubClassOf(obo:SYMP_0000264 obo:SYMP_0000196)
 
-# Class: obo:SYMP_0000265 (absence seizure)
+# Class: obo:SYMP_0000265 (obsolete absence seizure)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000265 "petit mal seizure"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000265 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000265 "SYMP:0000265"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000265 "absence seizure"^^xsd:string)
-SubClassOf(obo:SYMP_0000265 obo:SYMP_0000267)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000265 "reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000265 "obsolete absence seizure"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000265 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000266 (focal seizure)
 
@@ -4412,15 +4413,15 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000426 "SYMP:0000426"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000426 "macrocytosis"^^xsd:string)
 SubClassOf(obo:SYMP_0000426 obo:SYMP_0019139)
 
-# Class: obo:SYMP_0000427 (impotence)
+# Class: obo:SYMP_0000427 (obsolete impotence)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000427 "A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000427 "erectile dysfunction"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000427 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000427 "SYMP:0000427"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000427 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000427 "impotence"^^xsd:string)
-SubClassOf(obo:SYMP_0000427 obo:SYMP_0000196)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000427 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease")
+AnnotationAssertion(rdfs:label obo:SYMP_0000427 "obsolete impotence"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000427 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000428 (hypoventilation)
 
@@ -5933,7 +5934,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000570 "loose bowels"^^xs
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000570 "the runs"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000570 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000570 "SYMP:0000570"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000570 "doid/symp duplicate")
+AnnotationAssertion(rdfs:comment obo:SYMP_0000570 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP")
 AnnotationAssertion(rdfs:label obo:SYMP_0000570 "diarrhea"^^xsd:string)
 SubClassOf(obo:SYMP_0000570 obo:SYMP_0000146)
 
