@@ -3729,15 +3729,15 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000340 "SYMP:0000340"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000340 "limb edema"^^xsd:string)
 SubClassOf(obo:SYMP_0000340 obo:SYMP_0000538)
 
-# Class: obo:SYMP_0000341 (ophthalmoplegia)
+# Class: obo:SYMP_0000341 (obsolete ophthalmoplegia)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000341 "extraocular muscle paralysis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000341 "eye movement paralysis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000341 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000341 "SYMP:0000341"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000341 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000341 "ophthalmoplegia"^^xsd:string)
-SubClassOf(obo:SYMP_0000341 obo:SYMP_0000030)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000341 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease")
+AnnotationAssertion(rdfs:label obo:SYMP_0000341 "obsolete ophthalmoplegia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000341 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000342 (slurred speech)
 
