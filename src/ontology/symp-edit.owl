@@ -2018,13 +2018,13 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000120 "SYMP:0000120"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000120 "obsolete retinal inflammation"^^xsd:string)
 AnnotationAssertion(owl:deprecated obo:SYMP_0000120 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000121 (rhinitis)
+# Class: obo:SYMP_0000121 (obolete rhinitis)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000121 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000121 "SYMP:0000121"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000121 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000121 "rhinitis"^^xsd:string)
-SubClassOf(obo:SYMP_0000121 obo:SYMP_0000388)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000121 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000121 "obolete rhinitis"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000121 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000122 (obsolete salivary gland swelling)
 
