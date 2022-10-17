@@ -1024,6 +1024,7 @@ Declaration(Class(obo:SYMP_0020051))
 Declaration(Class(obo:SYMP_0020052))
 Declaration(Class(obo:SYMP_0020053))
 Declaration(Class(obo:SYMP_0020054))
+Declaration(Class(obo:SYMP_0020055))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -2670,7 +2671,7 @@ SubClassOf(obo:SYMP_0000207 obo:SYMP_0000613)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000208 "anaemia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000208 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000208 "SYMP:0000208"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000208 "doid/symp duplicate")
+AnnotationAssertion(rdfs:comment obo:SYMP_0000208 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000208 "anemia"^^xsd:string)
 SubClassOf(obo:SYMP_0000208 obo:SYMP_0019139)
 
@@ -2725,6 +2726,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000214 "inability to name
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000214 "nominal aphasia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000214 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000214 "SYMP:0000214"^^xsd:string)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000214 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000214 "anomia"^^xsd:string)
 SubClassOf(obo:SYMP_0000214 obo:SYMP_0000508)
 
@@ -8718,14 +8720,15 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0019149 "SYMP:0019149"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019149 "toxemia"^^xsd:string)
 SubClassOf(obo:SYMP_0019149 obo:SYMP_0019139)
 
-# Class: obo:SYMP_0019150 (pharyngitis)
+# Class: obo:SYMP_0019150 (obsolete pharyngitis)
 
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0019150 obo:SYMP_0020055)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0019150 "pharynx inflammation"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019150 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019150 "SYMP:0019150"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0019150 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0019150 "pharyngitis"^^xsd:string)
-SubClassOf(obo:SYMP_0019150 obo:SYMP_0000385)
+AnnotationAssertion(rdfs:comment obo:SYMP_0019150 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0019150 "obsolete pharyngitis"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0019150 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0019151 (pulmonary edema)
 
@@ -9485,6 +9488,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020054 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020054 "SYMP:0020054"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020054 "severe mammary gland inflammation"^^xsd:string)
 SubClassOf(obo:SYMP_0020054 obo:SYMP_0020053)
+
+# Class: obo:SYMP_0020055 (pharynx inflammation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020055 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020055 "SYMP:0020055"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020055 "pharynx inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020055 obo:SYMP_0000385)
 
 
 )
