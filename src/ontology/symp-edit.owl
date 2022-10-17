@@ -2827,7 +2827,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "a-fib"^^xsd:strin
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "auricular fibrillation"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000226 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000226 "SYMP:0000226"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000226 "doid/symp duplicate - reviewed 10/2022"^^xsd:string)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000226 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000226 "atrial fibrillation"^^xsd:string)
 SubClassOf(obo:SYMP_0000226 obo:SYMP_0000898)
 
@@ -3952,7 +3952,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webst
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000369 "droopiness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000369 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000369 "SYMP:0000369"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000369 "doid/symp duplicate - reviewed 10/2022"^^xsd:string)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000369 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000369 "ptosis"^^xsd:string)
 SubClassOf(obo:SYMP_0000369 obo:SYMP_0000567)
 
@@ -6654,7 +6654,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.nhlbi.nih.gov
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000643 "respiratory dysfunction"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000643 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000643 "SYMP:0000643"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000643 "doid/symp duplicate")
+AnnotationAssertion(rdfs:comment obo:SYMP_0000643 "doid/symp duplicate - reviewed 10/2022, both DO & SYMP"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000643 "respiratory failure"^^xsd:string)
 SubClassOf(obo:SYMP_0000643 obo:SYMP_0000514)
 
