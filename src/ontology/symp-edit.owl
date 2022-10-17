@@ -1025,6 +1025,7 @@ Declaration(Class(obo:SYMP_0020052))
 Declaration(Class(obo:SYMP_0020053))
 Declaration(Class(obo:SYMP_0020054))
 Declaration(Class(obo:SYMP_0020055))
+Declaration(Class(obo:SYMP_0020056))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -7307,17 +7308,19 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000733 "SYMP:0000733"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000733 "sternocleidomastoid weakness"^^xsd:string)
 SubClassOf(obo:SYMP_0000733 obo:SYMP_0000094)
 
-# Class: obo:SYMP_0000734 (stroke)
+# Class: obo:SYMP_0000734 (obsolete stroke)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000734 "A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain."^^xsd:string)
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000734 obo:SYMP_0020056)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "apoplexy"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "brain attack"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "cerebral accident"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000734 "cerebrovascular accident"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000734 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000734 "SYMP:0000734"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000734 "stroke"^^xsd:string)
-SubClassOf(obo:SYMP_0000734 obo:SYMP_0000480)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000734 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000734 "obsolete stroke"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000734 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000735 (suppurative pneumonia)
 
@@ -9495,6 +9498,17 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020055 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020055 "SYMP:0020055"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020055 "pharynx inflammation"^^xsd:string)
 SubClassOf(obo:SYMP_0020055 obo:SYMP_0000385)
+
+# Class: obo:SYMP_0020056 (cerebrovascular accident)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.healthline.com/health/cerebrovascular-accident"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020056 "A nervous system symptom that is characterized by a loss of blood flow to part of the brain, which damages brain tissue. Cerebrovascular accidents are caused by blood clots and broken blood vessels in the brain."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020056 "apoplexy"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020056 "cerebral accident"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020056 "cerebral hemorrhage"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020056 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020056 "SYMP:0020056"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020056 "cerebrovascular accident"@en)
+SubClassOf(obo:SYMP_0020056 obo:SYMP_0000480)
 
 
 )
