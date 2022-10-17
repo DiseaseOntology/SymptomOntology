@@ -2820,11 +2820,12 @@ SubClassOf(obo:SYMP_0000225 obo:SYMP_0000567)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000226 "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "AF"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "AFib"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "a-fib"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000226 "auricular fibrillation"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000226 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000226 "SYMP:0000226"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000226 "doid/symp duplicate")
+AnnotationAssertion(rdfs:comment obo:SYMP_0000226 "doid/symp duplicate - reviewed 10/2022"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000226 "atrial fibrillation"^^xsd:string)
 SubClassOf(obo:SYMP_0000226 obo:SYMP_0000898)
 
@@ -3949,7 +3950,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webst
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000369 "droopiness"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000369 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000369 "SYMP:0000369"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000369 "doid/symp duplicate")
+AnnotationAssertion(rdfs:comment obo:SYMP_0000369 "doid/symp duplicate - reviewed 10/2022"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000369 "ptosis"^^xsd:string)
 SubClassOf(obo:SYMP_0000369 obo:SYMP_0000567)
 
