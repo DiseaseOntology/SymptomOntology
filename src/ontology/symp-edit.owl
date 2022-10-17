@@ -3543,14 +3543,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000316 "SYMP:0000316"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000316 "leg cramp"^^xsd:string)
 SubClassOf(obo:SYMP_0000316 obo:SYMP_0000093)
 
-# Class: obo:SYMP_0000317 (leukopenia)
+# Class: obo:SYMP_0000317 (obsolete leukopenia)
 
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000317 "low white blood cell count"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000317 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000317 "SYMP:0000317"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000317 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000317 "leukopenia"^^xsd:string)
-SubClassOf(obo:SYMP_0000317 obo:SYMP_0019139)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000317 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000317 "obsolete leukopenia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000317 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000318 (loss of balance)
 
