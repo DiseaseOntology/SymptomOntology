@@ -1022,6 +1022,8 @@ Declaration(Class(obo:SYMP_0020049))
 Declaration(Class(obo:SYMP_0020050))
 Declaration(Class(obo:SYMP_0020051))
 Declaration(Class(obo:SYMP_0020052))
+Declaration(Class(obo:SYMP_0020053))
+Declaration(Class(obo:SYMP_0020054))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -4009,24 +4011,27 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000376 "SYMP:0000376"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000376 "severe diarrhea"^^xsd:string)
 SubClassOf(obo:SYMP_0000376 obo:SYMP_0000570)
 
-# Class: obo:SYMP_0000377 (mastitis)
+# Class: obo:SYMP_0000377 (obsolete mastitis)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000377 "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection."^^xsd:string)
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000377 obo:SYMP_0020053)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "inflammation of mammary breast"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000377 "mammitis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000377 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000377 "SYMP:0000377"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000377 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000377 "mastitis"^^xsd:string)
-SubClassOf(obo:SYMP_0000377 obo:SYMP_0000488)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000377 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000377 "obsolete mastitis"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000377 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000378 (severe mastitis)
+# Class: obo:SYMP_0000378 (obsolete severe mastitis)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/severe"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000378 "A mastitis that is characterized by an increased intensity or severity of the condition."^^xsd:string)
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000378 obo:SYMP_0020054)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000378 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000378 "SYMP:0000378"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000378 "severe mastitis"^^xsd:string)
-SubClassOf(obo:SYMP_0000378 obo:SYMP_0000377)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000378 "reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000378 "obsolete severe mastitis"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000378 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000379 (severe myalgia)
 
@@ -9461,6 +9466,24 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020052 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020052 "SYMP:0020052"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020052 "hand weakness"@en)
 SubClassOf(obo:SYMP_0020052 obo:SYMP_0000094)
+
+# Class: obo:SYMP_0020053 (mammary gland inflammation)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020053 "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020053 "inflammation of mammary breast"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0020053 "mammitis"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020053 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020053 "SYMP:0020053"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020053 "mammary gland inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020053 obo:SYMP_0000488)
+
+# Class: obo:SYMP_0020054 (severe mammary gland inflammation)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/severe"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020054 "A mammary gland inflammation that is characterized by an increased intensity or severity of the condition."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020054 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020054 "SYMP:0020054"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020054 "severe mammary gland inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020054 obo:SYMP_0020053)
 
 
 )
