@@ -1026,6 +1026,9 @@ Declaration(Class(obo:SYMP_0020053))
 Declaration(Class(obo:SYMP_0020054))
 Declaration(Class(obo:SYMP_0020055))
 Declaration(Class(obo:SYMP_0020056))
+Declaration(Class(obo:SYMP_0020057))
+Declaration(Class(obo:SYMP_0020058))
+Declaration(Class(obo:SYMP_0020059))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -2190,16 +2193,17 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000143 "SYMP:0000143"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000143 "obsolete spleen infiltrates"^^xsd:string)
 AnnotationAssertion(owl:deprecated obo:SYMP_0000143 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000144 (bronchopneumonia)
+# Class: obo:SYMP_0000144 (obsolete bronchopneumonia)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Bronchopneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000144 "A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs"^^xsd:string)
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000144 obo:SYMP_0020057)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000144 "bronchial pneumonia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000144 "lobular pneumonia"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000144 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000144 "SYMP:0000144"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0000144 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0000144 "bronchopneumonia"^^xsd:string)
-SubClassOf(obo:SYMP_0000144 obo:SYMP_0019168)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000144 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000144 "obsolete bronchopneumonia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000144 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000145 (obsolete splitting of tissues)
 
@@ -4045,12 +4049,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000379 "SYMP:0000379"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000379 "severe myalgia"^^xsd:string)
 SubClassOf(obo:SYMP_0000379 obo:SYMP_0019161)
 
-# Class: obo:SYMP_0000380 (severe pneumonia)
+# Class: obo:SYMP_0000380 (obsolete severe pneumonia)
 
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000380 obo:SYMP_0020058)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000380 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000380 "SYMP:0000380"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000380 "severe pneumonia"^^xsd:string)
-SubClassOf(obo:SYMP_0000380 obo:SYMP_0019168)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000380 "reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000380 "obsolete severe pneumonia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000380 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000381 (spleen abscess)
 
@@ -7322,13 +7328,15 @@ AnnotationAssertion(rdfs:comment obo:SYMP_0000734 "doid/symp duplicate - reviewe
 AnnotationAssertion(rdfs:label obo:SYMP_0000734 "obsolete stroke"^^xsd:string)
 AnnotationAssertion(owl:deprecated obo:SYMP_0000734 "true"^^xsd:boolean)
 
-# Class: obo:SYMP_0000735 (suppurative pneumonia)
+# Class: obo:SYMP_0000735 (obsolete suppurative pneumonia)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/suppurative+pneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000735 "A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur."^^xsd:string)
+AnnotationAssertion(obo:IAO_0100001 obo:SYMP_0000735 obo:SYMP_0020059)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000735 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000735 "SYMP:0000735"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000735 "suppurative pneumonia"^^xsd:string)
-SubClassOf(obo:SYMP_0000735 obo:SYMP_0019168)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000735 "reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000735 "obsolete suppurative pneumonia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000735 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000736 (lymph gland swelling)
 
@@ -8869,14 +8877,14 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0019167 "SYMP:0019167"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0019167 "pustule"^^xsd:string)
 SubClassOf(obo:SYMP_0019167 obo:SYMP_0000488)
 
-# Class: obo:SYMP_0019168 (pneumonia)
+# Class: obo:SYMP_0019168 (obsolete pneumonia)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Pneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019168 "A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019168 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019168 "SYMP:0019168"^^xsd:string)
-AnnotationAssertion(rdfs:comment obo:SYMP_0019168 "doid/symp duplicate")
-AnnotationAssertion(rdfs:label obo:SYMP_0019168 "pneumonia"^^xsd:string)
-SubClassOf(obo:SYMP_0019168 obo:SYMP_0000354)
+AnnotationAssertion(rdfs:comment obo:SYMP_0019168 "doid/symp duplicate - reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0019168 "obsolete pneumonia"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0019168 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0019169 (arthritis)
 
@@ -9509,6 +9517,28 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020056 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020056 "SYMP:0020056"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020056 "cerebrovascular accident"@en)
 SubClassOf(obo:SYMP_0020056 obo:SYMP_0000480)
+
+# Class: obo:SYMP_0020057 (bronchiole inflammation)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Bronchopneumonia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020057 "A respiratory system and chest symptom that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020057 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020057 "SYMP:0020057"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020057 "bronchiole inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020057 obo:SYMP_0000514)
+
+# Class: obo:SYMP_0020058 (severe bronchiole inflammation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020058 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020058 "SYMP:0020058"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020058 "severe bronchiole inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020058 obo:SYMP_0020057)
+
+# Class: obo:SYMP_0020059 (suppurative bronchiole inflammation)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020059 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020059 "SYMP:0020059"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020059 "suppurative bronchiole inflammation"^^xsd:string)
+SubClassOf(obo:SYMP_0020059 obo:SYMP_0020057)
 
 
 )
