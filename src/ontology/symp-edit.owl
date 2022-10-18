@@ -3681,7 +3681,6 @@ SubClassOf(obo:SYMP_0000333 obo:SYMP_0000183)
 
 # Class: obo:SYMP_0000334 (muscle necrosis)
 
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000334 "myonecrosis"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000334 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000334 "SYMP:0000334"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000334 "muscle necrosis"^^xsd:string)
