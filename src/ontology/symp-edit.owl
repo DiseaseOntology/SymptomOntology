@@ -8970,7 +8970,7 @@ SubClassOf(obo:SYMP_0019179 obo:SYMP_0020045)
 
 # Class: obo:SYMP_0019180 (constipation)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019180 "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170709/"^^xsd:string) obo:IAO_0000115 obo:SYMP_0019180 "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces. Constipation may be categorized into three subtypes: normal-transit, slow-transit, and pelvic floor dysfunction."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0019180 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0019180 "SYMP:0019180"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0019180 "doid/symp duplicate")
