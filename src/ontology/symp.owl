@@ -11,11 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-09-06/symp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-10-18/symp.owl"/>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
         <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
         <dc:title>Symptom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06:09:2022 13:17</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18:10:2022 15:58</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:saved-by>
@@ -38,6 +39,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>has ontology root term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1253,10 +1262,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by the harmonious functioning of interrelated organs and body parts; in particular the working together of muscle groups in the execution of complicated movements.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000079</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coordination symptom</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by the harmonious functioning of interrelated organs and body parts; in particular the working together of muscle groups in the execution of complicated movements.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medical-dictionary.thefreedictionary.com/coordinations</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1384,11 +1400,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by inflammation of the brain tissue, which is typically caused by a viral infection, but it may also be caused by bacterial or parasitic infections, cancer, or certain drugs or toxins.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000090</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encephalitis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by inflammation of the brain tissue, which is typically caused by a viral infection, but it may also be caused by bacterial or parasitic infections, cancer, or certain drugs or toxins.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.cancer.gov/publications/dictionaries/cancer-terms/def/encephalitis</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1396,10 +1419,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000090"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalitis that is not intense (not severe).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000091</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild encephalitis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An encephalitis that is not intense (not severe).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.macmillandictionary.com/us/dictionary/american/mild_1</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1782,11 +1812,11 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000388"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000121</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhinitis</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete rhinitis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2075,14 +2105,15 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019168"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020057"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchial pneumonia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobular pneumonia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000144</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchopneumonia</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete bronchopneumonia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000144"/>
@@ -2322,11 +2353,19 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000615"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000079"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coordination symptom that is characterized by a loss of complicated body movements, which may be caused by disease, injury, or toxins.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack of coordination</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000164</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incoordination</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000164"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coordination symptom that is characterized by a loss of complicated body movements, which may be caused by disease, injury, or toxins.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merckmanuals.com/home/brain,-spinal-cord,-and-nerve-disorders/movement-disorders/coordination-disorders</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2795,10 +2834,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000089"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A meningoencephalitis that is characterized by a severe and sudden onset.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000201</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute meningoencephalitis</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000201"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A meningoencephalitis that is characterized by a severe and sudden onset.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/imagepages/18126.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2882,7 +2928,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaemia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000208</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anemia</rdfs:label>
     </owl:Class>
     
@@ -2967,6 +3013,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nominal aphasia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000214</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anomia</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2982,10 +3029,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000215">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000508"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to comprehend speech.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000215</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inability to comprehend speech</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to comprehend speech.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/aphasia#causes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.nidcd.nih.gov/health/aphasia</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2993,10 +3048,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000508"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to speak.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000216</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inability to speak</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to speak.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/aphasia#causes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.nidcd.nih.gov/health/aphasia</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3004,10 +3067,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000508"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to form words.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000217</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inability to form words</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to form words.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/aphasia#causes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.nidcd.nih.gov/health/aphasia</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3015,10 +3086,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000508"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to properly enunciate words.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000218</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poor enunciation</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aphasia that is characterized by a loss of ability to properly enunciate words.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/aphasia#causes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.nidcd.nih.gov/health/aphasia</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3120,11 +3199,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000898"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFib</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-fib</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auricular fibrillation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000226</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial fibrillation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3351,7 +3431,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cough that is characterized by production and expectoration (bringing up) of sputum that is bright red or pink and frothy.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemoptysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000242</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cough with bloody sputum</rdfs:label>
@@ -3681,7 +3760,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epididymo-orchitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000264</oboInOwl:id>
@@ -3690,7 +3769,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000264"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3699,11 +3778,12 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000265 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000265">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000267"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petit mal seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000265</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absence seizure</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete absence seizure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4205,10 +4285,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000079"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coordination symptom that is characterized by weakened or imperfect body complicated  movement, which may be caused by disease, injury, or toxins.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000304</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impaired coordination</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000304"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coordination symptom that is characterized by weakened or imperfect body complicated  movement, which may be caused by disease, injury, or toxins.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/movement-uncoordinated</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merckmanuals.com/home/brain,-spinal-cord,-and-nerve-disorders/movement-disorders/coordination-disorders</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4268,7 +4356,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000244"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anorexia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inappetence</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack of appetite</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
@@ -4367,12 +4454,12 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low white blood cell count</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000317</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukopenia</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete leukopenia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4511,11 +4598,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000596"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A convulsion that is characterized by a tonic spasm (prolonged contraction of the muscles), without loss of consciousness and often associated with hypocalcemia.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetanic convulsions</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000327</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetanic convulsion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000327"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A convulsion that is characterized by a tonic spasm (prolonged contraction of the muscles), without loss of consciousness and often associated with hypocalcemia.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medical-dictionary.thefreedictionary.com/tetanic</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4523,10 +4617,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000327"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tetanic convulsion that is not intense (not severe).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000328</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mild tetanic convulsion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000328"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tetanic convulsion that is not intense (not severe).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.macmillandictionary.com/us/dictionary/american/mild_1</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4555,11 +4656,11 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000331">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019161"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by a continuous or prolonged dull pain.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000331</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscles ache</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle ache</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000331"/>
@@ -4596,7 +4697,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myonecrosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000334</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle necrosis</rdfs:label>
@@ -4684,13 +4784,13 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000030"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraocular muscle paralysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye movement paralysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000341</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ophthalmoplegia</rdfs:label>
+        <rdfs:comment>doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete ophthalmoplegia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5102,7 +5202,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">droopiness</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000369</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ptosis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5218,19 +5318,20 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000377 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000377">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020053"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation of mammary breast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000377</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mastitis</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete mastitis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000377"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=mastitis</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5239,11 +5340,13 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000378 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000378">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000377"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mastitis that is characterized by an increased intensity or severity of the condition.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020054"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000378</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe mastitis</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete severe mastitis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000378"/>
@@ -5275,10 +5378,12 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000380">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019168"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020058"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000380</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe pneumonia</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete severe pneumonia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5940,13 +6045,13 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000427">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erectile dysfunction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000427</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impotence</rdfs:label>
+        <rdfs:comment>doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete impotence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000427"/>
@@ -6144,7 +6249,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000438">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by a pain in, or about, a tooth or teeth</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by a pain in, or about, a tooth or teeth.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000438</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toothache</rdfs:label>
@@ -6152,7 +6257,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000438"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by a pain in, or about, a tooth or teeth</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by a pain in, or about, a tooth or teeth.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merriam-webster.com/dictionary/toothache</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -6451,6 +6556,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000456">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the left upper quadrant abdominal pain of the abdomen that can be caused by a stomach ulcer, acute gastritis, a viral infection, or indigestion, or may be an issue with one&apos;s lungs.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.02</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0238552</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0637133</oboInOwl:hasDbXref>
@@ -6458,6 +6564,12 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000456</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left upper quadrant abdominal pain</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000456"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the left upper quadrant abdominal pain of the abdomen that can be caused by a stomach ulcer, acute gastritis, a viral infection, or indigestion, or may be an issue with one&apos;s lungs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.buoyhealth.com/learn/pain-upper-left-abdomen</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -6465,6 +6577,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000457">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.00</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0000737</oboInOwl:hasDbXref>
@@ -6474,6 +6587,12 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000457</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal pain</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/article/003120.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -7538,6 +7657,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000518">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by being diffuse or widespread and affecting or involving all of the abdomen.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.07</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0344304</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0637131</oboInOwl:hasDbXref>
@@ -7545,6 +7665,13 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000518</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized abdominal pain</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000518"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by being diffuse or widespread and affecting or involving all of the abdomen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medical-dictionary.thefreedictionary.com/generalization</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merriam-webster.com/dictionary/generalized</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -7976,6 +8103,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000542">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the epigastrium, i.e. the upper part of the abdomen below the rib cage.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.06</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0232493</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0637130</oboInOwl:hasDbXref>
@@ -7983,6 +8111,13 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000542</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epigastric abdominal pain</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000542"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the epigastrium, i.e. the upper part of the abdomen below the rib cage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://info.isabelhealthcare.com/blog/why-does-my-stomach-hurt-epigastric-pain-symptoms-and-causes</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/epigastric-pain</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -8453,7 +8588,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the runs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000570</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:comment>doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diarrhea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -8863,6 +8998,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by an inability to control bodily movement and may be a symptom of cerebrovascular diseases, dyskinesia, tremor, chorea, dystonia and myoclonus.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:781.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0392702</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0243762</oboInOwl:hasDbXref>
@@ -8870,6 +9006,13 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000594</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal involuntary movement</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000594"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by an inability to control bodily movement and may be a symptom of cerebrovascular diseases, dyskinesia, tremor, chorea, dystonia and myoclonus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://patient.info/doctor/abnormal-involuntary-movements</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://stanfordmedicine25.stanford.edu/the25/involuntary-movements-and-tremors.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -8877,13 +9020,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000595">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000596"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A convulsion that is characterized by occurring in young children between six months and five years of age and which is triggered by fever.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:780.31</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0009952</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0701466</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000595</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile convulsion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000595"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A convulsion that is characterized by occurring in young children between six months and five years of age and which is triggered by fever.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.ninds.nih.gov/febrile-seizures-fact-sheet</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.webmd.com/a-to-z-guides/swollen-glands</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -8891,6 +9043,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000596">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by an abnormal violent and involuntary contraction or series of contractions of the muscles.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:780.3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0009951</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0042665</oboInOwl:hasDbXref>
@@ -8898,6 +9051,12 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000596</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convulsion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000596"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by an abnormal violent and involuntary contraction or series of contractions of the muscles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.merriam-webster.com/dictionary/convulsion</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -9269,13 +9428,14 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000615">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000079"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000164"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:781.3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0520966</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0243769</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000615</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack of coordination</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete lack of coordination</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -9342,6 +9502,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the left lower quadrant of the abdomen that is often related to the digestive tract, but can also be related to conditions of the body wall, skin, blood vessels, urinary tract, or reproductive organs.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:789.04</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0238551</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A0637132</oboInOwl:hasDbXref>
@@ -9349,6 +9510,12 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000620</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left lower quadrant abdominal pain</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000620"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abdominal pain that is characterized by occurring in the left lower quadrant of the abdomen that is often related to the digestive tract, but can also be related to conditions of the body wall, skin, blood vessels, urinary tract, or reproductive organs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthgrades.com/right-care/symptoms-and-conditions/left-lower-quadrant-pain</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -9649,17 +9816,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000643">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by a difficulty to breathe on one&apos;s own and develops when the lungs cannott get enough oxygen into the blood.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by a difficulty to breathe on one&apos;s own and develops when the lungs cannot get enough oxygen into the blood.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory dysfunction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000643</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory failure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by a difficulty to breathe on one&apos;s own and develops when the lungs cannott get enough oxygen into the blood.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by a difficulty to breathe on one&apos;s own and develops when the lungs cannot get enough oxygen into the blood.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.nhlbi.nih.gov/health/respiratory-failure</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9876,7 +10043,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000660">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000660</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purpuric rash</rdfs:label>
@@ -9884,7 +10051,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000660"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://en.wikipedia.org/wiki/Purpura</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -9958,10 +10125,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000666">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A behavioral symptom that is characterized by behavior that is atypical or statistically uncommon within a particular culture, or that is maladaptive, or detrimental to an individual, or those around that individual.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000666</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000666"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A behavioral symptom that is characterized by behavior that is atypical or statistically uncommon within a particular culture, or that is maladaptive, or detrimental to an individual, or those around that individual.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.betterhelp.com/advice/behavior/what-is-abnormal-behavior/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10093,10 +10267,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000678">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a severe and sudden onset of disturbance in the normal operation of one&apos;s cognition, emotional regulation, or behaviour.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000678</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute mental dysfunction</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000678"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a severe and sudden onset of disturbance in the normal operation of one&apos;s cognition, emotional regulation, or behaviour.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.who.int/news-room/fact-sheets/detail/mental-disorders</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10104,7 +10285,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000679">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dyspnea that is characterized by a severe and sudden in onset.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dyspnea that is characterized by a severe and sudden onset.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000679</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute dyspnea</rdfs:label>
@@ -10112,7 +10293,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000679"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dyspnea that is characterized by a severe and sudden in onset.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dyspnea that is characterized by a severe and sudden onset.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/imagepages/18126.htm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10122,7 +10303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000680">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight loss that is characterized by a severe and sudden in onset.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight loss that is characterized by a severe and sudden onset.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000680</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute weight loss</rdfs:label>
@@ -10130,7 +10311,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000680"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight loss that is characterized by a severe and sudden in onset.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight loss that is characterized by a severe and sudden onset.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/imagepages/18126.htm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10140,10 +10321,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000681">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A behavioral symptom that is characterized by behavior aimed at harming a person, or animal, or damaging physical property.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000681</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000681"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A behavioral symptom that is characterized by behavior aimed at harming a person, or animal, or damaging physical property.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/aggressive-behavior</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10151,10 +10339,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000682">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a host of presentations that include changes in cognition, mood, behavior, and/or level of arousal.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000682</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered mental status</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000682"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a host of presentations that include changes in cognition, mood, behavior, and/or level of arousal.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_Psychiatry_Guide/787028/all/Altered_Mental_Status</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10238,10 +10433,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000688">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000594"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal involuntary movement that is characterized by an inability to walk in a straight line.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000688</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circling movement</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000688"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal involuntary movement that is characterized by an inability to walk in a straight line.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3434216/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -10315,7 +10517,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000695</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased milk production</rdfs:label>
@@ -10323,7 +10525,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000695"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.chop.edu/pages/low-milk-supply</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -10807,15 +11009,17 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000734 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020056"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoplexy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain attack</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral accident</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrovascular accident</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000734</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stroke</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stroke</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000734"/>
@@ -10829,11 +11033,13 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000735">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019168"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020059"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000735</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppurative pneumonia</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete suppurative pneumonia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000735"/>
@@ -13472,12 +13678,13 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0019150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000385"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020055"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharynx inflammation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0019150</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngitis</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pharyngitis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13733,12 +13940,12 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0019168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000354"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0019168</oboInOwl:id>
-        <rdfs:comment>doid/symp duplicate</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pneumonia</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doid/symp duplicate - reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete pneumonia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019168"/>
@@ -13936,7 +14143,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces. Constipation may be categorized into three subtypes: normal-transit, slow-transit, and pelvic floor dysfunction.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0019180</oboInOwl:id>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
@@ -13945,8 +14152,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019180"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces. Constipation may be categorized into three subtypes: normal-transit, slow-transit, and pelvic floor dysfunction.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=constipation</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170709/</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14193,11 +14401,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000551"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of taste</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020004</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ageusia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.ncbi.nlm.nih.gov/books/NBK549775/</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -14358,7 +14573,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000403"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight gain that is characterized by a severe and sudden in onset.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight gain that is characterized by a severe and sudden onset.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020016</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute weight gain</rdfs:label>
@@ -14366,7 +14581,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020016"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight gain that is characterized by a severe and sudden in onset.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A weight gain that is characterized by a severe and sudden onset.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/imagepages/18126.htm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -14608,18 +14823,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chest discomfort that is characterized by any type of pain or discomfort between your upper belly and lower neck.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest pain</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020032</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest tightness</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020032"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest pain</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthgrades.com/right-care/symptoms-and-conditions/chest-tightness</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.verywellhealth.com/che</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -14944,6 +15151,116 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.buoyhealth.com/learn/hand-weakness</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.medicalnewstoday.com/articles/hand-weakness</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammation of mammary breast</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020053</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary gland inflammation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=mastitis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020053"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mammary gland inflammation that is characterized by an increased intensity or severity of the condition.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020054</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe mammary gland inflammation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mammary gland inflammation that is characterized by an increased intensity or severity of the condition.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medical-dictionary.thefreedictionary.com/severe</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000385"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020055</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharynx inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a loss of blood flow to part of the brain, which damages brain tissue. Cerebrovascular accidents are caused by blood clots and broken blood vessels in the brain.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoplexy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral accident</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral hemorrhage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020056</oboInOwl:id>
+        <rdfs:label xml:lang="en">cerebrovascular accident</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nervous system symptom that is characterized by a loss of blood flow to part of the brain, which damages brain tissue. Cerebrovascular accidents are caused by blood clots and broken blood vessels in the brain.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.healthline.com/health/cerebrovascular-accident</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020057</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiole inflammation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system and chest symptom that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://en.wikipedia.org/wiki/Bronchopneumonia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020057"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020058</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe bronchiole inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020057"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020059</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppurative bronchiole inflammation</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

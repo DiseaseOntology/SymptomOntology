@@ -1,12 +1,13 @@
 format-version: 1.2
-data-version: releases/2022-09-06/symp.obo
-date: 06:09:2022 13:17
+data-version: releases/2022-10-18/symp.obo
+date: 18:10:2022 15:58
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
 property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
+property_value: IAO:0000700 SYMP:0000462
 
 [Term]
 id: SYMP:0000000
@@ -449,6 +450,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000079
 name: coordination symptom
+def: "A nervous system symptom that is characterized by the harmonious functioning of interrelated organs and body parts; in particular the working together of muscle groups in the execution of complicated movements." [url:https\://medical-dictionary.thefreedictionary.com/coordinations]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -508,12 +510,14 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000090
 name: encephalitis
+def: "A nervous system symptom that is characterized by inflammation of the brain tissue, which is typically caused by a viral infection, but it may also be caused by bacterial or parasitic infections, cancer, or certain drugs or toxins." [url:https\://www.cancer.gov/publications/dictionaries/cancer-terms/def/encephalitis]
 comment: doid/symp duplicate
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000091
 name: mild encephalitis
+def: "An encephalitis that is not intense (not severe)." [url:https\://www.macmillandictionary.com/us/dictionary/american/mild_1]
 is_a: SYMP:0000090 ! encephalitis
 
 [Term]
@@ -678,9 +682,9 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000121
-name: rhinitis
-comment: doid/symp duplicate
-is_a: SYMP:0000388 ! nose symptom
+name: obsolete rhinitis
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
+is_obsolete: true
 
 [Term]
 id: SYMP:0000122
@@ -803,12 +807,13 @@ is_obsolete: true
 
 [Term]
 id: SYMP:0000144
-name: bronchopneumonia
+name: obsolete bronchopneumonia
 def: "A pneumonia that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs" [url:https\://en.wikipedia.org/wiki/Bronchopneumonia]
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "bronchial pneumonia" EXACT []
 synonym: "lobular pneumonia" EXACT []
-is_a: SYMP:0019168 ! pneumonia
+is_obsolete: true
+replaced_by: SYMP:0020057
 
 [Term]
 id: SYMP:0000145
@@ -913,7 +918,9 @@ is_obsolete: true
 [Term]
 id: SYMP:0000164
 name: incoordination
-is_a: SYMP:0000615 ! lack of coordination
+def: "A coordination symptom that is characterized by a loss of complicated body movements, which may be caused by disease, injury, or toxins." [url:https\://www.merckmanuals.com/home/brain\,-spinal-cord\,-and-nerve-disorders/movement-disorders/coordination-disorders]
+synonym: "lack of coordination" EXACT []
+is_a: SYMP:0000079 ! coordination symptom
 
 [Term]
 id: SYMP:0000165
@@ -1114,6 +1121,7 @@ is_a: SYMP:0019169 ! arthritis
 [Term]
 id: SYMP:0000201
 name: acute meningoencephalitis
+def: "A meningoencephalitis that is characterized by a severe and sudden onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0000089 ! meningoencephalitis
 
 [Term]
@@ -1150,7 +1158,7 @@ is_a: SYMP:0000613 ! fever
 [Term]
 id: SYMP:0000208
 name: anemia
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "anaemia" EXACT []
 is_a: SYMP:0019139 ! hemic system symptom
 
@@ -1189,6 +1197,7 @@ is_a: SYMP:0000508 ! aphasia
 id: SYMP:0000214
 name: anomia
 def: "An aphasia that is characterized by a severe problem with recalling words or names." [url:http\://en.wikipedia.org/wiki/Anomia]
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "amnesic aphasia" EXACT []
 synonym: "amnestic aphasia" EXACT []
 synonym: "anomic aphasia" EXACT []
@@ -1199,21 +1208,25 @@ is_a: SYMP:0000508 ! aphasia
 [Term]
 id: SYMP:0000215
 name: inability to comprehend speech
+def: "An aphasia that is characterized by a loss of ability to comprehend speech." [url:https\://www.healthline.com/health/aphasia#causes, url:https\://www.nidcd.nih.gov/health/aphasia]
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
 id: SYMP:0000216
 name: inability to speak
+def: "An aphasia that is characterized by a loss of ability to speak." [url:https\://www.healthline.com/health/aphasia#causes, url:https\://www.nidcd.nih.gov/health/aphasia]
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
 id: SYMP:0000217
 name: inability to form words
+def: "An aphasia that is characterized by a loss of ability to form words." [url:https\://www.healthline.com/health/aphasia#causes, url:https\://www.nidcd.nih.gov/health/aphasia]
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
 id: SYMP:0000218
 name: poor enunciation
+def: "An aphasia that is characterized by a loss of ability to properly enunciate words." [url:https\://www.healthline.com/health/aphasia#causes, url:https\://www.nidcd.nih.gov/health/aphasia]
 is_a: SYMP:0000508 ! aphasia
 
 [Term]
@@ -1264,9 +1277,10 @@ is_a: SYMP:0000567 ! general symptom
 id: SYMP:0000226
 name: atrial fibrillation
 def: "A cardiac fibrillation consisting of a very rapid uncoordinated contractions of the atria of the heart resulting in a lack of synchronism between heartbeat and pulse beat." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=atrial%20fibrillation]
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "a-fib" EXACT []
 synonym: "AF" EXACT []
+synonym: "AFib" EXACT []
 synonym: "auricular fibrillation" EXACT []
 is_a: SYMP:0000898 ! cardiac fibrillation
 
@@ -1364,7 +1378,6 @@ is_a: SYMP:0000239 ! cornea symptom
 id: SYMP:0000242
 name: cough with bloody sputum
 def: "A cough that is characterized by production and expectoration (bringing up) of sputum that is bright red or pink and frothy." [url:https\://www.webmd.com/lung/coughing-up-blood]
-synonym: "hemoptysis" EXACT []
 is_a: SYMP:0000614 ! cough
 
 [Term]
@@ -1500,15 +1513,16 @@ is_a: SYMP:0000196 ! reproductive system symptom
 [Term]
 id: SYMP:0000264
 name: epididymorchitis
-def: "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)" [url:https\://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis]
+def: "A reproductive system symptom that is characterized by inflammation of the epididymis and/or testicle (testis)." [url:https\://patient.info/mens-health/scrotal-lumps-pain-and-swelling/epididymo-orchitis]
 synonym: "epididymo-orchitis" EXACT []
 is_a: SYMP:0000196 ! reproductive system symptom
 
 [Term]
 id: SYMP:0000265
-name: absence seizure
+name: obsolete absence seizure
+comment: reviewed 10/2022 & determined to be a disease
 synonym: "petit mal seizure" EXACT []
-is_a: SYMP:0000267 ! generalized seizure
+is_obsolete: true
 
 [Term]
 id: SYMP:0000266
@@ -1730,6 +1744,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000304
 name: impaired coordination
+def: "A coordination symptom that is characterized by weakened or imperfect body complicated  movement, which may be caused by disease, injury, or toxins." [url:https\://www.healthline.com/health/movement-uncoordinated, url:https\://www.merckmanuals.com/home/brain\,-spinal-cord\,-and-nerve-disorders/movement-disorders/coordination-disorders]
 is_a: SYMP:0000079 ! coordination symptom
 
 [Term]
@@ -1757,7 +1772,6 @@ is_a: SYMP:0000385 ! throat symptom
 id: SYMP:0000309
 name: loss of appetite
 def: "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat." [url:https\://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite]
-synonym: "anorexia" EXACT []
 synonym: "inappetence" EXACT []
 synonym: "lack of appetite" EXACT []
 is_a: SYMP:0000244 ! alteration of appetite
@@ -1802,10 +1816,10 @@ is_a: SYMP:0000093 ! muscle cramp
 
 [Term]
 id: SYMP:0000317
-name: leukopenia
-comment: doid/symp duplicate
+name: obsolete leukopenia
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "low white blood cell count" EXACT []
-is_a: SYMP:0019139 ! hemic system symptom
+is_obsolete: true
 
 [Term]
 id: SYMP:0000318
@@ -1861,12 +1875,14 @@ is_a: SYMP:0000059 ! hypotension
 [Term]
 id: SYMP:0000327
 name: tetanic convulsion
+def: "A convulsion that is characterized by a tonic spasm (prolonged contraction of the muscles), without loss of consciousness and often associated with hypocalcemia." [url:https\://medical-dictionary.thefreedictionary.com/tetanic]
 synonym: "tetanic convulsions" EXACT []
 is_a: SYMP:0000596 ! convulsion
 
 [Term]
 id: SYMP:0000328
 name: mild tetanic convulsion
+def: "A tetanic convulsion that is not intense (not severe)." [url:https\://www.macmillandictionary.com/us/dictionary/american/mild_1]
 is_a: SYMP:0000327 ! tetanic convulsion
 
 [Term]
@@ -1881,9 +1897,9 @@ is_a: SYMP:0000386 ! mouth symptom
 
 [Term]
 id: SYMP:0000331
-name: muscles ache
+name: muscle ache
 def: "A pain that is characterized by a continuous or prolonged dull pain." [url:https\://www.merriam-webster.com/dictionary/ache]
-is_a: SYMP:0000099 ! pain
+is_a: SYMP:0019161 ! muscle pain
 
 [Term]
 id: SYMP:0000332
@@ -1898,7 +1914,6 @@ is_a: SYMP:0000183 ! muscle symptom
 [Term]
 id: SYMP:0000334
 name: muscle necrosis
-synonym: "myonecrosis" EXACT []
 is_a: SYMP:0000183 ! muscle symptom
 
 [Term]
@@ -1938,11 +1953,11 @@ is_a: SYMP:0000538 ! edema
 
 [Term]
 id: SYMP:0000341
-name: ophthalmoplegia
-comment: doid/symp duplicate
+name: obsolete ophthalmoplegia
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "extraocular muscle paralysis" EXACT []
 synonym: "eye movement paralysis" EXACT []
-is_a: SYMP:0000030 ! paralysis
+is_obsolete: true
 
 [Term]
 id: SYMP:0000342
@@ -2104,7 +2119,7 @@ is_a: SYMP:0000030 ! paralysis
 id: SYMP:0000369
 name: ptosis
 def: "Ptosis is a general symptom characterized by a sagging or prolapse of an organ or part." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=ptosis]
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "droopiness" EXACT []
 is_a: SYMP:0000567 ! general symptom
 
@@ -2151,18 +2166,21 @@ is_a: SYMP:0000570 ! diarrhea
 
 [Term]
 id: SYMP:0000377
-name: mastitis
-def: "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
-comment: doid/symp duplicate
+name: obsolete mastitis
+def: "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "inflammation of mammary breast" EXACT []
 synonym: "mammitis" EXACT []
-is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+is_obsolete: true
+replaced_by: SYMP:0020053
 
 [Term]
 id: SYMP:0000378
-name: severe mastitis
+name: obsolete severe mastitis
 def: "A mastitis that is characterized by an increased intensity or severity of the condition." [url:https\://medical-dictionary.thefreedictionary.com/severe]
-is_a: SYMP:0000377 ! mastitis
+comment: reviewed 10/2022 & determined to be a disease
+is_obsolete: true
+replaced_by: SYMP:0020054
 
 [Term]
 id: SYMP:0000379
@@ -2172,8 +2190,10 @@ is_a: SYMP:0019161 ! muscle pain
 
 [Term]
 id: SYMP:0000380
-name: severe pneumonia
-is_a: SYMP:0019168 ! pneumonia
+name: obsolete severe pneumonia
+comment: reviewed 10/2022 & determined to be a disease
+is_obsolete: true
+replaced_by: SYMP:0020058
 
 [Term]
 id: SYMP:0000381
@@ -2449,11 +2469,11 @@ is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
 id: SYMP:0000427
-name: impotence
+name: obsolete impotence
 def: "A reproductive system symptom that is characterized by an abnormal physical or psychological state of a male characterized by inability to copulate because of failure to have, or maintain, an erection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=impotence]
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "erectile dysfunction" EXACT []
-is_a: SYMP:0000196 ! reproductive system symptom
+is_obsolete: true
 
 [Term]
 id: SYMP:0000428
@@ -2526,7 +2546,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000438
 name: toothache
-def: "A pain that is characterized by a pain in, or about, a tooth or teeth" [url:https\://www.merriam-webster.com/dictionary/toothache]
+def: "A pain that is characterized by a pain in, or about, a tooth or teeth." [url:https\://www.merriam-webster.com/dictionary/toothache]
 is_a: SYMP:0000099 ! pain
 
 [Term]
@@ -2658,6 +2678,7 @@ is_a: SYMP:0000403 ! weight gain
 [Term]
 id: SYMP:0000456
 name: left upper quadrant abdominal pain
+def: "An abdominal pain that is characterized by occurring in the left upper quadrant abdominal pain of the abdomen that can be caused by a stomach ulcer, acute gastritis, a viral infection, or indigestion, or may be an issue with one's lungs." [url:https\://www.buoyhealth.com/learn/pain-upper-left-abdomen]
 xref: ICD9CM_2005:789.02
 xref: UMLS_CUI:C0238552
 xref: UMLS_ICD9CM_2005_AUI:A0637133
@@ -2666,6 +2687,7 @@ is_a: SYMP:0000457 ! abdominal pain
 [Term]
 id: SYMP:0000457
 name: abdominal pain
+def: "A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin." [url:https\://medlineplus.gov/ency/article/003120.htm]
 xref: ICD9CM_2005:789.0
 xref: ICD9CM_2005:789.00
 xref: UMLS_CUI:C0000737
@@ -3212,6 +3234,7 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 [Term]
 id: SYMP:0000518
 name: generalized abdominal pain
+def: "An abdominal pain that is characterized by being diffuse or widespread and affecting or involving all of the abdomen." [url:https\://medical-dictionary.thefreedictionary.com/generalization, url:https\://www.merriam-webster.com/dictionary/generalized]
 xref: ICD9CM_2005:789.07
 xref: UMLS_CUI:C0344304
 xref: UMLS_ICD9CM_2005_AUI:A0637131
@@ -3425,6 +3448,7 @@ is_a: SYMP:0000478 ! abdominal swelling
 [Term]
 id: SYMP:0000542
 name: epigastric abdominal pain
+def: "An abdominal pain that is characterized by occurring in the epigastrium, i.e. the upper part of the abdomen below the rib cage." [url:https\://info.isabelhealthcare.com/blog/why-does-my-stomach-hurt-epigastric-pain-symptoms-and-causes, url:https\://www.healthline.com/health/epigastric-pain]
 xref: ICD9CM_2005:789.06
 xref: UMLS_CUI:C0232493
 xref: UMLS_ICD9CM_2005_AUI:A0637130
@@ -3667,7 +3691,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 id: SYMP:0000570
 name: diarrhea
 def: "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
-comment: doid/symp duplicate
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "bacterial gastroenteritis" EXACT []
 synonym: "diarrhoea" EXACT []
 synonym: "fecal incontinence" EXACT []
@@ -3882,6 +3906,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000594
 name: abnormal involuntary movement
+def: "A nervous system symptom that is characterized by an inability to control bodily movement and may be a symptom of cerebrovascular diseases, dyskinesia, tremor, chorea, dystonia and myoclonus." [url:https\://patient.info/doctor/abnormal-involuntary-movements, url:https\://stanfordmedicine25.stanford.edu/the25/involuntary-movements-and-tremors.html]
 xref: ICD9CM_2005:781.0
 xref: UMLS_CUI:C0392702
 xref: UMLS_ICD9CM_2005_AUI:A0243762
@@ -3890,6 +3915,8 @@ is_a: SYMP:0000480 ! nervous system symptom
 [Term]
 id: SYMP:0000595
 name: febrile convulsion
+def: "A convulsion that is characterized by occurring in young children between six months and five years of age and which is triggered by fever." [url:https\://www.ninds.nih.gov/febrile-seizures-fact-sheet, url:https\://www.webmd.com/a-to-z-guides/swollen-glands]
+synonym: "febrile seizure" EXACT []
 xref: ICD9CM_2005:780.31
 xref: UMLS_CUI:C0009952
 xref: UMLS_ICD9CM_2005_AUI:A0701466
@@ -3898,6 +3925,7 @@ is_a: SYMP:0000596 ! convulsion
 [Term]
 id: SYMP:0000596
 name: convulsion
+def: "A nervous system symptom that is characterized by an abnormal violent and involuntary contraction or series of contractions of the muscles." [url:https\://www.merriam-webster.com/dictionary/convulsion]
 xref: ICD9CM_2005:780.3
 xref: UMLS_CUI:C0009951
 xref: UMLS_ICD9CM_2005_AUI:A0042665
@@ -4071,11 +4099,12 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 
 [Term]
 id: SYMP:0000615
-name: lack of coordination
+name: obsolete lack of coordination
 xref: ICD9CM_2005:781.3
 xref: UMLS_CUI:C0520966
 xref: UMLS_ICD9CM_2005_AUI:A0243769
-is_a: SYMP:0000079 ! coordination symptom
+is_obsolete: true
+replaced_by: SYMP:0000164
 
 [Term]
 id: SYMP:0000616
@@ -4114,6 +4143,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 [Term]
 id: SYMP:0000620
 name: left lower quadrant abdominal pain
+def: "An abdominal pain that is characterized by occurring in the left lower quadrant of the abdomen that is often related to the digestive tract, but can also be related to conditions of the body wall, skin, blood vessels, urinary tract, or reproductive organs." [url:https\://www.healthgrades.com/right-care/symptoms-and-conditions/left-lower-quadrant-pain]
 xref: ICD9CM_2005:789.04
 xref: UMLS_CUI:C0238551
 xref: UMLS_ICD9CM_2005_AUI:A0637132
@@ -4246,8 +4276,8 @@ is_obsolete: true
 [Term]
 id: SYMP:0000643
 name: respiratory failure
-def: "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannott get enough oxygen into the blood." [url:https\://www.nhlbi.nih.gov/health/respiratory-failure]
-comment: doid/symp duplicate
+def: "A respiratory system and chest symptom that is characterized by a difficulty to breathe on one's own and develops when the lungs cannot get enough oxygen into the blood." [url:https\://www.nhlbi.nih.gov/health/respiratory-failure]
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
 synonym: "respiratory dysfunction" EXACT []
 is_a: SYMP:0000514 ! respiratory system and chest symptom
 
@@ -4341,7 +4371,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000660
 name: purpuric rash
-def: "A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon" [url:https\://en.wikipedia.org/wiki/Purpura, url:https\://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes]
+def: "A rash characterized by a red or purple hued small spots of blood appear on the skin caused by conditions that result in blood leaking into the skin and other body surfaces that does not fade when pressed upon." [url:https\://en.wikipedia.org/wiki/Purpura, url:https\://patient.info/allergies-blood-immune/blood-clotting-tests/purpuric-rashes]
 is_a: SYMP:0000487 ! rash
 
 [Term]
@@ -4374,6 +4404,7 @@ is_a: SYMP:0019163 ! eye symptom
 [Term]
 id: SYMP:0000666
 name: abnormal behavior
+def: "A behavioral symptom that is characterized by behavior that is atypical or statistically uncommon within a particular culture, or that is maladaptive, or detrimental to an individual, or those around that individual." [url:https\://www.betterhelp.com/advice/behavior/what-is-abnormal-behavior/]
 is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
@@ -4428,28 +4459,31 @@ is_a: SYMP:0019159 ! gastroenteritis
 [Term]
 id: SYMP:0000678
 name: acute mental dysfunction
+def: "A nervous system symptom that is characterized by a severe and sudden onset of disturbance in the normal operation of one's cognition, emotional regulation, or behaviour." [url:https\://www.who.int/news-room/fact-sheets/detail/mental-disorders]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
 id: SYMP:0000679
 name: acute dyspnea
-def: "A dyspnea that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
+def: "A dyspnea that is characterized by a severe and sudden onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0019153 ! dyspnea
 
 [Term]
 id: SYMP:0000680
 name: acute weight loss
-def: "A weight loss that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
+def: "A weight loss that is characterized by a severe and sudden onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0000178 ! weight loss
 
 [Term]
 id: SYMP:0000681
 name: aggressive behavior
+def: "A behavioral symptom that is characterized by behavior aimed at harming a person, or animal, or damaging physical property." [url:https\://www.healthline.com/health/aggressive-behavior]
 is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
 id: SYMP:0000682
 name: altered mental status
+def: "A nervous system symptom that is characterized by a host of presentations that include changes in cognition, mood, behavior, and/or level of arousal." [url:https\://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_Psychiatry_Guide/787028/all/Altered_Mental_Status]
 is_a: SYMP:0000480 ! nervous system symptom
 
 [Term]
@@ -4483,6 +4517,7 @@ is_obsolete: true
 [Term]
 id: SYMP:0000688
 name: circling movement
+def: "An abnormal involuntary movement that is characterized by an inability to walk in a straight line." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC3434216/]
 is_a: SYMP:0000594 ! abnormal involuntary movement
 
 [Term]
@@ -4518,7 +4553,7 @@ is_a: SYMP:0000891 ! musculoskeletal system symptom
 [Term]
 id: SYMP:0000695
 name: decreased milk production
-def: "A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers" [url:https\://www.chop.edu/pages/low-milk-supply, url:https\://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply]
+def: "A nutrition, metabolism, and development symptom that is characterized by a decrease in the production of milk in breastfeeding mothers." [url:https\://www.chop.edu/pages/low-milk-supply, url:https\://www.thewomens.org.au/health-information/breastfeeding/breastfeeding-problems/low-milk-supply]
 is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
 
 [Term]
@@ -4720,19 +4755,23 @@ is_a: SYMP:0000094 ! muscle weakness
 
 [Term]
 id: SYMP:0000734
-name: stroke
+name: obsolete stroke
 def: "A nervous system symptom that is characterized by a sudden diminution or loss of consciousness, sensation, and voluntary motion caused by rupture or obstruction (as by a clot) of a blood vessel of the brain." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=stroke]
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "apoplexy" EXACT []
 synonym: "brain attack" EXACT []
 synonym: "cerebral accident" EXACT []
 synonym: "cerebrovascular accident" EXACT []
-is_a: SYMP:0000480 ! nervous system symptom
+is_obsolete: true
+replaced_by: SYMP:0020056
 
 [Term]
 id: SYMP:0000735
-name: suppurative pneumonia
+name: obsolete suppurative pneumonia
 def: "A pneumonia that is characterized by the formation of pus and destruction of pulmonary tissue; abscess formation may occur." [url:https\://medical-dictionary.thefreedictionary.com/suppurative+pneumonia]
-is_a: SYMP:0019168 ! pneumonia
+comment: reviewed 10/2022 & determined to be a disease
+is_obsolete: true
+replaced_by: SYMP:0020059
 
 [Term]
 id: SYMP:0000736
@@ -5775,10 +5814,11 @@ is_a: SYMP:0019139 ! hemic system symptom
 
 [Term]
 id: SYMP:0019150
-name: pharyngitis
-comment: doid/symp duplicate
+name: obsolete pharyngitis
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
 synonym: "pharynx inflammation" EXACT []
-is_a: SYMP:0000385 ! throat symptom
+is_obsolete: true
+replaced_by: SYMP:0020055
 
 [Term]
 id: SYMP:0019151
@@ -5886,10 +5926,10 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 
 [Term]
 id: SYMP:0019168
-name: pneumonia
+name: obsolete pneumonia
 def: "A pneumonitis that is characterized by an inflammatory illness of the lung resulting from a variety of causes including infection with bacteria, viruses, fungi, or parasites, and chemical or physical injury to the lungs. Its cause may also be officially described as idiopathic, that is, unknown, when infectious causes have been excluded." [url:http\://en.wikipedia.org/wiki/Pneumonia]
-comment: doid/symp duplicate
-is_a: SYMP:0000354 ! pneumonitis
+comment: doid/symp duplicate - reviewed 10/2022 & determined to be a disease
+is_obsolete: true
 
 [Term]
 id: SYMP:0019169
@@ -5962,7 +6002,7 @@ is_a: SYMP:0020045 ! balance symptom
 [Term]
 id: SYMP:0019180
 name: constipation
-def: "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation]
+def: "Constipation is a feces and droppings symptom involving the abnormally delayed or infrequent passage of dry hardened feces. Constipation may be categorized into three subtypes: normal-transit, slow-transit, and pelvic floor dysfunction." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=constipation, url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170709/]
 comment: doid/symp duplicate
 is_a: SYMP:0000146 ! feces and droppings symptom
 
@@ -6055,6 +6095,7 @@ is_a: SYMP:0000146 ! feces and droppings symptom
 [Term]
 id: SYMP:0020004
 name: ageusia
+def: "A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue." [url:https\://www.ncbi.nlm.nih.gov/books/NBK549775/]
 synonym: "loss of taste" EXACT []
 is_a: SYMP:0000551 ! disturbances of sensation of smell and taste
 
@@ -6124,7 +6165,7 @@ replaced_by: SYMP:0000403
 [Term]
 id: SYMP:0020016
 name: acute weight gain
-def: "A weight gain that is characterized by a severe and sudden in onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
+def: "A weight gain that is characterized by a severe and sudden onset." [url:https\://medlineplus.gov/ency/imagepages/18126.htm]
 is_a: SYMP:0000403 ! weight gain
 
 [Term]
@@ -6218,7 +6259,6 @@ is_a: SYMP:0000514 ! respiratory system and chest symptom
 id: SYMP:0020032
 name: chest tightness
 def: "A chest discomfort that is characterized by any type of pain or discomfort between your upper belly and lower neck." []
-synonym: "chest pain" EXACT [url:https\://www.healthgrades.com/right-care/symptoms-and-conditions/chest-tightness, url:https\://www.verywellhealth.com/che]
 is_a: SYMP:0020031 ! chest discomfort
 
 [Term]
@@ -6335,6 +6375,50 @@ id: SYMP:0020052
 name: hand weakness
 def: "A muscle weakness that is characterized by a reduction in muscle strength, which may be the result of a variety of conditions, such as carpal tunnel syndrome, arthritis, peripheral neuropathy, tendon damage, and ganglion cysts." [url:https\://www.buoyhealth.com/learn/hand-weakness, url:https\://www.medicalnewstoday.com/articles/hand-weakness]
 is_a: SYMP:0000094 ! muscle weakness
+
+[Term]
+id: SYMP:0020053
+name: mammary gland inflammation
+def: "A skin and integumentary tissue symptom that is characterized by an inflammation of the mammary gland or udder and usually caused by infection." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=mastitis]
+synonym: "inflammation of mammary breast" EXACT []
+synonym: "mammitis" EXACT []
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0020054
+name: severe mammary gland inflammation
+def: "A mammary gland inflammation that is characterized by an increased intensity or severity of the condition." [url:https\://medical-dictionary.thefreedictionary.com/severe]
+is_a: SYMP:0020053 ! mammary gland inflammation
+
+[Term]
+id: SYMP:0020055
+name: pharynx inflammation
+is_a: SYMP:0000385 ! throat symptom
+
+[Term]
+id: SYMP:0020056
+name: cerebrovascular accident
+def: "A nervous system symptom that is characterized by a loss of blood flow to part of the brain, which damages brain tissue. Cerebrovascular accidents are caused by blood clots and broken blood vessels in the brain." [url:https\://www.healthline.com/health/cerebrovascular-accident]
+synonym: "apoplexy" EXACT []
+synonym: "cerebral accident" EXACT []
+synonym: "cerebral hemorrhage" EXACT []
+is_a: SYMP:0000480 ! nervous system symptom
+
+[Term]
+id: SYMP:0020057
+name: bronchiole inflammation
+def: "A respiratory system and chest symptom that is characterized by acute inflammation of the bronchi, accompanied by inflamed patches in the nearby lobules of the lungs." [url:https\://en.wikipedia.org/wiki/Bronchopneumonia]
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0020058
+name: severe bronchiole inflammation
+is_a: SYMP:0020057 ! bronchiole inflammation
+
+[Term]
+id: SYMP:0020059
+name: suppurative bronchiole inflammation
+is_a: SYMP:0020057 ! bronchiole inflammation
 
 [Typedef]
 id: part_of
