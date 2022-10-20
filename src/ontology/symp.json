@@ -4781,6 +4781,16 @@
       "type" : "CLASS",
       "lbl" : "hemorrhagic diarrhea"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020060",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "low white blood cell count"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000690",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14770,13 +14780,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000009",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000720",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000631"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000305",
       "pred" : "is_a",
@@ -15066,13 +15076,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000881"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000850",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000299"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000827",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000529"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000850",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000299"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000193",
       "pred" : "is_a",
@@ -15234,13 +15244,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000516",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000826",
       "pred" : "is_a",
@@ -15478,13 +15488,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000114",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0019139"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000825",
       "pred" : "is_a",
@@ -15914,13 +15924,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000582",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000590",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000486"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000582",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000332",
       "pred" : "is_a",
@@ -16014,13 +16024,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000508"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000761",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000831",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000761",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000257",
       "pred" : "is_a",
@@ -16274,13 +16284,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000090"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000100",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000070",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000215",
       "pred" : "is_a",
@@ -16670,6 +16680,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000596"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020060",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019139"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019167",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
@@ -16874,13 +16888,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000383",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000384"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000396",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000383",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000384"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020048",
       "pred" : "is_a",
@@ -16902,13 +16916,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000630",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000502",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000492"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020017",
       "pred" : "is_a",
@@ -17054,13 +17068,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000205"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019159",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000829",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019159",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000336",
       "pred" : "is_a",
@@ -17094,13 +17108,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000457"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000255",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000291",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000355",
       "pred" : "is_a",
@@ -17606,13 +17620,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000896",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000695",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000473"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000896",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000041",
       "pred" : "is_a",
@@ -17938,13 +17952,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000859",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000614",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000859",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000858"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0019177",
       "pred" : "is_a",
@@ -18304,7 +18318,7 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "18:10:2022 15:58"
+        "val" : "20:10:2022 10:38"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "symptoms"
@@ -18315,7 +18329,7 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "lschriml"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-10-18/symp.owl"
+      "version" : "http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

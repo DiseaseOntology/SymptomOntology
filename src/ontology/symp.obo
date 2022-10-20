@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-10-18/symp.obo
-date: 18:10:2022 15:58
+data-version: releases/2022-10-20/symp.obo
+date: 20:10:2022 10:38
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -6419,6 +6419,11 @@ is_a: SYMP:0020057 ! bronchiole inflammation
 id: SYMP:0020059
 name: suppurative bronchiole inflammation
 is_a: SYMP:0020057 ! bronchiole inflammation
+
+[Term]
+id: SYMP:0020060
+name: low white blood cell count
+is_a: SYMP:0019139 ! hemic system symptom
 
 [Typedef]
 id: part_of
