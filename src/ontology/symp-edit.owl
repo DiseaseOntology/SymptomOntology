@@ -1029,6 +1029,7 @@ Declaration(Class(obo:SYMP_0020056))
 Declaration(Class(obo:SYMP_0020057))
 Declaration(Class(obo:SYMP_0020058))
 Declaration(Class(obo:SYMP_0020059))
+Declaration(Class(obo:SYMP_0020060))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -9535,6 +9536,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020059 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020059 "SYMP:0020059"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020059 "suppurative bronchiole inflammation"^^xsd:string)
 SubClassOf(obo:SYMP_0020059 obo:SYMP_0020057)
+
+# Class: obo:SYMP_0020060 (low white blood cell count)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020060 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020060 "SYMP:0020060"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020060 "low white blood cell count"^^xsd:string)
+SubClassOf(obo:SYMP_0020060 obo:SYMP_0019139)
 
 
 )
