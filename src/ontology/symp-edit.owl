@@ -1030,6 +1030,8 @@ Declaration(Class(obo:SYMP_0020057))
 Declaration(Class(obo:SYMP_0020058))
 Declaration(Class(obo:SYMP_0020059))
 Declaration(Class(obo:SYMP_0020060))
+Declaration(Class(obo:SYMP_0020061))
+Declaration(Class(obo:SYMP_0020062))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -3306,12 +3308,13 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000285 "SYMP:0000285"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000285 "flaccid paralysis"^^xsd:string)
 SubClassOf(obo:SYMP_0000285 obo:SYMP_0000030)
 
-# Class: obo:SYMP_0000286 (floppy head)
+# Class: obo:SYMP_0000286 (obsolete floppy head)
 
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000286 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000286 "SYMP:0000286"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000286 "floppy head"^^xsd:string)
-SubClassOf(obo:SYMP_0000286 obo:SYMP_0000480)
+AnnotationAssertion(rdfs:comment obo:SYMP_0000286 "reviewed 10/2022 & determined to be a disease"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000286 "obsolete floppy head"^^xsd:string)
+AnnotationAssertion(owl:deprecated obo:SYMP_0000286 "true"^^xsd:boolean)
 
 # Class: obo:SYMP_0000287 (arrhythmia)
 
@@ -3684,6 +3687,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000334 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000334 "SYMP:0000334"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000334 "muscle necrosis"^^xsd:string)
 SubClassOf(obo:SYMP_0000334 obo:SYMP_0000183)
+SubClassOf(obo:SYMP_0000334 obo:SYMP_0020062)
 
 # Class: obo:SYMP_0000335 (neck weakness)
 
@@ -9543,6 +9547,25 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020060 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020060 "SYMP:0020060"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020060 "low white blood cell count"^^xsd:string)
 SubClassOf(obo:SYMP_0020060 obo:SYMP_0019139)
+
+# Class: obo:SYMP_0020061 (outlet dysfunction constipation)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.med.unc.edu/ibs/wp-content/uploads/sites/450/2017/10/Constipation.pdf"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020061 "A constipation that is characterized by difficulty passing bowel movements after they reach the rectum. One experiences difficulty evacuating the stool and often has to strain or press the fingers into the vagina or in front of or into the rectum to help remove the stool. Outlet dysfunction can be caused by inappropriate or abnormal muscle contraction of the pelvic floor (called pelvic floor dyssynergia or dyssynergic defecation) which can respond to biofeedback. It may also be due to a rectocele or other structural changes in the pelvic floor that will require medical or at times, surgical treatment."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0020061 "ICD10CM:K59.02"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0020061 "ICD9CM:564.02"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0020061 "UMLS_CUI:C0949134"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020061 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020061 "SYMP:0020061"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020061 "outlet dysfunction constipation"^^xsd:string)
+SubClassOf(obo:SYMP_0020061 obo:SYMP_0019180)
+
+# Class: obo:SYMP_0020062 (soft tissue necrosis)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://medlineplus.gov/ency/article/001443.htm"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.health.ny.gov/statistics/cancer/registry/abouts/soft_tissue.htm"^^xsd:string) obo:IAO_0000115 obo:SYMP_0020062 "A musculoskeletal system symptom that is characterized by necrosis (i.e. tissue death) of soft tissue, including muscle, fat, blood vessels, nerves, tendons, and tissues that surround the bones and joints."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020062 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020062 "SYMP:0020062"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020062 "soft tissue necrosis"^^xsd:string)
+SubClassOf(obo:SYMP_0020062 obo:SYMP_0000891)
 
 
 )
