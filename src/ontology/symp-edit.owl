@@ -6153,15 +6153,16 @@ AnnotationAssertion(oboInOwl:id obo:SYMP_0000589 "SYMP:0000589"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000589 "slowing of urinary stream"^^xsd:string)
 SubClassOf(obo:SYMP_0000589 obo:SYMP_0000573)
 
-# Class: obo:SYMP_0000590 (urgency of urination)
+# Class: obo:SYMP_0000590 (urinary urgency)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/325336#symptoms"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000590 "A urinary system symptom that is characterized by a strong and immediate need to urinate due to an increase in pressure in the bladder, resulting in difficulty to hold in the urine. This can occur regardless of whether the bladder is full."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "ICD9CM_2005:788.63"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "UMLS_CUI:C0085606"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000590 "UMLS_ICD9CM_2005_AUI:A2797703"^^xsd:string)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000590 "urgency of urination"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000590 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000590 "SYMP:0000590"^^xsd:string)
-AnnotationAssertion(rdfs:label obo:SYMP_0000590 "urgency of urination"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0000590 "urinary urgency"^^xsd:string)
 SubClassOf(obo:SYMP_0000590 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000591 (left upper quadrant abdominal tenderness)
