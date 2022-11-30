@@ -3368,6 +3368,7 @@ SubClassOf(obo:SYMP_0000292 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000293 (hemiparesis)
 
+AnnotationAssertion(Annotation(rdfs:comment "url:https://www.stroke.org/en/about-stroke/effects-of-stroke/physical-effects-of-stroke/physical-impact/hemiparesis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000293 "A paralysis that is characterized by a weakness or the inability to move on one side of the body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000293 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000293 "SYMP:0000293"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000293 "hemiparesis"^^xsd:string)
@@ -3806,6 +3807,7 @@ SubClassOf(obo:SYMP_0000348 obo:SYMP_0000030)
 
 # Class: obo:SYMP_0000349 (paraplegia)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/paraplegia"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000349 "A paralysis that is characterized by a complete, or partial, loss of function of the lower half of the body with involvement of both legs that is usually due to injury or disease of the spinal cord in the thoracic or lumbar region."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000349 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000349 "SYMP:0000349"^^xsd:string)
 AnnotationAssertion(rdfs:comment obo:SYMP_0000349 "doid/symp duplicate")
@@ -3980,6 +3982,7 @@ SubClassOf(obo:SYMP_0000370 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000371 (respiratory paralysis)
 
+AnnotationAssertion(Annotation(rdfs:comment "url:https://www.ncbi.nlm.nih.gov/mesh/68012133"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000371 "A paralysis that is characterized by a complete or severe weakness of the muscles of respiration."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000371 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000371 "SYMP:0000371"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000371 "respiratory paralysis"^^xsd:string)
@@ -5658,6 +5661,7 @@ SubClassOf(obo:SYMP_0000543 obo:SYMP_0000410)
 
 # Class: obo:SYMP_0000544 (transient paralysis of limb)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://dictionary.cambridge.org/us/dictionary/english/transient"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.spinalcord.com/blog/what-causes-temporary-paralysis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000544 "A paralysis that is characterized by a loss of some, or all, muscle control in a limb, and which lasts for only a short time (i.e. is temporary)."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000544 "ICD9CM_2005:781.4"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000544 "UMLS_CUI:C0159034"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000544 "UMLS_ICD9CM_2005_AUI:A0284133"^^xsd:string)
