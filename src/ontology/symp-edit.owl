@@ -3368,7 +3368,7 @@ SubClassOf(obo:SYMP_0000292 obo:SYMP_0000528)
 
 # Class: obo:SYMP_0000293 (hemiparesis)
 
-AnnotationAssertion(Annotation(rdfs:comment "url:https://www.stroke.org/en/about-stroke/effects-of-stroke/physical-effects-of-stroke/physical-impact/hemiparesis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000293 "A paralysis that is characterized by a weakness or the inability to move on one side of the body."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.stroke.org/en/about-stroke/effects-of-stroke/physical-effects-of-stroke/physical-impact/hemiparesis"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000293 "A paralysis that is characterized by a weakness or the inability to move on one side of the body."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000293 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000293 "SYMP:0000293"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000293 "hemiparesis"^^xsd:string)
@@ -3982,7 +3982,7 @@ SubClassOf(obo:SYMP_0000370 obo:SYMP_0000486)
 
 # Class: obo:SYMP_0000371 (respiratory paralysis)
 
-AnnotationAssertion(Annotation(rdfs:comment "url:https://www.ncbi.nlm.nih.gov/mesh/68012133"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000371 "A paralysis that is characterized by a complete or severe weakness of the muscles of respiration."^^xsd:string)
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/mesh/68012133"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000371 "A paralysis that is characterized by a complete or severe weakness of the muscles of respiration."^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000371 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000371 "SYMP:0000371"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000371 "respiratory paralysis"^^xsd:string)
