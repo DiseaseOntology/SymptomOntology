@@ -1032,6 +1032,8 @@ Declaration(Class(obo:SYMP_0020059))
 Declaration(Class(obo:SYMP_0020060))
 Declaration(Class(obo:SYMP_0020061))
 Declaration(Class(obo:SYMP_0020062))
+Declaration(Class(obo:SYMP_0020063))
+Declaration(Class(obo:SYMP_0020064))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -7022,7 +7024,7 @@ SubClassOf(obo:SYMP_0000691 obo:SYMP_0019139)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000692 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000692 "SYMP:0000692"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000692 "low blood pressure"^^xsd:string)
-SubClassOf(obo:SYMP_0000692 obo:SYMP_0000567)
+SubClassOf(obo:SYMP_0000692 obo:SYMP_0020063)
 
 # Class: obo:SYMP_0000693 (decreased facial sensation)
 
@@ -9567,6 +9569,20 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020062 "symptoms"^^xsd:st
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020062 "SYMP:0020062"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0020062 "soft tissue necrosis"^^xsd:string)
 SubClassOf(obo:SYMP_0020062 obo:SYMP_0000891)
+
+# Class: obo:SYMP_0020063 (blood pressure)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020063 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020063 "SYMP:0020063"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020063 "blood pressure"^^xsd:string)
+SubClassOf(obo:SYMP_0020063 obo:SYMP_0000567)
+
+# Class: obo:SYMP_0020064 (high blood pressure)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020064 "symptoms"^^xsd:string)
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020064 "SYMP:0020064"^^xsd:string)
+AnnotationAssertion(rdfs:label obo:SYMP_0020064 "high blood pressure"^^xsd:string)
+SubClassOf(obo:SYMP_0020064 obo:SYMP_0020063)
 
 
 )
