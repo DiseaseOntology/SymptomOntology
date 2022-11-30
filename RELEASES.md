@@ -2,6 +2,14 @@
 
 ## 2022 Releases
 
+### [v2022-11-30](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-11-30)
+
+Added new parent term blood pressure, new child term high blood pressure, and moved established term low blood pressure as child of blood pressure.
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-11-30/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-11-30/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2022-11-30/src/ontology/symp.json) |
+
 ### [v2022-10-20](https://github.com/DiseaseOntology/SymptomOntology/tree/v2022-10-20)
 
 Added new terms.
