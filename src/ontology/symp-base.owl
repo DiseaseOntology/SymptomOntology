@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp/symp-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2022-11-30/symp-base.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
         <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
         <dc:title>Symptom Ontology</dc:title>
@@ -4037,10 +4037,11 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000286 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000286">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000286</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floppy head</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reviewed 10/2022 &amp; determined to be a disease</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete floppy head</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4696,6 +4697,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000334">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020062"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000334</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle necrosis</rdfs:label>
@@ -8938,9 +8940,10 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM_2005:788.63</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0085606</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_ICD9CM_2005_AUI:A2797703</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urgency of urination</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000590</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urgency of urination</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary urgency</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000590"/>
@@ -10482,7 +10485,7 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020063"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000692</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low blood pressure</rdfs:label>
@@ -15270,6 +15273,68 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020060</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low white blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019180"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A constipation that is characterized by difficulty passing bowel movements after they reach the rectum. One experiences difficulty evacuating the stool and often has to strain or press the fingers into the vagina or in front of or into the rectum to help remove the stool. Outlet dysfunction can be caused by inappropriate or abnormal muscle contraction of the pelvic floor (called pelvic floor dyssynergia or dyssynergic defecation) which can respond to biofeedback. It may also be due to a rectocele or other structural changes in the pelvic floor that will require medical or at times, surgical treatment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:K59.02</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:564.02</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0949134</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020061</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outlet dysfunction constipation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A constipation that is characterized by difficulty passing bowel movements after they reach the rectum. One experiences difficulty evacuating the stool and often has to strain or press the fingers into the vagina or in front of or into the rectum to help remove the stool. Outlet dysfunction can be caused by inappropriate or abnormal muscle contraction of the pelvic floor (called pelvic floor dyssynergia or dyssynergic defecation) which can respond to biofeedback. It may also be due to a rectocele or other structural changes in the pelvic floor that will require medical or at times, surgical treatment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.med.unc.edu/ibs/wp-content/uploads/sites/450/2017/10/Constipation.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system symptom that is characterized by necrosis (i.e. tissue death) of soft tissue, including muscle, fat, blood vessels, nerves, tendons, and tissues that surround the bones and joints.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020062</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soft tissue necrosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system symptom that is characterized by necrosis (i.e. tissue death) of soft tissue, including muscle, fat, blood vessels, nerves, tendons, and tissues that surround the bones and joints.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://medlineplus.gov/ency/article/001443.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://www.health.ny.gov/statistics/cancer/registry/abouts/soft_tissue.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020063</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020063"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0020064</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high blood pressure</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-10-20/symp.obo
-date: 20:10:2022 10:38
+data-version: releases/2022-11-30/symp.obo
+date: 30:11:2022 09:11
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -1635,8 +1635,9 @@ is_a: SYMP:0000030 ! paralysis
 
 [Term]
 id: SYMP:0000286
-name: floppy head
-is_a: SYMP:0000480 ! nervous system symptom
+name: obsolete floppy head
+comment: reviewed 10/2022 & determined to be a disease
+is_obsolete: true
 
 [Term]
 id: SYMP:0000287
@@ -1915,6 +1916,7 @@ is_a: SYMP:0000183 ! muscle symptom
 id: SYMP:0000334
 name: muscle necrosis
 is_a: SYMP:0000183 ! muscle symptom
+is_a: SYMP:0020062 ! soft tissue necrosis
 
 [Term]
 id: SYMP:0000335
@@ -3872,8 +3874,9 @@ is_a: SYMP:0000573 ! urinary stream symptom
 
 [Term]
 id: SYMP:0000590
-name: urgency of urination
+name: urinary urgency
 def: "A urinary system symptom that is characterized by a strong and immediate need to urinate due to an increase in pressure in the bladder, resulting in difficulty to hold in the urine. This can occur regardless of whether the bladder is full." [url:https\://www.medicalnewstoday.com/articles/325336#symptoms]
+synonym: "urgency of urination" EXACT []
 xref: ICD9CM_2005:788.63
 xref: UMLS_CUI:C0085606
 xref: UMLS_ICD9CM_2005_AUI:A2797703
@@ -4538,7 +4541,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000692
 name: low blood pressure
-is_a: SYMP:0000567 ! general symptom
+is_a: SYMP:0020063 ! blood pressure
 
 [Term]
 id: SYMP:0000693
@@ -6424,6 +6427,31 @@ is_a: SYMP:0020057 ! bronchiole inflammation
 id: SYMP:0020060
 name: low white blood cell count
 is_a: SYMP:0019139 ! hemic system symptom
+
+[Term]
+id: SYMP:0020061
+name: outlet dysfunction constipation
+def: "A constipation that is characterized by difficulty passing bowel movements after they reach the rectum. One experiences difficulty evacuating the stool and often has to strain or press the fingers into the vagina or in front of or into the rectum to help remove the stool. Outlet dysfunction can be caused by inappropriate or abnormal muscle contraction of the pelvic floor (called pelvic floor dyssynergia or dyssynergic defecation) which can respond to biofeedback. It may also be due to a rectocele or other structural changes in the pelvic floor that will require medical or at times, surgical treatment." [url:https\://www.med.unc.edu/ibs/wp-content/uploads/sites/450/2017/10/Constipation.pdf]
+xref: ICD10CM:K59.02
+xref: ICD9CM:564.02
+xref: UMLS_CUI:C0949134
+is_a: SYMP:0019180 ! constipation
+
+[Term]
+id: SYMP:0020062
+name: soft tissue necrosis
+def: "A musculoskeletal system symptom that is characterized by necrosis (i.e. tissue death) of soft tissue, including muscle, fat, blood vessels, nerves, tendons, and tissues that surround the bones and joints." [url:https\://medlineplus.gov/ency/article/001443.htm, url:https\://www.health.ny.gov/statistics/cancer/registry/abouts/soft_tissue.htm]
+is_a: SYMP:0000891 ! musculoskeletal system symptom
+
+[Term]
+id: SYMP:0020063
+name: blood pressure
+is_a: SYMP:0000567 ! general symptom
+
+[Term]
+id: SYMP:0020064
+name: high blood pressure
+is_a: SYMP:0020063 ! blood pressure
 
 [Typedef]
 id: part_of
