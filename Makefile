@@ -218,8 +218,7 @@ verify-symp: $(SYMP).owl | build/robot.jar build/reports/report.tsv
 	 --output-dir build/reports
 
 # Ensure proper OBO structure
-validate-obo: validate-$(SYMP)
+validate-obo: validate-symp
 
-.PHONY: validate-$(SYMP)
-validate-$(SYMP): $(SYMP).obo | $(FASTOBO)
+validate-%: src/ontology/%.obo | $(FASTOBO)
 	$(FASTOBO) $<
