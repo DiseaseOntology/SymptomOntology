@@ -19,7 +19,7 @@ OBO = http://purl.obolibrary.org/obo/
 # 3. Verify structure of symp.owl with SPARQL queries
 # 4. Validate syntax of OBO-format with fastobo-validator
 # 5. Generate post-build reports (counts, etc.)
-release: verify-edit products verify post
+release: test products verify post
 
 
 # `make test` is used for Github actions CI
