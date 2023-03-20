@@ -116,8 +116,9 @@ $(SYMP).owl: $(EDIT) build/reports/report.tsv | build/robot.jar
 	 --annotate-inferred-axioms false \
 	 --exclude-duplicate-axioms true \
 	annotate \
-	 --annotation oboInOwl:date "$(TS)" \
 	 --version-iri "$(OBO)symp/releases/$(DATE)/$(notdir $@)" \
+	 --annotation oboInOwl:date "$(TS)" \
+	 --annotation owl:versionInfo "$(DATE)" \
 	 --output $@
 	@echo "Created $@"
 
@@ -149,6 +150,7 @@ $(SYMP)-base.owl: $(EDIT) | build/robot.jar
 	annotate \
 	 --ontology-iri "$(OBO)symp/$(notdir $@)" \
 	 --version-iri "$(OBO)symp/releases/$(DATE)/$(notdir $@)" \
+	 --annotation owl:versionInfo "$(DATE)" \
 	 --output $@
 	@echo "Created $@"
 
