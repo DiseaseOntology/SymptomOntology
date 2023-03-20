@@ -22,14 +22,15 @@ OBO = http://purl.obolibrary.org/obo/
 release: test products verify post
 
 
-# `make test` is used for Github actions CI
-test: reason build/reports/report.tsv verify-edit
+##########################################
+## SOFTWARE SETUP
+##########################################
 
 build build/reports:
 	mkdir -p $@
 
 # ----------------------------------------
-# ROBOT & FASTOBO
+# ROBOT
 # ----------------------------------------
 
 # run `make update_robot` to get a new version of ROBOT
@@ -42,6 +43,10 @@ build/robot.jar: | build
 
 ROBOT := java -jar build/robot.jar
 
+# ----------------------------------------
+# FASTOBO
+# ----------------------------------------
+
 # fastobo is used to validate OBO structure
 FASTOBO := build/fastobo-validator
 
@@ -52,14 +57,19 @@ $(FASTOBO): build/fastobo-validator.zip
 	cd build && unzip $(notdir $<) fastobo-validator
 
 
-# ----------------------------------------
-# PRE-BUILD TESTS
-# ----------------------------------------
+##########################################
+## PRE-BUILD TESTS
+##########################################
 
-.PHONY: report
-report: build/reports/report.tsv
+.PHONY: test report reason verify-edit
+
+# `make test` is used for Github integration
+test: reason report verify-edit
+
 
 # Report for general issues on symp-edit
+report: build/reports/report.tsv
+
 .PRECIOUS: build/reports/report.tsv
 build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | build/robot.jar build/reports
 	@echo ""
@@ -89,9 +99,9 @@ verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
 	 --output-dir build/reports
 
 
-# ----------------------------------------
-# PRODUCTS
-# ----------------------------------------
+##########################################
+## RELEASE PRODUCTS
+##########################################
 
 products: $(SYMP).owl $(SYMP).obo $(SYMP).json $(SYMP)-base.owl
 
@@ -142,9 +152,34 @@ $(SYMP)-base.owl: $(EDIT) | build/robot.jar
 	 --output $@
 	@echo "Created $@"
 
-# ----------------------------------------
-# POST-BUILD REPORT
-# ----------------------------------------
+
+##########################################
+## VERIFY PRODUCTS
+##########################################
+
+verify: verify-symp validate-obo
+
+# Verify symp.owl
+V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
+
+verify-symp: $(SYMP).owl | build/robot.jar build/reports/report.tsv
+	@echo "Verifying $<"
+	@$(ROBOT) verify \
+	 --input $< \
+	 --queries $(V_QUERIES) \
+	 --output-dir build/reports
+
+# Ensure proper OBO structure
+validate-obo: validate-$(SYMP)
+
+.PHONY: validate-$(SYMP)
+validate-$(SYMP): $(SYMP).obo | $(FASTOBO)
+	$(FASTOBO) $<
+
+
+##########################################
+## POST-BUILD REPORT
+##########################################
 
 # Count classes, imports, and logical defs from old and new
 
@@ -200,25 +235,3 @@ build/robot.diff: build/symp-last.owl $(SYMP).owl | build/robot.jar
 build/reports/missing-axioms.txt: src/util/parse-diff.py build/robot.diff | build/reports
 	@python3 $^ $@
 
-
-#-------------------------------
-# VERIFY PRODUCTS
-#-------------------------------
-
-verify: verify-symp validate-obo
-
-# Verify symp.owl
-V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
-
-verify-symp: $(SYMP).owl | build/robot.jar build/reports/report.tsv
-	@echo "Verifying $<"
-	@$(ROBOT) verify \
-	 --input $< \
-	 --queries $(V_QUERIES) \
-	 --output-dir build/reports
-
-# Ensure proper OBO structure
-validate-obo: validate-symp
-
-validate-%: src/ontology/%.obo | $(FASTOBO)
-	$(FASTOBO) $<
