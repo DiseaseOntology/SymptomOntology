@@ -66,7 +66,6 @@ $(FASTOBO): build/fastobo-validator.zip
 # `make test` is used for Github integration
 test: reason report verify-edit
 
-
 # Report for general issues on symp-edit
 report: build/reports/report.tsv
 
@@ -79,14 +78,10 @@ build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | build/r
 	@echo "Full SYMP QC report available at $@"
 	@echo ""
 
-
-.PRECIOUS: build/reports/diff.
-
 # Simple reasoning test
 reason: $(EDIT) | build/robot.jar
 	@$(ROBOT) reason --input $<
 	@echo "Reasoning completed successfully!"
-
 
 # Verify symp-edit.owl
 EDIT_V_QUERIES := $(wildcard src/sparql/verify/edit-verify-*.rq)
