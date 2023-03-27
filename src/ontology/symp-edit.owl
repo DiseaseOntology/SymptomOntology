@@ -1285,6 +1285,7 @@ SubClassOf(obo:SYMP_0000021 obo:SYMP_0000410)
 # Class: obo:SYMP_0000022 (depression)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.medicalnewstoday.com/articles/8933"^^xsd:string) Annotation(oboInOwl:hasDbXref "url:https://www.nimh.nih.gov/health/topics/depression"^^xsd:string) obo:IAO_0000115 obo:SYMP_0000022 "A neurological and physiological symptom that is characterized by a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen for no clear reason.  Additionally one may experience feelings of hopelessness, pessimism, irritability, frustration, or restlessness, guilt, worthlessness and thoughts of death or suicide."^^xsd:string)
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0000022 "MESH:D003863"^^xsd:string)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000022 "symptoms"^^xsd:string)
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000022 "SYMP:0000022"^^xsd:string)
 AnnotationAssertion(rdfs:label obo:SYMP_0000022 "depression"^^xsd:string)
