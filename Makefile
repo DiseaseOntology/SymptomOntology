@@ -11,6 +11,9 @@ SYMP = src/ontology/symp
 EDIT = src/ontology/symp-edit.owl
 OBO = http://purl.obolibrary.org/obo/
 
+# Set the ROBOT version to use
+ROBOT_VRS = 1.9.5
+
 # to make a release, use `make release`
 
 # Release process:
@@ -23,8 +26,12 @@ release: test products verify post
 
 
 ##########################################
-## SOFTWARE SETUP
+## SETUP
 ##########################################
+
+.PHONY: clean
+clean:
+	rm -rf build
 
 build build/reports:
 	mkdir -p $@
@@ -33,15 +40,29 @@ build build/reports:
 # ROBOT
 # ----------------------------------------
 
-# run `make update_robot` to get a new version of ROBOT
-.PHONY: update_robot
-update_robot:
-	rm -rf build/robot.jar && make build/robot.jar
+# ROBOT is automatically updated
+ROBOT := java -jar build/robot.jar
+
+.PHONY: check_robot
+check_robot:
+	@if [[ -f build/robot.jar ]]; then \
+		VRS=$$($(ROBOT) --version) ; \
+		if [[ "$$VRS" != *"$(ROBOT_VRS)"* ]]; then \
+			echo "Updating from $$VRS to $(ROBOT_VRS)..." ; \
+			rm -rf build/robot.jar && $(MAKE) build/robot.jar ; \
+		fi ; \
+	else \
+		echo "Downloading ROBOT version $(ROBOT_VRS)..." ; \
+		$(MAKE) build/robot.jar ; \
+	fi
+
+# run `make refresh_robot` if ROBOT is not working correctly
+.PHONY: refresh_robot
+refresh_robot:
+	rm -rf build/robot.jar && $(MAKE) build/robot.jar
 
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/latest/download/robot.jar
-
-ROBOT := java -jar build/robot.jar
+	@curl -L -o $@ https://github.com/ontodev/robot/releases/download/v$(ROBOT_VRS)/robot.jar
 
 # ----------------------------------------
 # FASTOBO
@@ -70,7 +91,7 @@ test: reason report verify-edit
 report: build/reports/report.tsv
 
 .PRECIOUS: build/reports/report.tsv
-build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | build/robot.jar build/reports
+build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | check_robot build/reports
 	@echo ""
 	@$(ROBOT) report --input $< \
 	 --profile $(word 2,$^) \
@@ -79,15 +100,15 @@ build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | build/r
 	@echo ""
 
 # Simple reasoning test
-reason: $(EDIT) | build/robot.jar
+reason: $(EDIT) | check_robot
 	@$(ROBOT) reason --input $<
 	@echo "Reasoning completed successfully!"
 
 # Verify symp-edit.owl
 EDIT_V_QUERIES := $(wildcard src/sparql/verify/edit-verify-*.rq)
 
-verify-edit: $(EDIT) | build/robot.jar build/reports/report.tsv
-	@echo "Verifying $<"
+verify-edit: $(EDIT) | check_robot
+	@echo "Verifying $< (see build/reports on error)"
 	@$(ROBOT) verify \
 	 --input $< \
 	 --queries $(EDIT_V_QUERIES) \
@@ -104,7 +125,7 @@ products: $(SYMP).owl $(SYMP).obo $(SYMP).json $(SYMP)-base.owl
 TS = $(shell date +'%d:%m:%Y %H:%M')
 DATE = $(shell date +'%Y-%m-%d')
 
-$(SYMP).owl: $(EDIT) build/reports/report.tsv | build/robot.jar
+$(SYMP).owl: $(EDIT) build/reports/report.tsv | check_robot
 	@$(ROBOT) reason \
 	 --input $< \
 	 --create-new-ontology false \
@@ -117,7 +138,7 @@ $(SYMP).owl: $(EDIT) build/reports/report.tsv | build/robot.jar
 	 --output $@
 	@echo "Created $@"
 
-$(SYMP).obo: $(SYMP).owl src/sparql/build/remove-ref-type.ru | build/robot.jar
+$(SYMP).obo: $(SYMP).owl src/sparql/build/remove-ref-type.ru | check_robot
 	@$(ROBOT) remove \
 	 --input $< \
 	 --select "parents equivalents" \
@@ -133,11 +154,11 @@ $(SYMP).obo: $(SYMP).owl src/sparql/build/remove-ref-type.ru | build/robot.jar
 	@rm $(basename $@)-temp.obo
 	@echo "Created $@"
 
-$(SYMP).json: $(SYMP).owl | build/robot.jar
+$(SYMP).json: $(SYMP).owl | check_robot
 	@$(ROBOT) convert --input $< --output $@
 	@echo "Created $@"
 
-$(SYMP)-base.owl: $(EDIT) | build/robot.jar
+$(SYMP)-base.owl: $(EDIT) | check_robot
 	@$(ROBOT) remove \
 	 --input $< \
 	 --select imports \
@@ -159,7 +180,7 @@ verify: verify-symp validate-obo
 # Verify symp.owl
 V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
 
-verify-symp: $(SYMP).owl | build/robot.jar build/reports/report.tsv
+verify-symp: $(SYMP).owl | check_robot build/reports/report.tsv
 	@echo "Verifying $<"
 	@$(ROBOT) verify \
 	 --input $< \
@@ -185,13 +206,13 @@ post: build/reports/report-diff.txt \
 
 # Get the last build of SYMP from IRI
 # .PHONY: build/symp-last.owl
-build/symp-last.owl: | build/robot.jar
+build/symp-last.owl: | check_robot
 	@$(ROBOT) merge \
 	 --input-iri http://purl.obolibrary.org/obo/symp.owl \
 	 --collapse-import-closure true \
 	 --output $@
 
-build/reports/symp-diff.txt: build/symp-last.owl $(SYMP).owl | build/robot.jar build/reports
+build/reports/symp-diff.txt: build/symp-last.owl $(SYMP).owl | check_robot build/reports
 	@$(ROBOT) diff --left $< --right $(word 2, $^) --output $@
 	@echo "Generated SYMP diff report at $@"
 
@@ -201,7 +222,7 @@ QUERIES := $(wildcard src/sparql/build/*-report.rq)
 # target names for previous release reports
 LAST_REPORTS := $(foreach Q,$(QUERIES), build/reports/$(basename $(notdir $(Q)))-last.tsv)
 last-reports: $(LAST_REPORTS)
-build/reports/%-last.tsv: src/sparql/build/%.rq build/symp-last.owl | build/robot.jar build/reports
+build/reports/%-last.tsv: src/sparql/build/%.rq build/symp-last.owl | check_robot build/reports
 	@echo "Counting: $(notdir $(basename $@))"
 	@$(ROBOT) query \
 	 --input $(word 2,$^) \
@@ -210,7 +231,7 @@ build/reports/%-last.tsv: src/sparql/build/%.rq build/symp-last.owl | build/robo
 # target names for current release reports
 NEW_REPORTS := $(foreach Q,$(QUERIES), build/reports/$(basename $(notdir $(Q)))-new.tsv)
 new-reports: $(NEW_REPORTS)
-build/reports/%-new.tsv: src/sparql/build/%.rq $(SYMP).owl | build/robot.jar build/reports
+build/reports/%-new.tsv: src/sparql/build/%.rq $(SYMP).owl | check_robot build/reports
 	@echo "Counting: $(notdir $(basename $@))"
 	@$(ROBOT) query \
 	 --input $(word 2,$^) \
@@ -222,7 +243,7 @@ build/reports/report-diff.txt: last-reports new-reports
 	@echo "Diff report between current release and last release available at $@"
 
 # the following targets are used to build a smaller diff with only removed axioms to review
-build/robot.diff: build/symp-last.owl $(SYMP).owl | build/robot.jar
+build/robot.diff: build/symp-last.owl $(SYMP).owl | check_robot
 	@echo "Comparing axioms in previous release to current release"
 	@$(ROBOT) diff \
 	 --left $< \
