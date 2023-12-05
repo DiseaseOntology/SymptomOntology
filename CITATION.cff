@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+authors:
+- family-names: "Schriml"
+  given-names: "Lynn"
+  orcid: "https://orcid.org/0000-0001-8910-9851"
+- family-names: "Baron"
+  given-names: "J. Allen"
+  orcid: "https://orcid.org/0000-0002-0593-3569"
+title: "SymptomOntology"
+version: v2022-11-30 
+doi: 10.5281/zenodo.1234
+date-released: 2022-11-30 
+url: "https://github.com/DiseaseOntology/SymptomOntology"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Lisa"
+    given-names: "Mona"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Bot"
+    given-names: "Hew"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.0000/00000"
+  journal: "Journal Title"
+  month: 9
+  start: 1 # First page number
+  end: 10 # Last page number
+  title: "My awesome research software"
+  issue: 1
+  volume: 1
+  year: 2021
