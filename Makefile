@@ -210,13 +210,13 @@ endef
 # IMPLICIT RULES
 # ----------------------------------------
 
-%.json: %.owl | check_robot
+$(RELEASE_DIR)/%.json: $(RELEASE_DIR)/%.owl | check_robot
 	@$(ROBOT) convert --input $< --output $@
 	@echo "Created $@"
 
-src/ontology/%.obo: src/ontology/%.owl | check_robot
-	@VRS_IRI="$(RELEASE_PREFIX)$(subst src/ontology/,,$@)" ; \
-	ONT_IRI="$(OBO)doid/$(subst src/ontology/,,$(basename $@))" ; \
+$(RELEASE_DIR)/%.obo: $(RELEASE_DIR)/%.owl | check_robot
+	@VRS_IRI="$(RELEASE_PREFIX)$(subst $(RELEASE_DIR)/,,$@)" ; \
+	ONT_IRI="$(OBO)doid/$(subst $(RELEASE_DIR)/,,$(basename $@))" ; \
 	$(call build_obo,$@,$<,$${VRS_IRI},$${ONT_IRI})
 	@echo "Created $@"
 
@@ -335,18 +335,19 @@ $(RELEASE_DIR):
 ## VERIFY PRODUCTS
 ##########################################
 
-.PHONY: verify validate-obo
-verify: verify-symp validate-obo
+.PHONY: verify
+verify:  validate-obo verify-symp
 
 # ----------------------------------------
 # OBO VALIDATION (with fastobo-validator)
 # ----------------------------------------
 
-OBO_V = $(patsubst src/ontology/%.obo,validate-obo-%,$(wildcard src/ontology/*.obo))
+OBO_V = $(patsubst $(VERIFY_DIR)/%.obo,validate-obo-%,$(wildcard $(VERIFY_DIR)/*.obo))
 
+.PHONY: validate-obo $(OBO_V)
 validate-obo: $(OBO_V)
 
-$(OBO_V): validate-obo-%: src/ontology/%.obo | $(FASTOBO)
+$(OBO_V): validate-obo-%: $(RELEASE_DIR)/%.obo | $(FASTOBO)
 	@$(FASTOBO) $<
 
 # ----------------------------------------
@@ -363,12 +364,6 @@ verify-symp: $(SYMP).owl | check_robot
 	 --queries $(V_QUERIES) \
 	 --output-dir build/reports
 
-# Ensure proper OBO structure
-validate-obo: validate-$(SYMP)
-
-.PHONY: validate-$(SYMP)
-validate-$(SYMP): $(SYMP).obo | $(FASTOBO)
-	$(FASTOBO) $<
 
 
 ##########################################
@@ -435,31 +430,6 @@ build/reports/missing-axioms.txt: src/util/parse-diff.py build/robot.diff | buil
 
 .PHONY: help
 help:
-	@echo $(help_text)
-
-define help_text
-----------------------------------------
-	Available Commands
-----------------------------------------
-*** NEVER run make commands in parallel (do NOT use the -j flag) ***
-
-Core commands:
-* help:			Print common make commands.
-* test:			Run all edit.owl validation tests.
-* release:		Run the entire release pipeline.
-
-Additional build commands (advanced users)
-* clean:		Delete all temporary files (build directory).
-
-----------------------------------------
-	Outline of Release Pipeline
-----------------------------------------
-
-* 1. Update edit.owl file versionIRI and validate.
-* 2. Update versionIRIs of import modules.
-* 3. Build release products.
-* 4. Validate syntax of OBO-format products with fastobo-validator.
-* 5. Verify logical structure of products with SPARQL queries.
-* 6. Generate post-build reports (counts, etc.)
-
-endef
+	@echo ""
+	@cat src/util/mk_help.txt
+	@echo ""

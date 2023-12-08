@@ -283,9 +283,7 @@ $(FIX): fix_%: $(EDIT) src/sparql/update/fix_%.ru | check_robot
 ## BUILDING IMPORTS
 ##########################################
 
-IMPS := chebi cl eco foodon geno hp ncbitaxon ro so symp trans uberon
-# define imports updated manually, solely for versioning
-MANUAL_IMPS := disdriv omim_susc
+IMPS := $(IMP_OWL) $(IMP_OWL_GZ)
 
 imports: | check_robot
 	@echo "Checking import modules..."
@@ -419,11 +417,13 @@ $(DB).owl: $(EDIT) | check_robot
 	@echo "Created $@"
 
 # ----------------------------------------
-# MERGED
+# FULL
 # ----------------------------------------
 
-.PHONY: merged
-merged: $(DM).owl $(DM).obo $(DM).json
+.PHONY: full merged
+merged: full
+
+full: $(DM).owl $(DM).obo $(DM).json
 
 $(DM).owl: $(DO).owl | check_robot
 	@$(ROBOT) merge \
@@ -469,11 +469,11 @@ HumanDO.%: $(DNC).%
 # SUBSETS
 # ----------------------------------------
 
-SUB_NAMES = DO_AGR_slim DO_cancer_slim DO_FlyBase_slim DO_GXD_slim DO_IEDB_slim DO_MGI_slim\
+SUBSETS = DO_AGR_slim DO_cancer_slim DO_FlyBase_slim DO_GXD_slim DO_IEDB_slim DO_MGI_slim\
  DO_rare_slim DO_RAD_slim DO_CFDE_slim GOLD NCIthesaurus TopNodes_DOcancerslim gram-negative_bacterial_infectious_disease\
  gram-positive_bacterial_infectious_disease sexually_transmitted_infectious_disease\
  tick-borne_infectious_disease zoonotic_infectious_disease DO_infectious_disease_slim
-SUBS = $(foreach N,$(SUB_NAMES),$(addprefix src/ontology/subsets/, $(N)))
+SUBS = $(foreach N,$(SUBSETS),$(addprefix src/ontology/subsets/, $(N)))
 OWL_SUBS = $(foreach N,$(SUBS),$(addsuffix .owl, $(N)))
 OBO_SUBS = $(foreach N,$(SUBS),$(addsuffix .obo, $(N)))
 JSON_SUBS = $(foreach N,$(SUBS),$(addsuffix .json, $(N)))
@@ -608,8 +608,9 @@ verify: validate-obo verify-do verify-dnc
 # OBO VALIDATION (with fastobo-validator)
 # ----------------------------------------
 
-OBO_V = $(patsubst $(VERIFY_DIR)%.obo,validate-obo-%,$(wildcard $(VERIFY_DIR)/*.obo))
+OBO_V = $(patsubst $(VERIFY_DIR)/%.obo,validate-obo-%,$(wildcard $(VERIFY_DIR)/*.obo))
 
+.PHONY: validate-obo $(OBO_V)
 validate-obo: $(OBO_V)
 
 $(OBO_V): validate-obo-%: $(RELEASE_DIR)/%.obo | $(FASTOBO)
@@ -621,7 +622,7 @@ $(OBO_V): validate-obo-%: $(RELEASE_DIR)/%.obo | $(FASTOBO)
 
 # Verify primary OWL file
 V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
-verify-$(ONTID): $(DO).owl | check_robot
+verify-do: $(DO).owl | check_robot
 	@echo "Verifying $< (see build/reports on error)"
 	@$(ROBOT) verify \
 	 --input $< \
@@ -629,10 +630,10 @@ verify-$(ONTID): $(DO).owl | check_robot
 	 --output-dir build/reports
 
 # Verify doid-non-classified.obo
-DNC_V_QUERIES := src/sparql/verify/dnc-verify-connectivity.rq
-    # We are not reduced to single inheritence in DNC
+DNC_V_QUERIES := src/sparql/verify/verify-dnc-connectivity.rq
+    # The non-classified file is not yet limited to single inheritance,  
     # Once this is cleaned up, we can change to all DNC verifications
-#DNC_V_QUERIES := $(wildcard src/sparql/dnc-verify-*.rq)
+#DNC_V_QUERIES := $(wildcard src/sparql/verify-dnc-*.rq)
 verify-dnc: $(DNC).obo | check_robot build/reports/report.tsv
 	@echo "Verifying $< (see build/reports on error)"
 	@$(ROBOT) verify \
@@ -766,7 +767,8 @@ Additional build commands (advanced users)
 * products:			Create release products
 	* primary:			Build primary release products.
 	* base:				Build OBO-defined -base products (no imports).
-	* nonclassified:	Build non-classified release products.
+	* nonclassified:	Build non-classified release products (i.e. base without logical axioms).
+
 	* merged:			Build fully merged release products (may be named "-merged" or "-full").
 	* subsets:			Build subset products.
 	* data_export:		Generate AI/ML flat-file datasets.

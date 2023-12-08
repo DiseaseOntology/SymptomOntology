@@ -1,0 +1,24 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Available Commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*** NEVER run make commands in parallel (do NOT use the -j flag) ***
+
+Core commands:
+* help:			Print common make commands.
+* test:			Run all edit.owl validation tests.
+* release:		Run the entire release pipeline.
+
+Additional build commands (advanced users)
+* clean:		Delete all temporary files (build directory).
+
+----------------------------------------
+	Outline of Release Pipeline
+----------------------------------------
+
+* 1. Update edit.owl file versionIRI and validate.
+* 2. Update versionIRIs of import modules.
+* 3. Build release products.
+* 4. Validate syntax of OBO-format products with fastobo-validator.
+* 5. Verify logical structure of products with SPARQL queries.
+* 6. Generate post-build reports (counts, etc.).
