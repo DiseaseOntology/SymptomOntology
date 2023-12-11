@@ -8,12 +8,6 @@ SHELL := bash
 .SECONDARY:
 .NOTPARALLEL:
 
-SYMP = src/ontology/symp
-EDIT = src/ontology/symp-edit.owl
-OBO = http://purl.obolibrary.org/obo/
-
-# Set the ROBOT version to use
-ROBOT_VRS = 1.9.5
 
 .PHONY: release
 release: version_edit test products verify post
@@ -23,12 +17,26 @@ release: version_edit test products verify post
 ## SETUP
 ##########################################
 
+# Always run rules with this pre-req
+FORCE:
+
 .PHONY: clean
 clean:
 	rm -rf build
 
-build build/update build/reports:
+build build/update build/reports build/reports/temp:
 	mkdir -p $@
+
+# ----------------------------------------
+# LOAD GENERAL FUNCTIONS & VARIABLES
+# ----------------------------------------
+
+include src/util/functions.mk
+include metadata.mk
+
+EDIT = src/ontology/$(ONTID)-edit.owl
+NAMESPACE = http://purl.obolibrary.org/obo/$(ONT_ID)
+ONT_ID_UC = $(shell echo '$(ONT_ID)' | tr '[:lower:]' '[:upper:]')
 
 # ----------------------------------------
 # ROBOT
@@ -264,6 +272,21 @@ $(SYMP)-base.owl: $(EDIT) | check_robot
 	 --output $@
 	@echo "Created $@"
 
+SUBSET_IN := $(shell case $(SUBSET_INPUT) in \
+		(primary) echo $(PRIMARY) ;; \
+		(base) echo $(BASE) ;; \
+		(full) echo $(FULL) ;; \
+		(non-classified) echo $(NC) ;; \
+		esac)
+SUBS = $(foreach N,$(SUBSETS),$(addprefix $(RELEASE_DIR)/subsets/, $(N)))
+OWL_SUBS = $(foreach N,$(SUBS),$(addsuffix .owl, $(N)))
+OBO_SUBS = $(foreach N,$(SUBS),$(addsuffix .obo, $(N)))
+JSON_SUBS = $(foreach N,$(SUBS),$(addsuffix .json, $(N)))
+
+.PHONY: subsets
+subsets: $(OWL_SUBS) $(OBO_SUBS) $(JSON_SUBS)
+
+
 
 # ----------------------------------------
 # DATASETS (publicly available)
@@ -373,6 +396,7 @@ verify-symp: $(SYMP).owl | check_robot
 # Count classes, imports, and logical defs from old and new
 
 post: build/reports/report-diff.txt \
+      build/reports/branch-count.tsv \
       build/reports/missing-axioms.txt
 
 # Get the last build of SYMP from IRI
@@ -412,6 +436,24 @@ build/reports/%-new.tsv: src/sparql/build/%.rq $(SYMP).owl | check_robot build/r
 build/reports/report-diff.txt: last-reports new-reports
 	@python3 src/util/report-diff.py
 	@echo "Diff report between current release and last release available at $@"
+
+# create a count of asserted and total (asserted + inferred) classes in each branch
+#	BASE file for asserted relationships (pre-reasoned)
+branch_reports = $(foreach O,$(BASE).owl $(PRIMARY).owl,build/reports/temp/branch-count-$(O).tsv)
+
+# .INTERMEDIATE: $(branch_reports)
+# $(branch_reports): build/reports/temp/branch-count-%.tsv: $(RELEASE_DIR)/%.owl \
+#  src/sparql/build/branch-count.rq | check_robot build/reports/temp
+# 	@echo "Counting all branches in $<..."
+# 	@$(ROBOT) query \
+# 	 --input $< \
+# 	 --query $(word 2,$^) $@
+
+build/reports/branch-count.tsv: $(branch_reports)
+	@join -t $$'\t' -o $$'\t' <(sed '/^?/d' $< | sort -k1) <(sed '/^?/d' $(word 2,$^) | sort -k1) > $@
+	@awk 'BEGIN{ FS=OFS="\t" ; print "branch\tasserted\tinferred\ttotal" } \
+	 {print $$1, $$2, $$3-$$2, $$3}' $@ > $@.tmp && mv $@.tmp $@
+	@echo "Branch counts available at $@"
 
 # the following targets are used to build a smaller diff with only removed axioms to review
 build/robot.diff: build/symp-last.owl $(SYMP).owl | check_robot

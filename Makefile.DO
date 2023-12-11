@@ -8,20 +8,6 @@ SHELL := bash
 .SECONDARY:
 .NOTPARALLEL:
 
-DO = src/ontology/doid
-EDIT = src/ontology/doid-edit.owl
-OBO = http://purl.obolibrary.org/obo/
-URI_PREFIX = $(OBO)$(ONT)/
-URI_PREFIX_INTERNAL = $(OBO)$(ONT)#
-
-# Other products
-DB = src/ontology/doid-base
-DM = src/ontology/doid-merged
-DNC = src/ontology/doid-non-classified
-HD = src/ontology/HumanDO
-
-# Set the ROBOT version to use
-ROBOT_VRS = 1.9.5
 
 .PHONY: release all
 release: version_edit test version_imports products verify publish post
@@ -33,12 +19,26 @@ all: imports release
 ## SETUP
 ##########################################
 
+# Always run rules with this pre-req
+FORCE:
+
 .PHONY: clean
 clean:
 	rm -rf build
 
 build build/update build/reports build/reports/temp:
 	mkdir -p $@
+
+# ----------------------------------------
+# LOAD GENERAL FUNCTIONS & VARIABLES
+# ----------------------------------------
+
+include src/util/functions.mk
+include metadata.mk
+
+EDIT = src/ontology/$(ONTID)-edit.owl
+NAMESPACE = http://purl.obolibrary.org/obo/$(ONT_ID)
+ONT_ID_UC = $(shell echo '$(ONT_ID)' | tr '[:lower:]' '[:upper:]')
 
 # ----------------------------------------
 # ROBOT
@@ -106,9 +106,10 @@ build/reports/report.tsv: $(EDIT) src/sparql/report/report_profile.txt | check_r
 	@echo ""
 
 # Simple reasoning test
-reason: build/edit-reasoned.owl
+REASONED := build/reasoned.owl
+reason: $(REASONED)
 
-build/edit-reasoned.owl: $(EDIT) | check_robot build/update
+$(REASONED): $(EDIT) | check_robot build/update
 	@$(ROBOT) reason \
 	 --input $< \
 	 --create-new-ontology false \
@@ -150,7 +151,7 @@ build/reports/verify-quarterly.csv: $(EDIT) $(wildcard src/sparql/verify/verify-
 # BRITISH SYNONYMS
 # ----------------------------------------
 
-# Add British synonyms from DO labels and exact synonyms
+# Add British synonyms from labels and exact synonyms
 # This script requires `pandas` module: `python3 -m pip install pandas`
 
 # Script and pipeline adapted from https://github.com/obophenotype/human-phenotype-ontology
@@ -158,12 +159,12 @@ build/reports/verify-quarterly.csv: $(EDIT) $(wildcard src/sparql/verify/verify-
 build/update/british_english_dictionary.csv: | build/update
 	curl -Lk -o $@ https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/master/src/ontology/hpo_british_english_dictionary.csv
 
-build/update/synonyms.csv: $(EDIT) src/sparql/update/doid_synonyms.rq | check_robot build/update
-	@echo "Retrieving DO synonyms..."
+build/update/synonyms.csv: $(EDIT) src/sparql/update/$(ONT_ID)_synonyms.rq | check_robot build/update
+	@echo "Retrieving synonyms..."
 	@$(ROBOT) query -i $< --query $(word 2,$^) $@
 
-build/update/labels.csv: $(EDIT) src/sparql/update/doid_labels.rq | check_robot build/update
-	@echo "Retrieving DO labels..."
+build/update/labels.csv: $(EDIT) src/sparql/update/$(ONT_ID)_labels.rq | check_robot build/update
+	@echo "Retrieving labels..."
 	@$(ROBOT) query -i $< --query $(word 2,$^) $@
 
 build/be_synonyms.csv: src/util/compute_british_synonyms.py \
@@ -180,8 +181,8 @@ add_british_synonyms: $(EDIT) build/update/british_synonyms.owl | check_robot
 	 --input $< \
 	 --input $(word 2,$^) \
 	 --collapse-import-closure false \
-	 --output doid-edit.ofn \
-	&& mv doid-edit.ofn $^
+	 --output TMP.ofn \
+	&& mv TMP.ofn $^
 	@echo "British synonyms added to $^"
 
 # ----------------------------------------
@@ -196,24 +197,24 @@ SUB_AUTO := $(patsubst src/sparql/update/subsets/%.ru, update_%, \
 .PHONY: update_slims $(SUB_ADD) $(SUB_AUTO)
 update_slims: $(SUB_ADD) $(SUB_AUTO)
 
-# so far only DO_infectious_disease_slim needs a reasoned doid-edit but it's
+# so far only DO_infectious_disease_slim needs a reasoned edit file but it's
 #	easier to keep one rule for all slim templates at the moment; may change
 #	this if multiple slims don't need reasoned file.
-build/update/%-template.tsv: build/edit-reasoned.owl \
+build/update/template-%.tsv: build/edit-reasoned.owl \
  src/sparql/update/subsets/%.rq | check_robot build/update
 	@echo "CHECKING $* subset for missing classes..."
 	@$(ROBOT) query \
 	 --input $< \
 	 --query $(word 2,$^) build/update/$*-missing.tsv
 	@sed '1s/.*/ID\tsubset\nID\tAI oboInOwl:inSubset/' build/update/$*-missing.tsv | \
-	 sed -E 's|<(.+)>|\1\tdoid:$*|' > build/update/$*-template.tsv
+	 sed -E 's|<(.+)>|\1\$(ONT_ID):$*|' > build/update/$*-template.tsv
 	@rm build/update/$*-missing.tsv
 
-$(SUB_ADD): update_%: $(EDIT) build/update/%-template.tsv | check_robot
+$(SUB_ADD): update_%: $(EDIT) build/update/template-%.tsv | check_robot
 	@if [ $$(awk 'END{print NR}' $(word 2,$^)) -gt "0" ]; then \
 		echo "UPDATING in $<..." ; \
 		$(ROBOT) template \
-		 --prefix "doid: http://purl.obolibrary.org/obo/doid#" \
+		 --prefix "$(ONT_ID): $(NAMESPACE)#" \
 		 --input $< \
 		 --template $(word 2,$^) \
 		 --collapse-import-closure false \
@@ -234,17 +235,17 @@ $(SUB_AUTO): update_%: $(EDIT) src/sparql/update/subsets/%.ru | check_robot \
 	 --update $(word 2,$^) \
 	 --output $$NEW_DE \
 	&& $(ROBOT) diff \
-	 --prefix "doid: http://purl.obolibrary.org/obo/doid#" \
+	 --prefix "$(ONT_ID): $(NAMESPACE)#" \
 	 --left $< \
 	 --right $$NEW_DE \
 	 --format pretty \
-	 --output build/update/$*-report.txt \
+	 --output build/update/report-$*.txt \
 	&& $(ROBOT) convert \
 	 --input $$NEW_DE \
 	 --format ofn \
 	 --output $< \
 	&& rm $$NEW_DE
-	@echo " -> See build/update/$*-report.txt for changes"
+	@echo " -> See build/update/report-$*.txt for changes"
 
 # ----------------------------------------
 # FIX DATA - TYPOS, PATTERNS, ETC. (use fix_help to list)
@@ -310,21 +311,30 @@ $(REFRESH_IMPS):
 ##########################################
 
 .PHONY: products
-products: primary base merged nonclassified subsets data_export
+products: primary base full nonclassified subsets data_export
 
-# release vars
+# ----------------------------------------
+# RELEASE VARIABLES
+# ----------------------------------------
+
+PRIMARY = $(RELEASE_DIR)/$(ONT_ID)
+BASE = $(PRIMARY)-base
+FULL = $(PRIMARY)-$(FULL_NM)
+NC = $(PRIMARY)-non-classified
+SUBSET_DIR = $(RELEASE_DIR)/subsets
+
 TS = $(shell date +'%d:%m:%Y %H:%M')
 DATE := $(shell date +'%Y-%m-%d')
-RELEASE_PREFIX := "$(OBO)doid/releases/$(DATE)/"
+RELEASE_PFX := "$(NAMESPACE)/releases/$(DATE)/"
 
-# standardized .obo creation;
-#      args = output,input,version-iri,ontology-iri (optional)
-#      Use "" for ontology-iri to retain the onotology IRI from the input file
-define build_obo
-	@ONT_IRI=$(4) ; \
-	 ONT_IRI=$${ONT_IRI:+"--ontology-iri $(4)"} ; \
-	$(ROBOT) query \
-	 --input $(2) \
+# ----------------------------------------
+# IMPLICIT RULES
+# ----------------------------------------
+
+# Standardized .obo creation
+$(RELEASE_DIR)/%.obo: $(RELEASE_DIR)/%.owl | check_robot
+	@$(ROBOT) query \
+	 --input $< \
 	 --update src/sparql/build/remove-ref-type.ru \
 	remove \
 	 --select "parents equivalents" \
@@ -333,28 +343,24 @@ define build_obo
 	 --select imports \
 	 --trim true \
 	annotate \
-	 --version-iri $(3) \
-	 $${ONT_IRI} \
+	 --ontology-iri "$(NAMESPACE)/$(subst $(RELEASE_DIR)/,,$(basename $@))" \
+	 --version-iri "$(RELEASE_PFX)$(subst $(RELEASE_DIR)/,,$@)" \
 	convert \
-	 --output $(1)
-    @grep -v ^owl-axioms $(1) | \
+	 --output $@
+    @grep -v ^owl-axioms $@ | \
      grep -v ^date | \
-     perl -lpe 'print "date: $(TS)" if $$. == 3' > $(1).tmp.obo && \
-	 mv $(1).tmp.obo $(1)
-endef
-
-# ----------------------------------------
-# IMPLICIT RULES
-# ----------------------------------------
-
-$(RELEASE_DIR)/%.json: $(RELEASE_DIR)/%.owl | check_robot
-	@$(ROBOT) convert --input $< --output $@
+     perl -lpe 'print "date: $(TS)" if $$. == 3' > $@.tmp.obo && \
+	 mv $@.tmp.obo $@
 	@echo "Created $@"
 
-$(RELEASE_DIR)/%.obo: $(RELEASE_DIR)/%.owl | check_robot
-	@VRS_IRI="$(RELEASE_PREFIX)$(subst $(RELEASE_DIR)/,,$@)" ; \
-	ONT_IRI="$(OBO)doid/$(subst $(RELEASE_DIR)/,,$(basename $@))" ; \
-	$(call build_obo,$@,$<,$${VRS_IRI},$${ONT_IRI})
+# Standardized .json creation
+$(RELEASE_DIR)/%.json: $(RELEASE_DIR)/%.owl | check_robot
+	@$(ROBOT) annotate \
+	 --input $< \
+	 --ontology-iri "$(NAMESPACE)/$(subst $(RELEASE_DIR)/,,$(basename $@))" \
+	 --version-iri "$(RELEASE_PFX)$(subst $(RELEASE_DIR)/,,$@)" \
+	convert \
+	 --output $@
 	@echo "Created $@"
 
 # exclude sub-directories from implicit rules (not sure if needed or works)
@@ -362,55 +368,95 @@ SUBDIR_EXCLUDE = $(shell find $(RELEASE_DIR)/* -maxdepth 1 -type d)
 TYPE_EXCLUDE = 
 $(RELEASE_DIR)/imports/*.obo:
 
+$(RELEASE_DIR)/imports/*.json:
 
-src/ontology/imports/*.json:
+$(RELEASE_DIR)/releases/*.obo:
+
+$(RELEASE_DIR)/releases/*.json:
 
 
-src/ontology/releases/*.obo:
+# ----------------------------------------
+# DO-SPECIFIC ADJUSTMENTS
+# ----------------------------------------
 
+# for historic reasons full is called merged, this maintains the familiar command
+.PHONY: merged
+merged: full
 
-src/ontology/releases/*.json:
-
+# copies non-classified as HumanDO outputs
+HumanDO.%: $(NC).%
+	@cp $< $@
+	@echo "Created $@"
 
 # ----------------------------------------
 # PRIMARY
 # ----------------------------------------
 
 .PHONY: primary
-primary: $(DO).owl $(DO).obo $(DO).json
+primary: $(PRIMARY).owl $(PRIMARY).obo $(PRIMARY).json
 
-$(DO).owl: $(EDIT) build/reports/report.tsv | check_robot
-	@$(ROBOT) reason \
-	 --input $< \
-	 --create-new-ontology false \
-	 --annotate-inferred-axioms false \
-	 --exclude-duplicate-axioms true \
-	annotate \
-	 --version-iri "$(RELEASE_PREFIX)$(notdir $@)" \
+PRIMARY_IN := $(shell case $(DEFAULT_PRODUCT) in \
+		(reasoned) echo $(REASONED) ;; \
+		(base) echo $(BASE).owl ;; \
+		(full) echo $(FULL).owl ;; \
+		(non-classified) echo $(NC).owl ;; \
+		esac)
+
+$(PRIMARY).owl: $(PRIMARY_IN) build/reports/report.tsv | check_robot
+	@$(ROBOT) annotate \
+	 --ontology-iri "$(NAMESPACE).owl" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
 	 --annotation oboInOwl:date "$(TS)" \
 	 --annotation owl:versionInfo "$(DATE)" \
 	 --output $@
 	@echo "Created $@"
 
-# implicit override - different ontology-iri pattern
-$(DO).obo: $(DO).owl | check_robot
-	$(call build_obo,$@,$<,"$(RELEASE_PREFIX)$(notdir $@)","")
+# OBO & JSON specified to override implicit rules - different ontology-iri pattern
+$(PRIMARY).obo: $(PRIMARY).owl | check_robot
+	@$(ROBOT) query \
+	 --input $< \
+	 --update src/sparql/build/remove-ref-type.ru \
+	remove \
+	 --select "parents equivalents" \
+	 --select "anonymous" \
+	remove \
+	 --select imports \
+	 --trim true \
+	annotate \
+	 --ontology-iri "$(NAMESPACE).obo" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
+	convert \
+	 --output $@
+    @grep -v ^owl-axioms $@ | \
+     grep -v ^date | \
+     perl -lpe 'print "date: $(TS)" if $$. == 3' > $@.tmp.obo && \
+	 mv $@.tmp.obo $@
+	@echo "Created $@"
+
+$(PRIMARY).json: $(PRIMARY).owl | check_robot
+	@$(ROBOT) annotate \
+	 --input $< \
+	 --ontology-iri "$(NAMESPACE).json" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
+	convert \
+	 --output $@
+	@echo "Created $@"
 
 # ----------------------------------------
 # BASE
 # ----------------------------------------
 
 .PHONY: base
-base: $(DB).owl $(DB).obo $(DB).json
+base: $(BASE).owl $(BASE).obo $(BASE).json
 
-$(DB).owl: $(EDIT) | check_robot
+$(BASE).owl: $(EDIT) | check_robot
 	@$(ROBOT) remove \
 	 --input $< \
 	 --select imports \
 	 --trim false \
 	annotate \
-	 --ontology-iri "$(OBO)doid/$(notdir $@)" \
-	 --version-iri "$(RELEASE_PREFIX)$(notdir $@)" \
+	 --ontology-iri "$(NAMESPACE)/$(notdir $@)" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
 	 --annotation oboInOwl:date "$(TS)" \
 	 --annotation owl:versionInfo "$(DATE)" \
 	 --output $@
@@ -420,23 +466,18 @@ $(DB).owl: $(EDIT) | check_robot
 # FULL
 # ----------------------------------------
 
-.PHONY: full merged
-merged: full
+.PHONY: full
 
-full: $(DM).owl $(DM).obo $(DM).json
+full: $(FULL).owl $(FULL).obo $(FULL).json
 
-$(DM).owl: $(DO).owl | check_robot
+$(FULL).owl: $(PRIMARY).owl | check_robot
 	@$(ROBOT) merge \
 	 --input $< \
 	 --collapse-import-closure true \
 	annotate \
-	 --ontology-iri "$(OBO)doid/$(notdir $@)" \
-	 --version-iri "$(RELEASE_PREFIX)$(notdir $@)" \
+	 --ontology-iri "$(NAMESPACE)/$(notdir $@)" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
 	 --output $@
-	@echo "Created $@"
-
-$(DM).obo: $(DM).owl | check_robot
-	$(call build_obo,$@,$<,"$(RELEASE_PREFIX)$(notdir $@)","$(OBO)doid/$(notdir $(basename $@))")
 	@echo "Created $@"
 
 # ----------------------------------------
@@ -444,9 +485,9 @@ $(DM).obo: $(DM).owl | check_robot
 # ----------------------------------------
 
 .PHONY: nonclassified
-nonclassified: $(DNC).owl $(DNC).obo $(DNC).json
+nonclassified: $(NC).owl $(NC).obo $(NC).json
 
-$(DNC).owl: $(EDIT) | check_robot
+$(NC).owl: $(EDIT) | check_robot
 	@$(ROBOT) remove \
 	 --input $< \
 	 --select imports \
@@ -455,25 +496,23 @@ $(DNC).owl: $(EDIT) | check_robot
 	 --select "parents equivalents" \
 	 --select anonymous \
 	annotate \
-	 --ontology-iri "$(OBO)doid/$(notdir $@)" \
-	 --version-iri "$(RELEASE_PREFIX)$(notdir $@)" \
+	 --ontology-iri "$(NAMESPACE)/$(notdir $@)" \
+	 --version-iri "$(RELEASE_PFX)$(notdir $@)" \
 	 --annotation owl:versionInfo "$(DATE)" \
 	 --output $@
-	@echo "Created $@"
-
-HumanDO.%: $(DNC).%
-	@cp $< $@
 	@echo "Created $@"
 
 # ----------------------------------------
 # SUBSETS
 # ----------------------------------------
 
-SUBSETS = DO_AGR_slim DO_cancer_slim DO_FlyBase_slim DO_GXD_slim DO_IEDB_slim DO_MGI_slim\
- DO_rare_slim DO_RAD_slim DO_CFDE_slim GOLD NCIthesaurus TopNodes_DOcancerslim gram-negative_bacterial_infectious_disease\
- gram-positive_bacterial_infectious_disease sexually_transmitted_infectious_disease\
- tick-borne_infectious_disease zoonotic_infectious_disease DO_infectious_disease_slim
-SUBS = $(foreach N,$(SUBSETS),$(addprefix src/ontology/subsets/, $(N)))
+SUBSET_IN := $(shell case $(SUBSET_INPUT) in \
+		(primary) echo $(PRIMARY).owl ;; \
+		(base) echo $(BASE).owl ;; \
+		(full) echo $(FULL).owl ;; \
+		(non-classified) echo $(NC).owl ;; \
+		esac)
+SUBS = $(foreach N,$(SUBSETS),$(addprefix $(RELEASE_DIR)/subsets/, $(N)))
 OWL_SUBS = $(foreach N,$(SUBS),$(addsuffix .owl, $(N)))
 OBO_SUBS = $(foreach N,$(SUBS),$(addsuffix .obo, $(N)))
 JSON_SUBS = $(foreach N,$(SUBS),$(addsuffix .json, $(N)))
@@ -481,28 +520,29 @@ JSON_SUBS = $(foreach N,$(SUBS),$(addsuffix .json, $(N)))
 .PHONY: subsets
 subsets: $(OWL_SUBS) $(OBO_SUBS) $(JSON_SUBS)
 
-$(OWL_SUBS): $(DNC).owl | check_robot
-	@$(ROBOT) filter \
+$(OWL_SUBS): $(SUBSET_IN) | check_robot
+	$(ROBOT) filter \
 	 --input $< \
-	 --select "oboInOwl:inSubset=<$(OBO)doid#$(basename $(notdir $@))> annotations" \
+	 --select "oboInOwl:inSubset=<$(NAMESPACE)#$(basename $(notdir $@))> annotations" \
 	annotate \
-	 --version-iri "$(RELEASE_PREFIX)subsets/$(notdir $@)" \
-	 --ontology-iri "$(OBO)doid/subsets/$(notdir $@)" \
+	 --ontology-iri "$(NAMESPACE)/subsets/$(notdir $@)" \
+	 --version-iri "$(RELEASE_PFX)subsets/$(notdir $@)" \
 	 --output $@
 	@echo "Created $@"
 
-src/ontology/subsets/%.obo: src/ontology/subsets/%.owl | check_robot
-	$(call build_obo,$@,$<,"$(RELEASE_PREFIX)subsets/$(notdir $@)","$(OBO)doid/subsets/$(notdir $(basename $@))")
-	@echo "Created $@"
+# Hopefully handled by implicit rules...
+# $(RELEASE_DIR)/subsets/%.obo: $(RELEASE_DIR)/subsets/%.owl | check_robot
+# 	$(call build_obo,$@,$<,"$(RELEASE_PFX)subsets/$(notdir $@)","$(NAMESPACE)/subsets/$(notdir $(basename $@))")
+# 	@echo "Created $@"
 
-src/ontology/subsets/%.json: src/ontology/subsets/%.owl | check_robot
-	@$(ROBOT) annotate \
-	 --input $< \
-	 --version-iri "$(RELEASE_PREFIX)subsets/$(notdir $@)" \
-	 --ontology-iri "$(OBO)doid/subsets/$(notdir $@)" \
-	convert \
-	 --output $@
-	@echo "Created $@"
+# $(RELEASE_DIR)/subsets/%.json: $(RELEASE_DIR)/subsets/%.owl | check_robot
+# 	@$(ROBOT) annotate \
+# 	 --input $< \
+# 	 --version-iri "$(RELEASE_PFX)subsets/$(notdir $@)" \
+# 	 --ontology-iri "$(NAMESPACE)/subsets/$(notdir $@)" \
+# 	convert \
+# 	 --output $@
+# 	@echo "Created $@"
 
 
 # ----------------------------------------
@@ -513,8 +553,8 @@ DATASETS := $(patsubst src/sparql/data_export/%.rq, $(DATASET_DIR)/%.tsv, \
 	$(wildcard src/sparql/data_export/*.rq)) \
 
 .PHONY: data_export
-data_export: $(DATASETS) $(DATASET_DIR)/DO-subClassOf-anonymous.tsv \
- $(DATASET_DIR)/DO-equivalentClass.tsv
+data_export: $(DATASETS) $(DATASET_DIR)/$(ONT_ID_UC)-subClassOf-anonymous.tsv \
+ $(DATASET_DIR)/$(ONT_ID_UC)-equivalentClass.tsv
 
 $(DATASET_DIR):
 	mkdir -p $@
@@ -524,7 +564,7 @@ $(DATASET_DIR)/%.tsv: $(EDIT) src/sparql/data_export/%.rq | $(DATASET_DIR) check
 	@sed '1 s/?//g' $@ > $@.tmp && mv $@.tmp $@
 	@echo "Created $@"
 
-$(DATASET_DIR)/DO-subClassOf-anonymous.tsv: $(EDIT) | $(DATASET_DIR) check_robot
+$(DATASET_DIR)/$(ONT_ID_UC)-subClassOf-anonymous.tsv: $(EDIT) | $(DATASET_DIR) check_robot
 	@robot export \
 	 --input $< \
 	 --header "ID|LABEL|SubClass Of [ANON]" \
@@ -532,7 +572,7 @@ $(DATASET_DIR)/DO-subClassOf-anonymous.tsv: $(EDIT) | $(DATASET_DIR) check_robot
 	@awk -F"\t" '$$3!=""' $@ > $@.tmp && mv $@.tmp $@
 	@echo "Created $@"
 
-$(DATASET_DIR)/DO-equivalentClass.tsv: $(EDIT) | $(DATASET_DIR) check_robot
+$(DATASET_DIR)/$(ONT_ID_UC)-equivalentClass.tsv: $(EDIT) | $(DATASET_DIR) check_robot
 	@robot export \
 	 --input $< \
 	 --header "ID|LABEL|Equivalent Class" \
@@ -552,7 +592,7 @@ VERSION_IMPS = $(foreach I,$(IMPS) $(MANUAL_IMPS),$(addprefix version_, $(I)))
 version_edit: | check_robot
 	@$(ROBOT) annotate \
 	 --input $(EDIT) \
-	 --version-iri "$(RELEASE_PREFIX)doid.owl" \
+	 --version-iri "$(RELEASE_PFX)$(ONT_ID).owl" \
 	 --output $(EDIT).ofn \
 	&& mv $(EDIT).ofn $(EDIT)
 	@echo "Updated versionIRI of $(EDIT)"
@@ -562,14 +602,14 @@ version_imports: $(VERSION_IMPS) version_ext
 version_ext: src/ontology/ext.owl | check_robot
 	@$(ROBOT) annotate \
 	 --input $< \
-	 --version-iri "$(RELEASE_PREFIX)ext.owl" \
+	 --version-iri "$(RELEASE_PFX)ext.owl" \
 	 --output $<
 	@echo "Updated versionIRI of $<"
 
 $(VERSION_IMPS): version_%: src/ontology/imports/%_import.owl | check_robot
 	@$(ROBOT) annotate \
 	 --input $< \
-	 --version-iri "$(RELEASE_PREFIX)imports/$(notdir $<)" \
+	 --version-iri "$(RELEASE_PFX)imports/$(notdir $<)" \
 	 --output $<
 	@echo "Updated versionIRI of $<"
 
@@ -580,16 +620,16 @@ $(VERSION_IMPS): version_%: src/ontology/imports/%_import.owl | check_robot
 # Copy the latest release to the releases directory
 
 .PHONY: publish
-publish: $(DO).owl $(DO).obo $(DO).json \
- $(DB).owl \
- $(DM).owl $(DM).obo \
- $(DNC).owl $(DNC).obo $(DNC).json \
+publish: $(wildcard $(PRIMARY).*) \
+ $(wildcard $(FULL).*) \
+ $(wildcard $(NC).*) \
+ $(BASE).owl \
  subsets | $(RELEASE_DIR)
-	@cp $(DO).* $|
-	@cp $(DB).owl $|
-	@cp $(DM).* $|
-	@cp $(DNC).* $|
-	@cp -r src/ontology/subsets $|
+	@cp $(PRIMARY).* $|
+	@cp $(FULL).* $|
+	@cp $(NC).* $|
+	@cp $(BASE).owl $|
+	@cp -r $(RELEASE_DIR)/subsets $|
 	@echo "Published to $|"
 	@echo ""
 
@@ -602,7 +642,7 @@ $(RELEASE_DIR):
 ##########################################
 
 .PHONY: verify
-verify: validate-obo verify-do verify-dnc
+verify: validate-obo verify-primary verify-nc
 
 # ----------------------------------------
 # OBO VALIDATION (with fastobo-validator)
@@ -622,55 +662,53 @@ $(OBO_V): validate-obo-%: $(RELEASE_DIR)/%.obo | $(FASTOBO)
 
 # Verify primary OWL file
 V_QUERIES := $(wildcard src/sparql/verify/verify-*.rq)
-verify-do: $(DO).owl | check_robot
-	@echo "Verifying $< (see build/reports on error)"
+verify-primary: $(PRIMARY).owl | check_robot build/reports
+	@echo "Verifying $< (see $(word 2,$|) on error)"
 	@$(ROBOT) verify \
 	 --input $< \
 	 --queries $(V_QUERIES) \
-	 --output-dir build/reports
+	 --output-dir $(word 2,$|)
 
-# Verify doid-non-classified.obo
-DNC_V_QUERIES := src/sparql/verify/verify-dnc-connectivity.rq
-    # The non-classified file is not yet limited to single inheritance,  
-    # Once this is cleaned up, we can change to all DNC verifications
-#DNC_V_QUERIES := $(wildcard src/sparql/verify-dnc-*.rq)
-verify-dnc: $(DNC).obo | check_robot build/reports/report.tsv
-	@echo "Verifying $< (see build/reports on error)"
+# Verify non-classified file
+NC_V_QUERIES := $(wildcard src/sparql/verify-nc-*.rq)
+verify-nc: $(NC).owl | check_robot build/reports
+	@echo "Verifying $< (see $(word 2,$|) on error)"
 	@$(ROBOT) verify \
 	 --input $< \
-	 --queries $(V_QUERIES) $(DNC_V_QUERIES) \
-	 --output-dir build/reports
+	 --queries $(V_QUERIES) $(NC_V_QUERIES) \
+	 --output-dir $(word 2,$|)
 
 
 ##########################################
-## POST-BUILD REPORT
+## POST-BUILD REPORTS
 ##########################################
 
-# Count classes, imports, and logical defs from old and new
 post: build/reports/report-diff.txt \
       build/reports/branch-count.tsv \
       build/reports/missing-axioms.txt \
       build/reports/hp-do-overlap.csv
 
-# Get the last build of DO from IRI
-# .PHONY: build/doid-last.owl
-build/doid-last.owl: | check_robot
-	@$(ROBOT) merge \
-	 --input-iri http://purl.obolibrary.org/obo/doid/doid-merged.owl \
-	 --collapse-import-closure true \
-	 --output $@
+# Show differences from the last FULL release of the ontology
+LAST_IRI := $(NAMESPACE)/$(ONT_ID)-$(FULL_NM).owl
+build/$(ONT_ID)-last.version: FORCE | build
+	$(call which_latest,$@,$(LAST_IRI))
 
-build/reports/doid-diff.html: build/doid-last.owl $(DM).owl | check_robot build/reports
+build/$(ONT_ID)-last.owl: build/$(ONT_ID)-last.version | check_robot build
+	@LAST_VRS=$$(sed '1q' $<) ; \
+	echo "DOWNLOADING $${LAST_VRS}..."
+	curl -Lk $${LAST_VRS} > $@
+
+build/reports/$(ONT_ID)-diff.html: build/$(ONT_ID)-last.owl $(FULL).owl | check_robot build/reports
 	@$(ROBOT) diff --left $< --right $(word 2, $^) --format html --output $@
-	@echo "Generated DOID diff report at $@"
+	@echo "Generated $(ONT_ID_UC) diff report at $@"
 
 # all report queries
-QUERIES := $(wildcard src/sparql/build/*-report.rq)
+QUERIES := $(wildcard src/sparql/build/report-*.rq)
 
 # target names for previous release reports
 LAST_REPORTS := $(foreach Q,$(QUERIES), build/reports/$(basename $(notdir $(Q)))-last.tsv)
 last-reports: $(LAST_REPORTS)
-build/reports/%-last.tsv: src/sparql/build/%.rq build/doid-last.owl | check_robot build/reports
+build/reports/%-last.tsv: src/sparql/build/%.rq build/$(ONT_ID)-last.owl | check_robot build/reports
 	@echo "Counting: $(notdir $(basename $@))"
 	@$(ROBOT) query \
 	 --input $(word 2,$^) \
@@ -679,7 +717,7 @@ build/reports/%-last.tsv: src/sparql/build/%.rq build/doid-last.owl | check_robo
 # target names for current release reports
 NEW_REPORTS := $(foreach Q,$(QUERIES), build/reports/$(basename $(notdir $(Q)))-new.tsv)
 new-reports: $(NEW_REPORTS)
-build/reports/%-new.tsv: src/sparql/build/%.rq $(DM).owl | check_robot build/reports
+build/reports/%-new.tsv: src/sparql/build/%.rq $(FULL).owl | check_robot build/reports
 	@echo "Counting: $(notdir $(basename $@))"
 	@$(ROBOT) query \
 	 --input $(word 2,$^) \
@@ -691,11 +729,11 @@ build/reports/report-diff.txt: last-reports new-reports
 	@echo "Diff report between current release and last release available at $@"
 
 # create a count of asserted and total (asserted + inferred) classes in each branch
-#	doid-edit.owl could be used in place of doid-non-classified (pre-reasoned = same results)
-branch_reports = $(foreach O, doid-non-classified doid, build/reports/temp/branch-count-$(O).tsv)
+#	BASE file for asserted relationships (pre-reasoned)
+branch_reports = $(foreach O,$(BASE).owl $(PRIMARY).owl,build/reports/temp/branch-count-$(O).tsv)
 
 .INTERMEDIATE: $(branch_reports)
-$(branch_reports): build/reports/temp/branch-count-%.tsv: src/ontology/%.owl \
+$(branch_reports): build/reports/temp/branch-count-%.tsv: $(RELEASE_DIR)/%.owl \
  src/sparql/build/branch-count.rq | check_robot build/reports/temp
 	@echo "Counting all branches in $<..."
 	@$(ROBOT) query \
@@ -708,9 +746,8 @@ build/reports/branch-count.tsv: $(branch_reports)
 	 {print $$1, $$2, $$3-$$2, $$3}' $@ > $@.tmp && mv $@.tmp $@
 	@echo "Branch counts available at $@"
 
-
 # the following targets are used to build a smaller diff with only removed axioms to review
-build/robot.diff: build/doid-last.owl $(DM).owl | check_robot
+build/robot.diff: build/$(ONT_ID)-last.owl $(FULL).owl | check_robot
 	@echo "Comparing axioms in previous release to current release"
 	@$(ROBOT) diff \
 	 --left $< \
@@ -721,7 +758,7 @@ build/robot.diff: build/doid-last.owl $(DM).owl | check_robot
 build/reports/missing-axioms.txt: src/util/parse-diff.py build/robot.diff | build/reports
 	@python3 $^ $@
 
-build/hp-do-terms.tsv: $(DM).owl src/sparql/build/hp-and-do-terms.rq | check_robot
+build/hp-do-terms.tsv: $(FULL).owl src/sparql/build/hp-and-do-terms.rq | check_robot
 	@echo "Finding overlap between HP and DO terms..."
 	@$(ROBOT) query --input $< --query $(word 2,$^) $@
 
@@ -744,8 +781,8 @@ define help_text
 *** NEVER run make commands in parallel (do NOT use the -j flag) ***
 
 Core commands:
-* help:			Print common make commands.
-* test:			Run all edit.owl validation tests.
+* help:			Print make commands.
+* test:			Run all edit file validation tests.
 * release:		Run the entire release pipeline.
 * fix_data:		Run all automated fixes for the edit.owl file.
 * fix_help:		Show fix command help.
@@ -757,7 +794,7 @@ Imports management:
 * refresh_<import_id>:	(Advanced users) Regenerate specified import from newly downloaded source file.
 
 Specialized commands:
-* add_british_synonyms:		Add British synonyms from DO labels and exact synonyms.
+* add_british_synonyms:		Add British synonyms from labels and exact synonyms.
 * update_slims:				Update all auto-updating subsets.
 * update_<subset_label>:	Update a single auto-updating subset, e.g. update_DO_rare_slim.
 
@@ -767,15 +804,15 @@ Additional build commands (advanced users)
 * products:			Create release products
 	* primary:			Build primary release products.
 	* base:				Build OBO-defined -base products (no imports).
-	* nonclassified:	Build non-classified release products (i.e. base without logical axioms).
-
+	* nonclassified:	Build "non-classified" release products (i.e. base without logical axioms).
+		* This differs from non-classified files of other OBO ontologies (https://oboacademy.github.io/obook/reference/release-artefacts/)
 	* merged:			Build fully merged release products (may be named "-merged" or "-full").
 	* subsets:			Build subset products.
 	* data_export:		Generate AI/ML flat-file datasets.
 * verify:
 * validate-ob0:
-* verify-do:
-* verify-dnc:
+* verify-primary:
+* verify-nc:
 * post:				Generate post-build release reports.
 
 ----------------------------------------
