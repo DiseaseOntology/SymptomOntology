@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-11-30/symp.obo
-date: 30:11:2022 09:11
+data-version: releases/2024-02-09/symp.obo
+date: 09:02:2024 15:40
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -8,6 +8,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontolog
 property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
 property_value: IAO:0000700 SYMP:0000462
+property_value: owl:versionInfo "2024-02-09" xsd:string
 
 [Term]
 id: SYMP:0000000
@@ -137,6 +138,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 id: SYMP:0000022
 name: depression
 def: "A neurological and physiological symptom that is characterized by a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen for no clear reason.  Additionally one may experience feelings of hopelessness, pessimism, irritability, frustration, or restlessness, guilt, worthlessness and thoughts of death or suicide." [url:https\://www.medicalnewstoday.com/articles/8933, url:https\://www.nimh.nih.gov/health/topics/depression]
+xref: MESH:D003863
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
 [Term]
@@ -1655,6 +1657,12 @@ synonym: "irregular heartbeat" EXACT []
 is_a: SYMP:0000528 ! cardiovascular system symptom
 
 [Term]
+id: SYMP:0000288
+name: obsolete fluctuation of heart rate
+is_obsolete: true
+replaced_by: SYMP:0000287
+
+[Term]
 id: SYMP:0000289
 name: eczema
 def: "A skin and integumentary tissue symptom that is characterized by an inflammatory condition of the skin with redness, itching, and oozing vesicular lesions, which become scaly, crusted, or hardened." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=eczema]
@@ -1680,6 +1688,7 @@ is_a: SYMP:0000528 ! cardiovascular system symptom
 [Term]
 id: SYMP:0000293
 name: hemiparesis
+def: "A paralysis that is characterized by a weakness or the inability to move on one side of the body." [url:https\://www.stroke.org/en/about-stroke/effects-of-stroke/physical-effects-of-stroke/physical-impact/hemiparesis]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -1691,6 +1700,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000295
 name: hepatic abscess
+def: "hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation." [url:https\://www.ncbi.nlm.nih.gov/books/NBK538230/#\:~\:text=A%20liver%20abscess%20is%20defined\,caused%20by%20parasites%20and%20fungi.]
 synonym: "hepatic abscesses" EXACT []
 is_a: SYMP:0000180 ! liver symptom
 
@@ -2006,6 +2016,7 @@ is_a: SYMP:0000030 ! paralysis
 [Term]
 id: SYMP:0000349
 name: paraplegia
+def: "A paralysis that is characterized by a complete, or partial, loss of function of the lower half of the body with involvement of both legs that is usually due to injury or disease of the spinal cord in the thoracic or lumbar region." [url:https\://www.merriam-webster.com/dictionary/paraplegia]
 comment: doid/symp duplicate
 is_a: SYMP:0000030 ! paralysis
 
@@ -2136,6 +2147,7 @@ is_a: SYMP:0000486 ! urinary system symptom
 [Term]
 id: SYMP:0000371
 name: respiratory paralysis
+def: "A paralysis that is characterized by a complete or severe weakness of the muscles of respiration." [url:https\://www.ncbi.nlm.nih.gov/mesh/68012133]
 is_a: SYMP:0000030 ! paralysis
 
 [Term]
@@ -2433,6 +2445,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000421
 name: hematochezia
+def: "hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools." [url:https\://www.ncbi.nlm.nih.gov/books/NBK411/#A2794]
 is_a: SYMP:0000146 ! feces and droppings symptom
 
 [Term]
@@ -2557,6 +2570,7 @@ name: obsolete heartburn
 def: "Heartburn is a pain characterized by a painful burning feeling in your chest or throat that happens when stomach acid backs up into your esophagus." [url:http\://www.nlm.nih.gov/medlineplus/heartburn.html]
 synonym: "acid indigestion" EXACT []
 is_obsolete: true
+replaced_by: SYMP:0000423
 
 [Term]
 id: SYMP:0000440
@@ -2594,6 +2608,7 @@ def: "Faint is a alteration of consciousness characterized by a loss of consciou
 synonym: "fainting" EXACT []
 synonym: "syncope" EXACT []
 is_obsolete: true
+replaced_by: SYMP:0000407
 
 [Term]
 id: SYMP:0000446
@@ -2849,7 +2864,6 @@ is_a: SYMP:0020012 ! weight symptom
 [Term]
 id: SYMP:0000476
 name: obsolete loss of weight
-alt_id: SYMP:0000178
 comment: This term has been replaced by weight loss.
 synonym: "weight loss" EXACT []
 xref: ICD9CM_2005:783.21
@@ -3468,6 +3482,7 @@ is_a: SYMP:0000410 ! neurological and physiological symptom
 [Term]
 id: SYMP:0000544
 name: transient paralysis of limb
+def: "A paralysis that is characterized by a loss of some, or all, muscle control in a limb, and which lasts for only a short time (i.e. is temporary)." [url:https\://dictionary.cambridge.org/us/dictionary/english/transient, url:https\://www.spinalcord.com/blog/what-causes-temporary-paralysis]
 xref: ICD9CM_2005:781.4
 xref: UMLS_CUI:C0159034
 xref: UMLS_ICD9CM_2005_AUI:A0284133
@@ -4187,6 +4202,12 @@ def: "An alteration of consciousness that is characterized by a disturbance in s
 is_a: SYMP:0000482 ! alteration of consciousness
 
 [Term]
+id: SYMP:0000626
+name: obsolete myalgia
+is_obsolete: true
+replaced_by: SYMP:0019161
+
+[Term]
 id: SYMP:0000627
 name: disturbed vision
 synonym: "disturbance of vision" EXACT []
@@ -4411,6 +4432,19 @@ def: "A behavioral symptom that is characterized by behavior that is atypical or
 is_a: SYMP:0019182 ! behavioral symptom
 
 [Term]
+id: SYMP:0000667
+name: obsolete heart rhythm symptom
+is_obsolete: true
+replaced_by: SYMP:0000287
+
+[Term]
+id: SYMP:0000668
+name: obsolete abnormal heart rhythms
+synonym: "abnormal heart beats" EXACT []
+is_obsolete: true
+replaced_by: SYMP:0000287
+
+[Term]
 id: SYMP:0000669
 name: abnormal hemistanding
 is_a: SYMP:0000189 ! postural reaction
@@ -4494,6 +4528,7 @@ id: SYMP:0000683
 name: obsolete tachypnoea
 def: "Tachypnoea is a respiratory system and chest symptom characterized by an increased rate of respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=tachypnoea]
 is_obsolete: true
+replaced_by: SYMP:0000603
 
 [Term]
 id: SYMP:0000684
@@ -4622,6 +4657,12 @@ is_a: SYMP:0000387 ! head symptom
 id: SYMP:0000707
 name: flaccid muscle tone
 is_a: SYMP:0000183 ! muscle symptom
+
+[Term]
+id: SYMP:0000708
+name: obsolete gas production
+is_obsolete: true
+replaced_by: SYMP:0000509
 
 [Term]
 id: SYMP:0000709
@@ -5620,6 +5661,13 @@ created_by: lschriml
 creation_date: 2010-10-15T11:28:26Z
 
 [Term]
+id: SYMP:0000884
+name: obsolete recurrent fever
+comment: The obsolete label is a best guess based on the addition of SYMP:0000884 as an alternative ID for SYMP:0000237 in revision 637 of the Gemina project SVN repository (https://sourceforge.net/p/gemina/code/637/tree//trunk/Gemina/ontologies/gemina_symptom.obo?diff=51796e7f5fcbc979b911aaf7:636). The original class was deprecated and removed before creation of that SVN repository (< 2007-08-09).
+is_obsolete: true
+replaced_by: SYMP:0000243
+
+[Term]
 id: SYMP:0000885
 name: obsolete severe temperature increase
 is_obsolete: true
@@ -6159,7 +6207,6 @@ is_a: SYMP:0000178 ! weight loss
 [Term]
 id: SYMP:0020015
 name: obsolete gain of weight
-alt_id: SYMP:0000403
 comment: false
 synonym: "weight gain" EXACT []
 is_obsolete: true
