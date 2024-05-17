@@ -12,16 +12,16 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2024-02-09/symp.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2024-05-17/symp.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
         <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
         <dc:title>Symptom Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <oboInOwl:date>09:02:2024 15:40</oboInOwl:date>
+        <oboInOwl:date>17:05:2024 14:39</oboInOwl:date>
         <oboInOwl:default-namespace>symptoms</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>lschriml</oboInOwl:saved-by>
-        <owl:versionInfo>2024-02-09</owl:versionInfo>
+        <owl:versionInfo>2024-05-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -12547,7 +12547,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000841">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000299"/>
-        <obo:IAO_0000115>Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.</obo:IAO_0000115>
+        <obo:IAO_0000115>Reactive hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SYMP:0000841</oboInOwl:id>
         <rdfs:label>reactive hyperemia</rdfs:label>
@@ -12555,7 +12555,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000841"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.</owl:annotatedTarget>
+        <owl:annotatedTarget>Reactive hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Hyperemia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12565,7 +12565,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000842">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000299"/>
-        <obo:IAO_0000115>Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000115>Active hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SYMP:0000842</oboInOwl:id>
         <rdfs:label>active hyperemia</rdfs:label>
@@ -12573,7 +12573,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000842"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.</owl:annotatedTarget>
+        <owl:annotatedTarget>Active hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Hyperemia</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -12583,7 +12583,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000843">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000299"/>
-        <obo:IAO_0000115>Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.</obo:IAO_0000115>
+        <obo:IAO_0000115>Functional hyperemia is a hyperemia occurring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SYMP:0000843</oboInOwl:id>
         <rdfs:label>functional hyperemia</rdfs:label>
@@ -12591,7 +12591,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000843"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.</owl:annotatedTarget>
+        <owl:annotatedTarget>Functional hyperemia is a hyperemia occurring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Hyperemia</oboInOwl:hasDbXref>
     </owl:Axiom>
     

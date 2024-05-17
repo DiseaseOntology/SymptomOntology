@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2024-02-09/symp.obo
-date: 09:02:2024 15:40
+data-version: releases/2024-05-17/symp.obo
+date: 17:05:2024 14:40
 saved-by: lschriml
 default-namespace: symptoms
 ontology: symp
@@ -8,7 +8,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontolog
 property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
 property_value: IAO:0000700 SYMP:0000462
-property_value: owl:versionInfo "2024-02-09" xsd:string
+property_value: owl:versionInfo "2024-05-17" xsd:string
 
 [Term]
 id: SYMP:0000000
@@ -5392,19 +5392,19 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000841
 name: reactive hyperemia
-def: "Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste." [url:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Reactive hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000842
 name: active hyperemia
-def: "Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism." [url:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Active hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
 id: SYMP:0000843
 name: functional hyperemia
-def: "Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions." [url:http\://en.wikipedia.org/wiki/Hyperemia]
+def: "Functional hyperemia is a hyperemia occurring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions." [url:http\://en.wikipedia.org/wiki/Hyperemia]
 is_a: SYMP:0000299 ! hyperemia
 
 [Term]
