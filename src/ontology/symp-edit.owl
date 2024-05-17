@@ -8183,7 +8183,7 @@ SubClassOf(obo:SYMP_0000840 obo:SYMP_0000099)
 
 # Class: obo:SYMP_0000841 (reactive hyperemia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000841 "Reactive hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000841 "Reactive hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to a profound increase in blood flow to an organ after being occluded. There will be a shortage of oxygen and a build-up of metabolic waste.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000841 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000841 "SYMP:0000841")
 AnnotationAssertion(rdfs:label obo:SYMP_0000841 "reactive hyperemia")
@@ -8191,7 +8191,7 @@ SubClassOf(obo:SYMP_0000841 obo:SYMP_0000299)
 
 # Class: obo:SYMP_0000842 (active hyperemia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000842 "Active hyperemia is a hyperemia occuring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000842 "Active hyperemia is a hyperemia occurring due to the dilation of arteriolar smooth muscle to increase blood flow in response to an increase in metabolism.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000842 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000842 "SYMP:0000842")
 AnnotationAssertion(rdfs:label obo:SYMP_0000842 "active hyperemia")
@@ -8199,7 +8199,7 @@ SubClassOf(obo:SYMP_0000842 obo:SYMP_0000299)
 
 # Class: obo:SYMP_0000843 (functional hyperemia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000843 "Functional hyperemia is a hyperemia occuring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:http://en.wikipedia.org/wiki/Hyperemia") obo:IAO_0000115 obo:SYMP_0000843 "Functional hyperemia is a hyperemia occurring due to an increase in blood flow to a tissue due to the presence of metabolites and a change in general conditions.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000843 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000843 "SYMP:0000843")
 AnnotationAssertion(rdfs:label obo:SYMP_0000843 "functional hyperemia")
