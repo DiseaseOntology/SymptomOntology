@@ -3399,7 +3399,7 @@ SubClassOf(obo:SYMP_0000294 obo:SYMP_0019139)
 
 # Class: obo:SYMP_0000295 (hepatic abscess)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK538230/#:~:text=A%20liver%20abscess%20is%20defined,caused%20by%20parasites%20and%20fungi.") obo:IAO_0000115 obo:SYMP_0000295 "hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK538230/#:~:text=A%20liver%20abscess%20is%20defined,caused%20by%20parasites%20and%20fungi.") obo:IAO_0000115 obo:SYMP_0000295 "Hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:SYMP_0000295 "hepatic abscesses")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000295 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000295 "SYMP:0000295")
@@ -4396,7 +4396,7 @@ SubClassOf(obo:SYMP_0000420 obo:SYMP_0000459)
 
 # Class: obo:SYMP_0000421 (hematochezia)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK411/#A2794") obo:IAO_0000115 obo:SYMP_0000421 "hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://www.ncbi.nlm.nih.gov/books/NBK411/#A2794") obo:IAO_0000115 obo:SYMP_0000421 "Hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools.")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000421 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000421 "SYMP:0000421")
 AnnotationAssertion(rdfs:label obo:SYMP_0000421 "hematochezia")
