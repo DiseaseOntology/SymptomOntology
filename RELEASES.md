@@ -2,6 +2,14 @@
 
 ## 2024 Releases
 
+### [v2024-05-17](https://github.com/DiseaseOntology/SymptomOntology/tree/v2024-05-17)
+
+**Full Changelog**: https://github.com/DiseaseOntology/SymptomOntology/compare/v2024-02-09...v2024-05-17
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2024-05-17/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2024-05-17/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2024-05-17/src/ontology/symp.json) |
+
 ### [v2024-02-09](https://github.com/DiseaseOntology/SymptomOntology/tree/v2024-02-09)
 
 Symptom Ontology release February 2024 includes 894 classes and 423 definitions.
