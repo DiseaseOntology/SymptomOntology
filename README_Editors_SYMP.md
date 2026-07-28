@@ -27,9 +27,9 @@ The following ID ranges are assigned to Symptom Ontology curators:
 
 ```
 SYMP:$sequence(7,0000000,0019999)$  Lynn Schriml (UMSOM)
-SYMP:$sequence(7,0020000,0020999)$  James Munro (UMSOM)
+SYMP:$sequence(7,0020065,0020999)$  J. Allen Baron (UMSOM)
 ```
-_Assignments Last Updated: 2022-05-18_
+_Assignments Last Updated: 2026-07-28_
 
 
 ## EDITING
