@@ -9,6 +9,6 @@ jobs:
   ontology_ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Run ontology CI tests
-        run: make test
+      - uses: actions/checkout@v4
+      - name: Ontology CI Tests
+        run: make ci_test
