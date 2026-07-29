@@ -1040,6 +1040,7 @@ Declaration(Class(obo:SYMP_0020061))
 Declaration(Class(obo:SYMP_0020062))
 Declaration(Class(obo:SYMP_0020063))
 Declaration(Class(obo:SYMP_0020064))
+Declaration(Class(obo:SYMP_0020065))
 Declaration(ObjectProperty(symp:part_of))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0000700))
@@ -3699,6 +3700,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000333 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000333 "SYMP:0000333")
 AnnotationAssertion(rdfs:label obo:SYMP_0000333 "muscle tenderness")
 SubClassOf(obo:SYMP_0000333 obo:SYMP_0000183)
+SubClassOf(obo:SYMP_0000333 obo:SYMP_0020065)
 
 # Class: obo:SYMP_0000334 (muscle necrosis)
 
@@ -5020,6 +5022,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0000484 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0000484 "SYMP:0000484")
 AnnotationAssertion(rdfs:label obo:SYMP_0000484 "abdominal tenderness")
 SubClassOf(obo:SYMP_0000484 obo:SYMP_0000461)
+SubClassOf(obo:SYMP_0000484 obo:SYMP_0020065)
 
 # Class: obo:SYMP_0000485 (dysuria)
 
@@ -9647,6 +9650,16 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020064 "symptoms")
 AnnotationAssertion(oboInOwl:id obo:SYMP_0020064 "SYMP:0020064")
 AnnotationAssertion(rdfs:label obo:SYMP_0020064 "high blood pressure")
 SubClassOf(obo:SYMP_0020064 obo:SYMP_0020063)
+
+# Class: obo:SYMP_0020065 (tenderness)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "url:https://en.wikipedia.org/wiki/Tenderness_(medicine)") Annotation(oboInOwl:hasDbXref "url:https://medical-dictionary.thefreedictionary.com/tenderness") Annotation(oboInOwl:hasDbXref "url:https://www.handsurgeryresource.net/tenderness") Annotation(oboInOwl:hasDbXref "url:https://www.merriam-webster.com/dictionary/tenderness") obo:IAO_0000115 obo:SYMP_0020065 "A general symptom that is characterized by unusual and painful sensitivity to touch, pressure or palpation of a specific anatomical point.")
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0020065 "NCI:C75540")
+AnnotationAssertion(oboInOwl:hasDbXref obo:SYMP_0020065 "UMLS_CUI:C0234233")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:SYMP_0020065 "symptoms")
+AnnotationAssertion(oboInOwl:id obo:SYMP_0020065 "SYMP:0020065")
+AnnotationAssertion(rdfs:label obo:SYMP_0020065 "tenderness")
+SubClassOf(obo:SYMP_0020065 obo:SYMP_0000567)
 
 
 )
