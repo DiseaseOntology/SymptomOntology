@@ -1,14 +1,17 @@
 format-version: 1.2
-data-version: releases/2024-05-17/symp.obo
-date: 17:05:2024 14:40
+data-version: releases/2026-07-30/symp.obo
+date: 30:07:2026 20:10
 saved-by: lschriml
 default-namespace: symptoms
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: symp
-property_value: http://purl.org/dc/elements/1.1/description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "Symptom Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/publicdomain/zero/1.0/
+property_value: dc:description "The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases." xsd:string
+property_value: dc:title "Symptom Ontology" xsd:string
 property_value: IAO:0000700 SYMP:0000462
-property_value: owl:versionInfo "2024-05-17" xsd:string
+property_value: owl:versionInfo "2026-07-30" xsd:string
+property_value: terms:license https://creativecommons.org/publicdomain/zero/1.0/
 
 [Term]
 id: SYMP:0000000
@@ -1700,7 +1703,7 @@ is_a: SYMP:0019139 ! hemic system symptom
 [Term]
 id: SYMP:0000295
 name: hepatic abscess
-def: "hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation." [url:https\://www.ncbi.nlm.nih.gov/books/NBK538230/#\:~\:text=A%20liver%20abscess%20is%20defined\,caused%20by%20parasites%20and%20fungi.]
+def: "Hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation." [url:https\://www.ncbi.nlm.nih.gov/books/NBK538230/#\:~\:text=A%20liver%20abscess%20is%20defined\,caused%20by%20parasites%20and%20fungi.]
 synonym: "hepatic abscesses" EXACT []
 is_a: SYMP:0000180 ! liver symptom
 
@@ -1921,6 +1924,7 @@ is_a: SYMP:0000183 ! muscle symptom
 id: SYMP:0000333
 name: muscle tenderness
 is_a: SYMP:0000183 ! muscle symptom
+is_a: SYMP:0020065 ! tenderness
 
 [Term]
 id: SYMP:0000334
@@ -1958,7 +1962,7 @@ is_a: SYMP:0000258 ! double vision
 [Term]
 id: SYMP:0000340
 name: limb edema
-def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/]
+def: "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/]
 synonym: "limb oedema" EXACT []
 synonym: "oedema of the limbs" EXACT []
 is_a: SYMP:0000538 ! edema
@@ -1986,7 +1990,7 @@ is_a: SYMP:0000099 ! pain
 [Term]
 id: SYMP:0000344
 name: palpebral edema
-def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids." [url:https\://scopeheal.com/palpebral-edema/]
+def: "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids." [url:https\://scopeheal.com/palpebral-edema/]
 synonym: "edema of the eyelid" EXACT []
 is_a: SYMP:0000538 ! edema
 
@@ -2445,7 +2449,7 @@ is_a: SYMP:0000459 ! digestive system symptom
 [Term]
 id: SYMP:0000421
 name: hematochezia
-def: "hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools." [url:https\://www.ncbi.nlm.nih.gov/books/NBK411/#A2794]
+def: "Hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools." [url:https\://www.ncbi.nlm.nih.gov/books/NBK411/#A2794]
 is_a: SYMP:0000146 ! feces and droppings symptom
 
 [Term]
@@ -2526,7 +2530,7 @@ is_a: SYMP:0000488 ! skin and integumentary tissue symptom
 [Term]
 id: SYMP:0000433
 name: anasarca
-def: "Anasarca is a edema characterized as generalized edema with accumulation of serum in the connective tissue." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anasarca]
+def: "An edema characterized as generalized edema with accumulation of serum in the connective tissue." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anasarca]
 synonym: "generalized edema" EXACT []
 is_a: SYMP:0000538 ! edema
 
@@ -2940,6 +2944,7 @@ xref: UMLS_CUI:C0232498
 xref: UMLS_ICD9CM_2005_AUI:A0387353
 xref: UMLS_ICD9CM_2005_AUI:A0637161
 is_a: SYMP:0000461 ! abdominal symptom
+is_a: SYMP:0020065 ! tenderness
 
 [Term]
 id: SYMP:0000485
@@ -3099,7 +3104,7 @@ is_a: SYMP:0000478 ! abdominal swelling
 [Term]
 id: SYMP:0000502
 name: mixed incontinence (female) (male)
-def: "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence." [url:https\://www.webmd.com/urinary-incontinence-oab/mixed-incontinence] {comment="url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence"}
+def: "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence." [url:https\://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence, url:https\://www.webmd.com/urinary-incontinence-oab/mixed-incontinence]
 xref: ICD9CM_2005:788.33
 xref: UMLS_CUI:C0375550
 xref: UMLS_ICD9CM_2005_AUI:A0745756
@@ -4885,7 +4890,7 @@ is_a: SYMP:0000116 ! prostration
 [Term]
 id: SYMP:0000748
 name: facial edema
-def: "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face." [url:https\://angletoner.com/facial-swelling/]
+def: "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face." [url:https\://angletoner.com/facial-swelling/]
 synonym: "facial swelling" EXACT []
 is_a: SYMP:0000538 ! edema
 
@@ -6207,7 +6212,6 @@ is_a: SYMP:0000178 ! weight loss
 [Term]
 id: SYMP:0020015
 name: obsolete gain of weight
-comment: false
 synonym: "weight gain" EXACT []
 is_obsolete: true
 replaced_by: SYMP:0000403
@@ -6499,6 +6503,14 @@ is_a: SYMP:0000567 ! general symptom
 id: SYMP:0020064
 name: high blood pressure
 is_a: SYMP:0020063 ! blood pressure
+
+[Term]
+id: SYMP:0020065
+name: tenderness
+def: "A general symptom that is characterized by unusual and painful sensitivity to touch, pressure or palpation of a specific anatomical point." [url:https\://en.wikipedia.org/wiki/Tenderness_(medicine), url:https\://medical-dictionary.thefreedictionary.com/tenderness, url:https\://www.handsurgeryresource.net/tenderness, url:https\://www.merriam-webster.com/dictionary/tenderness]
+xref: NCI:C75540
+xref: UMLS_CUI:C0234233
+is_a: SYMP:0000567 ! general symptom
 
 [Typedef]
 id: part_of

@@ -16,7 +16,7 @@
         "val" : "https://creativecommons.org/publicdomain/zero/1.0/"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#date",
-        "val" : "17:05:2024 14:39"
+        "val" : "30:07:2026 20:10"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
         "val" : "symptoms"
@@ -28,23 +28,11 @@
         "val" : "lschriml"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-05-17"
+        "val" : "2026-07-30"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/symp/releases/2024-05-17/symp.owl"
+      "version" : "http://purl.obolibrary.org/obo/symp/releases/2026-07-30/symp.owl"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
-      "lbl" : "definition",
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
-      "lbl" : "has ontology root term",
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "lbl" : "term replaced by",
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000000",
       "lbl" : "cellulitis",
       "type" : "CLASS",
@@ -3799,7 +3787,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation.",
+          "val" : "Hepatic abscess is a liver symptom characterized by a pus-filled mass in the liver that can develop from injury to the liver or an intraabdominal infection disseminated from the portal circulation.",
           "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK538230/#:~:text=A%20liver%20abscess%20is%20defined,caused%20by%20parasites%20and%20fungi." ]
         },
         "synonyms" : [ {
@@ -4363,7 +4351,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs.",
+          "val" : "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the limbs.",
           "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7536506/" ]
         },
         "synonyms" : [ {
@@ -4431,7 +4419,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids.",
+          "val" : "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the eyelids.",
           "xrefs" : [ "url:https://scopeheal.com/palpebral-edema/" ]
         },
         "synonyms" : [ {
@@ -5463,7 +5451,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools.",
+          "val" : "Hematochezia is a feces and droppings symptom characterized by the passage of fresh blood per anus, usually in or with stools.",
           "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK411/#A2794" ]
         },
         "basicPropertyValues" : [ {
@@ -5660,7 +5648,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Anasarca is a edema characterized as generalized edema with accumulation of serum in the connective tissue.",
+          "val" : "An edema characterized as generalized edema with accumulation of serum in the connective tissue.",
           "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anasarca" ]
         },
         "synonyms" : [ {
@@ -6969,7 +6957,7 @@
       "meta" : {
         "definition" : {
           "val" : "A urinary incontinence that is characterized by urine leakage when you sneeze, cough, laugh, do jarring exercise, or lift something heavy. It is typically a combination of stress and urge incontinence.",
-          "xrefs" : [ "url:https://www.webmd.com/urinary-incontinence-oab/mixed-incontinence" ]
+          "xrefs" : [ "url:https://www.health.harvard.edu/bladder-and-bowel/types-of-urinary-incontinence", "url:https://www.webmd.com/urinary-incontinence-oab/mixed-incontinence" ]
         },
         "xrefs" : [ {
           "val" : "ICD9CM_2005:788.33"
@@ -10988,7 +10976,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An adema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face.",
+          "val" : "An edema that is characterized by an abnormal excess accumulation of serous fluid in connective tissue of the face.",
           "xrefs" : [ "url:https://angletoner.com/facial-swelling/" ]
         },
         "synonyms" : [ {
@@ -13969,7 +13957,6 @@
       "lbl" : "obsolete gain of weight",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "false" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "weight gain"
@@ -14635,9 +14622,29 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020065",
+      "lbl" : "tenderness",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A general symptom that is characterized by unusual and painful sensitivity to touch, pressure or palpation of a specific anatomical point.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Tenderness_(medicine)", "url:https://medical-dictionary.thefreedictionary.com/tenderness", "url:https://www.handsurgeryresource.net/tenderness", "url:https://www.merriam-webster.com/dictionary/tenderness" ]
+        },
+        "xrefs" : [ {
+          "val" : "NCI:C75540"
+        }, {
+          "val" : "UMLS_CUI:C0234233"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/symp#part_of",
       "lbl" : "part_of",
       "type" : "PROPERTY",
+      "propertyType" : "OBJECT",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -14645,29 +14652,102 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "lbl" : "definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "lbl" : "term replaced by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/description",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
       "lbl" : "has_alternative_id",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
       "lbl" : "database_cross_reference",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "lbl" : "has_exact_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
       "lbl" : "has_obo_format_version",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
       "lbl" : "has_obo_namespace",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "lbl" : "has_related_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2002/07/owl#deprecated",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     } ],
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000000",
@@ -15626,6 +15706,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000333",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020065"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000334",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000183"
@@ -16189,6 +16273,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000484",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000461"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000484",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020065"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0000485",
       "pred" : "is_a",
@@ -18249,6 +18337,10 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020064",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0020063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020065",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
     } ]
   } ]
 }
