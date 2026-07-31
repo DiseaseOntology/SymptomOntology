@@ -1,5 +1,17 @@
 # SYMP Releases
 
+## 2026 Releases
+
+### [v2026-07-30](https://github.com/DiseaseOntology/SymptomOntology/tree/v2026-07-30)
+
+This release of the Symptom Ontology includes 895 classes, 424 with textual definitions (47.4%), with the addition of tenderness.
+
+**Full Changelog**: https://github.com/DiseaseOntology/SymptomOntology/compare/v2024-05-17...v2026-07-30
+
+|  | OWL | OBO | JSON |
+| --- | --- | --- | --- |
+| Symptom Ontology | [symp.owl](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2026-07-30/src/ontology/symp.owl) | [symp.obo](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2026-07-30/src/ontology/symp.obo) | [symp.json](https://raw.githubusercontent.com/DiseaseOntology/SymptomOntology/v2026-07-30/src/ontology/symp.json) |
+
 ## 2024 Releases
 
 ### [v2024-05-17](https://github.com/DiseaseOntology/SymptomOntology/tree/v2024-05-17)
