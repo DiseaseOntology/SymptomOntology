@@ -16,7 +16,7 @@ EDIT := src/ontology/$(ONT)-edit.owl
 REL_DIR := src/ontology
 
 # Set the software version(s) to use
-ROBOT_VRS = 1.9.5
+ROBOT_VRS = 1.9.10
 FASTOBO_VRS = 0.4.6
 
 # ***NEVER run make commands in parallel (do NOT use the -j flag)***
